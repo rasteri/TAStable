@@ -854,7 +854,7 @@
     (uuid 40fa6c17-57f3-4d4e-8df5-ff9f66c36adb)
   )
   (junction (at 172.72 63.5) (diameter 0) (color 0 0 0 0)
-    (uuid 5e60c607-3c52-4fa1-b5af-cadfa8e108f2)
+    (uuid 8484580c-4c8d-4d44-8dba-0b5ccfbcba73)
   )
   (junction (at 123.19 55.88) (diameter 0) (color 0 0 0 0)
     (uuid 8983f489-4873-4483-8a65-9dfc37007a1a)
@@ -1934,6 +1934,31 @@
     )
   )
 
+  (symbol (lib_id "power:+5V") (at 172.72 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c8318011-5cee-4f5e-bc5f-7c5cb2d83c22)
+    (property "Reference" "#PWR09" (at 172.72 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 172.72 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 172.72 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 172.72 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e9f75b46-510f-495d-bcd6-d59de84c179f))
+    (instances
+      (project "TAStable"
+        (path "/e6d4ff55-0377-40c6-85e0-bfd48c6c6235"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 140.97 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c97fb4ab-d8b1-4699-8b70-228447637e6b)
@@ -2012,31 +2037,6 @@
       (project "TAStable"
         (path "/e6d4ff55-0377-40c6-85e0-bfd48c6c6235"
           (reference "R3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 172.72 63.5 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d2807a5d-3eeb-4d22-85c8-42f2685e6876)
-    (property "Reference" "#PWR09" (at 172.72 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 172.72 59.69 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 172.72 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 172.72 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 49b99226-3ca2-4dbb-8067-27c4dc58b8a3))
-    (instances
-      (project "TAStable"
-        (path "/e6d4ff55-0377-40c6-85e0-bfd48c6c6235"
-          (reference "#PWR09") (unit 1)
         )
       )
     )
