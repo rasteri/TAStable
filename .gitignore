@@ -6,3 +6,9 @@ _autosave-TAStable.kicad_pcb
 \#auto_saved_files#
 
 _autosave-TAStable.kicad_sch
+
+firmware/TAStable.X/build/
+
+firmware/TAStable.X/dist/
+
+*.kicad_sch-bak
