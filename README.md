@@ -25,5 +25,6 @@ To Adjust Ratio -
 ![Board](https://github.com/rasteri/TAStable/blob/main/images/1chip.jpg?raw=true)
 
 ## VCC/GND/OUT signals (2chip) : ##
+### These are inside the metal can at the rear of the console ###
 ![Board](https://github.com/rasteri/TAStable/blob/main/images/2chip1.jpg?raw=true)
 ![Board](https://github.com/rasteri/TAStable/blob/main/images/2chip2.jpg?raw=true)
