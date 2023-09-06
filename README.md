@@ -13,8 +13,8 @@ Deliciously synchronizing the SNES' APU to its CPU clock
 
 To Adjust Ratio - 
 1. Connect SDA ("D"), SCL ("C"), and GND on TAStable to the appropriate I2C pins on a raspberry pi, and enable I2C using raspi_config
-2. Adjust the necessary registers in "setratio.sh", then run it
-3. Try the run. If it doesn't work goto 2.
+2. Run one of the scripts. Currently there are scripts to set ratio to nominal (i.e. the original SNES design spec) or one specifically for DKC2. You can choose to set temporarily (won't survive power cycles) or permenantly (will survive power cycles).
+3. Try the run. If it doesn't work edit the scripts and try again.
 
 
 # Install Pics #
