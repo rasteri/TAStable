@@ -12,3 +12,5 @@ firmware/TAStable.X/build/
 firmware/TAStable.X/dist/
 
 *.kicad_sch-bak
+
+FPGA/TAStable/TAStable_Implmnt/
