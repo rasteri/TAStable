@@ -1,0 +1,181 @@
+m255
+K4
+z2
+!s11e vcom 2020.3 2020.10, Oct 14 2020
+!s11f vlog 2020.3 2020.10, Oct 14 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/code/fpgatest2
+vClock_divider
+Z0 !s110 1699634428
+!i10b 1
+!s100 =2^B2XFO6aLk@abcVDDb@2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8S4nVGOk:Q11;9K>B<]N31
+Z2 dC:/code/TAS/TAS/TAStable
+Z3 w1699634426
+Z4 8C:/code/TAS/TAS/TAStable/FPGA/top.v
+Z5 FC:/code/TAS/TAS/TAStable/FPGA/top.v
+!i122 179
+L0 1 21
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OT;L;2020.3;71
+r1
+!s85 0
+31
+Z8 !s108 1699634428.000000
+Z9 !s107 C:/code/TAS/TAS/TAStable/FPGA/top.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/code/TAS/TAS/TAStable/FPGA/top.v|
+!s101 -O0
+!i113 1
+Z11 o-work work -O0
+Z12 tCvgOpt 0
+n@clock_divider
+vdivide7
+!s110 1699623372
+!i10b 1
+!s100 X[2Xg?e:_ZVlN=7T>20@M0
+R1
+IJ>9?zW=?SL8cB_<afQXST1
+R2
+w1699623283
+R4
+R5
+!i122 134
+L0 79 63
+R6
+R7
+r1
+!s85 0
+31
+!s108 1699623372.000000
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vdivide7or8
+R0
+!i10b 1
+!s100 bW8n=KM>Da82<DAGhGS^l2
+R1
+IXQzaR7zTL9FH>8S[gK2f;0
+R2
+R3
+R4
+R5
+!i122 179
+L0 23 137
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vdivide8
+!s110 1699627568
+!i10b 1
+!s100 a;3za=XK?d1RPFhW`c2T;0
+R1
+IWZ?@P^i6BN<6mh635g>h]0
+R2
+w1699627564
+R4
+R5
+!i122 148
+L0 24 54
+R6
+R7
+r1
+!s85 0
+31
+!s108 1699627567.000000
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vdostuff
+R0
+!i10b 1
+!s100 JfZP[P:M3;Zjk92h3]L063
+R1
+IXaF=RJVCmc^;TYXAjJ0H=0
+R2
+R3
+R4
+R5
+!i122 179
+L0 161 117
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vtestes
+!s110 1699549698
+!i10b 1
+!s100 R1^ZQ`zF`zfW1U4TOFKU>1
+R1
+IV:3l@85JG99;ME_CdPaNA1
+R2
+w1699548661
+R4
+R5
+!i122 56
+L0 112 67
+R6
+R7
+r1
+!s85 0
+31
+!s108 1699549698.000000
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vtop
+R0
+!i10b 1
+!s100 kGk3`AgJ6LFm@eMj4d4M<1
+R1
+IfdNXF87i^MEAc9ThXCJiC2
+R2
+R3
+R4
+R5
+!i122 179
+L0 280 70
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12

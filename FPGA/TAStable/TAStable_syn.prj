@@ -2,7 +2,7 @@
 #-- Project file C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_syn.prj
 #project files
 
-add_file -verilog -lib work "../top_pll.v" 
+add_file -verilog -lib work "../top.v" 
 #implementation: "TAStable_Implmnt"
 impl -add TAStable_Implmnt -type fpga
 
