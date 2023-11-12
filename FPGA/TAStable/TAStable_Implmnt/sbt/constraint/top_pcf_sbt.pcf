@@ -1,0 +1,37 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# Version:            2020.12.27943
+
+# File Generated:     Nov 10 2023 21:45:26
+
+# Family & Device:    iCE40HX8K
+
+# Package:            CB132
+
+# ##############################################################################
+
+###IOSet List 10
+set_io apuclk B14 -io_std SB_LVCMOS -pullup no
+set_io apureset C12 -io_std SB_LVCMOS -pullup no
+set_io cpuclk C14 -io_std SB_LVCMOS -pullup no
+set_io cpureset D12
+set_io apusync D14
+set_io PACKAGEPIN P7
+set_io onehertz P1
+set_io reset C6
+set_io mclkreset A11
+
+set_io led1 C10
+set_io led2 A10
+set_io led3 D7
+set_io led4 D6
+set_io led5 A7
+set_io led6 C7
+set_io led7 A4
+set_io led8 C4
+set_io lcol1 A12
+set_io lcol2 D10
+set_io lcol3 A6
+set_io lcol4 C5

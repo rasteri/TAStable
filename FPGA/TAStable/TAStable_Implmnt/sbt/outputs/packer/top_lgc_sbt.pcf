@@ -1,0 +1,66 @@
+set_location CONSTANT_ONE_LUT4 29 27 4 #SB_LUT4
+set_location arse.divseven.seven_THRU_LUT4_0 30 27 2 #SB_LUT4
+set_location arse.divseven.dout_0_THRU_LUT4_0 32 28 7 #SB_LUT4
+set_location arse.apuresetoutreg_THRU_LUT4_0 29 32 6 #SB_LUT4
+set_location arse.cpuresetcount_nesr_RNO[3] 30 24 4 #SB_LUT4
+set_location arse.apusynclatched 31 23 3 #SB_DFFN
+set_location arse.divseven.counter_ns_2_0_.N_8_i 31 27 4 #SB_LUT4
+set_location arse.diveight.dout[0] 32 25 4 #SB_DFFN
+set_location arse.diveight.counter_RNO[2] 32 24 5 #SB_LUT4
+set_location arse.cpuclkreset_RNO_0 30 25 0 #SB_LUT4
+set_location arse.divseven.counter_RNI8ECT[0] 31 27 0 #SB_LUT4
+set_location arse.diveight.counter[1] 31 24 2 #SB_DFF
+set_location arse.divseven.dout[1] 32 27 5 #SB_DFFE
+set_location arse.divseven.counter_ns_2_0_.N_5_i 31 27 3 #SB_LUT4
+set_location arse.divseven.counter_ns_2_0_.N_4_i 31 27 6 #SB_LUT4
+set_location arse.divseven.counter[0] 31 27 6 #SB_DFF
+set_location arse.cpuresetcount_RNO[1] 30 25 7 #SB_LUT4
+set_location arse.apusynclatched_RNO 31 23 3 #SB_LUT4
+set_location arse.diveight.dout_RNO[0] 32 25 4 #SB_LUT4
+set_location arse.doingseven 30 26 0 #SB_DFFNSR
+set_location arse.divseven.counter[2] 31 27 4 #SB_DFF
+set_location arse.cpuresetcount_nesr[3] 30 24 4 #SB_DFFNESR
+set_location arse.cpuclkreset_RNO 31 25 7 #SB_LUT4
+set_location arse.cpuresetcount[2] 30 26 2 #SB_DFFNSR
+set_location arse.divseven.seven_RNO 31 27 2 #SB_LUT4
+set_location arse.diveight.dout[1] 32 24 1 #SB_DFF
+set_location arse.doingseven_RNO_0 30 25 2 #SB_LUT4
+set_location arse.diveight.counter[2] 32 24 5 #SB_DFF
+set_location arse.cpuresetcount[0] 30 25 5 #SB_DFFN
+set_location arse.apuresetoutreg 29 32 6 #SB_DFFN
+set_location arse.divseven.counter[1] 31 27 3 #SB_DFF
+set_location arse.cpuresetcount_nesr_RNO_0[3] 30 25 3 #SB_LUT4
+set_location GND -1 -1 -1 #GND
+set_location arse.diveight.dout_RNO[1] 32 24 1 #SB_LUT4
+set_location arse.diveight.counter_ns_2_0_.m3 31 24 2 #SB_LUT4
+set_location arse.diveight.counter[0] 31 24 6 #SB_DFF
+set_location arse.cpuclkreset 31 25 7 #SB_DFFNSR
+set_location arse.divseven.dout[0] 32 28 7 #SB_DFFNE
+set_location arse.cpuresetcount_RNO[0] 30 25 5 #SB_LUT4
+set_location arse.doingseven_RNO 30 26 0 #SB_LUT4
+set_location arse.divseven.dout_RNO[1] 32 27 5 #SB_LUT4
+set_location arse.diveight.counter_ns_2_0_.m1 31 24 6 #SB_LUT4
+set_location arse.divseven.seven 30 27 2 #SB_DFFE
+set_location arse.cpuresetcount_RNO[2] 30 26 2 #SB_LUT4
+set_location reset_ibuf_RNI8255 31 26 4 #SB_LUT4
+set_location arse.cpuresetcount[1] 30 25 7 #SB_DFFN
+set_io led5 A7
+set_io lcol2 D10
+set_io led6 C7
+set_io led2 A10
+set_io lcol1 A12
+set_io cpuclk C14
+set_io apureset C12
+set_io reset C6
+set_io mclkreset A11
+set_io led7 A4
+set_io led3 D7
+set_io lcol4 C5
+set_io cpureset D12
+set_io apusync D14
+set_io PACKAGEPIN P7
+set_io led8 C4
+set_io led4 D6
+set_io lcol3 A6
+set_io led1 C10
+set_io apuclk B14

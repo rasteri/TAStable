@@ -1,0 +1,6 @@
+@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":55:4:55:9|User-specified initial value defined for instance arse.divseven.seven is being ignored. 
+@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":229:4:229:9|User-specified initial value defined for instance arse.cpuresetcount[3:0] is being ignored. 
+@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":229:4:229:9|User-specified initial value defined for instance arse.cpuclkreset is being ignored. 
+@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":229:4:229:9|User-specified initial value defined for instance arse.doingseven is being ignored. 
+@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":229:4:229:9|User-specified initial value defined for instance arse.apuresetoutreg is being ignored. 
+@W: MT420 |Found inferred clock top|PACKAGEPIN with period 5.08ns. Please declare a user-defined clock on object "p:PACKAGEPIN"

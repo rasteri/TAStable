@@ -1,0 +1,69 @@
+set_location arse.apusynclatched_RNO 31 23 3 # SB_LUT4 (LogicCell: arse.apusynclatched_LC_0)
+set_location arse.apusynclatched 31 23 3 # SB_DFFN (LogicCell: arse.apusynclatched_LC_0)
+set_location arse.cpuclkreset_RNO 31 25 7 # SB_LUT4 (LogicCell: arse.cpuclkreset_LC_1)
+set_location arse.cpuclkreset 31 25 7 # SB_DFFNSR (LogicCell: arse.cpuclkreset_LC_1)
+set_location arse.cpuclkreset_RNO_0 30 25 0 # SB_LUT4 (LogicCell: arse.cpuclkreset_RNO_0_LC_2)
+set_location arse.cpuresetcount_RNO[0] 30 25 5 # SB_LUT4 (LogicCell: arse.cpuresetcount[0]_LC_3)
+set_location arse.cpuresetcount[0] 30 25 5 # SB_DFFN (LogicCell: arse.cpuresetcount[0]_LC_3)
+set_location arse.cpuresetcount_RNO[1] 30 25 7 # SB_LUT4 (LogicCell: arse.cpuresetcount[1]_LC_4)
+set_location arse.cpuresetcount[1] 30 25 7 # SB_DFFN (LogicCell: arse.cpuresetcount[1]_LC_4)
+set_location arse.cpuresetcount_RNO[2] 30 26 2 # SB_LUT4 (LogicCell: arse.cpuresetcount[2]_LC_5)
+set_location arse.cpuresetcount[2] 30 26 2 # SB_DFFNSR (LogicCell: arse.cpuresetcount[2]_LC_5)
+set_location arse.cpuresetcount_nesr_RNO_0[3] 30 25 3 # SB_LUT4 (LogicCell: arse.cpuresetcount_nesr_RNO_0[3]_LC_6)
+set_location arse.cpuresetcount_nesr_RNO[3] 30 24 4 # SB_LUT4 (LogicCell: arse.cpuresetcount_nesr[3]_LC_7)
+set_location arse.cpuresetcount_nesr[3] 30 24 4 # SB_DFFNESR (LogicCell: arse.cpuresetcount_nesr[3]_LC_7)
+set_location arse.diveight.counter_RNO[2] 32 24 5 # SB_LUT4 (LogicCell: arse.diveight.counter[2]_LC_8)
+set_location arse.diveight.counter[2] 32 24 5 # SB_DFF (LogicCell: arse.diveight.counter[2]_LC_8)
+set_location arse.diveight.counter_ns_2_0_.m1 31 24 6 # SB_LUT4 (LogicCell: arse.diveight.counter[0]_LC_9)
+set_location arse.diveight.counter[0] 31 24 6 # SB_DFF (LogicCell: arse.diveight.counter[0]_LC_9)
+set_location arse.diveight.counter_ns_2_0_.m3 31 24 2 # SB_LUT4 (LogicCell: arse.diveight.counter[1]_LC_10)
+set_location arse.diveight.counter[1] 31 24 2 # SB_DFF (LogicCell: arse.diveight.counter[1]_LC_10)
+set_location arse.diveight.dout_RNO[0] 32 25 4 # SB_LUT4 (LogicCell: arse.diveight.dout[0]_LC_11)
+set_location arse.diveight.dout[0] 32 25 4 # SB_DFFN (LogicCell: arse.diveight.dout[0]_LC_11)
+set_location arse.diveight.dout_RNO[1] 32 24 1 # SB_LUT4 (LogicCell: arse.diveight.dout[1]_LC_12)
+set_location arse.diveight.dout[1] 32 24 1 # SB_DFF (LogicCell: arse.diveight.dout[1]_LC_12)
+set_location arse.divseven.counter_RNI8ECT[0] 31 27 0 # SB_LUT4 (LogicCell: arse.divseven.counter_RNI8ECT[0]_LC_13)
+set_location arse.divseven.counter_ns_2_0_.N_4_i 31 27 6 # SB_LUT4 (LogicCell: arse.divseven.counter[0]_LC_14)
+set_location arse.divseven.counter[0] 31 27 6 # SB_DFF (LogicCell: arse.divseven.counter[0]_LC_14)
+set_location arse.divseven.counter_ns_2_0_.N_5_i 31 27 3 # SB_LUT4 (LogicCell: arse.divseven.counter[1]_LC_15)
+set_location arse.divseven.counter[1] 31 27 3 # SB_DFF (LogicCell: arse.divseven.counter[1]_LC_15)
+set_location arse.divseven.counter_ns_2_0_.N_8_i 31 27 4 # SB_LUT4 (LogicCell: arse.divseven.counter[2]_LC_16)
+set_location arse.divseven.counter[2] 31 27 4 # SB_DFF (LogicCell: arse.divseven.counter[2]_LC_16)
+set_location arse.divseven.dout_RNO[1] 32 27 5 # SB_LUT4 (LogicCell: arse.divseven.dout[1]_LC_17)
+set_location arse.divseven.dout[1] 32 27 5 # SB_DFFE (LogicCell: arse.divseven.dout[1]_LC_17)
+set_location arse.divseven.seven_RNO 31 27 2 # SB_LUT4 (LogicCell: arse.divseven.seven_RNO_LC_18)
+set_location arse.doingseven_RNO 30 26 0 # SB_LUT4 (LogicCell: arse.doingseven_LC_19)
+set_location arse.doingseven 30 26 0 # SB_DFFNSR (LogicCell: arse.doingseven_LC_19)
+set_location arse.doingseven_RNO_0 30 25 2 # SB_LUT4 (LogicCell: arse.doingseven_RNO_0_LC_20)
+set_location reset_ibuf_RNI8255 31 26 4 # SB_LUT4 (LogicCell: reset_ibuf_RNI8255_LC_21)
+set_location arse.apuresetoutreg_THRU_LUT4_0 29 32 6 # SB_LUT4 (LogicCell: arse.apuresetoutreg_LC_22)
+set_location arse.apuresetoutreg 29 32 6 # SB_DFFN (LogicCell: arse.apuresetoutreg_LC_22)
+set_location arse.divseven.dout_0_THRU_LUT4_0 32 28 7 # SB_LUT4 (LogicCell: arse.divseven.dout[0]_LC_23)
+set_location arse.divseven.dout[0] 32 28 7 # SB_DFFNE (LogicCell: arse.divseven.dout[0]_LC_23)
+set_location arse.divseven.seven_THRU_LUT4_0 30 27 2 # SB_LUT4 (LogicCell: arse.divseven.seven_LC_24)
+set_location arse.divseven.seven 30 27 2 # SB_DFFE (LogicCell: arse.divseven.seven_LC_24)
+set_location GND -1 -1 -1 # GND
+set_io apusync_ibuf 33 23 1 # ICE_IO
+set_io arse.diveight.io_0 33 24 1 # ICE_IO
+set_io arse.divseven.io_0 33 28 0 # ICE_IO
+set_io arse.divseven.io_0_RNIIG08 0 17 0 # ICE_GB
+set_io arse.io_0 29 33 1 # ICE_IO
+set_io arse.io_1 33 27 1 # ICE_IO
+set_location bum2_inst 16 0 1 # SB_PLL40_PAD
+set_io lcol1_obuf 30 33 1 # ICE_IO
+set_io lcol2_obuf 27 33 0 # ICE_IO
+set_io lcol3_obuf 16 33 1 # ICE_IO
+set_io lcol4_obuf 8 33 1 # ICE_IO
+set_io led1_obuf 22 33 1 # ICE_IO
+set_io led2_obuf 25 33 0 # ICE_IO
+set_io led3_obuft 13 33 1 # ICE_IO
+set_io led4_obuft 11 33 0 # ICE_IO
+set_io led5_obuft 17 33 0 # ICE_IO
+set_io led6_obuft 14 33 1 # ICE_IO
+set_io led7_obuf 5 33 0 # ICE_IO
+set_io led8_obuft 4 33 0 # ICE_IO
+set_io mclkreset_ibuf 26 33 0 # ICE_IO
+set_io reset_ibuf 11 33 1 # ICE_IO
+set_location INV_arse.un1_io_0_1_g -1 -1 -1 # INV
+set_location INV_PLLOUTGLOBAL -1 -1 -1 # INV
+set_location CONSTANT_ONE_LUT4 29 27 4 # SB_LUT4 (LogicCell: LC_25)

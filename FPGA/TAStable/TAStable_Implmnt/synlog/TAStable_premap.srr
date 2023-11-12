@@ -1,0 +1,100 @@
+# Sun Nov 12 01:55:07 2023
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable_scck.rpt 
+Printing clock  summary report in "C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+@W: BN132 :"c:\code\tas\tas\tastable\fpga\top.v":229:4:229:9|Removing sequential instance arse.cpuresetoutreg because it is equivalent to instance arse.cpuclkreset. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":167:11:167:15|Tristate driver essw1 (in view: work.dostuff(verilog)) on net essw1 (in view: work.dostuff(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":168:11:168:15|Tristate driver essw2 (in view: work.dostuff(verilog)) on net essw2 (in view: work.dostuff(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":296:11:296:14|Tristate driver led3 (in view: work.top(verilog)) on net led3 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":297:11:297:14|Tristate driver led4 (in view: work.top(verilog)) on net led4 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":298:11:298:14|Tristate driver led5 (in view: work.top(verilog)) on net led5 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":299:11:299:14|Tristate driver led6 (in view: work.top(verilog)) on net led6 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":301:11:301:14|Tristate driver led8 (in view: work.top(verilog)) on net led8 (in view: work.top(verilog)) has its enable tied to GND.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=32  set on top level netlist top
+@W: MF515 :"c:\code\tas\tas\tastable\fpga\top.v":40:3:40:6|Found illegal pad connections on pad arse.divseven.io_0 
+@W: MF514 :"c:\code\tas\tas\tastable\fpga\top.v":290:11:290:16|Found illegal pad-to-port connection for port apuclk  
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+Clock Summary
+*****************
+
+Start                              Requested     Requested     Clock                             Clock                     Clock
+Clock                              Frequency     Period        Type                              Group                     Load 
+--------------------------------------------------------------------------------------------------------------------------------
+System                             1.0 MHz       1000.000      system                            system_clkgroup           1    
+top|PACKAGEPIN                     3.9 MHz       258.847       inferred                          Autoconstr_clkgroup_0     0    
+top|PLLOUTGLOBAL_derived_clock     55.1 MHz      18.145        derived (from top|PACKAGEPIN)     Autoconstr_clkgroup_0     32   
+================================================================================================================================
+
+@W: MT531 :"c:\code\tas\tas\tastable\fpga\top.v":221:4:221:9|Found signal identified as System clock which controls 1 sequential elements including arse.apusynclatched.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":301:11:301:14|Tristate driver led8 (in view: work.top(verilog)) on net led8 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":299:11:299:14|Tristate driver led6 (in view: work.top(verilog)) on net led6 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":298:11:298:14|Tristate driver led5 (in view: work.top(verilog)) on net led5 (in view: work.top(verilog)) has its enable tied to GND.
+@N: BN225 |Writing default property annotation file C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Encoding state machine counter[7:0] (in view: work.divide7or8_1(verilog))
+original code -> new code
+   0000 -> 000
+   0001 -> 001
+   0010 -> 010
+   0011 -> 011
+   0100 -> 100
+   0101 -> 101
+   0110 -> 110
+   0111 -> 111
+@N: MO225 :"c:\code\tas\tas\tastable\fpga\top.v":55:4:55:9|There are no possible illegal states for state machine counter[7:0] (in view: work.divide7or8_1(verilog)); safe FSM implementation is not required.
+Encoding state machine counter[7:0] (in view: work.divide7or8_0(verilog))
+original code -> new code
+   0000 -> 000
+   0001 -> 001
+   0010 -> 010
+   0011 -> 011
+   0100 -> 100
+   0101 -> 101
+   0110 -> 110
+   0111 -> 111
+@N: MO225 :"c:\code\tas\tas\tastable\fpga\top.v":55:4:55:9|There are no possible illegal states for state machine counter[7:0] (in view: work.divide7or8_0(verilog)); safe FSM implementation is not required.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 133MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Sun Nov 12 01:55:09 2023
+
+###########################################################]

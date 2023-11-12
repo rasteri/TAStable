@@ -1,0 +1,82 @@
+# Synopsys Constraint Checker, version maplat, Build 1612R, built Dec  5 2016
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Sun Nov 12 01:55:09 2023
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "top"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                           Ending                             |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                             top|PLLOUTGLOBAL_derived_clock     |     No paths         |     No paths         |     18.145           |     No paths                         
+top|PLLOUTGLOBAL_derived_clock     top|PLLOUTGLOBAL_derived_clock     |     18.145           |     18.145           |     9.073            |     9.073                            
+=================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:apuclk
+p:apureset
+p:apusync
+p:cpuclk
+p:cpureset
+p:lcol1
+p:lcol2
+p:lcol3
+p:lcol4
+p:led1
+p:led2
+p:led3
+p:led4
+p:led5
+p:led6
+p:led7
+p:led8
+p:mclkreset
+p:reset
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

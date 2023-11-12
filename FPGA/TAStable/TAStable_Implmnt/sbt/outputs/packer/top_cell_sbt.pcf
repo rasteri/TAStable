@@ -1,0 +1,77 @@
+ble_pack CONSTANT_ONE_LUT4_LC_29_27_4 { CONSTANT_ONE_LUT4 }
+clb_pack LT_29_27 { CONSTANT_ONE_LUT4_LC_29_27_4 }
+set_location LT_29_27 29 27
+ble_pack arse.apuresetoutreg_LC_29_32_6 { arse.apuresetoutreg_THRU_LUT4_0, arse.apuresetoutreg }
+clb_pack LT_29_32 { arse.apuresetoutreg_LC_29_32_6 }
+set_location LT_29_32 29 32
+ble_pack arse.cpuresetcount_nesr_3_LC_30_24_4 { arse.cpuresetcount_nesr_RNO[3], arse.cpuresetcount_nesr[3] }
+clb_pack LT_30_24 { arse.cpuresetcount_nesr_3_LC_30_24_4 }
+set_location LT_30_24 30 24
+ble_pack arse.cpuclkreset_RNO_0_LC_30_25_0 { arse.cpuclkreset_RNO_0 }
+ble_pack arse.doingseven_RNO_0_LC_30_25_2 { arse.doingseven_RNO_0 }
+ble_pack arse.cpuresetcount_nesr_RNO_0_3_LC_30_25_3 { arse.cpuresetcount_nesr_RNO_0[3] }
+ble_pack arse.cpuresetcount_0_LC_30_25_5 { arse.cpuresetcount_RNO[0], arse.cpuresetcount[0] }
+ble_pack arse.cpuresetcount_1_LC_30_25_7 { arse.cpuresetcount_RNO[1], arse.cpuresetcount[1] }
+clb_pack LT_30_25 { arse.cpuclkreset_RNO_0_LC_30_25_0, arse.doingseven_RNO_0_LC_30_25_2, arse.cpuresetcount_nesr_RNO_0_3_LC_30_25_3, arse.cpuresetcount_0_LC_30_25_5, arse.cpuresetcount_1_LC_30_25_7 }
+set_location LT_30_25 30 25
+ble_pack arse.doingseven_LC_30_26_0 { arse.doingseven_RNO, arse.doingseven }
+ble_pack arse.cpuresetcount_2_LC_30_26_2 { arse.cpuresetcount_RNO[2], arse.cpuresetcount[2] }
+clb_pack LT_30_26 { arse.doingseven_LC_30_26_0, arse.cpuresetcount_2_LC_30_26_2 }
+set_location LT_30_26 30 26
+ble_pack arse.divseven.seven_LC_30_27_2 { arse.divseven.seven_THRU_LUT4_0, arse.divseven.seven }
+clb_pack LT_30_27 { arse.divseven.seven_LC_30_27_2 }
+set_location LT_30_27 30 27
+ble_pack arse.apusynclatched_LC_31_23_3 { arse.apusynclatched_RNO, arse.apusynclatched }
+clb_pack LT_31_23 { arse.apusynclatched_LC_31_23_3 }
+set_location LT_31_23 31 23
+ble_pack arse.diveight.counter_1_LC_31_24_2 { arse.diveight.counter_ns_2_0_.m3, arse.diveight.counter[1] }
+ble_pack arse.diveight.counter_0_LC_31_24_6 { arse.diveight.counter_ns_2_0_.m1, arse.diveight.counter[0] }
+clb_pack LT_31_24 { arse.diveight.counter_1_LC_31_24_2, arse.diveight.counter_0_LC_31_24_6 }
+set_location LT_31_24 31 24
+ble_pack arse.cpuclkreset_LC_31_25_7 { arse.cpuclkreset_RNO, arse.cpuclkreset }
+clb_pack LT_31_25 { arse.cpuclkreset_LC_31_25_7 }
+set_location LT_31_25 31 25
+ble_pack reset_ibuf_RNI8255_LC_31_26_4 { reset_ibuf_RNI8255 }
+clb_pack LT_31_26 { reset_ibuf_RNI8255_LC_31_26_4 }
+set_location LT_31_26 31 26
+ble_pack arse.divseven.counter_RNI8ECT_0_LC_31_27_0 { arse.divseven.counter_RNI8ECT[0] }
+ble_pack arse.divseven.seven_RNO_LC_31_27_2 { arse.divseven.seven_RNO }
+ble_pack arse.divseven.counter_1_LC_31_27_3 { arse.divseven.counter_ns_2_0_.N_5_i, arse.divseven.counter[1] }
+ble_pack arse.divseven.counter_2_LC_31_27_4 { arse.divseven.counter_ns_2_0_.N_8_i, arse.divseven.counter[2] }
+ble_pack arse.divseven.counter_0_LC_31_27_6 { arse.divseven.counter_ns_2_0_.N_4_i, arse.divseven.counter[0] }
+clb_pack LT_31_27 { arse.divseven.counter_RNI8ECT_0_LC_31_27_0, arse.divseven.seven_RNO_LC_31_27_2, arse.divseven.counter_1_LC_31_27_3, arse.divseven.counter_2_LC_31_27_4, arse.divseven.counter_0_LC_31_27_6 }
+set_location LT_31_27 31 27
+ble_pack arse.diveight.dout_1_LC_32_24_1 { arse.diveight.dout_RNO[1], arse.diveight.dout[1] }
+ble_pack arse.diveight.counter_2_LC_32_24_5 { arse.diveight.counter_RNO[2], arse.diveight.counter[2] }
+clb_pack LT_32_24 { arse.diveight.dout_1_LC_32_24_1, arse.diveight.counter_2_LC_32_24_5 }
+set_location LT_32_24 32 24
+ble_pack arse.diveight.dout_0_LC_32_25_4 { arse.diveight.dout_RNO[0], arse.diveight.dout[0] }
+clb_pack LT_32_25 { arse.diveight.dout_0_LC_32_25_4 }
+set_location LT_32_25 32 25
+ble_pack arse.divseven.dout_1_LC_32_27_5 { arse.divseven.dout_RNO[1], arse.divseven.dout[1] }
+clb_pack LT_32_27 { arse.divseven.dout_1_LC_32_27_5 }
+set_location LT_32_27 32 27
+ble_pack arse.divseven.dout_0_LC_32_28_7 { arse.divseven.dout_0_THRU_LUT4_0, arse.divseven.dout[0] }
+clb_pack LT_32_28 { arse.divseven.dout_0_LC_32_28_7 }
+set_location LT_32_28 32 28
+set_location arse.divseven.io_0_RNIIG08 0 17
+set_io led5 A7
+set_io lcol2 D10
+set_io led6 C7
+set_io led2 A10
+set_io lcol1 A12
+set_io cpuclk C14
+set_io apureset C12
+set_io reset C6
+set_io mclkreset A11
+set_io led7 A4
+set_io led3 D7
+set_io lcol4 C5
+set_io cpureset D12
+set_io apusync D14
+set_io PACKAGEPIN P7
+set_io led8 C4
+set_io led4 D6
+set_io lcol3 A6
+set_io led1 C10
+set_io apuclk B14

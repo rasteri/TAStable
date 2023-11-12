@@ -1,0 +1,4 @@
+@W: BN132 :"c:\code\tas\tas\tastable\fpga\top.v":229:4:229:9|Removing sequential instance arse.cpuresetoutreg because it is equivalent to instance arse.cpuclkreset. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: MF515 :"c:\code\tas\tas\tastable\fpga\top.v":40:3:40:6|Found illegal pad connections on pad arse.divseven.io_0 
+@W: MF514 :"c:\code\tas\tas\tastable\fpga\top.v":290:11:290:16|Found illegal pad-to-port connection for port apuclk  
+@W: MT531 :"c:\code\tas\tas\tastable\fpga\top.v":221:4:221:9|Found signal identified as System clock which controls 1 sequential elements including arse.apusynclatched.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 

@@ -1,0 +1,22 @@
+@P:  Worst Slack : -1.662
+@P:  top|PACKAGEPIN - Estimated Frequency : NA
+@P:  top|PACKAGEPIN - Requested Frequency : 197.0 MHz
+@P:  top|PACKAGEPIN - Estimated Period : NA
+@P:  top|PACKAGEPIN - Requested Period : 5.075
+@P:  top|PACKAGEPIN - Slack : NA
+@P:  top|PLLOUTGLOBAL_derived_clock - Estimated Frequency : 119.1 MHz
+@P:  top|PLLOUTGLOBAL_derived_clock - Requested Frequency : 197.0 MHz
+@P:  top|PLLOUTGLOBAL_derived_clock - Estimated Period : 8.400
+@P:  top|PLLOUTGLOBAL_derived_clock - Requested Period : 5.075
+@P:  top|PLLOUTGLOBAL_derived_clock - Slack : -1.662
+@P:  System - Estimated Frequency : 240.9 MHz
+@P:  System - Requested Frequency : 283.4 MHz
+@P:  System - Estimated Period : 4.151
+@P:  System - Requested Period : 3.528
+@P:  System - Slack : -0.623
+@P: top Part : ice40hx8kcb132
+@P: top I/O primitives : 20
+@P: top I/O Register bits : 0
+@P: top Register bits (Non I/O) : 19 (0%)
+@P: top Total Luts : 22 (0%)
+@P:  CPU Time : 0h:00m:02s

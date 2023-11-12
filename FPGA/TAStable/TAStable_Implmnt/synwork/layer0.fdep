@@ -1,0 +1,20 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\code\\TAS\\TAS\\TAStable\\FPGA\\TAStable\\TAStable_Implmnt\\synwork\\TAStable_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|C:\\code\\TAS\\TAS\\TAStable\\FPGA\\TAStable\\|-I|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work"
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\bin64\\c_ver.exe":1699243809
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v":1699243811
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\hypermods.v":1699243812
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\umr_capim.v":1699243812
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_objects.v":1699243812
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1699243812
+#CUR:"C:\\code\\TAS\\TAS\\TAStable\\FPGA\\top.v":1699754082
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\code\TAS\TAS\TAStable\FPGA\top.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work Clock_divider 0
+module work divide7or8 0
+module work dostuff 0
+module work top 0
