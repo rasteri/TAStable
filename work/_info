@@ -11,23 +11,23 @@ z2
 cModel Technology
 dC:/code/fpgatest2
 vClock_divider
-Z0 !s110 1699634428
+Z0 !s110 1699727911
 !i10b 1
 !s100 =2^B2XFO6aLk@abcVDDb@2
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
 I8S4nVGOk:Q11;9K>B<]N31
 Z2 dC:/code/TAS/TAS/TAStable
-Z3 w1699634426
+Z3 w1699727548
 Z4 8C:/code/TAS/TAS/TAStable/FPGA/top.v
 Z5 FC:/code/TAS/TAS/TAStable/FPGA/top.v
-!i122 179
+!i122 304
 L0 1 21
 Z6 VDg1SIo80bB@j0V0VzS_@n1
 Z7 OT;L;2020.3;71
 r1
 !s85 0
 31
-Z8 !s108 1699634428.000000
+Z8 !s108 1699727911.000000
 Z9 !s107 C:/code/TAS/TAS/TAStable/FPGA/top.v|
 Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/code/TAS/TAS/TAStable/FPGA/top.v|
 !s101 -O0
@@ -62,15 +62,15 @@ R12
 vdivide7or8
 R0
 !i10b 1
-!s100 bW8n=KM>Da82<DAGhGS^l2
+!s100 Um^8o:N9;AzLIazagCeI80
 R1
-IXQzaR7zTL9FH>8S[gK2f;0
+I3`3gI;jNSA=1k<4a9bDY=1
 R2
 R3
 R4
 R5
-!i122 179
-L0 23 137
+!i122 304
+L0 23 135
 R6
 R7
 r1
@@ -110,15 +110,15 @@ R12
 vdostuff
 R0
 !i10b 1
-!s100 JfZP[P:M3;Zjk92h3]L063
+!s100 BoKH]j6^k>=7jO65ccL_o1
 R1
-IXaF=RJVCmc^;TYXAjJ0H=0
+I7;T:0fJ8nW5=m0;jg3QLU0
 R2
 R3
 R4
 R5
-!i122 179
-L0 161 117
+!i122 304
+L0 159 124
 R6
 R7
 r1
@@ -158,15 +158,15 @@ R12
 vtop
 R0
 !i10b 1
-!s100 kGk3`AgJ6LFm@eMj4d4M<1
+!s100 z?GHo_Sod;>LgE2ZP]9JH0
 R1
-IfdNXF87i^MEAc9ThXCJiC2
+IE:GDUc@eKAA0S?NgHQ[N<2
 R2
 R3
 R4
 R5
-!i122 179
-L0 280 70
+!i122 304
+L0 285 66
 R6
 R7
 r1

@@ -28,11 +28,8 @@ module divide7or8(
         output clkout
             );
 
-    wire [1:0] dout;
+    reg [1:0] dout;
 
-    reg [1:0] doutreg = 2'b00;
-
-    assign dout[1:0] = doutreg[1:0];
 
     reg seven = 1'b0;
 
@@ -53,22 +50,23 @@ module divide7or8(
 
     reg [3:0] counter = 4'b0000;
 
+
     // positive edge, load negative edge (d_out_1)
     always @ (posedge clkin) begin
-        if (reset == 1'b0) begin
+        if (!reset) begin
             counter <= phase[3:1];
-            doutreg[1:0] <= 2'b00;
+            dout[1] <= 1'b0;
         end
         else begin
             if (seven) begin
                 case(counter)
-                    4'd0: begin doutreg[0] <= 1'b0; counter <= counter + 1; end
-                    4'd1: begin doutreg[0] <= 1'b0; counter <= counter + 1; end
-                    4'd2: begin doutreg[0] <= 1'b0; counter <= counter + 1; end
-                    4'd3: begin doutreg[0] <= 1'b1; counter <= counter + 1; end
-                    4'd4: begin doutreg[0] <= 1'b1; counter <= counter + 1; end
-                    4'd5: begin doutreg[0] <= 1'b1; counter <= counter + 1; end
-                    4'd6: begin doutreg[0] <= 1'b1; counter <= 0; seven <= doingseven; end
+                    4'd0: begin dout[1] <= 1'b0; counter <= counter + 1; end
+                    4'd1: begin dout[1] <= 1'b0; counter <= counter + 1; end
+                    4'd2: begin dout[1] <= 1'b0; counter <= counter + 1; end
+                    4'd3: begin dout[1] <= 1'b1; counter <= counter + 1; end
+                    4'd4: begin dout[1] <= 1'b1; counter <= counter + 1; end
+                    4'd5: begin dout[1] <= 1'b1; counter <= counter + 1; end
+                    4'd6: begin dout[1] <= 1'b1; counter <= 0; seven <= doingseven; end
                     default:;
                 endcase
             end
@@ -76,28 +74,28 @@ module divide7or8(
                 // odd phase
                 if (phase[0]) begin
                     case(counter)
-                        4'd0: begin doutreg[0] <= 1'b0; counter <= counter + 1; end
-                        4'd1: begin doutreg[0] <= 1'b0; counter <= counter + 1; end
-                        4'd2: begin doutreg[0] <= 1'b0; counter <= counter + 1; end
-                        4'd3: begin doutreg[0] <= 1'b1; counter <= counter + 1; end
-                        4'd4: begin doutreg[0] <= 1'b1; counter <= counter + 1; end
-                        4'd5: begin doutreg[0] <= 1'b1; counter <= counter + 1; end
-                        4'd6: begin doutreg[0] <= 1'b1; counter <= counter + 1; end
-                        4'd7: begin doutreg[0] <= 1'b0; counter <= 0; seven <= doingseven; end
+                        4'd0: begin dout[1] <= 1'b0; counter <= counter + 1; end
+                        4'd1: begin dout[1] <= 1'b0; counter <= counter + 1; end
+                        4'd2: begin dout[1] <= 1'b0; counter <= counter + 1; end
+                        4'd3: begin dout[1] <= 1'b1; counter <= counter + 1; end
+                        4'd4: begin dout[1] <= 1'b1; counter <= counter + 1; end
+                        4'd5: begin dout[1] <= 1'b1; counter <= counter + 1; end
+                        4'd6: begin dout[1] <= 1'b1; counter <= counter + 1; end
+                        4'd7: begin dout[1] <= 1'b0; counter <= 0; seven <= doingseven; end
                         default:;
                     endcase
                 end
-                
+            
                 else begin //even phase, default
                     case(counter)
-                        4'd0: begin doutreg[0] <= 1'b0; counter <= counter + 1; end
-                        4'd1: begin doutreg[0] <= 1'b0; counter <= counter + 1; end
-                        4'd2: begin doutreg[0] <= 1'b0; counter <= counter + 1; end
-                        4'd3: begin doutreg[0] <= 1'b0; counter <= counter + 1; end
-                        4'd4: begin doutreg[0] <= 1'b1; counter <= counter + 1; end
-                        4'd5: begin doutreg[0] <= 1'b1; counter <= counter + 1; end
-                        4'd6: begin doutreg[0] <= 1'b1; counter <= counter + 1; end
-                        4'd7: begin doutreg[0] <= 1'b1; counter <= 0; seven <= doingseven; end
+                        4'd0: begin dout[1] <= 1'b0; counter <= counter + 1; end
+                        4'd1: begin dout[1] <= 1'b0; counter <= counter + 1; end
+                        4'd2: begin dout[1] <= 1'b0; counter <= counter + 1; end
+                        4'd3: begin dout[1] <= 1'b0; counter <= counter + 1; end
+                        4'd4: begin dout[1] <= 1'b1; counter <= counter + 1; end
+                        4'd5: begin dout[1] <= 1'b1; counter <= counter + 1; end
+                        4'd6: begin dout[1] <= 1'b1; counter <= counter + 1; end
+                        4'd7: begin dout[1] <= 1'b1; counter <= 0; seven <= doingseven; end
                         default:;
                     endcase
                 end
@@ -109,19 +107,19 @@ module divide7or8(
 
     // negative edge, load positive edge (d_out_0)
     always @ (negedge clkin) begin
-        if (reset == 1'b0) begin
-            doutreg[1] <= 1'b0;
+        if (!reset) begin
+            dout[0] <= 1'b0;
         end
         else begin
             if (seven) begin
                 case(counter)
-                    4'd0: begin doutreg[1] <= 1'b0; end
-                    4'd1: begin doutreg[1] <= 1'b0; end
-                    4'd2: begin doutreg[1] <= 1'b0; end
-                    4'd3: begin doutreg[1] <= 1'b0; end
-                    4'd4: begin doutreg[1] <= 1'b1; end
-                    4'd5: begin doutreg[1] <= 1'b1; end
-                    4'd6: begin doutreg[1] <= 1'b1; end
+                    4'd0: begin dout[0] <= 1'b0; end
+                    4'd1: begin dout[0] <= 1'b0; end
+                    4'd2: begin dout[0] <= 1'b0; end
+                    4'd3: begin dout[0] <= 1'b0; end
+                    4'd4: begin dout[0] <= 1'b1; end
+                    4'd5: begin dout[0] <= 1'b1; end
+                    4'd6: begin dout[0] <= 1'b1; end
                     default:;
                 endcase
             end
@@ -129,27 +127,27 @@ module divide7or8(
                 //odd phase
                 if (phase[0]) begin
                     case(counter)
-                        4'd0: begin doutreg[1] <= 1'b0; end
-                        4'd1: begin doutreg[1] <= 1'b0; end
-                        4'd2: begin doutreg[1] <= 1'b0; end
-                        4'd3: begin doutreg[1] <= 1'b0; end
-                        4'd4: begin doutreg[1] <= 1'b1; end
-                        4'd5: begin doutreg[1] <= 1'b1; end
-                        4'd6: begin doutreg[1] <= 1'b1; end
-                        4'd7: begin doutreg[1] <= 1'b1; end
+                        4'd0: begin dout[0] <= 1'b0; end
+                        4'd1: begin dout[0] <= 1'b0; end
+                        4'd2: begin dout[0] <= 1'b0; end
+                        4'd3: begin dout[0] <= 1'b0; end
+                        4'd4: begin dout[0] <= 1'b1; end
+                        4'd5: begin dout[0] <= 1'b1; end
+                        4'd6: begin dout[0] <= 1'b1; end
+                        4'd7: begin dout[0] <= 1'b1; end
                         default:;
                     endcase
                 end
                 else begin  //even phase, default
                     case(counter)
-                        4'd0: begin doutreg[1] <= 1'b0; end
-                        4'd1: begin doutreg[1] <= 1'b0; end
-                        4'd2: begin doutreg[1] <= 1'b0; end
-                        4'd3: begin doutreg[1] <= 1'b0; end
-                        4'd4: begin doutreg[1] <= 1'b1; end
-                        4'd5: begin doutreg[1] <= 1'b1; end
-                        4'd6: begin doutreg[1] <= 1'b1; end
-                        4'd7: begin doutreg[1] <= 1'b1; end
+                        4'd0: begin dout[0] <= 1'b0; end
+                        4'd1: begin dout[0] <= 1'b0; end
+                        4'd2: begin dout[0] <= 1'b0; end
+                        4'd3: begin dout[0] <= 1'b0; end
+                        4'd4: begin dout[0] <= 1'b1; end
+                        4'd5: begin dout[0] <= 1'b1; end
+                        4'd6: begin dout[0] <= 1'b1; end
+                        4'd7: begin dout[0] <= 1'b1; end
                         default:;
                     endcase
                 end
@@ -158,30 +156,28 @@ module divide7or8(
     end
 endmodule
 
-module dostuff(input clkin, input apusync, input reset, output apuclk, output cpuclk, output apureset, output cpureset);
+module dostuff(
+    input clkin, 
+    input apusync, 
+    input reset, 
+    output apuclk, 
+    output cpuclk, 
+    output apureset, 
+    output cpureset,
+    output essw1,
+    output essw2);
+
 
     reg doingseven = 1'b0;
-    reg cpuclkreset = 1'b1;
+    reg cpuclkreset = 1'b0;
 
-    divide7or8 divsevenee (clkin, 1'b1, doingseven, apuclk);
-    //divide7or8 diveight (clkin, cpuclkreset, 1'b0, cpuclk);
+    reg cpuresetreg = 1'b0;
 
-    reg resetbum=0;
+    reg [3:0] apuphase = 4'd0;
+    reg [3:0] cpuphase = 4'd1;
 
-    divide7or8 divseven (clkin, 4'd0, resetbum, 1'b0, phase0);
-    divide7or8 divseven1 (clkin, 4'd1, resetbum, 1'b0, phase1);
-    divide7or8 divseven2 (clkin, 4'd2, resetbum, 1'b0, phase2);
-    divide7or8 divseven3 (clkin, 4'd3, resetbum, 1'b0, phase3);
-    divide7or8 divseven4 (clkin, 4'd4, resetbum, 1'b0, phase4);
-    divide7or8 divseven5 (clkin, 4'd5, resetbum, 1'b0, phase5);
-    
-
-
-    always @(negedge apusync) begin
-        doingseven <= 1;
-        resetbum <= 1;
-    end
-
+    divide7or8 divseven (clkin, apuphase, 1'b1, doingseven, apuclk);
+    divide7or8 diveight (clkin, cpuphase, cpuclkreset, 1'b0, cpuclk);
 
     reg apuresetoutreg = 1'b0;
 
@@ -217,134 +213,155 @@ module dostuff(input clkin, input apusync, input reset, output apuclk, output cp
 		.D_OUT_1 ()
 	);
 
+    reg apusynclatched;
 
-    parameter 
-        state_init = 0, // init and go to state 1
-        state_start = 1, // both clocks running, not synced. wait for reset signal to go low
-        state_reset = 2, // in reset state, only APU clock running at 21MHz, CPU and APU held in reset, wait for reset signal to go high
-        state_syncing = 3, // APU clock still running at 21MHz, APU released from reset, CPU held in reset, wait for APU sync to go low
-        state_running = 4; // CPU released from reset, APU running at 24MHz, CPU running at 21MHz
+    reg [3:0] cpuresetcount = 4'd0;
 
-    reg [2:0] state = 2'b00;
-
-    always @(negedge clkin) 
-    begin
-        case (state)
-            state_init:
-            begin
-                cpuclkreset <= 1;
-                doingseven <= 1;
-                apuresetoutreg <= 1;
-                cpuresetoutreg <= 1;
-                state <= state_start;
-            end
-            state_start:
-            begin
-                if (!reset) begin
-                    cpuclkreset <= 0;
-                    doingseven <= 0;
-                    state <= state_reset;
-                    apuresetoutreg <= 0;
-                    cpuresetoutreg <= 0;
-                end
-            end
-            state_reset:
-                if (reset) begin
-                    state <= state_syncing;
-                    apuresetoutreg <= 1;
-                    cpuresetoutreg <= 0;
-                end
-            state_syncing:
-                if (!apusync) begin
-                    state <= state_running;
-                    apuresetoutreg <= 1;
-                    cpuresetoutreg <= 0;
-                    doingseven <= 1;
-                end
-            //state_running:
-                    //out = 4'b0100;
-            //default:
-                    //out = 4'b0000;
-        endcase
+    // start everything on next APU clock falling edge following the sync
+    always @(negedge apuclk) begin
+        if (!apusync) begin
+            apusynclatched <= 1;
+        end
+        else if (!reset)
+            apusynclatched <= 0;
     end
 
-    always @(negedge apuclk)
-    begin
-        if (state == state_running)
-            cpuclkreset <= 1;
+    always @(negedge clkin) begin
+        if (apusynclatched) begin
+            // we should now be at (or after) the first master clock falling edge after the APU clock falling edge after the sync
+
+            // wait some number of ticks, so we change doingseven in a predictable place
+            if (cpuresetcount == 4'd3) begin
+                doingseven <= 1'b1;
+            end
+            else if (cpuresetcount == 4'd7) begin
+                cpuclkreset <= 1'b1;
+                cpuresetoutreg <= 1'b1;
+            end
+            
+            cpuresetcount <= cpuresetcount + 4'd1;
+
+        end
+        if (!reset) begin
+            cpuclkreset <= 1'b0;
+            doingseven <= 1'b0;
+            cpuresetoutreg <= 1'b0;
+            cpuresetcount <= 1'b0;
+        end
+        apuresetoutreg <= reset;
     end
 
+
+    //assign cpureset = cpuresetreg;
+
+/*    reg clocksen = 0;
+    reg [8:0] cunt = 4'b0;
+
+    divide7or8 di0 (clkin, 4'd0, clocksen, 0, apuclk);
+    divide7or8 di1 (clkin, 4'd1, clocksen, 0, cpuclk);
+    divide7or8 di2 (clkin, 4'd2, clocksen, 0, apureset);
+    divide7or8 di3 (clkin, 4'd3, clocksen, 0, cpureset);
+    divide7or8 di4 (clkin, 4'd4, clocksen, 0, essw1);
+    divide7or8 di5 (clkin, 4'd5, clocksen, 0, essw2);
+
+    //assign essw2 = reset;
+
+always @(posedge clkin) begin
+    if (!reset) begin
+        cunt <= 0;
+        clocksen <= 0;
+    end
+
+    else begin
+        if (cunt == 8'b00001111) 
+            clocksen <= 1;
+        cunt <= cunt + 8'b00000001;
+    end
+end
+*/
 endmodule
 
 
-module top(PACKAGEPIN,
-               PLLOUTCORE,
-               PLLOUTGLOBAL,
-               RESET, led1, led2, led3, led4, led5, led6, led7, led8, lcol1, lcol2, lcol3, lcol4, sw1, sw2, sw3, sw4 );
+module top(
+    inout PACKAGEPIN,
+    input reset,
+    input apusync,
+    input mclkreset,
+    output apuclk,
+    output cpuclk, 
+    output apureset, 
+    output cpureset,
+    output led1,
+    output led2,
+    output led3,
+    output led4,
+    output led5,
+    output led6,
+    output led7,
+    output led8,
+    output lcol1,
+    output lcol2,
+    output lcol3,
+    output lcol4
+    );
 
-    inout PACKAGEPIN;
-    input RESET;    /* To initialize the simulation properly, the RESET signal (Active Low) must be asserted at the beginning of the simulation */ 
-    output PLLOUTCORE;
-    output PLLOUTGLOBAL;
-    output led1;
-    output led2;
-    output led3;
-    output led4;
-    output led5;
-    output led6;
-    output led7;
-    output led8;
-    output lcol1;
-    output lcol2;
-    output lcol3;
-    output lcol4;
-    input sw1;
-    input sw2;
-    input sw3;
-    input sw4;
+    SB_PLL40_PAD bum2_inst(.PACKAGEPIN(PACKAGEPIN),
+                        .PLLOUTCORE(PLLOUTCORE),
+                        .PLLOUTGLOBAL(PLLOUTGLOBAL),
+                        .EXTFEEDBACK(),
+                        .DYNAMICDELAY(),
+                        .RESETB(mclkreset),
+                        .BYPASS(1'b0),
+                        .LATCHINPUTVALUE(),
+                        .LOCK(),
+                        .SDI(),
+                        .SDO(),
+                        .SCLK());
+ 
+    //\\ Fin=12, Fout=171.818;
+    defparam bum2_inst.DIVR = 4'b0000;
+    defparam bum2_inst.DIVF = 7'b0111000;
+    defparam bum2_inst.DIVQ = 3'b010;
+    defparam bum2_inst.FILTER_RANGE = 3'b001;
+    defparam bum2_inst.FEEDBACK_PATH = "SIMPLE";
+    defparam bum2_inst.DELAY_ADJUSTMENT_MODE_FEEDBACK = "FIXED";
+    defparam bum2_inst.FDA_FEEDBACK = 4'b0000;
+    defparam bum2_inst.DELAY_ADJUSTMENT_MODE_RELATIVE = "FIXED";
+    defparam bum2_inst.FDA_RELATIVE = 4'b0000;
+    defparam bum2_inst.SHIFTREG_DIV_MODE = 2'b00;
+    defparam bum2_inst.PLLOUT_SELECT = "GENCLK";
+    defparam bum2_inst.ENABLE_ICEGATE = 1'b0;
 
-    SB_PLL40_PAD top_pll_inst(.PACKAGEPIN(PACKAGEPIN),
-              .PLLOUTCORE(PLLOUTCORE),
-              .PLLOUTGLOBAL(PLLOUTGLOBAL),
-              .EXTFEEDBACK(),
-              .DYNAMICDELAY(),
-              .RESETB(RESET),
-              .BYPASS(1'b0),
-              .LATCHINPUTVALUE(),
-              .LOCK(),
-              .SDI(),
-              .SDO(),
-              .SCLK());
+    //\\ Fin=12, Fout=50;
+    /*defparam bum_inst.DIVR = 4'b0000;
+    defparam bum_inst.DIVF = 7'b1000010;
+    defparam bum_inst.DIVQ = 3'b100;
+    defparam bum_inst.FILTER_RANGE = 3'b001;
+    defparam bum_inst.FEEDBACK_PATH = "SIMPLE";
+    defparam bum_inst.DELAY_ADJUSTMENT_MODE_FEEDBACK = "FIXED";
+    defparam bum_inst.FDA_FEEDBACK = 4'b0000;
+    defparam bum_inst.DELAY_ADJUSTMENT_MODE_RELATIVE = "FIXED";
+    defparam bum_inst.FDA_RELATIVE = 4'b0000;
+    defparam bum_inst.SHIFTREG_DIV_MODE = 2'b00;
+    defparam bum_inst.PLLOUT_SELECT = "GENCLK";
+    defparam bum_inst.ENABLE_ICEGATE = 1'b0;*/
 			  
-			  
-	//\\ Fin=12, Fout=172;
-    //defparam top_pll_inst.DIVR = 4'b0000;
-    //defparam top_pll_inst.DIVF = 7'b0111000;
-    //defparam top_pll_inst.DIVQ = 3'b010;
-    //defparam top_pll_inst.FILTER_RANGE = 3'b001;
-    //defparam top_pll_inst.FEEDBACK_PATH = "SIMPLE";
-    //defparam top_pll_inst.DELAY_ADJUSTMENT_MODE_FEEDBACK = "FIXED";
-    //defparam top_pll_inst.FDA_FEEDBACK = 4'b0000;
-    //defparam top_pll_inst.DELAY_ADJUSTMENT_MODE_RELATIVE = "FIXED";
-    //defparam top_pll_inst.FDA_RELATIVE = 4'b0000;
-    //defparam top_pll_inst.SHIFTREG_DIV_MODE = 2'b00;
-    //defparam top_pll_inst.PLLOUT_SELECT = "GENCLK";
-    //defparam top_pll_inst.ENABLE_ICEGATE = 1'b0;
 
-    //reg [7:0] finout = 8'b0;
-    //assign {led8, led7, led6, led5, led4, led3, led2, led1} = finout[7:0] ^ 8'hff;
-
-    //assign led8 = finout[7:0] ^ 8'hff; 
 
     assign {lcol4, lcol3, lcol2, lcol1} = 4'b1110;
 
-    wire clock1hz;
+reg bummy;
+    //Clock_divider(PLLOUTGLOBAL, onehertz);
 
-    assign led1 = clock1hz;
-    
-    Clock_divider clkdiv (PLLOUTGLOBAL, clock1hz);
+    assign led7 = reset;
 
-    divide7 tes (clock1hz, sw1, led3);
-    divide8 tees (clock1hz, 1'b1, sw2, led4);
+    assign led1 = 0;
+    assign led2 = 1;
+
+    //assign essw1 = sw1;
+    //assign essw2 = sw2; 
+
+    dostuff arse (PLLOUTGLOBAL, apusync, reset, apuclk, cpuclk, apureset, cpureset, , );
+
 endmodule
 

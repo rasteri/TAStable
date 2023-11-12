@@ -4,7 +4,7 @@ Version=Lattice Semiconductor Corporation iCEcube - Release: 2020.12.27943 - Bui
 ProjectName=TAStable
 Vendor=SiliconBlue
 Synthesis=synplify
-ProjectVFiles=../top.v
+ProjectVFiles=../top.v=work
 ProjectCFiles=
 CurImplementation=TAStable_Implmnt
 Implementations=TAStable_Implmnt
@@ -24,7 +24,7 @@ DesignView=_rt
 DesignCell=top
 SynthesisSDCFile=TAStable_Implmnt/TAStable.scf
 UserPinConstraintFile=
-UserSDCFile=
+UserSDCFile=../hehe.sdc
 PhysicalConstraintFile=TAStable_Implmnt/sbt/constraint/top_pcf_sbt.pcf
 BackendImplPathName=
 Devicevoltage=1.14
