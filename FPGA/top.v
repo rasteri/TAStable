@@ -1,22 +1,40 @@
-module Clock_divider(clock_in,clock_out
-    );
-    input clock_in; // input clock on FPGA
-    output reg clock_out; // output clock after dividing the input clock by divisor
-    reg[27:0] counter=28'd0;
-    parameter DIVISOR = 28'd12000000;
+module DFlipFlop(D,clk,sync_reset,Q);
+    input D; // Data input 
+    input clk; // clock input 
+    input sync_reset; // synchronous reset 
+    output reg Q; // output Q 
+    
+    always @(posedge clk) begin
+            if(sync_reset==1'b1)
+            Q <= 1'b0; 
+        else 
+            Q <= D; 
+    end 
+endmodule 
 
-    // The frequency of the output clk_out
-    //  = The frequency of the input clk_in divided by DIVISOR
-    // For example: Fclk_in = 50Mhz, if you want to get 1Hz signal to blink LEDs
-    // You will modify the DIVISOR parameter value to 28'd50.000.000
-    // Then the frequency of the output clk_out = 50Mhz/50.000.000 = 1Hz
+module Clock_divider(
+    input clock_in, 
+    input reset,
+    output reg clock_out
+    );
+
+
+    reg[27:0] counter=28'd0;
+    parameter DIVISOR = 28'd28;
+
     always @(posedge clock_in)
     begin
-        counter <= counter + 28'd1;
-        if (counter >= (DIVISOR-1) )
-        counter <= 28'd0;
-
-        clock_out <= (counter < DIVISOR / 2) ? 1'b1 : 1'b0;
+        if (!reset) begin
+            counter <= 28'd19;
+            clock_out <= 0;
+        end
+        else begin
+            counter <= counter + 28'd1;
+            if (counter >= DIVISOR - 1 ) begin
+                counter <= 28'd0;
+                clock_out <= ~clock_out;
+            end
+        end
     end
 endmodule
 
@@ -178,6 +196,7 @@ module dostuff(
 
     divide7or8 divseven (clkin, apuphase, 1'b1, doingseven, apuclk);
     divide7or8 diveight (clkin, cpuphase, cpuclkreset, 1'b0, cpuclk);
+    Clock_divider(PLLOUTGLOBAL, 1, onehertz);
 
     reg apuresetoutreg = 1'b0;
 
@@ -281,9 +300,59 @@ end
 */
 endmodule
 
+module sr_latch(
+    input wire Sn, Rn,
+    output wire Q, Q_not);
+
+    assign Q     = ~((~Rn) | Q_not);
+    assign Q_not = ~((~Sn) | Q);
+endmodule
+
+module oldstyle(
+    input clkin, 
+    input apusync, 
+    input masterreset,
+    input reset,
+    output apuclk, 
+    output cpuclk, 
+    output apureset, 
+    output cpureset,
+    output essw1,
+    output essw2);
+
+    wire syncclk;
+
+    wire clk24mhz;
+
+    divide7or8 divseven (clkin, 4'b0, masterreset, 1'b1, clk24mhz);
+    divide7or8 diveight (clkin, 4'b0, masterreset, 1'b0, cpuclk);
+    Clock_divider arse (clkin, masterreset, syncclk);
+
+ 
+
+    wire apuclockgate;
+    
+    wire apusynclatched;
+
+    sr_latch l1(apusync, cpureset, apuclockgate , );
+
+    sr_latch l2(apusync, reset, apusynclatched, );
+
+    DFlipFlop ddd (apusynclatched, syncclk, 0, cpureset);
+
+    assign apuclk = clk24mhz & apuclockgate;
+    assign apureset = reset;
+
+    // start everything on next APU clock falling edge following the sync
+    always @(negedge apuclk) begin
+    end
+
+endmodule
+
 
 module top(
     inout PACKAGEPIN,
+    input masterreset,
     input reset,
     input apusync,
     input mclkreset,
@@ -317,7 +386,6 @@ module top(
                         .SDI(),
                         .SDO(),
                         .SCLK());
- 
     //\\ Fin=12, Fout=171.818;
     defparam bum2_inst.DIVR = 4'b0000;
     defparam bum2_inst.DIVF = 7'b0111000;
@@ -361,7 +429,7 @@ reg bummy;
     //assign essw1 = sw1;
     //assign essw2 = sw2; 
 
-    dostuff arse (PLLOUTGLOBAL, apusync, reset, apuclk, cpuclk, apureset, cpureset, , );
+    oldstyle arse (PLLOUTGLOBAL, apusync, masterreset, reset, apuclk, cpuclk, apureset, cpureset, , );
 
 endmodule
 

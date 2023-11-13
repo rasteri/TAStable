@@ -1,0 +1,8 @@
+[VIC]
+G_31_cascade_=ltout:in0
+arse.divseven.N_10_cascade_=ltout:in0
+arse.divseven.N_65_i_cascade_=ltout:in1
+arse.divseven.N_6_cascade_=ltout:in0
+arse.divseven.un1_dout_2_sqmuxa_i_o2_0_cascade_=ltout:in2
+arse.un1_counterlt4_cascade_=ltout:in1
+arse.un1_counterlto4_0_cascade_=ltout:in2

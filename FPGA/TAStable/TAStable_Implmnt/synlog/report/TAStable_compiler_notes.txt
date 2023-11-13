@@ -2,11 +2,37 @@
 @N|Running in 64-bit mode
 @N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":752:7:752:18|Synthesizing module SB_PLL40_PAD in library work.
 @N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":501:7:501:11|Synthesizing module SB_IO in library work.
-@N: CG364 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":23:7:23:16|Synthesizing module divide7or8 in library work.
-@N: CG364 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":159:7:159:13|Synthesizing module dostuff in library work.
-@N: CG364 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":285:7:285:9|Synthesizing module top in library work.
-@N: CL201 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":55:4:55:9|Trying to extract state machine for register counter.
+@N: CG364 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":41:7:41:16|Synthesizing module divide7or8 in library work.
+@N: CG364 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":15:7:15:19|Synthesizing module Clock_divider in library work.
+@N: CG364 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":303:7:303:14|Synthesizing module sr_latch in library work.
+@N: CG364 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":1:7:1:15|Synthesizing module DFlipFlop in library work.
+@N: CG364 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":311:7:311:14|Synthesizing module oldstyle in library work.
+@N: CG364 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":353:7:353:9|Synthesizing module top in library work.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[5] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[6] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[7] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[8] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[9] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[10] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[11] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[12] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[13] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[14] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[15] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[16] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[17] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[18] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[19] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[20] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[21] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[22] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[23] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[24] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[25] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[26] is always 0.
+@N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[27] is always 0.
+@N: CL201 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":73:4:73:9|Trying to extract state machine for register counter.
 @N|Running in 64-bit mode
-@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":285:7:285:9|Selected library: work cell: top view verilog as top level
-@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":285:7:285:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":353:7:353:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":353:7:353:9|Selected library: work cell: top view verilog as top level
 

@@ -1,14 +1,14 @@
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
 @N|Running in 64-bit mode
 File C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\synwork\TAStable_comp.srs changed - recompiling
-@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":285:7:285:9|Selected library: work cell: top view verilog as top level
-@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":285:7:285:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":353:7:353:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":353:7:353:9|Selected library: work cell: top view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Nov 12 01:55:06 2023
+# Mon Nov 13 23:01:50 2023
 
 ###########################################################]

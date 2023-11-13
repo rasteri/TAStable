@@ -1,15 +1,15 @@
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":167:11:167:15|Tristate driver essw1 (in view: work.dostuff(verilog)) on net essw1 (in view: work.dostuff(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":168:11:168:15|Tristate driver essw2 (in view: work.dostuff(verilog)) on net essw2 (in view: work.dostuff(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":296:11:296:14|Tristate driver led3 (in view: work.top(verilog)) on net led3 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":297:11:297:14|Tristate driver led4 (in view: work.top(verilog)) on net led4 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":298:11:298:14|Tristate driver led5 (in view: work.top(verilog)) on net led5 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":299:11:299:14|Tristate driver led6 (in view: work.top(verilog)) on net led6 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":301:11:301:14|Tristate driver led8 (in view: work.top(verilog)) on net led8 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":301:11:301:14|Tristate driver led8 (in view: work.top(verilog)) on net led8 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":299:11:299:14|Tristate driver led6 (in view: work.top(verilog)) on net led6 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":298:11:298:14|Tristate driver led5 (in view: work.top(verilog)) on net led5 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":320:11:320:15|Tristate driver essw1 (in view: work.oldstyle(verilog)) on net essw1 (in view: work.oldstyle(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":321:11:321:15|Tristate driver essw2 (in view: work.oldstyle(verilog)) on net essw2 (in view: work.oldstyle(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":365:11:365:14|Tristate driver led3 (in view: work.top(verilog)) on net led3 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":366:11:366:14|Tristate driver led4 (in view: work.top(verilog)) on net led4 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":367:11:367:14|Tristate driver led5 (in view: work.top(verilog)) on net led5 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":368:11:368:14|Tristate driver led6 (in view: work.top(verilog)) on net led6 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":370:11:370:14|Tristate driver led8 (in view: work.top(verilog)) on net led8 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":370:11:370:14|Tristate driver led8 (in view: work.top(verilog)) on net led8 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":368:11:368:14|Tristate driver led6 (in view: work.top(verilog)) on net led6 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":367:11:367:14|Tristate driver led5 (in view: work.top(verilog)) on net led5 (in view: work.top(verilog)) has its enable tied to GND.
 @N: BN225 |Writing default property annotation file C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.sap.
-@N: MO225 :"c:\code\tas\tas\tastable\fpga\top.v":55:4:55:9|There are no possible illegal states for state machine counter[7:0] (in view: work.divide7or8_1(verilog)); safe FSM implementation is not required.
-@N: MO225 :"c:\code\tas\tas\tastable\fpga\top.v":55:4:55:9|There are no possible illegal states for state machine counter[7:0] (in view: work.divide7or8_0(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\code\tas\tas\tastable\fpga\top.v":73:4:73:9|There are no possible illegal states for state machine counter[7:0] (in view: work.divide7or8_1(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\code\tas\tas\tastable\fpga\top.v":73:4:73:9|There are no possible illegal states for state machine counter[7:0] (in view: work.divide7or8_0(verilog)); safe FSM implementation is not required.

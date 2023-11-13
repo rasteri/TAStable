@@ -1,6 +1,7 @@
-@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":55:4:55:9|User-specified initial value defined for instance arse.divseven.seven is being ignored. 
-@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":229:4:229:9|User-specified initial value defined for instance arse.cpuresetcount[3:0] is being ignored. 
-@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":229:4:229:9|User-specified initial value defined for instance arse.cpuclkreset is being ignored. 
-@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":229:4:229:9|User-specified initial value defined for instance arse.doingseven is being ignored. 
-@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":229:4:229:9|User-specified initial value defined for instance arse.apuresetoutreg is being ignored. 
-@W: MT420 |Found inferred clock top|PACKAGEPIN with period 5.08ns. Please declare a user-defined clock on object "p:PACKAGEPIN"
+@W: BN137 :"c:\code\tas\tas\tastable\fpga\top.v":307:23:307:35|Found combinational loop during mapping at net arse.apuclockgate
+@W: BN137 :"c:\code\tas\tas\tastable\fpga\top.v":307:23:307:34|Found combinational loop during mapping at net arse.l2.un1_Q
+@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":73:4:73:9|User-specified initial value defined for instance arse.divseven.seven is being ignored. 
+@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":25:4:25:9|User-specified initial value defined for instance arse.arse.counter[4:0] is being ignored. 
+@W: BN137 :|Found combinational loop during mapping at net arse.l1.apuclockgate
+@W: BN137 :|Found combinational loop during mapping at net arse.l2.N_4_0
+@W: MT420 |Found inferred clock top|PACKAGEPIN with period 5.12ns. Please declare a user-defined clock on object "p:PACKAGEPIN"

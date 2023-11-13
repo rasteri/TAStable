@@ -19,3 +19,45 @@ Exception c0000005 has occurred at address 521cdef3. Traceback:
 StackWalk failed 299
 # End of Stack Trace
 
+# Current time Mon Nov 13 21:25:02 2023
+# ModelSim - Lattice FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.3"
+# Version = "2020.10"
+# Date = "Oct 14 2020"
+# Platform = win32loem
+
+Exception c0000005 has occurred at address 5fe5def3. Traceback:
+# 0    0x5fe5def3: 'Tcl_DStringAppend + 0x13'
+# 1    0x0063e646: 'WinMain + 0xe3aa6'
+# 2    0x0063e646: 'WinMain + 0xe3aa6'
+# 3    0x005e050e: 'WinMain + 0x8596e'
+# 4    0x005cea4d: 'WinMain + 0x73ead'
+# 5    0x005cd197: 'WinMain + 0x725f7'
+# 6    0x004ee21e: 'mti_strlen + 0x3e87e'
+# 7    0x004f8689: 'EnumDispProc + 0x17a9'
+# 8    0x5fd939f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Mon Nov 13 21:45:32 2023
+# ModelSim - Lattice FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.3"
+# Version = "2020.10"
+# Date = "Oct 14 2020"
+# Platform = win32loem
+
+Exception c0000005 has occurred at address 6ceedef3. Traceback:
+# 0    0x6ceedef3: 'Tcl_DStringAppend + 0x13'
+# 1    0x0063e646: 'WinMain + 0xe3aa6'
+# 2    0x0063e646: 'WinMain + 0xe3aa6'
+# 3    0x005e050e: 'WinMain + 0x8596e'
+# 4    0x005cea4d: 'WinMain + 0x73ead'
+# 5    0x005cd197: 'WinMain + 0x725f7'
+# 6    0x004ee21e: 'mti_strlen + 0x3e87e'
+# 7    0x004f8689: 'EnumDispProc + 0x17a9'
+# 8    0x6ce239f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+

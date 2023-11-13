@@ -11,23 +11,23 @@ z2
 cModel Technology
 dC:/code/fpgatest2
 vClock_divider
-Z0 !s110 1699727911
+Z0 !s110 1699916098
 !i10b 1
-!s100 =2^B2XFO6aLk@abcVDDb@2
+!s100 ;?NX51?M4CC3?1MKfQb9K0
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I8S4nVGOk:Q11;9K>B<]N31
+IGO>W<0VeIn@;:me^Y51Qa0
 Z2 dC:/code/TAS/TAS/TAStable
-Z3 w1699727548
+Z3 w1699916096
 Z4 8C:/code/TAS/TAS/TAStable/FPGA/top.v
 Z5 FC:/code/TAS/TAS/TAStable/FPGA/top.v
-!i122 304
-L0 1 21
+!i122 374
+L0 15 25
 Z6 VDg1SIo80bB@j0V0VzS_@n1
 Z7 OT;L;2020.3;71
 r1
 !s85 0
 31
-Z8 !s108 1699727911.000000
+Z8 !s108 1699916098.000000
 Z9 !s107 C:/code/TAS/TAS/TAStable/FPGA/top.v|
 Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/code/TAS/TAS/TAStable/FPGA/top.v|
 !s101 -O0
@@ -35,6 +35,31 @@ Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/code/TAS/TAS/TAStable/FPG
 Z11 o-work work -O0
 Z12 tCvgOpt 0
 n@clock_divider
+vDFlipFlop
+R0
+!i10b 1
+!s100 ?]<Q?_R9Q_TY3JlD?5U`]1
+R1
+IITHg9Z=FB:=g8>mQ]6djT0
+R2
+R3
+R4
+R5
+!i122 374
+L0 1 13
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+n@d@flip@flop
 vdivide7
 !s110 1699623372
 !i10b 1
@@ -62,15 +87,15 @@ R12
 vdivide7or8
 R0
 !i10b 1
-!s100 Um^8o:N9;AzLIazagCeI80
+!s100 <EA@kZHU>BNj7dgHdm`Rd3
 R1
-I3`3gI;jNSA=1k<4a9bDY=1
+IEWZ]PRSQG<bz>Oeo[FY]W2
 R2
 R3
 R4
 R5
-!i122 304
-L0 23 135
+!i122 374
+L0 41 135
 R6
 R7
 r1
@@ -110,15 +135,63 @@ R12
 vdostuff
 R0
 !i10b 1
-!s100 BoKH]j6^k>=7jO65ccL_o1
+!s100 9^U3ahn5]hP>kWGiCDHjY3
 R1
-I7;T:0fJ8nW5=m0;jg3QLU0
+IVI1jejXkcjORTSa=N8lZL3
 R2
 R3
 R4
 R5
-!i122 304
-L0 159 124
+!i122 374
+L0 177 125
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+voldstyle
+R0
+!i10b 1
+!s100 a@KWi[;Do8KT4eMQCagdc3
+R1
+I?7DE=lG>G8AO4c>=a[A1X1
+R2
+R3
+R4
+R5
+!i122 374
+L0 311 40
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vsr_latch
+R0
+!i10b 1
+!s100 4P`=m7mNo0K2be=IPdQBV3
+R1
+ImQAcHM=Wn9XBmUQO3BK>^3
+R2
+R3
+R4
+R5
+!i122 374
+L0 303 7
 R6
 R7
 r1
@@ -158,15 +231,15 @@ R12
 vtop
 R0
 !i10b 1
-!s100 z?GHo_Sod;>LgE2ZP]9JH0
+!s100 ZeLRHK9NQ3bU]VCMOXnQb1
 R1
-IE:GDUc@eKAA0S?NgHQ[N<2
+I8fDjL^Rm2z;2ek6R4k`Bg2
 R2
 R3
 R4
 R5
-!i122 304
-L0 285 66
+!i122 374
+L0 353 81
 R6
 R7
 r1
