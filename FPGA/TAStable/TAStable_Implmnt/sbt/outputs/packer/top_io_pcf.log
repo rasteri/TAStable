@@ -1,4 +1,3 @@
-INPUT  masterreset 	 location (0, 11, 1) 	 K3 	 
 OUTPUT led4 	 location (11, 33, 0) 	 D6 	 
 OUTPUT lcol3 	 location (16, 33, 1) 	 A6 	 
 OUTPUT led5 	 location (17, 33, 0) 	 A7 	 

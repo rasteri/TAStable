@@ -196,7 +196,6 @@ module dostuff(
 
     divide7or8 divseven (clkin, apuphase, 1'b1, doingseven, apuclk);
     divide7or8 diveight (clkin, cpuphase, cpuclkreset, 1'b0, cpuclk);
-    Clock_divider(PLLOUTGLOBAL, 1, onehertz);
 
     reg apuresetoutreg = 1'b0;
 
@@ -234,7 +233,7 @@ module dostuff(
 
     reg apusynclatched;
 
-    reg [3:0] cpuresetcount = 4'd0;
+    reg [7:0] cpuresetcount = 8'd0;
 
     // start everything on next APU clock falling edge following the sync
     always @(negedge apuclk) begin
@@ -250,22 +249,24 @@ module dostuff(
             // we should now be at (or after) the first master clock falling edge after the APU clock falling edge after the sync
 
             // wait some number of ticks, so we change doingseven in a predictable place
-            if (cpuresetcount == 4'd3) begin
+            if (cpuresetcount == 8'd3) begin
                 doingseven <= 1'b1;
             end
-            else if (cpuresetcount == 4'd7) begin
+            else if (cpuresetcount == 8'd7) begin
                 cpuclkreset <= 1'b1;
+            end
+            else if (cpuresetcount == 8'd12) begin
                 cpuresetoutreg <= 1'b1;
             end
             
-            cpuresetcount <= cpuresetcount + 4'd1;
+            cpuresetcount <= cpuresetcount + 8'd1;
 
         end
         if (!reset) begin
             cpuclkreset <= 1'b0;
             doingseven <= 1'b0;
             cpuresetoutreg <= 1'b0;
-            cpuresetcount <= 1'b0;
+            cpuresetcount <= 8'b0;
         end
         apuresetoutreg <= reset;
     end
@@ -328,19 +329,16 @@ module oldstyle(
     divide7or8 diveight (clkin, 4'b0, masterreset, 1'b0, cpuclk);
     Clock_divider arse (clkin, masterreset, syncclk);
 
- 
 
-    wire apuclockgate;
-    
     wire apusynclatched;
 
-    sr_latch l1(apusync, cpureset, apuclockgate , );
+    sr_latch l1(apusync, (~cpureset) & masterreset, apuclockgate , );
 
-    sr_latch l2(apusync, reset, apusynclatched, );
+    sr_latch l2(apusync, reset & masterreset, apusynclatched, );
 
     DFlipFlop ddd (apusynclatched, syncclk, 0, cpureset);
 
-    assign apuclk = clk24mhz & apuclockgate;
+    assign apuclk = ~(clk24mhz & (~apuclockgate));
     assign apureset = reset;
 
     // start everything on next APU clock falling edge following the sync
@@ -379,7 +377,7 @@ module top(
                         .PLLOUTGLOBAL(PLLOUTGLOBAL),
                         .EXTFEEDBACK(),
                         .DYNAMICDELAY(),
-                        .RESETB(mclkreset),
+                        .RESETB(1'b1),
                         .BYPASS(1'b0),
                         .LATCHINPUTVALUE(),
                         .LOCK(),
@@ -422,6 +420,7 @@ reg bummy;
     //Clock_divider(PLLOUTGLOBAL, onehertz);
 
     assign led7 = reset;
+    assign led6 = mclkreset;
 
     assign led1 = 0;
     assign led2 = 1;
@@ -429,7 +428,7 @@ reg bummy;
     //assign essw1 = sw1;
     //assign essw2 = sw2; 
 
-    oldstyle arse (PLLOUTGLOBAL, apusync, masterreset, reset, apuclk, cpuclk, apureset, cpureset, , );
+    oldstyle arse (PLLOUTGLOBAL, apusync, mclkreset, reset, apuclk, cpuclk, apureset, cpureset, , );
 
 endmodule
 

@@ -6,7 +6,7 @@
 
 * Build Date:         Dec  9 2020 17:31:51
 
-* File Generated:     Nov 13 2023 23:02:09
+* File Generated:     Nov 14 2023 16:45:23
 
 * Purpose:            General info of design implementation
 
@@ -30,7 +30,7 @@ Design statistics:
     FFs:                  18
     LUTs:                 33
     RAMs:                 0
-    IOBs:                 21
+    IOBs:                 20
     GBs:                  0
     PLLs:                 1
     Warm Boots:           0
@@ -47,7 +47,7 @@ Logic Resource Utilization:
     Block RAMs:                    0        out of   32        0%
     Warm Boots:                    0        out of   1         0%
     Pins:
-        Input Pins:                4        out of   95        4.21053%
+        Input Pins:                3        out of   95        3.15789%
         Output Pins:               16       out of   95        16.8421%
         InOut Pins:                0        out of   95        0%
     Global Buffers:                0        out of   8         0%
@@ -55,7 +55,7 @@ Logic Resource Utilization:
 
 IO Bank Utilization:
 --------------------
-    Bank 3: 2        out of   24        8.33333%
+    Bank 3: 1        out of   24        4.16667%
     Bank 1: 4        out of   25        16%
     Bank 0: 15       out of   24        62.5%
     Bank 2: 0        out of   22        0%
@@ -63,30 +63,29 @@ IO Bank Utilization:
 Detailed I/O Info:
 ------------------
     Input Pins: 
-    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                   Signal Name  
-    ----------  ---------  -----------  -------  -------  -----------                   -----------  
-    A11         Input      SB_LVCMOS    No       0        Simple Input                  mclkreset    
-    C6          Input      SB_LVCMOS    No       0        Simple Input                  reset        
-    D14         Input      SB_LVCMOS    No       1        Simple Input                  apusync      
-    K3          Input      SB_LVCMOS    No       3        Simple Input                  masterreset  
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                   Signal Name
+    ----------  ---------  -----------  -------  -------  -----------                   -----------
+    A11         Input      SB_LVCMOS    No       0        Simple Input                  mclkreset  
+    C6          Input      SB_LVCMOS    No       0        Simple Input                  reset      
+    D14         Input      SB_LVCMOS    No       1        Simple Input                  apusync    
 
     Output Pins: 
-    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                   Signal Name  
-    ----------  ---------  -----------  -------  -------  -----------                   -----------  
-    A4          Output     SB_LVCMOS    No       0        Simple Output                 led7         
-    A6          Output     SB_LVCMOS    No       0        Simple Output                 lcol3        
-    A7          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led5         
-    A10         Output     SB_LVCMOS    No       0        Simple Output                 led2         
-    A12         Output     SB_LVCMOS    No       0        Simple Output                 lcol1        
-    B14         Output     SB_LVCMOS    No       1        Simple Output                 apuclk       
-    C4          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led8         
-    C5          Output     SB_LVCMOS    No       0        Simple Output                 lcol4        
-    C7          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led6         
-    C10         Output     SB_LVCMOS    No       0        Simple Output                 led1         
-    C12         Output     SB_LVCMOS    No       0        Simple Output                 apureset     
-    C14         Output     SB_LVCMOS    No       1        Output DDR with Enable        cpuclk       
-    D6          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led4         
-    D7          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led3         
-    D10         Output     SB_LVCMOS    No       0        Simple Output                 lcol2        
-    D12         Output     SB_LVCMOS    No       1        Simple Output                 cpureset     
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                   Signal Name
+    ----------  ---------  -----------  -------  -------  -----------                   -----------
+    A4          Output     SB_LVCMOS    No       0        Simple Output                 led7       
+    A6          Output     SB_LVCMOS    No       0        Simple Output                 lcol3      
+    A7          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led5       
+    A10         Output     SB_LVCMOS    No       0        Simple Output                 led2       
+    A12         Output     SB_LVCMOS    No       0        Simple Output                 lcol1      
+    B14         Output     SB_LVCMOS    No       1        Simple Output                 apuclk     
+    C4          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led8       
+    C5          Output     SB_LVCMOS    No       0        Simple Output                 lcol4      
+    C7          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led6       
+    C10         Output     SB_LVCMOS    No       0        Simple Output                 led1       
+    C12         Output     SB_LVCMOS    No       0        Simple Output                 apureset   
+    C14         Output     SB_LVCMOS    No       1        Output DDR with Enable        cpuclk     
+    D6          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led4       
+    D7          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led3       
+    D10         Output     SB_LVCMOS    No       0        Simple Output                 lcol2      
+    D12         Output     SB_LVCMOS    No       1        Simple Output                 cpureset   
 

@@ -1,14 +1,14 @@
 C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt   -part iCE40HX8K  -package CB132    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\synlog\report\TAStable_fpga_mapper.xml  -flow mapping  -multisrs  -oedif  C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.edf   -autoconstraint  -freq 1.000   C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\synwork\TAStable_prem.srd  -sap  C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.sap  -otap  C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.tap  -omap  C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.map  -devicelib  C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v  -sap  C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.sap  -ologparam  C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\syntmp\TAStable.plg  -osyn  C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.srm  -prjdir  C:\code\TAS\TAS\TAStable\FPGA\TAStable\  -prjname  TAStable_syn  -log  C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\synlog\TAStable_fpga_mapper.srr 
 rc:1 success:1 runtime:1
-file:C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.edf|io:o|time:1699916512|size:52427|exec:0
-file:C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\synwork\TAStable_prem.srd|io:i|time:1699916511|size:15347|exec:0
-file:C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.sap|io:o|time:1699916511|size:1532|exec:0
+file:C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.edf|io:o|time:1699980310|size:52437|exec:0
+file:C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\synwork\TAStable_prem.srd|io:i|time:1699980309|size:15473|exec:0
+file:C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.sap|io:o|time:1699980309|size:1506|exec:0
 file:C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.tap|io:o|time:0|size:0|exec:0
-file:C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.map|io:o|time:1699916512|size:28|exec:0
+file:C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.map|io:o|time:1699980310|size:28|exec:0
 file:C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v|io:i|time:1699243811|size:224837|exec:0
-file:C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.sap|io:o|time:1699916511|size:1532|exec:0
-file:C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\syntmp\TAStable.plg|io:o|time:1699916512|size:773|exec:0
-file:C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.srm|io:o|time:1699916511|size:12671|exec:0
-file:C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\synlog\TAStable_fpga_mapper.srr|io:o|time:1699916512|size:30551|exec:0
+file:C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.sap|io:o|time:1699980309|size:1506|exec:0
+file:C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\syntmp\TAStable.plg|io:o|time:1699980310|size:773|exec:0
+file:C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.srm|io:o|time:1699980310|size:12567|exec:0
+file:C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\synlog\TAStable_fpga_mapper.srr|io:o|time:1699980310|size:30543|exec:0
 file:C:\lscc\iCEcube2.2020.12\synpbase\bin\m_generic.exe|io:i|time:1699243808|size:17853440|exec:1
 file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe|io:i|time:1699243809|size:32355840|exec:1

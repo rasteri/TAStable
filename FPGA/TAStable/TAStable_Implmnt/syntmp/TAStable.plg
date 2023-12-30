@@ -10,7 +10,7 @@
 @P:  top|PLLOUTGLOBAL_derived_clock - Requested Period : 5.117
 @P:  top|PLLOUTGLOBAL_derived_clock - Slack : -3.307
 @P: top Part : ice40hx8kcb132
-@P: top I/O primitives : 22
+@P: top I/O primitives : 21
 @P: top I/O Register bits : 0
 @P: top Register bits (Non I/O) : 18 (0%)
 @P: top Total Luts : 29 (0%)

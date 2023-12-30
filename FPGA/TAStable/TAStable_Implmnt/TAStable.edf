@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2023 11 13 23 1 52)
+      (timeStamp 2023 11 14 16 45 10)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "L-2016.09L+ice40, mapper maplat, Build 1612R"))
      )
@@ -192,9 +192,9 @@
        (view netlist (viewType NETLIST)
          (interface
            (port PLLOUTGLOBAL_0 (direction INPUT))
-           (port G_32 (direction INPUT))
+           (port G_31 (direction INPUT))
            (port cpureset_c (direction OUTPUT))
-           (port masterreset_c (direction INPUT))
+           (port mclkreset_c (direction INPUT))
            (port un1_counterlto4_0 (direction INPUT))
            (port un1_counterlt4 (direction INPUT))
            (port clock_out_i (direction INPUT))
@@ -219,8 +219,8 @@
            (portRef un1_counterlto4_0)
            (portRef I2 (instanceRef Q_RNO))
           ))
-          (net masterreset_c (joined
-           (portRef masterreset_c)
+          (net mclkreset_c (joined
+           (portRef mclkreset_c)
            (portRef I3 (instanceRef Q_RNO))
           ))
           (net (rename Q_RNOZ0 "Q_RNO") (joined
@@ -231,8 +231,8 @@
            (portRef Q (instanceRef Q))
            (portRef cpureset_c)
           ))
-          (net (rename g_32 "G_32") (joined
-           (portRef G_32)
+          (net (rename g_31 "G_31") (joined
+           (portRef G_31)
            (portRef D (instanceRef Q))
           ))
           (net (rename plloutglobal_0 "PLLOUTGLOBAL_0") (joined
@@ -252,55 +252,15 @@
     (cell sr_latch_0 (cellType GENERIC)
        (view netlist (viewType NETLIST)
          (interface
-           (port N_4_0 (direction OUTPUT))
+           (port N_8_0 (direction OUTPUT))
+           (port mclkreset_c (direction INPUT))
            (port led7_c (direction INPUT))
-           (port apusync_c (direction INPUT))
-           (port G_32 (direction INPUT))
-         )
-         (contents
-          (instance un1_Q (viewRef PRIM (cellRef SB_LUT4 (libraryRef sb_ice)))
-           (property LUT_INIT (string "B0B0"))
-          )
-          (instance GND (viewRef PRIM (cellRef GND (libraryRef sb_ice)))          )
-          (instance VCC (viewRef PRIM (cellRef VCC (libraryRef sb_ice)))          )
-          (net (rename g_32 "G_32") (joined
-           (portRef G_32)
-           (portRef I0 (instanceRef un1_Q))
-          ))
-          (net apusync_c (joined
-           (portRef apusync_c)
-           (portRef I1 (instanceRef un1_Q))
-          ))
-          (net led7_c (joined
-           (portRef led7_c)
-           (portRef I2 (instanceRef un1_Q))
-          ))
-          (net (rename GNDZ0 "GND") (joined
-           (portRef Y (instanceRef GND))
-           (portRef I3 (instanceRef un1_Q))
-          ))
-          (net (rename n_4_0 "N_4_0") (joined
-           (portRef O (instanceRef un1_Q))
-           (portRef N_4_0)
-          ))
-          (net (rename VCCZ0 "VCC") (joined
-           (portRef Y (instanceRef VCC))
-          ))
-         )
-        (property orig_inst_of (string "sr_latch"))
-       )
-    )
-    (cell sr_latch (cellType GENERIC)
-       (view netlist (viewType NETLIST)
-         (interface
-           (port apuclockgate (direction OUTPUT))
-           (port cpureset_c (direction INPUT))
            (port apusync_c (direction INPUT))
            (port G_31 (direction INPUT))
          )
          (contents
           (instance un1_Q (viewRef PRIM (cellRef SB_LUT4 (libraryRef sb_ice)))
-           (property LUT_INIT (string "B0B0"))
+           (property LUT_INIT (string "B000"))
           )
           (instance GND (viewRef PRIM (cellRef GND (libraryRef sb_ice)))          )
           (instance VCC (viewRef PRIM (cellRef VCC (libraryRef sb_ice)))          )
@@ -312,17 +272,65 @@
            (portRef apusync_c)
            (portRef I1 (instanceRef un1_Q))
           ))
-          (net cpureset_c (joined
-           (portRef cpureset_c)
+          (net led7_c (joined
+           (portRef led7_c)
            (portRef I2 (instanceRef un1_Q))
+          ))
+          (net mclkreset_c (joined
+           (portRef mclkreset_c)
+           (portRef I3 (instanceRef un1_Q))
+          ))
+          (net (rename n_8_0 "N_8_0") (joined
+           (portRef O (instanceRef un1_Q))
+           (portRef N_8_0)
           ))
           (net (rename GNDZ0 "GND") (joined
            (portRef Y (instanceRef GND))
-           (portRef I3 (instanceRef un1_Q))
           ))
-          (net apuclockgate (joined
-           (portRef O (instanceRef un1_Q))
-           (portRef apuclockgate)
+          (net (rename VCCZ0 "VCC") (joined
+           (portRef Y (instanceRef VCC))
+          ))
+         )
+        (property orig_inst_of (string "sr_latch"))
+       )
+    )
+    (cell sr_latch (cellType GENERIC)
+       (view netlist (viewType NETLIST)
+         (interface
+           (port N_21_0_i (direction OUTPUT))
+           (port mclkreset_c (direction INPUT))
+           (port cpureset_c (direction INPUT))
+           (port apusync_c (direction INPUT))
+           (port G_32 (direction INPUT))
+         )
+         (contents
+          (instance N_21_0_i (viewRef PRIM (cellRef SB_LUT4 (libraryRef sb_ice)))
+           (property LUT_INIT (string "F8FF"))
+          )
+          (instance GND (viewRef PRIM (cellRef GND (libraryRef sb_ice)))          )
+          (instance VCC (viewRef PRIM (cellRef VCC (libraryRef sb_ice)))          )
+          (net (rename g_32 "G_32") (joined
+           (portRef G_32)
+           (portRef I0 (instanceRef N_21_0_i))
+          ))
+          (net apusync_c (joined
+           (portRef apusync_c)
+           (portRef I1 (instanceRef N_21_0_i))
+          ))
+          (net cpureset_c (joined
+           (portRef cpureset_c)
+           (portRef I2 (instanceRef N_21_0_i))
+          ))
+          (net mclkreset_c (joined
+           (portRef mclkreset_c)
+           (portRef I3 (instanceRef N_21_0_i))
+          ))
+          (net (rename N_21_0_iZ0 "N_21_0_i") (joined
+           (portRef O (instanceRef N_21_0_i))
+           (portRef N_21_0_i)
+          ))
+          (net (rename GNDZ0 "GND") (joined
+           (portRef Y (instanceRef GND))
           ))
           (net (rename VCCZ0 "VCC") (joined
            (portRef Y (instanceRef VCC))
@@ -334,9 +342,9 @@
     (cell Clock_divider (cellType GENERIC)
        (view netlist (viewType NETLIST)
          (interface
-           (port masterreset_c_i (direction INPUT))
+           (port mclkreset_c_i (direction INPUT))
            (port PLLOUTGLOBAL_0 (direction INPUT))
-           (port masterreset_c (direction INPUT))
+           (port mclkreset_c (direction INPUT))
            (port un1_counterlto4_0 (direction OUTPUT))
            (port un1_counterlt4 (direction OUTPUT))
            (port clock_out_i (direction OUTPUT))
@@ -431,8 +439,8 @@
            (portRef I2 (instanceRef clock_out_RNO))
            (portRef un1_counterlto4_0)
           ))
-          (net masterreset_c (joined
-           (portRef masterreset_c)
+          (net mclkreset_c (joined
+           (portRef mclkreset_c)
            (portRef I3 (instanceRef clock_out_RNO))
           ))
           (net (rename clock_out_RNOZ0 "clock_out_RNO") (joined
@@ -488,8 +496,8 @@
            (portRef C (instanceRef counter_3))
            (portRef C (instanceRef counter_2))
           ))
-          (net masterreset_c_i (joined
-           (portRef masterreset_c_i)
+          (net mclkreset_c_i (joined
+           (portRef mclkreset_c_i)
            (portRef S (instanceRef counter_1))
            (portRef S (instanceRef counter_0))
            (portRef S (instanceRef counter_4))
@@ -509,9 +517,9 @@
        (view netlist (viewType NETLIST)
          (interface
            (port cpuclk (direction OUTPUT))
-           (port masterreset_c_i (direction INPUT))
+           (port mclkreset_c_i (direction INPUT))
            (port PLLOUTGLOBAL_0 (direction INPUT))
-           (port masterreset_c (direction INPUT))
+           (port mclkreset_c (direction INPUT))
          )
          (contents
           (instance (rename counter_ns_2_0__m6 "counter_ns_2_0_.m6") (viewRef PRIM (cellRef SB_LUT4 (libraryRef sb_ice)))
@@ -560,8 +568,8 @@
            (portRef I0 (instanceRef dout_RNO_0))
            (portRef I2 (instanceRef counter_ns_2_0__m6))
           ))
-          (net masterreset_c (joined
-           (portRef masterreset_c)
+          (net mclkreset_c (joined
+           (portRef mclkreset_c)
            (portRef I1 (instanceRef dout_RNO_0))
            (portRef I1 (instanceRef counter_ns_2_0__m1))
            (portRef I2 (instanceRef counter_ns_2_0__m3))
@@ -606,8 +614,8 @@
            (portRef C (instanceRef counter_0))
            (portRef C (instanceRef dout_1))
           ))
-          (net masterreset_c_i (joined
-           (portRef masterreset_c_i)
+          (net mclkreset_c_i (joined
+           (portRef mclkreset_c_i)
            (portRef R (instanceRef dout_1))
           ))
           (net (rename doutZ0Z_0 "dout[0]") (joined
@@ -630,11 +638,11 @@
     (cell divide7or8_1 (cellType GENERIC)
        (view netlist (viewType NETLIST)
          (interface
-           (port apuclk_c (direction OUTPUT))
-           (port G_31 (direction INPUT))
-           (port masterreset_c (direction INPUT))
+           (port un1_apuclk_i (direction OUTPUT))
+           (port G_32 (direction INPUT))
+           (port mclkreset_c (direction INPUT))
            (port PLLOUTGLOBAL_0 (direction INPUT))
-           (port masterreset_c_i (direction INPUT))
+           (port mclkreset_c_i (direction INPUT))
          )
          (contents
           (instance (rename dout_nesr_RNO_0 "dout_nesr_RNO[0]") (viewRef PRIM (cellRef SB_LUT4 (libraryRef sb_ice)))
@@ -666,11 +674,11 @@
           (instance (rename counter_ns_2_0__m5 "counter_ns_2_0_.m5") (viewRef PRIM (cellRef SB_LUT4 (libraryRef sb_ice)))
            (property LUT_INIT (string "5999"))
           )
+          (instance io_0_RNIIG08 (viewRef PRIM (cellRef SB_LUT4 (libraryRef sb_ice)))
+           (property LUT_INIT (string "7777"))
+          )
           (instance seven_RNO_0 (viewRef PRIM (cellRef SB_LUT4 (libraryRef sb_ice)))
            (property LUT_INIT (string "8080"))
-          )
-          (instance io_0_RNIIG08 (viewRef PRIM (cellRef SB_LUT4 (libraryRef sb_ice)))
-           (property LUT_INIT (string "8888"))
           )
           (instance (rename counter_ns_2_0__m3_s "counter_ns_2_0_.m3_s") (viewRef PRIM (cellRef SB_LUT4 (libraryRef sb_ice)))
            (property LUT_INIT (string "8888"))
@@ -698,9 +706,9 @@
            (portRef LATCH_INPUT_VALUE (instanceRef io_0))
            (portRef I3 (instanceRef counter_ns_2_0__m3_s))
            (portRef I2 (instanceRef counter_ns_2_0__m3_s))
+           (portRef I3 (instanceRef seven_RNO_0))
            (portRef I3 (instanceRef io_0_RNIIG08))
            (portRef I2 (instanceRef io_0_RNIIG08))
-           (portRef I3 (instanceRef seven_RNO_0))
            (portRef I3 (instanceRef counter_ns_2_0__m6))
            (portRef I2 (instanceRef counter_ns_2_0__m6))
            (portRef I3 (instanceRef counter_ns_2_0__m10))
@@ -713,8 +721,8 @@
            (portRef O (instanceRef dout_nesr_RNO_0_0))
            (portRef I1 (instanceRef dout_nesr_RNO_0))
           ))
-          (net masterreset_c_i (joined
-           (portRef masterreset_c_i)
+          (net mclkreset_c_i (joined
+           (portRef mclkreset_c_i)
            (portRef R (instanceRef dout_1))
            (portRef R (instanceRef dout_nesr_0))
            (portRef I2 (instanceRef dout_nesr_RNO_0))
@@ -790,8 +798,8 @@
            (portRef O (instanceRef counter_ns_2_0__m9))
            (portRef I0 (instanceRef counter_ns_2_0__m10))
           ))
-          (net masterreset_c (joined
-           (portRef masterreset_c)
+          (net mclkreset_c (joined
+           (portRef mclkreset_c)
            (portRef I2 (instanceRef seven_RNO_0))
            (portRef I3 (instanceRef counter_ns_2_0__m4))
            (portRef I1 (instanceRef counter_ns_2_0__m6))
@@ -821,17 +829,17 @@
            (portRef I1 (instanceRef counter_ns_2_0__m9))
            (portRef I1 (instanceRef dout_nesr_RNO_0_0))
           ))
-          (net (rename g_31 "G_31") (joined
-           (portRef G_31)
+          (net (rename g_32 "G_32") (joined
+           (portRef G_32)
            (portRef I0 (instanceRef io_0_RNIIG08))
           ))
           (net io_0_D_IN_0 (joined
            (portRef D_IN_0 (instanceRef io_0))
            (portRef I1 (instanceRef io_0_RNIIG08))
           ))
-          (net apuclk_c (joined
+          (net un1_apuclk_i (joined
            (portRef O (instanceRef io_0_RNIIG08))
-           (portRef apuclk_c)
+           (portRef un1_apuclk_i)
           ))
           (net (rename VCCZ0 "VCC") (joined
            (portRef Y (instanceRef VCC))
@@ -845,18 +853,18 @@
     (cell oldstyle (cellType GENERIC)
        (view netlist (viewType NETLIST)
          (interface
-           (port G_32 (direction INPUT))
+           (port G_31 (direction INPUT))
            (port led7_c (direction INPUT))
-           (port N_4_0 (direction OUTPUT))
+           (port N_8_0 (direction OUTPUT))
            (port apusync_c (direction INPUT))
            (port cpureset_c (direction OUTPUT))
-           (port apuclockgate (direction OUTPUT))
+           (port N_21_0_i (direction OUTPUT))
            (port cpuclk (direction OUTPUT))
-           (port masterreset_c_i (direction INPUT))
+           (port mclkreset_c_i (direction INPUT))
            (port PLLOUTGLOBAL_0 (direction INPUT))
-           (port masterreset_c (direction INPUT))
-           (port G_31 (direction INPUT))
-           (port apuclk_c (direction OUTPUT))
+           (port mclkreset_c (direction INPUT))
+           (port G_32 (direction INPUT))
+           (port un1_apuclk_i (direction OUTPUT))
          )
          (contents
           (instance divseven (viewRef netlist (cellRef divide7or8_1))
@@ -873,21 +881,23 @@
           )
           (instance GND (viewRef PRIM (cellRef GND (libraryRef sb_ice)))          )
           (instance VCC (viewRef PRIM (cellRef VCC (libraryRef sb_ice)))          )
-          (net apuclk_c (joined
-           (portRef apuclk_c (instanceRef divseven))
-           (portRef apuclk_c)
+          (net un1_apuclk_i (joined
+           (portRef un1_apuclk_i (instanceRef divseven))
+           (portRef un1_apuclk_i)
           ))
-          (net (rename g_31 "G_31") (joined
-           (portRef G_31)
-           (portRef G_31 (instanceRef l1))
-           (portRef G_31 (instanceRef divseven))
+          (net (rename g_32 "G_32") (joined
+           (portRef G_32)
+           (portRef G_32 (instanceRef l1))
+           (portRef G_32 (instanceRef divseven))
           ))
-          (net masterreset_c (joined
-           (portRef masterreset_c)
-           (portRef masterreset_c (instanceRef ddd))
-           (portRef masterreset_c (instanceRef arse))
-           (portRef masterreset_c (instanceRef diveight))
-           (portRef masterreset_c (instanceRef divseven))
+          (net mclkreset_c (joined
+           (portRef mclkreset_c)
+           (portRef mclkreset_c (instanceRef ddd))
+           (portRef mclkreset_c (instanceRef l2))
+           (portRef mclkreset_c (instanceRef l1))
+           (portRef mclkreset_c (instanceRef arse))
+           (portRef mclkreset_c (instanceRef diveight))
+           (portRef mclkreset_c (instanceRef divseven))
           ))
           (net (rename plloutglobal_0 "PLLOUTGLOBAL_0") (joined
            (portRef PLLOUTGLOBAL_0)
@@ -896,11 +906,11 @@
            (portRef PLLOUTGLOBAL_0 (instanceRef diveight))
            (portRef PLLOUTGLOBAL_0 (instanceRef divseven))
           ))
-          (net masterreset_c_i (joined
-           (portRef masterreset_c_i)
-           (portRef masterreset_c_i (instanceRef arse))
-           (portRef masterreset_c_i (instanceRef diveight))
-           (portRef masterreset_c_i (instanceRef divseven))
+          (net mclkreset_c_i (joined
+           (portRef mclkreset_c_i)
+           (portRef mclkreset_c_i (instanceRef arse))
+           (portRef mclkreset_c_i (instanceRef diveight))
+           (portRef mclkreset_c_i (instanceRef divseven))
           ))
           (net cpuclk (joined
            (portRef cpuclk (instanceRef diveight))
@@ -918,9 +928,9 @@
            (portRef clock_out_i (instanceRef arse))
            (portRef clock_out_i (instanceRef ddd))
           ))
-          (net apuclockgate (joined
-           (portRef apuclockgate (instanceRef l1))
-           (portRef apuclockgate)
+          (net (rename n_21_0_i "N_21_0_i") (joined
+           (portRef N_21_0_i (instanceRef l1))
+           (portRef N_21_0_i)
           ))
           (net cpureset_c (joined
            (portRef cpureset_c (instanceRef ddd))
@@ -932,18 +942,18 @@
            (portRef apusync_c (instanceRef l2))
            (portRef apusync_c (instanceRef l1))
           ))
-          (net (rename n_4_0 "N_4_0") (joined
-           (portRef N_4_0 (instanceRef l2))
-           (portRef N_4_0)
+          (net (rename n_8_0 "N_8_0") (joined
+           (portRef N_8_0 (instanceRef l2))
+           (portRef N_8_0)
           ))
           (net led7_c (joined
            (portRef led7_c)
            (portRef led7_c (instanceRef l2))
           ))
-          (net (rename g_32 "G_32") (joined
-           (portRef G_32)
-           (portRef G_32 (instanceRef ddd))
-           (portRef G_32 (instanceRef l2))
+          (net (rename g_31 "G_31") (joined
+           (portRef G_31)
+           (portRef G_31 (instanceRef ddd))
+           (portRef G_31 (instanceRef l2))
           ))
           (net (rename GNDZ0 "GND") (joined
            (portRef Y (instanceRef GND))
@@ -981,12 +991,8 @@
            (port lcol4 (direction OUTPUT))
          )
          (contents
-          (instance masterreset_ibuf_RNIKP26 (viewRef PRIM (cellRef SB_LUT4 (libraryRef sb_ice)))
+          (instance mclkreset_ibuf_RNIFESD (viewRef PRIM (cellRef SB_LUT4 (libraryRef sb_ice)))
            (property LUT_INIT (string "5555"))
-          )
-          (instance masterreset_ibuf (viewRef PRIM (cellRef SB_IO (libraryRef sb_ice)))
-           (property NEG_TRIGGER (string "0"))
-           (property PIN_TYPE (string "000001"))
           )
           (instance reset_ibuf (viewRef PRIM (cellRef SB_IO (libraryRef sb_ice)))
            (property NEG_TRIGGER (string "0"))
@@ -1118,26 +1124,17 @@
           ))
           (net (rename VCCZ0 "VCC") (joined
            (portRef Y (instanceRef VCC))
+           (portRef RESETB (instanceRef bum2_inst))
            (portRef D_OUT_0 (instanceRef lcol4_obuf))
            (portRef D_OUT_0 (instanceRef lcol3_obuf))
            (portRef D_OUT_0 (instanceRef lcol2_obuf))
            (portRef D_OUT_0 (instanceRef led2_obuf))
           ))
           (net G_31 (joined
-           (portRef apuclockgate (instanceRef arse))
+           (portRef N_8_0 (instanceRef arse))
            (portRef G_31 (instanceRef arse))
           ))
-          (net G_32 (joined
-           (portRef N_4_0 (instanceRef arse))
-           (portRef G_32 (instanceRef arse))
-          ))
-          (net masterreset_c (joined
-           (portRef D_IN_0 (instanceRef masterreset_ibuf))
-           (portRef masterreset_c (instanceRef arse))
-           (portRef I0 (instanceRef masterreset_ibuf_RNIKP26))
-          ))
           (net masterreset (joined
-           (portRef PACKAGE_PIN (instanceRef masterreset_ibuf))
            (portRef masterreset)
           ))
           (net led7_c (joined
@@ -1160,15 +1157,12 @@
           ))
           (net mclkreset_c (joined
            (portRef D_IN_0 (instanceRef mclkreset_ibuf))
-           (portRef RESETB (instanceRef bum2_inst))
+           (portRef mclkreset_c (instanceRef arse))
+           (portRef I0 (instanceRef mclkreset_ibuf_RNIFESD))
           ))
           (net mclkreset (joined
            (portRef PACKAGE_PIN (instanceRef mclkreset_ibuf))
            (portRef mclkreset)
-          ))
-          (net apuclk_c (joined
-           (portRef apuclk_c (instanceRef arse))
-           (portRef D_OUT_0 (instanceRef apuclk_obuf))
           ))
           (net apuclk (joined
            (portRef PACKAGE_PIN (instanceRef apuclk_obuf))
@@ -1214,9 +1208,17 @@
            (portRef PACKAGE_PIN (instanceRef lcol4_obuf))
            (portRef lcol4)
           ))
-          (net masterreset_c_i (joined
-           (portRef O (instanceRef masterreset_ibuf_RNIKP26))
-           (portRef masterreset_c_i (instanceRef arse))
+          (net G_32 (joined
+           (portRef N_21_0_i (instanceRef arse))
+           (portRef G_32 (instanceRef arse))
+          ))
+          (net (rename arse_un1_apuclk_i "arse.un1_apuclk_i") (joined
+           (portRef un1_apuclk_i (instanceRef arse))
+           (portRef D_OUT_0 (instanceRef apuclk_obuf))
+          ))
+          (net mclkreset_c_i (joined
+           (portRef O (instanceRef mclkreset_ibuf_RNIFESD))
+           (portRef mclkreset_c_i (instanceRef arse))
           ))
           (net led3 (joined
            (portRef PACKAGE_PIN (instanceRef led3_obuft))

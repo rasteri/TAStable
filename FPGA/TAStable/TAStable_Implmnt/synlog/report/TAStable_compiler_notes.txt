@@ -7,7 +7,8 @@
 @N: CG364 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":303:7:303:14|Synthesizing module sr_latch in library work.
 @N: CG364 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":1:7:1:15|Synthesizing module DFlipFlop in library work.
 @N: CG364 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":311:7:311:14|Synthesizing module oldstyle in library work.
-@N: CG364 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":353:7:353:9|Synthesizing module top in library work.
+@N: CG364 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":350:7:350:9|Synthesizing module top in library work.
+@N: CL159 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":352:10:352:20|Input masterreset is unused.
 @N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[5] is always 0.
 @N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[6] is always 0.
 @N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[7] is always 0.
@@ -33,6 +34,6 @@
 @N: CL189 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Register bit counter[27] is always 0.
 @N: CL201 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":73:4:73:9|Trying to extract state machine for register counter.
 @N|Running in 64-bit mode
-@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":353:7:353:9|Selected library: work cell: top view verilog as top level
-@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":353:7:353:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":350:7:350:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":350:7:350:9|Selected library: work cell: top view verilog as top level
 

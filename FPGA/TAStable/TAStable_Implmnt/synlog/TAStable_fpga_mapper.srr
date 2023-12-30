@@ -1,4 +1,4 @@
-# Mon Nov 13 23:01:51 2023
+# Tue Nov 14 16:45:10 2023
 
 Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -26,18 +26,22 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 
 @N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":321:11:321:15|Tristate driver essw2 (in view: work.oldstyle(verilog)) on net essw2 (in view: work.oldstyle(verilog)) has its enable tied to GND.
 @N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":320:11:320:15|Tristate driver essw1 (in view: work.oldstyle(verilog)) on net essw1 (in view: work.oldstyle(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":370:11:370:14|Tristate driver led8 (in view: work.top(verilog)) on net led8 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":368:11:368:14|Tristate driver led6 (in view: work.top(verilog)) on net led6 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":367:11:367:14|Tristate driver led5 (in view: work.top(verilog)) on net led5 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":366:11:366:14|Tristate driver led4 (in view: work.top(verilog)) on net led4 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":365:11:365:14|Tristate driver led3 (in view: work.top(verilog)) on net led3 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":367:11:367:14|Tristate driver led8 (in view: work.top(verilog)) on net led8 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":365:11:365:14|Tristate driver led6 (in view: work.top(verilog)) on net led6 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":364:11:364:14|Tristate driver led5 (in view: work.top(verilog)) on net led5 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":363:11:363:14|Tristate driver led4 (in view: work.top(verilog)) on net led4 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":362:11:362:14|Tristate driver led3 (in view: work.top(verilog)) on net led3 (in view: work.top(verilog)) has its enable tied to GND.
 
 Available hyper_sources - for debug and ip models
 	None Found
 
 Warning: Found 2 combinational loops!
-@W: BN137 :"c:\code\tas\tas\tastable\fpga\top.v":307:23:307:35|Found combinational loop during mapping at net arse.apuclockgate
-1) instance l1.Q (in view: work.oldstyle(verilog)), output net apuclockgate (in view: work.oldstyle(verilog))
+@W: BN137 :"c:\code\tas\tas\tastable\fpga\top.v":307:23:307:34|Found combinational loop during mapping at net arse.l1.un1_Q
+1) instance l1.un1_Q (in view: work.oldstyle(verilog)), output net l1.un1_Q (in view: work.oldstyle(verilog))
+    net        arse.l1.un1_Q
+    input  pin arse.l1.Q/I[0]
+    instance   arse.l1.Q (cell inv)
+    output pin arse.l1.Q/OUT[0]
     net        arse.apuclockgate
     input  pin arse.l1.un1_Q_not/I[0]
     instance   arse.l1.un1_Q_not (cell or)
@@ -51,10 +55,6 @@ Warning: Found 2 combinational loops!
     instance   arse.l1.un1_Q (cell or)
     output pin arse.l1.un1_Q/OUT
     net        arse.l1.un1_Q
-    input  pin arse.l1.Q/I[0]
-    instance   arse.l1.Q (cell inv)
-    output pin arse.l1.Q/OUT[0]
-    net        arse.apuclockgate
 @W: BN137 :"c:\code\tas\tas\tastable\fpga\top.v":307:23:307:34|Found combinational loop during mapping at net arse.l2.un1_Q
 2) instance l2.un1_Q (in view: work.oldstyle(verilog)), output net l2.un1_Q (in view: work.oldstyle(verilog))
     net        arse.l2.un1_Q
@@ -179,30 +179,30 @@ L-2016.09L+ice40
 Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
 
 Warning: Found 2 combinational loops!
-@W: BN137 :|Found combinational loop during mapping at net arse.l1.apuclockgate
-1) instance un1_Q (in view: work.sr_latch(netlist)), output net apuclockgate (in view: work.sr_latch(netlist))
-    net        arse.l1.G_31
-    input  pin arse.l1.un1_Q/I0
-    instance   arse.l1.un1_Q (cell SB_LUT4)
-    output pin arse.l1.un1_Q/O
-    net        arse.l1.apuclockgate
-@W: BN137 :|Found combinational loop during mapping at net arse.l2.N_4_0
-2) instance un1_Q (in view: work.sr_latch_0(netlist)), output net N_4_0 (in view: work.sr_latch_0(netlist))
-    net        arse.l2.G_32
+@W: BN137 :|Found combinational loop during mapping at net arse.l1.N_21_0_i
+1) instance N_21_0_i (in view: work.sr_latch(netlist)), output net N_21_0_i (in view: work.sr_latch(netlist))
+    net        arse.l1.G_32
+    input  pin arse.l1.N_21_0_i/I0
+    instance   arse.l1.N_21_0_i (cell SB_LUT4)
+    output pin arse.l1.N_21_0_i/O
+    net        arse.l1.N_21_0_i
+@W: BN137 :|Found combinational loop during mapping at net arse.l2.N_8_0
+2) instance un1_Q (in view: work.sr_latch_0(netlist)), output net N_8_0 (in view: work.sr_latch_0(netlist))
+    net        arse.l2.G_31
     input  pin arse.l2.un1_Q/I0
     instance   arse.l2.un1_Q (cell SB_LUT4)
     output pin arse.l2.un1_Q/O
-    net        arse.l2.N_4_0
+    net        arse.l2.N_8_0
 End of loops
 @W: MT420 |Found inferred clock top|PACKAGEPIN with period 5.12ns. Please declare a user-defined clock on object "p:PACKAGEPIN"
 @N: MT615 |Found clock top|PLLOUTGLOBAL_derived_clock with period 5.12ns 
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Mon Nov 13 23:01:52 2023
+# Timing Report written on Tue Nov 14 16:45:10 2023
 #
 
 
@@ -496,8 +496,8 @@ VCC             7 uses
 SB_LUT4         29 uses
 
 I/O ports: 21
-I/O primitives: 22
-SB_IO          21 uses
+I/O primitives: 21
+SB_IO          20 uses
 SB_PLL40_PAD   1 use
 
 I/O Register bits:                  0
@@ -517,6 +517,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 26MB peak: 133MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Nov 13 23:01:52 2023
+# Tue Nov 14 16:45:10 2023
 
 ###########################################################]

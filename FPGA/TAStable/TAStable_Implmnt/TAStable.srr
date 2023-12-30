@@ -3,7 +3,7 @@
 #OS: Windows 8 6.2
 #Hostname: DESKTOP-4DQBHVO
 
-# Mon Nov 13 23:01:48 2023
+# Tue Nov 14 16:45:08 2023
 
 #Implementation: TAStable_Implmnt
 
@@ -23,6 +23,7 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\code\TAS\TAS\TAStable\FPGA\top.v" (library work)
 @W: CG978 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":199:4:199:16|An instance name was not specified - using generated name II_2
 Verilog syntax check successful!
+File C:\code\TAS\TAS\TAStable\FPGA\top.v changed - recompiling
 Selecting top level module top
 @N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":752:7:752:18|Synthesizing module SB_PLL40_PAD in library work.
 
@@ -39,27 +40,28 @@ Selecting top level module top
 
 @N: CG364 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":311:7:311:14|Synthesizing module oldstyle in library work.
 
-@W: CS263 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":341:44:341:44|Port-width mismatch for port sync_reset. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":338:44:338:44|Port-width mismatch for port sync_reset. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
 @W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":320:11:320:15|Removing wire essw1, as there is no assignment to it.
 @W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":321:11:321:15|Removing wire essw2, as there is no assignment to it.
-@N: CG364 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":353:7:353:9|Synthesizing module top in library work.
+@N: CG364 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":350:7:350:9|Synthesizing module top in library work.
 
-@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":380:36:380:36|Input EXTFEEDBACK on instance bum2_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":381:37:381:37|Input DYNAMICDELAY on instance bum2_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":384:40:384:40|Input LATCHINPUTVALUE on instance bum2_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":386:28:386:28|Input SDI on instance bum2_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":388:29:388:29|Input SCLK on instance bum2_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":365:11:365:14|Removing wire led3, as there is no assignment to it.
-@W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":366:11:366:14|Removing wire led4, as there is no assignment to it.
-@W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":367:11:367:14|Removing wire led5, as there is no assignment to it.
-@W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":368:11:368:14|Removing wire led6, as there is no assignment to it.
-@W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":370:11:370:14|Removing wire led8, as there is no assignment to it.
-@W: CG133 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":421:4:421:8|Object bummy is declared but not assigned. Either assign a value or remove the declaration.
-@W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":365:11:365:14|*Output led3 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":366:11:366:14|*Output led4 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":367:11:367:14|*Output led5 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":368:11:368:14|*Output led6 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":370:11:370:14|*Output led8 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":377:36:377:36|Input EXTFEEDBACK on instance bum2_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":378:37:378:37|Input DYNAMICDELAY on instance bum2_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":381:40:381:40|Input LATCHINPUTVALUE on instance bum2_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":383:28:383:28|Input SDI on instance bum2_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":385:29:385:29|Input SCLK on instance bum2_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":362:11:362:14|Removing wire led3, as there is no assignment to it.
+@W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":363:11:363:14|Removing wire led4, as there is no assignment to it.
+@W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":364:11:364:14|Removing wire led5, as there is no assignment to it.
+@W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":365:11:365:14|Removing wire led6, as there is no assignment to it.
+@W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":367:11:367:14|Removing wire led8, as there is no assignment to it.
+@W: CG133 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":418:4:418:8|Object bummy is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":362:11:362:14|*Output led3 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":363:11:363:14|*Output led4 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":364:11:364:14|*Output led5 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":365:11:365:14|*Output led6 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":367:11:367:14|*Output led8 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":352:10:352:20|Input masterreset is unused.
 @W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":320:11:320:15|*Output essw1 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
 @W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":321:11:321:15|*Output essw2 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
 @W: FX105 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":307:23:307:35|Found combinational loop at Q
@@ -105,20 +107,20 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Nov 13 23:01:49 2023
+# Tue Nov 14 16:45:08 2023
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
 @N|Running in 64-bit mode
-@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":353:7:353:9|Selected library: work cell: top view verilog as top level
-@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":353:7:353:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":350:7:350:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":350:7:350:9|Selected library: work cell: top view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Nov 13 23:01:49 2023
+# Tue Nov 14 16:45:08 2023
 
 ###########################################################]
 @END
@@ -128,26 +130,26 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Nov 13 23:01:49 2023
+# Tue Nov 14 16:45:08 2023
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
 @N|Running in 64-bit mode
 File C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\synwork\TAStable_comp.srs changed - recompiling
-@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":353:7:353:9|Selected library: work cell: top view verilog as top level
-@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":353:7:353:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":350:7:350:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":350:7:350:9|Selected library: work cell: top view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Nov 13 23:01:50 2023
+# Tue Nov 14 16:45:09 2023
 
 ###########################################################]
 Pre-mapping Report
 
-# Mon Nov 13 23:01:50 2023
+# Tue Nov 14 16:45:09 2023
 
 Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -174,11 +176,11 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 
 @N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":320:11:320:15|Tristate driver essw1 (in view: work.oldstyle(verilog)) on net essw1 (in view: work.oldstyle(verilog)) has its enable tied to GND.
 @N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":321:11:321:15|Tristate driver essw2 (in view: work.oldstyle(verilog)) on net essw2 (in view: work.oldstyle(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":365:11:365:14|Tristate driver led3 (in view: work.top(verilog)) on net led3 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":366:11:366:14|Tristate driver led4 (in view: work.top(verilog)) on net led4 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":367:11:367:14|Tristate driver led5 (in view: work.top(verilog)) on net led5 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":368:11:368:14|Tristate driver led6 (in view: work.top(verilog)) on net led6 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":370:11:370:14|Tristate driver led8 (in view: work.top(verilog)) on net led8 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":362:11:362:14|Tristate driver led3 (in view: work.top(verilog)) on net led3 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":363:11:363:14|Tristate driver led4 (in view: work.top(verilog)) on net led4 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":364:11:364:14|Tristate driver led5 (in view: work.top(verilog)) on net led5 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":365:11:365:14|Tristate driver led6 (in view: work.top(verilog)) on net led6 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":367:11:367:14|Tristate driver led8 (in view: work.top(verilog)) on net led8 (in view: work.top(verilog)) has its enable tied to GND.
 Warning: Found 2 combinational loops!
 @W: BN137 :"c:\code\tas\tas\tastable\fpga\top.v":308:23:308:31|Found combinational loop during mapping at net arse.l1.Q_not
 1) instance Q_not (in view: work.sr_latch_1(verilog)), output net Q_not (in view: work.sr_latch_1(verilog))
@@ -242,9 +244,9 @@ top|PLLOUTGLOBAL_derived_clock            55.1 MHz      18.145        derived (f
 
 
 Finished Pre Mapping Phase.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":370:11:370:14|Tristate driver led8 (in view: work.top(verilog)) on net led8 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":368:11:368:14|Tristate driver led6 (in view: work.top(verilog)) on net led6 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":367:11:367:14|Tristate driver led5 (in view: work.top(verilog)) on net led5 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":367:11:367:14|Tristate driver led8 (in view: work.top(verilog)) on net led8 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":365:11:365:14|Tristate driver led6 (in view: work.top(verilog)) on net led6 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":364:11:364:14|Tristate driver led5 (in view: work.top(verilog)) on net led5 (in view: work.top(verilog)) has its enable tied to GND.
 @N: BN225 |Writing default property annotation file C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.sap.
 
 Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
@@ -281,12 +283,12 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 133MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Nov 13 23:01:51 2023
+# Tue Nov 14 16:45:09 2023
 
 ###########################################################]
 Map & Optimize Report
 
-# Mon Nov 13 23:01:51 2023
+# Tue Nov 14 16:45:10 2023
 
 Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -314,18 +316,22 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 
 @N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":321:11:321:15|Tristate driver essw2 (in view: work.oldstyle(verilog)) on net essw2 (in view: work.oldstyle(verilog)) has its enable tied to GND.
 @N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":320:11:320:15|Tristate driver essw1 (in view: work.oldstyle(verilog)) on net essw1 (in view: work.oldstyle(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":370:11:370:14|Tristate driver led8 (in view: work.top(verilog)) on net led8 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":368:11:368:14|Tristate driver led6 (in view: work.top(verilog)) on net led6 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":367:11:367:14|Tristate driver led5 (in view: work.top(verilog)) on net led5 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":366:11:366:14|Tristate driver led4 (in view: work.top(verilog)) on net led4 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":365:11:365:14|Tristate driver led3 (in view: work.top(verilog)) on net led3 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":367:11:367:14|Tristate driver led8 (in view: work.top(verilog)) on net led8 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":365:11:365:14|Tristate driver led6 (in view: work.top(verilog)) on net led6 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":364:11:364:14|Tristate driver led5 (in view: work.top(verilog)) on net led5 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":363:11:363:14|Tristate driver led4 (in view: work.top(verilog)) on net led4 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":362:11:362:14|Tristate driver led3 (in view: work.top(verilog)) on net led3 (in view: work.top(verilog)) has its enable tied to GND.
 
 Available hyper_sources - for debug and ip models
 	None Found
 
 Warning: Found 2 combinational loops!
-@W: BN137 :"c:\code\tas\tas\tastable\fpga\top.v":307:23:307:35|Found combinational loop during mapping at net arse.apuclockgate
-1) instance l1.Q (in view: work.oldstyle(verilog)), output net apuclockgate (in view: work.oldstyle(verilog))
+@W: BN137 :"c:\code\tas\tas\tastable\fpga\top.v":307:23:307:34|Found combinational loop during mapping at net arse.l1.un1_Q
+1) instance l1.un1_Q (in view: work.oldstyle(verilog)), output net l1.un1_Q (in view: work.oldstyle(verilog))
+    net        arse.l1.un1_Q
+    input  pin arse.l1.Q/I[0]
+    instance   arse.l1.Q (cell inv)
+    output pin arse.l1.Q/OUT[0]
     net        arse.apuclockgate
     input  pin arse.l1.un1_Q_not/I[0]
     instance   arse.l1.un1_Q_not (cell or)
@@ -339,10 +345,6 @@ Warning: Found 2 combinational loops!
     instance   arse.l1.un1_Q (cell or)
     output pin arse.l1.un1_Q/OUT
     net        arse.l1.un1_Q
-    input  pin arse.l1.Q/I[0]
-    instance   arse.l1.Q (cell inv)
-    output pin arse.l1.Q/OUT[0]
-    net        arse.apuclockgate
 @W: BN137 :"c:\code\tas\tas\tastable\fpga\top.v":307:23:307:34|Found combinational loop during mapping at net arse.l2.un1_Q
 2) instance l2.un1_Q (in view: work.oldstyle(verilog)), output net l2.un1_Q (in view: work.oldstyle(verilog))
     net        arse.l2.un1_Q
@@ -467,30 +469,30 @@ L-2016.09L+ice40
 Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
 
 Warning: Found 2 combinational loops!
-@W: BN137 :|Found combinational loop during mapping at net arse.l1.apuclockgate
-1) instance un1_Q (in view: work.sr_latch(netlist)), output net apuclockgate (in view: work.sr_latch(netlist))
-    net        arse.l1.G_31
-    input  pin arse.l1.un1_Q/I0
-    instance   arse.l1.un1_Q (cell SB_LUT4)
-    output pin arse.l1.un1_Q/O
-    net        arse.l1.apuclockgate
-@W: BN137 :|Found combinational loop during mapping at net arse.l2.N_4_0
-2) instance un1_Q (in view: work.sr_latch_0(netlist)), output net N_4_0 (in view: work.sr_latch_0(netlist))
-    net        arse.l2.G_32
+@W: BN137 :|Found combinational loop during mapping at net arse.l1.N_21_0_i
+1) instance N_21_0_i (in view: work.sr_latch(netlist)), output net N_21_0_i (in view: work.sr_latch(netlist))
+    net        arse.l1.G_32
+    input  pin arse.l1.N_21_0_i/I0
+    instance   arse.l1.N_21_0_i (cell SB_LUT4)
+    output pin arse.l1.N_21_0_i/O
+    net        arse.l1.N_21_0_i
+@W: BN137 :|Found combinational loop during mapping at net arse.l2.N_8_0
+2) instance un1_Q (in view: work.sr_latch_0(netlist)), output net N_8_0 (in view: work.sr_latch_0(netlist))
+    net        arse.l2.G_31
     input  pin arse.l2.un1_Q/I0
     instance   arse.l2.un1_Q (cell SB_LUT4)
     output pin arse.l2.un1_Q/O
-    net        arse.l2.N_4_0
+    net        arse.l2.N_8_0
 End of loops
 @W: MT420 |Found inferred clock top|PACKAGEPIN with period 5.12ns. Please declare a user-defined clock on object "p:PACKAGEPIN"
 @N: MT615 |Found clock top|PLLOUTGLOBAL_derived_clock with period 5.12ns 
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Mon Nov 13 23:01:52 2023
+# Timing Report written on Tue Nov 14 16:45:10 2023
 #
 
 
@@ -784,8 +786,8 @@ VCC             7 uses
 SB_LUT4         29 uses
 
 I/O ports: 21
-I/O primitives: 22
-SB_IO          21 uses
+I/O primitives: 21
+SB_IO          20 uses
 SB_PLL40_PAD   1 use
 
 I/O Register bits:                  0
@@ -805,6 +807,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 26MB peak: 133MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Nov 13 23:01:52 2023
+# Tue Nov 14 16:45:10 2023
 
 ###########################################################]

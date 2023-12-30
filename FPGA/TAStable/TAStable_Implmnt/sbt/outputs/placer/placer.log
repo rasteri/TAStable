@@ -6,7 +6,7 @@
 
 * Build Date:         Dec  9 2020 17:55:50
 
-* File Generated:     Nov 13 2023 23:01:59
+* File Generated:     Nov 14 2023 16:45:12
 
 * Purpose:            
 
@@ -41,7 +41,7 @@ Input Design Statistics
     Number of Carrys    	:	0
     Number of RAMs      	:	0
     Number of ROMs      	:	0
-    Number of IOs       	:	21
+    Number of IOs       	:	20
     Number of GBIOs     	:	0
     Number of GBs       	:	0
     Number of WarmBoot  	:	0
@@ -75,7 +75,7 @@ I2088: Phase 2, elapsed time : 0.0 (sec)
 Phase 3
 Info-1404: Inferred PLL generated clock at bum2_inst/PLLOUTCORE
 Info-1404: Inferred PLL generated clock at bum2_inst/PLLOUTGLOBAL
-Warning-1035: Removing timing arc from pin "arse.l1.un1_Q_LC_26/in0" to pin "arse.l1.un1_Q_LC_26/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "arse.l1.N_21_0_i_LC_26/in0" to pin "arse.l1.N_21_0_i_LC_26/lcout" to break the combinatorial loop
 Warning-1035: Removing timing arc from pin "arse.l2.un1_Q_LC_27/in0" to pin "arse.l2.un1_Q_LC_27/lcout" to break the combinatorial loop
 
 Design Statistics after Packing
@@ -95,7 +95,7 @@ Device Utilization Summary after Packing
     LogicCells                  :	33/7680
     PLBs                        :	7/960
     BRAMs                       :	0/32
-    IOs and GBIOs               :	21/95
+    IOs and GBIOs               :	20/95
     PLLs                        :	1/2
 
 
@@ -108,7 +108,7 @@ Phase 5
 I2088: Phase 5, elapsed time : 0.0 (sec)
 
 Phase 6
-I2088: Phase 6, elapsed time : 8.3 (sec)
+I2088: Phase 6, elapsed time : 9.2 (sec)
 
 Final Design Statistics
     Number of LUTs      	:	33
@@ -117,7 +117,7 @@ Final Design Statistics
     Number of Carrys    	:	0
     Number of RAMs      	:	0
     Number of ROMs      	:	0
-    Number of IOs       	:	21
+    Number of IOs       	:	20
     Number of GBIOs     	:	0
     Number of GBs       	:	0
     Number of WarmBoot  	:	0
@@ -127,7 +127,7 @@ Device Utilization Summary
     LogicCells                  :	33/7680
     PLBs                        :	16/960
     BRAMs                       :	0/32
-    IOs and GBIOs               :	21/95
+    IOs and GBIOs               :	20/95
     PLLs                        :	1/2
 
 
@@ -146,7 +146,7 @@ analysis after routing.
 Number of clocks: 4
 Clock: PACKAGEPIN | Frequency: N/A | Target: 166.67 MHz
 Clock: bum2_inst/PLLOUTCORE | Frequency: N/A | Target: 2375.00 MHz
-Clock: bum2_inst/PLLOUTGLOBAL | Frequency: 156.90 MHz | Target: 2375.00 MHz
+Clock: bum2_inst/PLLOUTGLOBAL | Frequency: 156.82 MHz | Target: 2375.00 MHz
 Clock: top|PACKAGEPIN | Frequency: N/A | Target: 195.31 MHz
 
 =====================================================================
@@ -155,5 +155,5 @@ Clock: top|PACKAGEPIN | Frequency: N/A | Target: 195.31 MHz
 
 I2054: Placement of design completed successfully
 
-I2076: Placer run-time: 9.1 sec.
+I2076: Placer run-time: 9.9 sec.
 

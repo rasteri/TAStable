@@ -1,0 +1,106 @@
+* ******************************************************************************
+
+* iCEcube Report
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec  9 2020 17:31:51
+
+* File Generated:     Nov 14 2023 16:45:23
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Synthesis/Placement Summary:
+----------------------------
+    Status:  Successful
+    Runtime: 0 seconds
+
+Device Info:
+------------
+    Device Family: iCE40
+    Device:        iCE40HX8K
+    Package:       CB132
+
+Design statistics:
+------------------
+    FFs:                  18
+    LUTs:                 33
+    RAMs:                 0
+    IOBs:                 20
+    GBs:                  0
+    PLLs:                 1
+    Warm Boots:           0
+
+Logic Resource Utilization:
+---------------------------
+    Total Logic Cells: 33/7680
+        Combinational Logic Cells: 15       out of   7680      0.195313%
+        Sequential Logic Cells:    18       out of   7680      0.234375%
+        Logic Tiles:               16       out of   960       1.66667%
+    Registers: 
+        Logic Registers:           18       out of   7680      0.234375%
+        IO Registers:              2        out of   1280      0.15625
+    Block RAMs:                    0        out of   32        0%
+    Warm Boots:                    0        out of   1         0%
+    Pins:
+        Input Pins:                3        out of   95        3.15789%
+        Output Pins:               16       out of   95        16.8421%
+        InOut Pins:                0        out of   95        0%
+    Global Buffers:                0        out of   8         0%
+    PLLs:                          1        out of   2         50%
+
+IO Bank Utilization:
+--------------------
+    Bank 3: 1        out of   24        4.16667%
+    Bank 1: 4        out of   25        16%
+    Bank 0: 15       out of   24        62.5%
+    Bank 2: 0        out of   22        0%
+
+Detailed I/O Info:
+------------------
+    Input Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                   Signal Name
+    ----------  ---------  -----------  -------  -------  -----------                   -----------
+    A11         Input      SB_LVCMOS    No       0        Simple Input                  mclkreset  
+    C6          Input      SB_LVCMOS    No       0        Simple Input                  reset      
+    D14         Input      SB_LVCMOS    No       1        Simple Input                  apusync    
+
+    Output Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                   Signal Name
+    ----------  ---------  -----------  -------  -------  -----------                   -----------
+    A4          Output     SB_LVCMOS    No       0        Simple Output                 led7       
+    A6          Output     SB_LVCMOS    No       0        Simple Output                 lcol3      
+    A7          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led5       
+    A10         Output     SB_LVCMOS    No       0        Simple Output                 led2       
+    A12         Output     SB_LVCMOS    No       0        Simple Output                 lcol1      
+    B14         Output     SB_LVCMOS    No       1        Simple Output                 apuclk     
+    C4          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led8       
+    C5          Output     SB_LVCMOS    No       0        Simple Output                 lcol4      
+    C7          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led6       
+    C10         Output     SB_LVCMOS    No       0        Simple Output                 led1       
+    C12         Output     SB_LVCMOS    No       0        Simple Output                 apureset   
+    C14         Output     SB_LVCMOS    No       1        Output DDR with Enable        cpuclk     
+    D6          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led4       
+    D7          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led3       
+    D10         Output     SB_LVCMOS    No       0        Simple Output                 lcol2      
+    D12         Output     SB_LVCMOS    No       1        Simple Output                 cpureset   
+
+
+
+Router Summary:
+---------------
+    Status:  Successful
+    Runtime: 8 seconds
+
+Routing Resource Utilization:
+-----------------------------
+              Local line of tile      269 out of 146184      0.184015%
+                          Span 4       71 out of  29696      0.239089%
+                         Span 12       30 out of   5632      0.53267%
+                  Global network        1 out of      8      12.5%
+      Vertical Inter-LUT Connect        5 out of   6720      0.0744048%
+
