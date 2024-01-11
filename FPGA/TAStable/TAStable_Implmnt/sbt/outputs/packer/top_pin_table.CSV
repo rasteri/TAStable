@@ -6,7 +6,7 @@
 
 * Build Date:         Dec  9 2020 17:31:51
 
-* File Generated:     Nov 14 2023 16:45:23
+* File Generated:     Jan 8 2024 23:35:05
 
 * Purpose:            Detailed IO and package pin info
 
@@ -22,31 +22,31 @@ Pin Number, Pin Type Name, Signal Name, Direction, Global Buffer, IO Standard, P
 A1, PIO, not used, , , , , , topBank
 A2, PIO, not used, , , , , , topBank
 A3, PIO, not used, , , , , , topBank
-A4, PIO, led7, Output, , SB_LVCMOS, No Pull Up, Simple Output, topBank
+A4, PIO, led7, Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank
 A5, PIO, not used, , , , , , topBank
 A6, PIO_GBIN, lcol3, Output, , SB_LVCMOS, No Pull Up, Simple Output, topBank
 A7, PIO_GBIN, led5, Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank
 A8, VCCIO_0, not used, , , , , , topBank
 A9, GND, not used, , , , , , UnknownBank
 A10, PIO, led2, Output, , SB_LVCMOS, No Pull Up, Simple Output, topBank
-A11, PIO, mclkreset, Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+A11, PIO, not used, , , , , , topBank
 A12, PIO, lcol1, Output, , SB_LVCMOS, No Pull Up, Simple Output, topBank
 A13, VPP_DIRECT, not used, , , , , , UnknownBank
 A14, VPP_PUMP, not used, , , , , , UnknownBank
 B1, PIO, not used, , , , , , leftBank
-B14, PIO, apuclk, Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+B14, PIO, not used, , , , , , rightBank
 C1, PIO, not used, , , , , , leftBank
 C3, PIO, not used, , , , , , leftBank
 C4, PIO, led8, Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank
 C5, PIO, lcol4, Output, , SB_LVCMOS, No Pull Up, Simple Output, topBank
-C6, PIO, reset, Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+C6, PIO, consolereset, Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
 C7, PIO, led6, Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank
 C8, AVDD_TOP, not used, , , , , , UnknownBank
 C9, PIO, not used, , , , , , topBank
 C10, PIO, led1, Output, , SB_LVCMOS, No Pull Up, Simple Output, topBank
-C11, PIO, not used, , , , , , topBank
-C12, PIO, apureset, Output, , SB_LVCMOS, No Pull Up, Simple Output, topBank
-C14, PIO, cpuclk, Output, , SB_LVCMOS, No Pull Up, Output DDR with Enable, rightBank
+C11, PIO, masterreset, Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+C12, PIO, not used, , , , , , topBank
+C14, PIO, not used, , , , , , rightBank
 D1, PIO, not used, , , , , , leftBank
 D3, PIO, not used, , , , , , leftBank
 D4, PIO, not used, , , , , , leftBank
@@ -57,8 +57,8 @@ D8, AGND_TOP, not used, , , , , , UnknownBank
 D9, PIO, not used, , , , , , topBank
 D10, PIO, lcol2, Output, , SB_LVCMOS, No Pull Up, Simple Output, topBank
 D11, PIO, not used, , , , , , topBank
-D12, PIO, cpureset, Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
-D14, PIO, apusync, Input, , SB_LVCMOS, No Pull Up, Simple Input, rightBank
+D12, PIO, not used, , , , , , rightBank
+D14, PIO, not used, , , , , , rightBank
 E1, PIO, not used, , , , , , leftBank
 E3, VCCIO_3, not used, , , , , , leftBank
 E4, PIO, not used, , , , , , leftBank
@@ -92,7 +92,7 @@ H6, GND, not used, , , , , , UnknownBank
 H7, GND, not used, , , , , , UnknownBank
 H8, GND, not used, , , , , , UnknownBank
 H9, VCC, not used, , , , , , UnknownBank
-H11, PIO, not used, , , , , , rightBank
+H11, PIO, apuclk, Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
 H12, PIO, not used, , , , , , rightBank
 H14, VCCIO_1, not used, , , , , , rightBank
 J1, PIO, not used, , , , , , leftBank
@@ -103,14 +103,14 @@ J7, VCC, not used, , , , , , UnknownBank
 J8, GND, not used, , , , , , UnknownBank
 J9, VCCIO_2, not used, , , , , , bottomBank
 J11, PIO, not used, , , , , , rightBank
-J12, PIO, not used, , , , , , rightBank
+J12, PIO, apureset, Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
 J14, GND, not used, , , , , , UnknownBank
 K1, VCCIO_3, not used, , , , , , leftBank
 K3, PIO, not used, , , , , , leftBank
 K4, PIO, not used, , , , , , leftBank
 K11, PIO, not used, , , , , , rightBank
-K12, PIO, not used, , , , , , rightBank
-K14, PIO, not used, , , , , , rightBank
+K12, PIO, cpureset, Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+K14, PIO, cpuclk, Output, , SB_LVCMOS, No Pull Up, Output DDR with Enable, rightBank
 L1, PIO, not used, , , , , , leftBank
 L3, GND, not used, , , , , , UnknownBank
 L4, PIO, not used, , , , , , bottomBank
@@ -121,7 +121,7 @@ L8, PIO, not used, , , , , , bottomBank
 L9, PIO, not used, , , , , , bottomBank
 L10, CRESET_B, not used, , , , , , bottomBank
 L11, VDDIO_SPI, not used, , , , , , bottomBank
-L12, PIO, not used, , , , , , rightBank
+L12, PIO, apusync, Input, , SB_LVCMOS, No Pull Up, Simple Input, rightBank
 L14, PIO, not used, , , , , , rightBank
 M1, PIO, not used, , , , , , leftBank
 M3, PIO, not used, , , , , , bottomBank
@@ -143,8 +143,8 @@ P3, PIO, not used, , , , , , bottomBank
 P4, PIO, not used, , , , , , bottomBank
 P5, PIO, not used, , , , , , bottomBank
 P6, GND, not used, , , , , , UnknownBank
-P7, PIO_GBIN, PACKAGEPIN, Input, , SB_LVCMOS, No Pull Up, Input Registered, bottomBank
-P8, PIO_GBIN, not used, , , , , , bottomBank
+P7, PIO_GBIN, not used, , , , , , bottomBank
+P8, PIO_GBIN, PACKAGEPIN, Input, glb Buff, SB_LVCMOS, No Pull Up, Simple Input, bottomBank
 P9, PIO, not used, , , , , , bottomBank
 P10, PIO, not used, , , , , , bottomBank
 P11, SPI_SI, not used, , , , , , bottomBank

@@ -3,7 +3,7 @@
 Part:			ICE40HX8KCB132 (Lattice)
 
 Click here to go to specific block report:
-<a href="rpt_top_areasrr.htm#top"><h5 align="center">top</h5></a><br><a href="rpt_top_areasrr.htm#top.oldstyle"><h5 align="center">oldstyle</h5></a><br><a href="rpt_top_areasrr.htm#oldstyle.divide7or8_1"><h5 align="center">divide7or8_1</h5></a><br><a href="rpt_top_areasrr.htm#oldstyle.divide7or8_0"><h5 align="center">divide7or8_0</h5></a><br><a href="rpt_top_areasrr.htm#oldstyle.Clock_divider"><h5 align="center">Clock_divider</h5></a><br><a href="rpt_top_areasrr.htm#oldstyle.sr_latch"><h5 align="center">sr_latch</h5></a><br><a href="rpt_top_areasrr.htm#oldstyle.sr_latch_0"><h5 align="center">sr_latch_0</h5></a><br><a href="rpt_top_areasrr.htm#oldstyle.DFlipFlop"><h5 align="center">DFlipFlop</h5></a><br><a name=top>
+<a href="rpt_top_areasrr.htm#top"><h5 align="center">top</h5></a><br><a href="rpt_top_areasrr.htm#top.Clock_divider_20000"><h5 align="center">Clock_divider_20000</h5></a><br><a href="rpt_top_areasrr.htm#top.debounce"><h5 align="center">debounce</h5></a><br><a href="rpt_top_areasrr.htm#top.top_pll_nrtthrth"><h5 align="center">top_pll_nrtthrth</h5></a><br><a href="rpt_top_areasrr.htm#top.oldstyle"><h5 align="center">oldstyle</h5></a><br><a href="rpt_top_areasrr.htm#oldstyle.divide7or8_1"><h5 align="center">divide7or8_1</h5></a><br><a href="rpt_top_areasrr.htm#oldstyle.divide7or8_0"><h5 align="center">divide7or8_0</h5></a><br><a href="rpt_top_areasrr.htm#oldstyle.Clock_divider"><h5 align="center">Clock_divider</h5></a><br><a href="rpt_top_areasrr.htm#oldstyle.sr_latch"><h5 align="center">sr_latch</h5></a><br><a href="rpt_top_areasrr.htm#oldstyle.sr_latch_0"><h5 align="center">sr_latch_0</h5></a><br><a href="rpt_top_areasrr.htm#oldstyle.DFlipFlop"><h5 align="center">DFlipFlop</h5></a><br><a name=top>
 -------------------------------------------------------------------
 ########   Utilization report for  Top level view:   top   ########
 ===================================================================
@@ -11,27 +11,76 @@ Click here to go to specific block report:
 SEQUENTIAL ELEMENTS
 Name      Total elements     Utilization     Notes
 --------------------------------------------------
-FLOPS     18                 100 %                
+FLOPS     48                 100 %                
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block top:	18 (21.18 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block top:	48 (25.26 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 
 COMBINATIONAL LOGIC
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-LUTS     29                 100 %                
-=================================================
-Total COMBINATIONAL LOGIC in the block top:	29 (34.12 % Utilization)
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       71                 100 %                
+CARRYS     25                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block top:	96 (50.53 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-PADS     20                 100 %                
+PADS     22                 100 %                
 =================================================
-Total IO PADS in the block top:	20 (23.53 % Utilization)
+Total IO PADS in the block top:	22 (11.58 % Utilization)
+
+<a href="#TopSummary"><h5 align="right">Top</h5></a>
+<a name=top.Clock_divider_20000>
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   Clock_divider_20000   ########
+Instance path:   top.Clock_divider_20000                                 
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     16                 33.3 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block top.Clock_divider_20000:	16 (8.42 % Utilization)
+
+<a href="#TopSummary"><h5 align="right">Top</h5></a>
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       22                 31 %                 
+CARRYS     13                 52 %                 
+===================================================
+Total COMBINATIONAL LOGIC in the block top.Clock_divider_20000:	35 (18.42 % Utilization)
+
+<a href="#TopSummary"><h5 align="right">Top</h5></a>
+<a name=top.debounce>
+--------------------------------------------------------------
+########   Utilization report for  cell:   debounce   ########
+Instance path:   top.debounce                                 
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     8                  16.7 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block top.debounce:	8 (4.21 % Utilization)
+
+<a href="#TopSummary"><h5 align="right">Top</h5></a>
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       12                 16.9 %               
+CARRYS     5                  20 %                 
+===================================================
+Total COMBINATIONAL LOGIC in the block top.debounce:	17 (8.95 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 <a name=top.oldstyle>
@@ -43,27 +92,28 @@ Instance path:   top.oldstyle
 SEQUENTIAL ELEMENTS
 Name      Total elements     Utilization     Notes
 --------------------------------------------------
-FLOPS     18                 100 %                
+FLOPS     24                 50 %                 
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block top.oldstyle:	18 (21.18 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block top.oldstyle:	24 (12.63 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 
 COMBINATIONAL LOGIC
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-LUTS     28                 96.6 %               
-=================================================
-Total COMBINATIONAL LOGIC in the block top.oldstyle:	28 (32.94 % Utilization)
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       36                 50.7 %               
+CARRYS     7                  28 %                 
+===================================================
+Total COMBINATIONAL LOGIC in the block top.oldstyle:	43 (22.63 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-PADS     2                  10 %                 
+PADS     2                  9.09 %               
 =================================================
-Total IO PADS in the block top.oldstyle:	2 (2.35 % Utilization)
+Total IO PADS in the block top.oldstyle:	2 (1.05 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 <a name=oldstyle.Clock_divider>
@@ -75,18 +125,19 @@ Instance path:   oldstyle.Clock_divider
 SEQUENTIAL ELEMENTS
 Name      Total elements     Utilization     Notes
 --------------------------------------------------
-FLOPS     6                  33.3 %               
+FLOPS     6                  12.5 %               
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block oldstyle.Clock_divider:	6 (7.06 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block oldstyle.Clock_divider:	6 (3.16 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 
 COMBINATIONAL LOGIC
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-LUTS     9                  31 %                 
-=================================================
-Total COMBINATIONAL LOGIC in the block oldstyle.Clock_divider:	9 (10.59 % Utilization)
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       9                  12.7 %               
+CARRYS     3                  12 %                 
+===================================================
+Total COMBINATIONAL LOGIC in the block oldstyle.Clock_divider:	12 (6.32 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 <a name=oldstyle.DFlipFlop>
@@ -98,18 +149,18 @@ Instance path:   oldstyle.DFlipFlop
 SEQUENTIAL ELEMENTS
 Name      Total elements     Utilization     Notes
 --------------------------------------------------
-FLOPS     1                  5.56 %               
+FLOPS     1                  2.08 %               
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block oldstyle.DFlipFlop:	1 (1.18 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block oldstyle.DFlipFlop:	1 (0.53 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-LUTS     1                  3.45 %               
+LUTS     2                  2.82 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block oldstyle.DFlipFlop:	1 (1.18 % Utilization)
+Total COMBINATIONAL LOGIC in the block oldstyle.DFlipFlop:	2 (1.05 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 <a name=oldstyle.divide7or8_0>
@@ -121,27 +172,27 @@ Instance path:   oldstyle.divide7or8_0
 SEQUENTIAL ELEMENTS
 Name      Total elements     Utilization     Notes
 --------------------------------------------------
-FLOPS     5                  27.8 %               
+FLOPS     5                  10.4 %               
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block oldstyle.divide7or8_0:	5 (5.88 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block oldstyle.divide7or8_0:	5 (2.63 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-LUTS     4                  13.8 %               
+LUTS     3                  4.23 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block oldstyle.divide7or8_0:	4 (4.71 % Utilization)
+Total COMBINATIONAL LOGIC in the block oldstyle.divide7or8_0:	3 (1.58 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-PADS     1                  5 %                  
+PADS     1                  4.55 %               
 =================================================
-Total IO PADS in the block oldstyle.divide7or8_0:	1 (1.18 % Utilization)
+Total IO PADS in the block oldstyle.divide7or8_0:	1 (0.53 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 <a name=oldstyle.divide7or8_1>
@@ -153,27 +204,27 @@ Instance path:   oldstyle.divide7or8_1
 SEQUENTIAL ELEMENTS
 Name      Total elements     Utilization     Notes
 --------------------------------------------------
-FLOPS     6                  33.3 %               
+FLOPS     6                  12.5 %               
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block oldstyle.divide7or8_1:	6 (7.06 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block oldstyle.divide7or8_1:	6 (3.16 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-LUTS     12                 41.4 %               
+LUTS     12                 16.9 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block oldstyle.divide7or8_1:	12 (14.12 % Utilization)
+Total COMBINATIONAL LOGIC in the block oldstyle.divide7or8_1:	12 (6.32 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-PADS     1                  5 %                  
+PADS     1                  4.55 %               
 =================================================
-Total IO PADS in the block oldstyle.divide7or8_1:	1 (1.18 % Utilization)
+Total IO PADS in the block oldstyle.divide7or8_1:	1 (0.53 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 <a name=oldstyle.sr_latch>
@@ -185,9 +236,9 @@ Instance path:   oldstyle.sr_latch
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-LUTS     1                  3.45 %               
+LUTS     1                  1.41 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block oldstyle.sr_latch:	1 (1.18 % Utilization)
+Total COMBINATIONAL LOGIC in the block oldstyle.sr_latch:	1 (0.53 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 <a name=oldstyle.sr_latch_0>
@@ -199,9 +250,23 @@ Instance path:   oldstyle.sr_latch_0
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-LUTS     1                  3.45 %               
+LUTS     1                  1.41 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block oldstyle.sr_latch_0:	1 (1.18 % Utilization)
+Total COMBINATIONAL LOGIC in the block oldstyle.sr_latch_0:	1 (0.53 % Utilization)
+
+<a href="#TopSummary"><h5 align="right">Top</h5></a>
+<a name=top.top_pll_nrtthrth>
+----------------------------------------------------------------------
+########   Utilization report for  cell:   top_pll_nrtthrth   ########
+Instance path:   top.top_pll_nrtthrth                                 
+======================================================================
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  4.55 %               
+=================================================
+Total IO PADS in the block top.top_pll_nrtthrth:	1 (0.53 % Utilization)
 
 <a href="#TopSummary"><h5 align="right">Top</h5></a>
 

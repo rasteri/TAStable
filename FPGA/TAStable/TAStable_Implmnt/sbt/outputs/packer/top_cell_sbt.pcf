@@ -1,85 +1,175 @@
-ble_pack arse.divseven.dout_1_LC_11_12_2 { arse.divseven.dout_RNO[1], arse.divseven.dout[1] }
-clb_pack LT_11_12 { arse.divseven.dout_1_LC_11_12_2 }
-set_location LT_11_12 11 12
-ble_pack arse.divseven.dout_nesr_0_LC_12_11_0 { arse.divseven.dout_nesr_0_THRU_LUT4_0, arse.divseven.dout_nesr[0] }
-clb_pack LT_12_11 { arse.divseven.dout_nesr_0_LC_12_11_0 }
-set_location LT_12_11 12 11
-ble_pack arse.divseven.dout_nesr_RNO_0_0_LC_12_12_1 { arse.divseven.dout_nesr_RNO_0[0] }
-ble_pack arse.divseven.dout_nesr_RNO_0_LC_12_12_2 { arse.divseven.dout_nesr_RNO[0] }
-ble_pack arse.divseven.counter_0_LC_12_12_3 { arse.divseven.counter_ns_2_0_.m4, arse.divseven.counter[0] }
-ble_pack arse.divseven.counter_ns_2_0__m9_LC_12_12_4 { arse.divseven.counter_ns_2_0_.m9 }
-ble_pack arse.divseven.counter_2_LC_12_12_5 { arse.divseven.counter_ns_2_0_.m10, arse.divseven.counter[2] }
-ble_pack arse.divseven.counter_ns_2_0__m3_s_LC_12_12_7 { arse.divseven.counter_ns_2_0_.m3_s }
-clb_pack LT_12_12 { arse.divseven.dout_nesr_RNO_0_0_LC_12_12_1, arse.divseven.dout_nesr_RNO_0_LC_12_12_2, arse.divseven.counter_0_LC_12_12_3, arse.divseven.counter_ns_2_0__m9_LC_12_12_4, arse.divseven.counter_2_LC_12_12_5, arse.divseven.counter_ns_2_0__m3_s_LC_12_12_7 }
-set_location LT_12_12 12 12
-ble_pack mclkreset_ibuf_RNIFESD_LC_12_19_3 { mclkreset_ibuf_RNIFESD }
-clb_pack LT_12_19 { mclkreset_ibuf_RNIFESD_LC_12_19_3 }
-set_location LT_12_19 12 19
-ble_pack arse.divseven.seven_RNO_0_LC_13_12_2 { arse.divseven.seven_RNO_0 }
-ble_pack arse.divseven.seven_LC_13_12_3 { arse.divseven.seven_RNO, arse.divseven.seven }
-ble_pack arse.divseven.counter_ns_2_0__m5_LC_13_12_6 { arse.divseven.counter_ns_2_0_.m5 }
-ble_pack arse.divseven.counter_1_LC_13_12_7 { arse.divseven.counter_ns_2_0_.m6, arse.divseven.counter[1] }
-clb_pack LT_13_12 { arse.divseven.seven_RNO_0_LC_13_12_2, arse.divseven.seven_LC_13_12_3, arse.divseven.counter_ns_2_0__m5_LC_13_12_6, arse.divseven.counter_1_LC_13_12_7 }
-set_location LT_13_12 13 12
-ble_pack arse.arse.counter_4_LC_13_20_2 { arse.arse.counter_RNO[4], arse.arse.counter[4] }
-ble_pack arse.arse.counter_2_LC_13_20_5 { arse.arse.counter_RNO[2], arse.arse.counter[2] }
-ble_pack arse.arse.counter_3_LC_13_20_6 { arse.arse.counter_RNO[3], arse.arse.counter[3] }
-clb_pack LT_13_20 { arse.arse.counter_4_LC_13_20_2, arse.arse.counter_2_LC_13_20_5, arse.arse.counter_3_LC_13_20_6 }
-set_location LT_13_20 13 20
-ble_pack CONSTANT_ONE_LUT4_LC_14_6_6 { CONSTANT_ONE_LUT4 }
-clb_pack LT_14_6 { CONSTANT_ONE_LUT4_LC_14_6_6 }
-set_location LT_14_6 14 6
-ble_pack arse.arse.counter_RNIHKTF1_1_LC_14_20_1 { arse.arse.counter_RNIHKTF1[1] }
-ble_pack arse.arse.counter_RNIRIUV_4_LC_14_20_3 { arse.arse.counter_RNIRIUV[4] }
-ble_pack arse.arse.counter_RNILCUV_1_LC_14_20_5 { arse.arse.counter_RNILCUV[1] }
-clb_pack LT_14_20 { arse.arse.counter_RNIHKTF1_1_LC_14_20_1, arse.arse.counter_RNIRIUV_4_LC_14_20_3, arse.arse.counter_RNILCUV_1_LC_14_20_5 }
-set_location LT_14_20 14 20
-ble_pack arse.arse.counter_0_LC_14_21_1 { arse.arse.counter_RNO[0], arse.arse.counter[0] }
-ble_pack arse.arse.counter_1_LC_14_21_7 { arse.arse.counter_RNO[1], arse.arse.counter[1] }
-clb_pack LT_14_21 { arse.arse.counter_0_LC_14_21_1, arse.arse.counter_1_LC_14_21_7 }
-set_location LT_14_21 14 21
-ble_pack arse.arse.clock_out_LC_15_21_5 { arse.arse.clock_out_RNO, arse.arse.clock_out }
-ble_pack arse.ddd.Q_RNO_LC_15_21_7 { arse.ddd.Q_RNO }
-clb_pack LT_15_21 { arse.arse.clock_out_LC_15_21_5, arse.ddd.Q_RNO_LC_15_21_7 }
-set_location LT_15_21 15 21
-ble_pack arse.ddd.Q_LC_16_22_2 { arse.l2.un1_Q_arse.ddd.Q_REP_LUT4_0, arse.ddd.Q }
-clb_pack LT_16_22 { arse.ddd.Q_LC_16_22_2 }
-set_location LT_16_22 16 22
-ble_pack arse.l2.un1_Q_LC_16_23_0 { arse.l2.un1_Q }
-clb_pack LT_16_23 { arse.l2.un1_Q_LC_16_23_0 }
-set_location LT_16_23 16 23
-ble_pack arse.diveight.counter_2_LC_31_24_1 { arse.diveight.counter_ns_2_0_.m6, arse.diveight.counter[2] }
-ble_pack arse.diveight.counter_0_LC_31_24_5 { arse.diveight.counter_ns_2_0_.m1, arse.diveight.counter[0] }
-ble_pack arse.diveight.counter_1_LC_31_24_6 { arse.diveight.counter_ns_2_0_.m3, arse.diveight.counter[1] }
-clb_pack LT_31_24 { arse.diveight.counter_2_LC_31_24_1, arse.diveight.counter_0_LC_31_24_5, arse.diveight.counter_1_LC_31_24_6 }
-set_location LT_31_24 31 24
-ble_pack arse.diveight.dout_0_LC_32_23_6 { arse.diveight.dout_RNO[0], arse.diveight.dout[0] }
-clb_pack LT_32_23 { arse.diveight.dout_0_LC_32_23_6 }
-set_location LT_32_23 32 23
-ble_pack arse.diveight.dout_1_LC_32_24_4 { arse.diveight.dout_1_THRU_LUT4_0, arse.diveight.dout[1] }
-clb_pack LT_32_24 { arse.diveight.dout_1_LC_32_24_4 }
-set_location LT_32_24 32 24
-ble_pack arse.l1.N_21_0_i_LC_32_25_3 { arse.l1.N_21_0_i }
-ble_pack arse.divseven.io_0_RNIIG08_LC_32_25_4 { arse.divseven.io_0_RNIIG08 }
-clb_pack LT_32_25 { arse.l1.N_21_0_i_LC_32_25_3, arse.divseven.io_0_RNIIG08_LC_32_25_4 }
-set_location LT_32_25 32 25
-set_io led4 D6
-set_io lcol3 A6
+ble_pack arse.divseven.dout_esr_1_LC_4_4_6 { arse.divseven.dout_esr_RNO[1], arse.divseven.dout_esr[1] }
+clb_pack LT_4_4 { arse.divseven.dout_esr_1_LC_4_4_6 }
+set_location LT_4_4 4 4
+ble_pack arse.divseven.seven_RNO_0_LC_4_5_5 { arse.divseven.seven_RNO_0 }
+ble_pack arse.divseven.seven_RNO_LC_4_5_6 { arse.divseven.seven_RNO }
+clb_pack LT_4_5 { arse.divseven.seven_RNO_0_LC_4_5_5, arse.divseven.seven_RNO_LC_4_5_6 }
+set_location LT_4_5 4 5
+ble_pack arse.divseven.seven_LC_4_6_0 { arse.divseven.seven_THRU_LUT4_0, arse.divseven.seven }
+clb_pack LT_4_6 { arse.divseven.seven_LC_4_6_0 }
+set_location LT_4_6 4 6
+ble_pack arse.divseven.counter_ns_2_0__m5_LC_5_4_1 { arse.divseven.counter_ns_2_0_.m5 }
+ble_pack arse.divseven.counter_1_LC_5_4_2 { arse.divseven.counter_ns_2_0_.m6, arse.divseven.counter[1] }
+clb_pack LT_5_4 { arse.divseven.counter_ns_2_0__m5_LC_5_4_1, arse.divseven.counter_1_LC_5_4_2 }
+set_location LT_5_4 5 4
+ble_pack arse.divseven.counter_ns_2_0__m3_s_LC_5_5_1 { arse.divseven.counter_ns_2_0_.m3_s }
+ble_pack arse.divseven.counter_0_LC_5_5_2 { arse.divseven.counter_ns_2_0_.m4, arse.divseven.counter[0] }
+ble_pack arse.divseven.counter_ns_2_0__m9_LC_5_5_3 { arse.divseven.counter_ns_2_0_.m9 }
+ble_pack arse.divseven.counter_2_LC_5_5_4 { arse.divseven.counter_ns_2_0_.m10, arse.divseven.counter[2] }
+ble_pack arse.divseven.counter_RNI8ECT_0_LC_5_5_5 { arse.divseven.counter_RNI8ECT[0] }
+ble_pack arse.divseven.counter_RNI04101_0_LC_5_5_6 { arse.divseven.counter_RNI04101[0] }
+clb_pack LT_5_5 { arse.divseven.counter_ns_2_0__m3_s_LC_5_5_1, arse.divseven.counter_0_LC_5_5_2, arse.divseven.counter_ns_2_0__m9_LC_5_5_3, arse.divseven.counter_2_LC_5_5_4, arse.divseven.counter_RNI8ECT_0_LC_5_5_5, arse.divseven.counter_RNI04101_0_LC_5_5_6 }
+set_location LT_5_5 5 5
+ble_pack arse.divseven.dout_nesr_0_LC_6_4_3 { arse.divseven.dout_nesr_0_THRU_LUT4_0, arse.divseven.dout_nesr[0] }
+clb_pack LT_6_4 { arse.divseven.dout_nesr_0_LC_6_4_3 }
+set_location LT_6_4 6 4
+ble_pack arse.seqreset_e_0_RNIOLK2_LC_6_5_5 { arse.seqreset_e_0_RNIOLK2 }
+clb_pack LT_6_5 { arse.seqreset_e_0_RNIOLK2_LC_6_5_5 }
+set_location LT_6_5 6 5
+ble_pack arse.seqreset_e_0_LC_6_6_7 { arse.seqreset_e_0_THRU_LUT4_0, arse.seqreset_e_0 }
+clb_pack LT_6_6 { arse.seqreset_e_0_LC_6_6_7 }
+set_location LT_6_6 6 6
+ble_pack arse.seqcounter_0_LC_6_9_0 { arse.seqcounter_RNO[0], arse.seqcounter[0], arse.un1_seqcounter_1_cry_0_c }
+ble_pack arse.seqcounter_1_LC_6_9_1 { arse.seqcounter_RNO[1], arse.seqcounter[1], arse.un1_seqcounter_1_cry_1_c }
+ble_pack arse.seqcounter_2_LC_6_9_2 { arse.seqcounter_RNO[2], arse.seqcounter[2], arse.un1_seqcounter_1_cry_2_c }
+ble_pack arse.seqcounter_3_LC_6_9_3 { arse.seqcounter_RNO[3], arse.seqcounter[3], arse.un1_seqcounter_1_cry_3_c }
+ble_pack arse.seqcounter_4_LC_6_9_4 { arse.seqcounter_RNO[4], arse.seqcounter[4] }
+ble_pack arse.seqcounter_RNIEP0A_4_LC_6_9_5 { arse.seqcounter_RNIEP0A[4] }
+clb_pack LT_6_9 { arse.seqcounter_0_LC_6_9_0, arse.seqcounter_1_LC_6_9_1, arse.seqcounter_2_LC_6_9_2, arse.seqcounter_3_LC_6_9_3, arse.seqcounter_4_LC_6_9_4, arse.seqcounter_RNIEP0A_4_LC_6_9_5 }
+set_location LT_6_9 6 9
+ble_pack arses.counter_RNIA58_5_LC_9_3_0 { arses.counter_RNIA58[5] }
+clb_pack LT_9_3 { arses.counter_RNIA58_5_LC_9_3_0 }
+set_location LT_9_3 9 3
+ble_pack arses.un2_counter_cry_1_c_LC_9_4_0 { arses.un2_counter_cry_1_c }
+ble_pack arses.counter_2_LC_9_4_1 { arses.counter_RNO[2], arses.counter[2], arses.un2_counter_cry_2_c }
+ble_pack arses.counter_3_LC_9_4_2 { arses.counter_RNO[3], arses.counter[3], arses.un2_counter_cry_3_c }
+ble_pack arses.counter_4_LC_9_4_3 { arses.counter_RNO[4], arses.counter[4], arses.un2_counter_cry_4_c }
+ble_pack arses.counter_5_LC_9_4_4 { arses.counter_RNO[5], arses.counter[5], arses.un2_counter_cry_5_c }
+ble_pack arses.counter_6_LC_9_4_5 { arses.counter_RNO[6], arses.counter[6], arses.un2_counter_cry_6_c }
+ble_pack arses.counter_7_LC_9_4_6 { arses.counter_RNO[7], arses.counter[7], arses.un2_counter_cry_7_c }
+ble_pack arses.counter_8_LC_9_4_7 { arses.counter_RNO[8], arses.counter[8], arses.un2_counter_cry_8_c }
+clb_pack LT_9_4 { arses.un2_counter_cry_1_c_LC_9_4_0, arses.counter_2_LC_9_4_1, arses.counter_3_LC_9_4_2, arses.counter_4_LC_9_4_3, arses.counter_5_LC_9_4_4, arses.counter_6_LC_9_4_5, arses.counter_7_LC_9_4_6, arses.counter_8_LC_9_4_7 }
+set_location LT_9_4 9 4
+ble_pack arses.counter_9_LC_9_5_0 { arses.counter_RNO[9], arses.counter[9], arses.un2_counter_cry_9_c }
+ble_pack arses.counter_10_LC_9_5_1 { arses.counter_RNO[10], arses.counter[10], arses.un2_counter_cry_10_c }
+ble_pack arses.counter_11_LC_9_5_2 { arses.counter_RNO[11], arses.counter[11], arses.un2_counter_cry_11_c }
+ble_pack arses.counter_12_LC_9_5_3 { arses.counter_RNO[12], arses.counter[12], arses.un2_counter_cry_12_c }
+ble_pack arses.counter_13_LC_9_5_4 { arses.counter_RNO[13], arses.counter[13], arses.un2_counter_cry_13_c }
+ble_pack arses.counter_14_LC_9_5_5 { arses.counter_RNO[14], arses.counter[14] }
+clb_pack LT_9_5 { arses.counter_9_LC_9_5_0, arses.counter_10_LC_9_5_1, arses.counter_11_LC_9_5_2, arses.counter_12_LC_9_5_3, arses.counter_13_LC_9_5_4, arses.counter_14_LC_9_5_5 }
+set_location LT_9_5 9 5
+ble_pack masterreset_ibuf_RNIKP26_LC_9_6_2 { masterreset_ibuf_RNIKP26 }
+clb_pack LT_9_6 { masterreset_ibuf_RNIKP26_LC_9_6_2 }
+set_location LT_9_6 9 6
+ble_pack arse.diveight.dout_0_LC_10_1_0 { arse.diveight.dout_0_THRU_LUT4_0, arse.diveight.dout[0] }
+clb_pack LT_10_1 { arse.diveight.dout_0_LC_10_1_0 }
+set_location LT_10_1 10 1
+ble_pack arse.diveight.counter_2_LC_10_3_3 { arse.diveight.counter_ns_2_0_.m6, arse.diveight.counter[2] }
+ble_pack arse.diveight.counter_1_LC_10_3_6 { arse.diveight.counter_ns_2_0_.m3, arse.diveight.counter[1] }
+ble_pack arse.diveight.counter_0_LC_10_3_7 { arse.diveight.counter_ns_2_0_.m1, arse.diveight.counter[0] }
+clb_pack LT_10_3 { arse.diveight.counter_2_LC_10_3_3, arse.diveight.counter_1_LC_10_3_6, arse.diveight.counter_0_LC_10_3_7 }
+set_location LT_10_3 10 3
+ble_pack arses.counter_RNI1L5_2_LC_10_4_0 { arses.counter_RNI1L5[2] }
+ble_pack arses.counter_RNIOKH_1_LC_10_4_1 { arses.counter_RNIOKH[1] }
+ble_pack arses.counter_0_LC_10_4_3 { arses.counter_RNO[0], arses.counter[0] }
+ble_pack arses.counter_1_LC_10_4_4 { arses.counter_RNO[1], arses.counter[1] }
+clb_pack LT_10_4 { arses.counter_RNI1L5_2_LC_10_4_0, arses.counter_RNIOKH_1_LC_10_4_1, arses.counter_0_LC_10_4_3, arses.counter_1_LC_10_4_4 }
+set_location LT_10_4 10 4
+ble_pack arses.counter_RNI04C4_9_LC_10_5_2 { arses.counter_RNI04C4[9] }
+ble_pack arses.counter_RNIOS0A_14_LC_10_5_3 { arses.counter_RNIOS0A[14] }
+clb_pack LT_10_5 { arses.counter_RNI04C4_9_LC_10_5_2, arses.counter_RNIOS0A_14_LC_10_5_3 }
+set_location LT_10_5 10 5
+ble_pack debounceconsolereset.counter_4_LC_11_3_0 { debounceconsolereset.counter_RNO[4], debounceconsolereset.counter[4] }
+ble_pack debounceconsolereset.counter_2_LC_11_3_2 { debounceconsolereset.counter_RNO[2], debounceconsolereset.counter[2] }
+ble_pack debounceconsolereset.out_RNO_1_LC_11_3_4 { debounceconsolereset.out_RNO_1 }
+ble_pack debounceconsolereset.counter_RNISLFD_2_LC_11_3_5 { debounceconsolereset.counter_RNISLFD[2] }
+ble_pack debounceconsolereset.counter_3_LC_11_3_6 { debounceconsolereset.counter_RNO[3], debounceconsolereset.counter[3] }
+ble_pack debounceconsolereset.counter_0_LC_11_3_7 { debounceconsolereset.counter_RNO[0], debounceconsolereset.counter[0] }
+clb_pack LT_11_3 { debounceconsolereset.counter_4_LC_11_3_0, debounceconsolereset.counter_2_LC_11_3_2, debounceconsolereset.out_RNO_1_LC_11_3_4, debounceconsolereset.counter_RNISLFD_2_LC_11_3_5, debounceconsolereset.counter_3_LC_11_3_6, debounceconsolereset.counter_0_LC_11_3_7 }
+set_location LT_11_3 11 3
+ble_pack debounceconsolereset.un3_counter_cry_1_c_LC_11_4_0 { debounceconsolereset.un3_counter_cry_1_c }
+ble_pack debounceconsolereset.un3_counter_cry_1_THRU_LUT4_0_LC_11_4_1 { debounceconsolereset.un3_counter_cry_1_THRU_LUT4_0, debounceconsolereset.un3_counter_cry_2_c }
+ble_pack debounceconsolereset.un3_counter_cry_2_THRU_LUT4_0_LC_11_4_2 { debounceconsolereset.un3_counter_cry_2_THRU_LUT4_0, debounceconsolereset.un3_counter_cry_3_c }
+ble_pack debounceconsolereset.un3_counter_cry_3_THRU_LUT4_0_LC_11_4_3 { debounceconsolereset.un3_counter_cry_3_THRU_LUT4_0, debounceconsolereset.un3_counter_cry_4_c }
+ble_pack debounceconsolereset.un3_counter_cry_4_THRU_LUT4_0_LC_11_4_4 { debounceconsolereset.un3_counter_cry_4_THRU_LUT4_0, debounceconsolereset.un3_counter_cry_5_c }
+ble_pack debounceconsolereset.counter_6_LC_11_4_5 { debounceconsolereset.counter_RNO[6], debounceconsolereset.counter[6] }
+ble_pack arses.clock_out_RNIR6ER_LC_11_4_6 { arses.clock_out_RNIR6ER }
+ble_pack debounceconsolereset.counter_RNI4RTH1_6_LC_11_4_7 { debounceconsolereset.counter_RNI4RTH1[6] }
+clb_pack LT_11_4 { debounceconsolereset.un3_counter_cry_1_c_LC_11_4_0, debounceconsolereset.un3_counter_cry_1_THRU_LUT4_0_LC_11_4_1, debounceconsolereset.un3_counter_cry_2_THRU_LUT4_0_LC_11_4_2, debounceconsolereset.un3_counter_cry_3_THRU_LUT4_0_LC_11_4_3, debounceconsolereset.un3_counter_cry_4_THRU_LUT4_0_LC_11_4_4, debounceconsolereset.counter_6_LC_11_4_5, arses.clock_out_RNIR6ER_LC_11_4_6, debounceconsolereset.counter_RNI4RTH1_6_LC_11_4_7 }
+set_location LT_11_4 11 4
+ble_pack arses.clock_out_LC_11_5_1 { arses.clock_out_RNO, arses.clock_out }
+ble_pack debounceconsolereset.counter_5_LC_11_5_2 { debounceconsolereset.counter_RNO[5], debounceconsolereset.counter[5] }
+ble_pack debounceconsolereset.out_RNO_0_LC_11_5_5 { debounceconsolereset.out_RNO_0 }
+ble_pack debounceconsolereset.out_LC_11_5_6 { debounceconsolereset.out_RNO, debounceconsolereset.out }
+ble_pack debounceconsolereset.counter_1_LC_11_5_7 { debounceconsolereset.counter_RNO[1], debounceconsolereset.counter[1] }
+clb_pack LT_11_5 { arses.clock_out_LC_11_5_1, debounceconsolereset.counter_5_LC_11_5_2, debounceconsolereset.out_RNO_0_LC_11_5_5, debounceconsolereset.out_LC_11_5_6, debounceconsolereset.counter_1_LC_11_5_7 }
+set_location LT_11_5 11 5
+ble_pack arse.arse.counter_1_LC_15_5_3 { arse.arse.counter_RNO[1], arse.arse.counter[1] }
+ble_pack arse.arse.counter_2_LC_15_5_7 { arse.arse.counter_RNO[2], arse.arse.counter[2] }
+clb_pack LT_15_5 { arse.arse.counter_1_LC_15_5_3, arse.arse.counter_2_LC_15_5_7 }
+set_location LT_15_5 15 5
+ble_pack arse.arse.counter_RNIHKTF1_1_LC_15_6_3 { arse.arse.counter_RNIHKTF1[1] }
+clb_pack LT_15_6 { arse.arse.counter_RNIHKTF1_1_LC_15_6_3 }
+set_location LT_15_6 15 6
+ble_pack GB_BUFFER_PACKAGEPIN_0_c_g_THRU_LUT4_0_LC_16_1_5 { GB_BUFFER_PACKAGEPIN_0_c_g_THRU_LUT4_0 }
+clb_pack LT_16_1 { GB_BUFFER_PACKAGEPIN_0_c_g_THRU_LUT4_0_LC_16_1_5 }
+set_location LT_16_1 16 1
+ble_pack arse.arse.counter_0_LC_16_5_4 { arse.arse.counter_RNO[0], arse.arse.counter[0] }
+ble_pack arse.arse.counter_3_LC_16_5_6 { arse.arse.counter_RNO[3], arse.arse.counter[3] }
+clb_pack LT_16_5 { arse.arse.counter_0_LC_16_5_4, arse.arse.counter_3_LC_16_5_6 }
+set_location LT_16_5 16 5
+ble_pack arse.arse.un16_counter_cry_1_c_LC_16_6_0 { arse.arse.un16_counter_cry_1_c }
+ble_pack arse.arse.un16_counter_cry_1_THRU_LUT4_0_LC_16_6_1 { arse.arse.un16_counter_cry_1_THRU_LUT4_0, arse.arse.un16_counter_cry_2_c }
+ble_pack arse.arse.un16_counter_cry_2_THRU_LUT4_0_LC_16_6_2 { arse.arse.un16_counter_cry_2_THRU_LUT4_0, arse.arse.un16_counter_cry_3_c }
+ble_pack arse.arse.counter_4_LC_16_6_3 { arse.arse.counter_RNO[4], arse.arse.counter[4] }
+clb_pack LT_16_6 { arse.arse.un16_counter_cry_1_c_LC_16_6_0, arse.arse.un16_counter_cry_1_THRU_LUT4_0_LC_16_6_1, arse.arse.un16_counter_cry_2_THRU_LUT4_0_LC_16_6_2, arse.arse.counter_4_LC_16_6_3 }
+set_location LT_16_6 16 6
+ble_pack arse.arse.counter_RNIRIUV_4_LC_17_6_0 { arse.arse.counter_RNIRIUV[4] }
+clb_pack LT_17_6 { arse.arse.counter_RNIRIUV_4_LC_17_6_0 }
+set_location LT_17_6 17 6
+ble_pack arse.ddd.Q_esr_RNO_LC_18_5_2 { arse.ddd.Q_esr_RNO }
+clb_pack LT_18_5 { arse.ddd.Q_esr_RNO_LC_18_5_2 }
+set_location LT_18_5 18 5
+ble_pack arse.arse.clock_out_RNIM09F_LC_18_6_2 { arse.arse.clock_out_RNIM09F }
+ble_pack arse.seqreset_e_0_RNIQTP13_LC_18_6_3 { arse.seqreset_e_0_RNIQTP13 }
+ble_pack arse.arse.clock_out_LC_18_6_5 { arse.arse.clock_out_RNO, arse.arse.clock_out }
+ble_pack arse.ddd.Q_esr_RNO_0_LC_18_6_7 { arse.ddd.Q_esr_RNO_0 }
+clb_pack LT_18_6 { arse.arse.clock_out_RNIM09F_LC_18_6_2, arse.seqreset_e_0_RNIQTP13_LC_18_6_3, arse.arse.clock_out_LC_18_6_5, arse.ddd.Q_esr_RNO_0_LC_18_6_7 }
+set_location LT_18_6 18 6
+ble_pack CONSTANT_ONE_LUT4_LC_18_16_0 { CONSTANT_ONE_LUT4 }
+clb_pack LT_18_16 { CONSTANT_ONE_LUT4_LC_18_16_0 }
+set_location LT_18_16 18 16
+ble_pack arse.ddd.Q_esr_LC_19_5_1 { arse.l2.un1_Q_arse.ddd.Q_esr_REP_LUT4_0, arse.ddd.Q_esr }
+clb_pack LT_19_5 { arse.ddd.Q_esr_LC_19_5_1 }
+set_location LT_19_5 19 5
+ble_pack arse.l2.un1_Q_LC_19_6_1 { arse.l2.un1_Q }
+clb_pack LT_19_6 { arse.l2.un1_Q_LC_19_6_1 }
+set_location LT_19_6 19 6
+ble_pack arse.l1.N_23_0_i_LC_20_4_4 { arse.l1.N_23_0_i }
+ble_pack arse.divseven.io_0_RNIIG08_LC_20_4_5 { arse.divseven.io_0_RNIIG08 }
+clb_pack LT_20_4 { arse.l1.N_23_0_i_LC_20_4_4, arse.divseven.io_0_RNIIG08_LC_20_4_5 }
+set_location LT_20_4 20 4
+ble_pack arse.diveight.dout_1_LC_30_5_5 { arse.diveight.dout_1_THRU_LUT4_0, arse.diveight.dout[1] }
+clb_pack LT_30_5 { arse.diveight.dout_1_LC_30_5_5 }
+set_location LT_30_5 30 5
+set_location top_pll_nrtthrth.PLLOUTCORE_derived_clock_RNIRGL5 0 16
 set_io led5 A7
 set_io lcol2 D10
 set_io led6 C7
 set_io led2 A10
 set_io lcol1 A12
-set_io cpuclk C14
-set_io apureset C12
-set_io reset C6
-set_io mclkreset A11
+set_io cpuclk K14
+set_io apureset J12
 set_io led7 A4
 set_io led3 D7
 set_io lcol4 C5
-set_io cpureset D12
-set_io apusync D14
-set_io PACKAGEPIN P7
+set_io cpureset K12
+set_io apusync L12
+set_io PACKAGEPIN P8
+set_io masterreset C11
 set_io led8 C4
+set_io led4 D6
+set_io lcol3 A6
 set_io led1 C10
-set_io apuclk B14
+set_io consolereset C6
+set_io apuclk H11

@@ -15,15 +15,15 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <data tcl_name="slack">Slack</data>
 </row>
 <row>
-<data>top|PACKAGEPIN</data>
-<data>195.4 MHz</data>
-<data>NA</data>
-<data>NA</data>
+<data>top_pll_nrtthrth|PLLOUTCORE_derived_clock</data>
+<data>80.5 MHz</data>
+<data>85.2 MHz</data>
+<data>0.345</data>
 </row>
 <row>
-<data>top|PLLOUTGLOBAL_derived_clock</data>
-<data>195.4 MHz</data>
-<data>85.2 MHz</data>
-<data>-3.307</data>
+<data>top|PACKAGEPIN</data>
+<data>80.5 MHz</data>
+<data>68.4 MHz</data>
+<data>-2.192</data>
 </row>
 </report_table>

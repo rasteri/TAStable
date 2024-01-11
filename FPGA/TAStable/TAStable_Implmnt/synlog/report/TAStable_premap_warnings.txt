@@ -1,3 +1,4 @@
-@W: BN137 :"c:\code\tas\tas\tastable\fpga\top.v":308:23:308:31|Found combinational loop during mapping at net arse.l1.Q_not
-@W: BN137 :"c:\code\tas\tas\tastable\fpga\top.v":308:23:308:31|Found combinational loop during mapping at net arse.l2.Q_not
+@W: BN137 :"c:\code\tas\tas\tastable\fpga\top.v":279:23:279:31|Found combinational loop during mapping at net arse.l1.Q_not
+@W: BN137 :"c:\code\tas\tas\tastable\fpga\top.v":279:23:279:31|Found combinational loop during mapping at net arse.l2.Q_not
 @W: MF515 :"c:\code\tas\tas\tastable\fpga\top.v":58:3:58:6|Found illegal pad connections on pad arse.divseven.io_0 
+@W: MT529 :"c:\code\tas\tas\tastable\fpga\top.v":25:4:25:9|Found inferred clock top|PACKAGEPIN which controls 16 sequential elements including arses.counter[14:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

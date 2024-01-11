@@ -10,49 +10,97 @@ z2
 !i10f 100
 cModel Technology
 dC:/code/fpgatest2
-vClock_divider
-Z0 !s110 1703913989
+vclock_div
+Z0 !s110 1704733184
 !i10b 1
-!s100 CUKTAdBTX?ghgO_MR9``^3
+!s100 D:X7=blkO_nf:D0lDH@492
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IWJlNMgn8bOjn>WfO0TBY62
+IR;9TZ?JK:Lcaf;]G>^MXN1
 Z2 dC:/code/TAS/TAS/TAStable
-Z3 w1703913985
+Z3 w1704733043
 Z4 8C:/code/TAS/TAS/TAStable/FPGA/top.v
 Z5 FC:/code/TAS/TAS/TAStable/FPGA/top.v
-!i122 420
-L0 15 25
+!i122 496
+L0 375 8
 Z6 VDg1SIo80bB@j0V0VzS_@n1
 Z7 OT;L;2020.3;71
 r1
 !s85 0
 31
-Z8 !s108 1703913989.000000
+Z8 !s108 1704733183.000000
 Z9 !s107 C:/code/TAS/TAS/TAStable/FPGA/top.v|
 Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/code/TAS/TAS/TAStable/FPGA/top.v|
 !s101 -O0
 !i113 1
 Z11 o-work work -O0
 Z12 tCvgOpt 0
+vClock_divider
+Z13 !s110 1704753919
+!i10b 1
+!s100 CUKTAdBTX?ghgO_MR9``^3
+R1
+IWJlNMgn8bOjn>WfO0TBY62
+R2
+Z14 w1704753909
+R4
+R5
+!i122 527
+L0 15 25
+R6
+R7
+r1
+!s85 0
+31
+Z15 !s108 1704753919.000000
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
 n@clock_divider
+vdebounce
+R13
+!i10b 1
+!s100 I7AXA4BI>8Yb;0ZgYPFBF3
+R1
+IoWIk0<gN7hSjk7P:TN`XZ2
+R2
+R14
+R4
+R5
+!i122 527
+L0 384 23
+R6
+R7
+r1
+!s85 0
+31
+R15
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
 vDFlipFlop
-R0
+R13
 !i10b 1
 !s100 ?]<Q?_R9Q_TY3JlD?5U`]1
 R1
 IITHg9Z=FB:=g8>mQ]6djT0
 R2
-R3
+R14
 R4
 R5
-!i122 420
+!i122 527
 L0 1 13
 R6
 R7
 r1
 !s85 0
 31
-R8
+R15
 R9
 R10
 !s101 -O0
@@ -85,23 +133,23 @@ R10
 R11
 R12
 vdivide7or8
-R0
+R13
 !i10b 1
 !s100 <EA@kZHU>BNj7dgHdm`Rd3
 R1
 IEWZ]PRSQG<bz>Oeo[FY]W2
 R2
-R3
+R14
 R4
 R5
-!i122 420
+!i122 527
 L0 41 135
 R6
 R7
 r1
 !s85 0
 31
-R8
+R15
 R9
 R10
 !s101 -O0
@@ -133,17 +181,41 @@ R10
 R11
 R12
 vdostuff
+R13
+!i10b 1
+!s100 ;4_lE`Ez^1hFo4<WhLGfa2
+R1
+I@Y3>I9THN]Q7Z9J?33cdV0
+R2
+R14
+R4
+R5
+!i122 527
+L0 177 96
+R6
+R7
+r1
+!s85 0
+31
+R15
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vmy_dff
 R0
 !i10b 1
-!s100 dTG@fTFBG1]XXES<JG9gH3
+!s100 ScIQa=Gnf][Zc@<ieKm<a0
 R1
-Ih[8=D<2E<AU2z^]fJCKjN3
+I8zlIk1PF[G`@:_Vg4BMgO0
 R2
 R3
 R4
 R5
-!i122 420
-L0 177 126
+!i122 496
+L0 385 7
 R6
 R7
 r1
@@ -157,23 +229,23 @@ R10
 R11
 R12
 voldstyle
-R0
+R13
 !i10b 1
-!s100 U_@TcU8Z=:>`dk79?7lHg1
+!s100 ;6g1f<`XiM^TblA34Hmkh1
 R1
-I;NT=EfOSD?aMAGoK^`Mel0
+I[Z@?H8Xcf]6`^WGYoi<bn0
 R2
-R3
+R14
 R4
 R5
-!i122 420
-L0 312 37
+!i122 527
+L0 282 60
 R6
 R7
 r1
 !s85 0
 31
-R8
+R15
 R9
 R10
 !s101 -O0
@@ -181,29 +253,54 @@ R10
 R11
 R12
 vsr_latch
-R0
+R13
 !i10b 1
-!s100 QoQ`Rzk2gNam;=iKEAka?2
+!s100 L3_0CkCifbGSo@VfdYJe10
 R1
-Ic64ldYz>A<l3W:ke@ff3N2
+IJcTL_SDA7gDEicX^]=kiL1
 R2
-R3
+R14
 R4
 R5
-!i122 420
-L0 304 7
+!i122 527
+L0 274 7
 R6
 R7
 r1
 !s85 0
 31
-R8
+R15
 R9
 R10
 !s101 -O0
 !i113 1
 R11
 R12
+vTAStable_pll_21in
+!s110 1704208537
+!i10b 1
+!s100 @@MBSnKLQO<j>Zh[0]GZd3
+R1
+ISDB4[d:d9S=b=oVL9a^nY3
+R2
+w1704208535
+R4
+R5
+!i122 433
+L0 321 38
+R6
+R7
+r1
+!s85 0
+31
+!s108 1704208537.000000
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+n@t@a@stable_pll_21in
 vtestes
 !s110 1699549698
 !i10b 1
@@ -229,23 +326,47 @@ R10
 R11
 R12
 vtop
-R0
+R13
 !i10b 1
-!s100 fQF@cG[aFWHYkzAYnK1g>0
+!s100 i_LDe:2l<NbmagdP3`l<@0
 R1
-I1bMn:NaSfBNP1j1=SXbUk3
+IibV5j>QB6Gea9@QEo[gm;2
 R2
-R3
+R14
 R4
 R5
-!i122 420
-L0 351 83
+!i122 527
+L0 409 72
 R6
 R7
 r1
 !s85 0
 31
-R8
+R15
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vtop_pll_nrtthrth
+R13
+!i10b 1
+!s100 ?@VJg@DoAo2=N>b2dGZGH0
+R1
+ICZ;Jaz?<Jf]3TIkB6GH1D0
+R2
+R14
+R4
+R5
+!i122 527
+L0 343 38
+R6
+R7
+r1
+!s85 0
+31
+R15
 R9
 R10
 !s101 -O0

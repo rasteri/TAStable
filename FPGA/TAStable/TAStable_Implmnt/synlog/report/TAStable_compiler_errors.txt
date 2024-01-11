@@ -1,2 +1,2 @@
-@E: CS172 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":199:4:199:16|The number of ports in the instantiation does not match the number of ports in the module definition for instance II_2
+@E: CS153 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":334:27:334:27|Can't mix blocking and non-blocking assignments to a variable
 

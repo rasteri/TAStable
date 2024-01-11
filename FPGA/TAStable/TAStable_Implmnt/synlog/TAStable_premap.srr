@@ -1,4 +1,4 @@
-# Tue Nov 14 16:45:09 2023
+# Mon Jan 08 23:34:47 2024
 
 Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -23,15 +23,16 @@ Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
 
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":320:11:320:15|Tristate driver essw1 (in view: work.oldstyle(verilog)) on net essw1 (in view: work.oldstyle(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":321:11:321:15|Tristate driver essw2 (in view: work.oldstyle(verilog)) on net essw2 (in view: work.oldstyle(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":362:11:362:14|Tristate driver led3 (in view: work.top(verilog)) on net led3 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":363:11:363:14|Tristate driver led4 (in view: work.top(verilog)) on net led4 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":364:11:364:14|Tristate driver led5 (in view: work.top(verilog)) on net led5 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":365:11:365:14|Tristate driver led6 (in view: work.top(verilog)) on net led6 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":367:11:367:14|Tristate driver led8 (in view: work.top(verilog)) on net led8 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":291:11:291:15|Tristate driver essw1 (in view: work.oldstyle(verilog)) on net essw1 (in view: work.oldstyle(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":292:11:292:15|Tristate driver essw2 (in view: work.oldstyle(verilog)) on net essw2 (in view: work.oldstyle(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":420:11:420:14|Tristate driver led3 (in view: work.top(verilog)) on net led3 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":421:11:421:14|Tristate driver led4 (in view: work.top(verilog)) on net led4 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":422:11:422:14|Tristate driver led5 (in view: work.top(verilog)) on net led5 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":423:11:423:14|Tristate driver led6 (in view: work.top(verilog)) on net led6 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":424:11:424:14|Tristate driver led7 (in view: work.top(verilog)) on net led7 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":425:11:425:14|Tristate driver led8 (in view: work.top(verilog)) on net led8 (in view: work.top(verilog)) has its enable tied to GND.
 Warning: Found 2 combinational loops!
-@W: BN137 :"c:\code\tas\tas\tastable\fpga\top.v":308:23:308:31|Found combinational loop during mapping at net arse.l1.Q_not
+@W: BN137 :"c:\code\tas\tas\tastable\fpga\top.v":279:23:279:31|Found combinational loop during mapping at net arse.l1.Q_not
 1) instance Q_not (in view: work.sr_latch_1(verilog)), output net Q_not (in view: work.sr_latch_1(verilog))
     net        arse.l1.Q_not
     input  pin arse.l1.un1_Q/I[0]
@@ -50,7 +51,7 @@ Warning: Found 2 combinational loops!
     instance   arse.l1.Q_not (cell inv)
     output pin arse.l1.Q_not/OUT[0]
     net        arse.l1.Q_not
-@W: BN137 :"c:\code\tas\tas\tastable\fpga\top.v":308:23:308:31|Found combinational loop during mapping at net arse.l2.Q_not
+@W: BN137 :"c:\code\tas\tas\tastable\fpga\top.v":279:23:279:31|Found combinational loop during mapping at net arse.l2.Q_not
 2) instance Q_not (in view: work.sr_latch_0(verilog)), output net Q_not (in view: work.sr_latch_0(verilog))
     net        arse.l2.Q_not
     input  pin arse.l2.un1_Q/I[0]
@@ -83,19 +84,20 @@ Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Clock Summary
 *****************
 
-Start                                     Requested     Requested     Clock                                             Clock                     Clock
-Clock                                     Frequency     Period        Type                                              Group                     Load 
--------------------------------------------------------------------------------------------------------------------------------------------------------
-Clock_divider|clock_out_derived_clock     55.1 MHz      18.145        derived (from top|PLLOUTGLOBAL_derived_clock)     Autoconstr_clkgroup_0     1    
-top|PACKAGEPIN                            3.9 MHz       258.847       inferred                                          Autoconstr_clkgroup_0     0    
-top|PLLOUTGLOBAL_derived_clock            55.1 MHz      18.145        derived (from top|PACKAGEPIN)                     Autoconstr_clkgroup_0     29   
-=======================================================================================================================================================
+Start                                           Requested     Requested     Clock                                                        Clock                     Clock
+Clock                                           Frequency     Period        Type                                                         Group                     Load 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Clock_divider_20000|clock_out_derived_clock     1.0 MHz       1000.000      derived (from top|PACKAGEPIN)                                Autoconstr_clkgroup_0     8    
+Clock_divider|clock_out_derived_clock           8.0 MHz       125.000       derived (from top_pll_nrtthrth|PLLOUTCORE_derived_clock)     Autoconstr_clkgroup_0     1    
+top_pll_nrtthrth|PLLOUTCORE_derived_clock       8.0 MHz       125.000       derived (from top|PACKAGEPIN)                                Autoconstr_clkgroup_0     35   
+top|PACKAGEPIN                                  1.0 MHz       1000.000      inferred                                                     Autoconstr_clkgroup_0     16   
+========================================================================================================================================================================
 
+@W: MT529 :"c:\code\tas\tas\tastable\fpga\top.v":25:4:25:9|Found inferred clock top|PACKAGEPIN which controls 16 sequential elements including arses.counter[14:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":367:11:367:14|Tristate driver led8 (in view: work.top(verilog)) on net led8 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":365:11:365:14|Tristate driver led6 (in view: work.top(verilog)) on net led6 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":364:11:364:14|Tristate driver led5 (in view: work.top(verilog)) on net led5 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":425:11:425:14|Tristate driver led8 (in view: work.top(verilog)) on net led8 (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":424:11:424:14|Tristate driver led7 (in view: work.top(verilog)) on net led7 (in view: work.top(verilog)) has its enable tied to GND.
 @N: BN225 |Writing default property annotation file C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.sap.
 
 Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
@@ -132,6 +134,6 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 133MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Nov 14 16:45:09 2023
+# Mon Jan 08 23:34:47 2024
 
 ###########################################################]

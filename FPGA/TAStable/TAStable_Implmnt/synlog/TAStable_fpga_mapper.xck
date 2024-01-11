@@ -1,1 +1,2 @@
-CKID0001:@|S:bum2_inst@|E:arse.ddd.Q@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0001:@|S:top_pll_nrtthrth.top_pll_nrtthrth_inst@|E:arse.seqcounter[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:PACKAGEPIN_ibuf_gb_io@|E:debounceconsolereset.counter[0]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 

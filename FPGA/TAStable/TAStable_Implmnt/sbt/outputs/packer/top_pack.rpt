@@ -6,7 +6,7 @@
 
 * Build Date:         Dec  9 2020 17:31:51
 
-* File Generated:     Nov 14 2023 16:45:23
+* File Generated:     Jan 8 2024 23:35:05
 
 * Purpose:            General info of design implementation
 
@@ -27,65 +27,72 @@ Device Info:
 
 Design statistics:
 ------------------
-    FFs:                  18
-    LUTs:                 33
+    FFs:                  48
+    LUTs:                 85
     RAMs:                 0
-    IOBs:                 20
-    GBs:                  0
+    IOBs:                 21
+    GBs:                  2
     PLLs:                 1
     Warm Boots:           0
 
 Logic Resource Utilization:
 ---------------------------
-    Total Logic Cells: 33/7680
-        Combinational Logic Cells: 15       out of   7680      0.195313%
-        Sequential Logic Cells:    18       out of   7680      0.234375%
-        Logic Tiles:               16       out of   960       1.66667%
+    Total Logic Cells: 88/7680
+        Combinational Logic Cells: 40       out of   7680      0.520833%
+        Sequential Logic Cells:    48       out of   7680      0.625%
+        Logic Tiles:               33       out of   960       3.4375%
     Registers: 
-        Logic Registers:           18       out of   7680      0.234375%
+        Logic Registers:           48       out of   7680      0.625%
         IO Registers:              2        out of   1280      0.15625
     Block RAMs:                    0        out of   32        0%
     Warm Boots:                    0        out of   1         0%
     Pins:
-        Input Pins:                3        out of   95        3.15789%
+        Input Pins:                4        out of   95        4.21053%
         Output Pins:               16       out of   95        16.8421%
         InOut Pins:                0        out of   95        0%
-    Global Buffers:                0        out of   8         0%
+    Global Buffers:                2        out of   8         25%
     PLLs:                          1        out of   2         50%
 
 IO Bank Utilization:
 --------------------
     Bank 3: 1        out of   24        4.16667%
-    Bank 1: 4        out of   25        16%
-    Bank 0: 15       out of   24        62.5%
-    Bank 2: 0        out of   22        0%
+    Bank 1: 5        out of   25        20%
+    Bank 0: 14       out of   24        58.3333%
+    Bank 2: 1        out of   22        4.54545%
 
 Detailed I/O Info:
 ------------------
     Input Pins: 
-    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                   Signal Name
-    ----------  ---------  -----------  -------  -------  -----------                   -----------
-    A11         Input      SB_LVCMOS    No       0        Simple Input                  mclkreset  
-    C6          Input      SB_LVCMOS    No       0        Simple Input                  reset      
-    D14         Input      SB_LVCMOS    No       1        Simple Input                  apusync    
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                   Signal Name   
+    ----------  ---------  -----------  -------  -------  -----------                   -----------   
+    C6          Input      SB_LVCMOS    No       0        Simple Input                  consolereset  
+    C11         Input      SB_LVCMOS    No       0        Simple Input                  masterreset   
+    L12         Input      SB_LVCMOS    No       1        Simple Input                  apusync       
+    P8          Input      SB_LVCMOS    No       2        Simple Input                  PACKAGEPIN    
 
     Output Pins: 
-    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                   Signal Name
-    ----------  ---------  -----------  -------  -------  -----------                   -----------
-    A4          Output     SB_LVCMOS    No       0        Simple Output                 led7       
-    A6          Output     SB_LVCMOS    No       0        Simple Output                 lcol3      
-    A7          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led5       
-    A10         Output     SB_LVCMOS    No       0        Simple Output                 led2       
-    A12         Output     SB_LVCMOS    No       0        Simple Output                 lcol1      
-    B14         Output     SB_LVCMOS    No       1        Simple Output                 apuclk     
-    C4          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led8       
-    C5          Output     SB_LVCMOS    No       0        Simple Output                 lcol4      
-    C7          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led6       
-    C10         Output     SB_LVCMOS    No       0        Simple Output                 led1       
-    C12         Output     SB_LVCMOS    No       0        Simple Output                 apureset   
-    C14         Output     SB_LVCMOS    No       1        Output DDR with Enable        cpuclk     
-    D6          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led4       
-    D7          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led3       
-    D10         Output     SB_LVCMOS    No       0        Simple Output                 lcol2      
-    D12         Output     SB_LVCMOS    No       1        Simple Output                 cpureset   
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                   Signal Name   
+    ----------  ---------  -----------  -------  -------  -----------                   -----------   
+    A4          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led7          
+    A6          Output     SB_LVCMOS    No       0        Simple Output                 lcol3         
+    A7          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led5          
+    A10         Output     SB_LVCMOS    No       0        Simple Output                 led2          
+    A12         Output     SB_LVCMOS    No       0        Simple Output                 lcol1         
+    C4          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led8          
+    C5          Output     SB_LVCMOS    No       0        Simple Output                 lcol4         
+    C7          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led6          
+    C10         Output     SB_LVCMOS    No       0        Simple Output                 led1          
+    D6          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led4          
+    D7          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  led3          
+    D10         Output     SB_LVCMOS    No       0        Simple Output                 lcol2         
+    H11         Output     SB_LVCMOS    No       1        Simple Output                 apuclk        
+    J12         Output     SB_LVCMOS    No       1        Simple Output                 apureset      
+    K12         Output     SB_LVCMOS    No       1        Simple Output                 cpureset      
+    K14         Output     SB_LVCMOS    No       1        Output DDR with Enable        cpuclk        
 
+Detailed Global Buffer Info:
+----------------------------
+    Buffer Number  IO Bank  Driven By  Fanout  Signal Name       
+    -------------  -------  ---------  ------  -----------       
+    3              2        IO         25      PACKAGEPIN_0_c_g  
+    6              3                   26      PLLOUTCORE_0_g    

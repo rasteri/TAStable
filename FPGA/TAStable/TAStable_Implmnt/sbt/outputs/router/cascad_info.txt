@@ -1,6 +1,12 @@
 [VIC]
-G_32_cascade_=ltout:in0
+G_74_cascade_=ltout:in0
+arse.G_2_0_cascade_=ltout:in0
 arse.divseven.N_10_cascade_=ltout:in0
+arse.divseven.N_60_i_cascade_=ltout:in0
 arse.divseven.N_65_i_cascade_=ltout:in1
 arse.divseven.N_6_cascade_=ltout:in0
-arse.divseven.counter_6_sqmuxa_0_a2_1_cascade_=ltout:in1
+arse.divseven.un1_dout_2_sqmuxa_i_o2_0_cascade_=ltout:in2
+arses.un1_counterlt13_0_cascade_=ltout:in3
+arses.un1_counterlto4_2_cascade_=ltout:in2
+clock_out_RNIR6ER_cascade_=ltout:in0
+debounceconsolereset.out_cnv_4_cascade_=ltout:in3

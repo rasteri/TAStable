@@ -101,3 +101,24 @@ Exception c0000005 has occurred at address 005e948d. Traceback:
 StackWalk failed 299
 # End of Stack Trace
 
+# Current time Sat Jan 06 22:38:43 2024
+# ModelSim - Lattice FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.3"
+# Version = "2020.10"
+# Date = "Oct 14 2020"
+# Platform = win32loem
+
+Exception c0000005 has occurred at address 58f7def3. Traceback:
+# 0    0x58f7def3: 'Tcl_DStringAppend + 0x13'
+# 1    0x0063e646: 'WinMain + 0xe3aa6'
+# 2    0x0063e646: 'WinMain + 0xe3aa6'
+# 3    0x005e050e: 'WinMain + 0x8596e'
+# 4    0x005cea4d: 'WinMain + 0x73ead'
+# 5    0x005cd197: 'WinMain + 0x725f7'
+# 6    0x004ee21e: 'mti_strlen + 0x3e87e'
+# 7    0x004f8689: 'EnumDispProc + 0x17a9'
+# 8    0x58eb39f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+

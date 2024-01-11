@@ -5,7 +5,7 @@
 #CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\umr_capim.v":1699243812
 #CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_objects.v":1699243812
 #CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1699243812
-#CUR:"C:\\code\\TAS\\TAS\\TAStable\\FPGA\\top.v":1699980297
+#CUR:"C:\\code\\TAS\\TAS\\TAStable\\FPGA\\top.v":1704756875
 #numinternalfiles:5
 #defaultlanguage:verilog
 0			"C:\code\TAS\TAS\TAStable\FPGA\top.v" verilog
@@ -20,4 +20,6 @@ module work divide7or8 0
 module work dostuff 0
 module work sr_latch 0
 module work oldstyle 0
+module work top_pll_nrtthrth 0
+module work debounce 0
 module work top 0

@@ -1,72 +1,184 @@
-set_location CONSTANT_ONE_LUT4 14 6 6 #SB_LUT4
-set_location arse.l2.un1_Q_arse.ddd.Q_REP_LUT4_0 16 22 2 #SB_LUT4
-set_location arse.divseven.dout_nesr_0_THRU_LUT4_0 12 11 0 #SB_LUT4
-set_location arse.diveight.dout_1_THRU_LUT4_0 32 24 4 #SB_LUT4
-set_location arse.divseven.counter_ns_2_0_.m3_s 12 12 7 #SB_LUT4
-set_location arse.diveight.counter[0] 31 24 5 #SB_DFF
-set_location arse.arse.counter_RNO[1] 14 21 7 #SB_LUT4
-set_location arse.divseven.counter_ns_2_0_.m4 12 12 3 #SB_LUT4
-set_location arse.diveight.counter_ns_2_0_.m1 31 24 5 #SB_LUT4
-set_location arse.divseven.seven 13 12 3 #SB_DFF
-set_location arse.arse.counter_RNO[4] 13 20 2 #SB_LUT4
-set_location arse.l1.N_21_0_i 32 25 3 #SB_LUT4
-set_location arse.arse.counter[0] 14 21 1 #SB_DFFSS
-set_location arse.diveight.dout[0] 32 23 6 #SB_DFFN
-set_location arse.diveight.counter[1] 31 24 6 #SB_DFF
-set_location arse.arse.counter_RNO[0] 14 21 1 #SB_LUT4
-set_location arse.arse.counter[2] 13 20 5 #SB_DFFSR
-set_location arse.divseven.dout[1] 11 12 2 #SB_DFFSR
-set_location arse.divseven.counter[0] 12 12 3 #SB_DFF
-set_location arse.divseven.dout_nesr_RNO_0[0] 12 12 1 #SB_LUT4
-set_location arse.divseven.counter_ns_2_0_.m5 13 12 6 #SB_LUT4
-set_location arse.diveight.dout_RNO[0] 32 23 6 #SB_LUT4
-set_location arse.ddd.Q 16 22 2 #SB_DFFE
-set_location arse.arse.counter[4] 13 20 2 #SB_DFFSS
-set_location arse.divseven.counter[2] 12 12 5 #SB_DFF
-set_location arse.arse.clock_out_RNO 15 21 5 #SB_LUT4
-set_location mclkreset_ibuf_RNIFESD 12 19 3 #SB_LUT4
-set_location arse.ddd.Q_RNO 15 21 7 #SB_LUT4
-set_location arse.divseven.seven_RNO_0 13 12 2 #SB_LUT4
-set_location arse.l2.un1_Q 16 23 0 #SB_LUT4
-set_location arse.divseven.seven_RNO 13 12 3 #SB_LUT4
-set_location arse.divseven.dout_nesr_RNO[0] 12 12 2 #SB_LUT4
-set_location arse.diveight.dout[1] 32 24 4 #SB_DFFSR
-set_location arse.diveight.counter_ns_2_0_.m6 31 24 1 #SB_LUT4
-set_location arse.arse.counter_RNILCUV[1] 14 20 5 #SB_LUT4
-set_location arse.diveight.counter[2] 31 24 1 #SB_DFF
-set_location arse.arse.counter_RNO[3] 13 20 6 #SB_LUT4
-set_location arse.arse.counter[1] 14 21 7 #SB_DFFSS
-set_location arse.divseven.dout_nesr[0] 12 11 0 #SB_DFFNESR
-set_location arse.divseven.counter[1] 13 12 7 #SB_DFF
-set_location arse.arse.counter_RNIHKTF1[1] 14 20 1 #SB_LUT4
+set_location IN_MUX_bfv_11_4_0_ 11 4 0 #ICE_CARRY_IN_MUX
+set_location IN_MUX_bfv_9_4_0_ 9 4 0 #ICE_CARRY_IN_MUX
+set_location IN_MUX_bfv_9_5_0_ 9 5 0 #ICE_CARRY_IN_MUX
+set_location IN_MUX_bfv_16_6_0_ 16 6 0 #ICE_CARRY_IN_MUX
+set_location IN_MUX_bfv_6_9_0_ 6 9 0 #ICE_CARRY_IN_MUX
+set_location CONSTANT_ONE_LUT4 18 16 0 #SB_LUT4
+set_location GB_BUFFER_PACKAGEPIN_0_c_g_THRU_LUT4_0 16 1 5 #SB_LUT4
+set_location debounceconsolereset.un3_counter_cry_4_THRU_LUT4_0 11 4 4 #SB_LUT4
+set_location debounceconsolereset.un3_counter_cry_3_THRU_LUT4_0 11 4 3 #SB_LUT4
+set_location debounceconsolereset.un3_counter_cry_2_THRU_LUT4_0 11 4 2 #SB_LUT4
+set_location debounceconsolereset.un3_counter_cry_1_THRU_LUT4_0 11 4 1 #SB_LUT4
+set_location arse.arse.un16_counter_cry_2_THRU_LUT4_0 16 6 2 #SB_LUT4
+set_location arse.arse.un16_counter_cry_1_THRU_LUT4_0 16 6 1 #SB_LUT4
+set_location arse.seqreset_e_0_THRU_LUT4_0 6 6 7 #SB_LUT4
+set_location arse.l2.un1_Q_arse.ddd.Q_esr_REP_LUT4_0 19 5 1 #SB_LUT4
+set_location arse.divseven.seven_THRU_LUT4_0 4 6 0 #SB_LUT4
+set_location arse.divseven.dout_nesr_0_THRU_LUT4_0 6 4 3 #SB_LUT4
+set_location arse.diveight.dout_1_THRU_LUT4_0 30 5 5 #SB_LUT4
+set_location arse.diveight.dout_0_THRU_LUT4_0 10 1 0 #SB_LUT4
+set_location arse.seqreset_e_0_RNIOLK2 6 5 5 #SB_LUT4
+set_location arse.seqcounter[1] 6 9 1 #SB_DFF
+set_location arse.divseven.counter_RNI8ECT[0] 5 5 5 #SB_LUT4
+set_location arse.diveight.counter[1] 10 3 6 #SB_DFF
+set_location arses.un2_counter_cry_7_c 9 4 6 #SB_CARRY
+set_location arses.un2_counter_cry_11_c 9 5 2 #SB_CARRY
+set_location arses.counter_RNO[0] 10 4 3 #SB_LUT4
+set_location arses.counter[12] 9 5 3 #SB_DFFSR
+set_location arse.divseven.counter[0] 5 5 2 #SB_DFF
+set_location debounceconsolereset.counter_RNISLFD[2] 11 3 5 #SB_LUT4
+set_location arse.divseven.counter_ns_2_0_.m5 5 4 1 #SB_LUT4
+set_location arse.arse.counter[4] 16 6 3 #SB_DFFSS
+set_location debounceconsolereset.out_RNO_0 11 5 5 #SB_LUT4
+set_location arse.seqcounter[4] 6 9 4 #SB_DFF
+set_location arse.divseven.dout_esr_RNO[1] 4 4 6 #SB_LUT4
+set_location arse.arse.un16_counter_cry_3_c 16 6 2 #SB_CARRY
+set_location arse.arse.clock_out_RNO 18 6 5 #SB_LUT4
+set_location arses.counter_RNO[7] 9 4 6 #SB_LUT4
+set_location arses.counter_RNO[11] 9 5 2 #SB_LUT4
+set_location arse.diveight.counter_ns_2_0_.m6 10 3 3 #SB_LUT4
+set_location arse.arse.counter_RNO[3] 16 5 6 #SB_LUT4
+set_location debounceconsolereset.un3_counter_cry_3_c 11 4 2 #SB_CARRY
+set_location arses.counter_RNIOKH[1] 10 4 1 #SB_LUT4
+set_location arse.divseven.dout_nesr[0] 6 4 3 #SB_DFFNESR
+set_location arse.arse.counter_RNIHKTF1[1] 15 6 3 #SB_LUT4
+set_location debounceconsolereset.counter_RNO[2] 11 3 2 #SB_LUT4
+set_location arses.counter_RNO[8] 9 4 7 #SB_LUT4
+set_location arses.counter_RNIOS0A[14] 10 5 3 #SB_LUT4
+set_location arses.counter[7] 9 4 6 #SB_DFFSR
+set_location arse.diveight.counter_ns_2_0_.m3 10 3 6 #SB_LUT4
+set_location arse.arse.counter_RNIRIUV[4] 17 6 0 #SB_LUT4
+set_location debounceconsolereset.counter[4] 11 3 0 #SB_DFF
+set_location arse.seqreset_e_0 6 6 7 #SB_DFFE
+set_location debounceconsolereset.un3_counter_cry_2_c 11 4 1 #SB_CARRY
+set_location arses.counter_RNI1L5[2] 10 4 0 #SB_LUT4
+set_location arses.counter[2] 9 4 1 #SB_DFFSR
+set_location arse.divseven.io_0_RNIIG08 20 4 5 #SB_LUT4
+set_location arses.un2_counter_cry_1_c 9 4 0 #SB_CARRY
+set_location arse.un1_seqcounter_1_cry_1_c 6 9 1 #SB_CARRY
+set_location arse.divseven.counter_ns_2_0_.m6 5 4 2 #SB_LUT4
+set_location arses.un2_counter_cry_9_c 9 5 0 #SB_CARRY
+set_location arses.clock_out 11 5 1 #SB_DFF
+set_location arses.counter_RNO[2] 9 4 1 #SB_LUT4
+set_location arses.counter_RNO[12] 9 5 3 #SB_LUT4
+set_location arse.seqcounter_RNO[1] 6 9 1 #SB_LUT4
+set_location arse.diveight.dout[0] 10 1 0 #SB_DFFNSR
+set_location arse.arse.un16_counter_cry_1_c 16 6 0 #SB_CARRY
+set_location debounceconsolereset.counter_RNO[3] 11 3 6 #SB_LUT4
+set_location arses.counter[6] 9 4 5 #SB_DFFSR
+set_location arse.arse.counter[2] 15 5 7 #SB_DFFSR
+set_location debounceconsolereset.counter[5] 11 5 2 #SB_DFF
+set_location arses.un2_counter_cry_10_c 9 5 1 #SB_CARRY
+set_location arse.ddd.Q_esr 19 5 1 #SB_DFFESR
+set_location arses.counter[8] 9 4 7 #SB_DFFSR
+set_location arses.clock_out_RNO 11 5 1 #SB_LUT4
+set_location arse.seqcounter[3] 6 9 3 #SB_DFF
+set_location arse.l1.N_23_0_i 20 4 4 #SB_LUT4
+set_location debounceconsolereset.out_RNO 11 5 6 #SB_LUT4
+set_location arses.un2_counter_cry_2_c 9 4 1 #SB_CARRY
+set_location arses.counter[10] 9 5 1 #SB_DFFSR
+set_location arses.counter[1] 10 4 4 #SB_DFFSS
+set_location arse.divseven.counter[2] 5 5 4 #SB_DFF
+set_location debounceconsolereset.un3_counter_cry_1_c 11 4 0 #SB_CARRY
+set_location arse.ddd.Q_esr_RNO 18 5 2 #SB_LUT4
+set_location arse.arse.clock_out_RNIM09F 18 6 2 #SB_LUT4
+set_location masterreset_ibuf_RNIKP26 9 6 2 #SB_LUT4
+set_location debounceconsolereset.counter[1] 11 5 7 #SB_DFF
+set_location arses.un2_counter_cry_5_c 9 4 4 #SB_CARRY
+set_location arse.divseven.seven_RNO_0 4 5 5 #SB_LUT4
+set_location arses.counter_RNO[5] 9 4 4 #SB_LUT4
+set_location arses.counter_RNO[13] 9 5 4 #SB_LUT4
+set_location arse.seqcounter_RNO[0] 6 9 0 #SB_LUT4
+set_location arse.divseven.seven_RNO 4 5 6 #SB_LUT4
+set_location arse.diveight.dout[1] 30 5 5 #SB_DFFSR
+set_location debounceconsolereset.counter_RNO[0] 11 3 7 #SB_LUT4
+set_location arses.counter[5] 9 4 4 #SB_DFFSR
+set_location arses.counter[14] 9 5 5 #SB_DFFSR
+set_location arse.divseven.dout_esr[1] 4 4 6 #SB_DFFESR
+set_location arse.ddd.Q_esr_RNO_0 18 6 7 #SB_LUT4
+set_location arse.arse.counter[1] 15 5 3 #SB_DFFSS
+set_location debounceconsolereset.counter[6] 11 4 5 #SB_DFF
+set_location debounceconsolereset.un3_counter_cry_4_c 11 4 3 #SB_CARRY
+set_location arses.un2_counter_cry_4_c 9 4 3 #SB_CARRY
+set_location arses.counter_RNO[14] 9 5 5 #SB_LUT4
+set_location arse.seqcounter_RNIEP0A[4] 6 9 5 #SB_LUT4
+set_location arse.seqcounter[2] 6 9 2 #SB_DFF
+set_location arse.divseven.counter_ns_2_0_.m3_s 5 5 1 #SB_LUT4
+set_location arse.diveight.counter[0] 10 3 7 #SB_DFF
+set_location arse.arse.counter_RNO[1] 15 5 3 #SB_LUT4
+set_location arses.counter_RNO[1] 10 4 4 #SB_LUT4
+set_location arses.counter[11] 9 5 2 #SB_DFFSR
+set_location arses.counter[0] 10 4 3 #SB_DFFSS
+set_location arse.seqcounter_RNO[4] 6 9 4 #SB_LUT4
+set_location debounceconsolereset.counter_RNO[4] 11 3 0 #SB_LUT4
+set_location arse.un1_seqcounter_1_cry_2_c 6 9 2 #SB_CARRY
+set_location arse.divseven.counter_ns_2_0_.m4 5 5 2 #SB_LUT4
+set_location arse.diveight.counter_ns_2_0_.m1 10 3 7 #SB_LUT4
+set_location debounceconsolereset.un3_counter_cry_5_c 11 4 4 #SB_CARRY
+set_location debounceconsolereset.out 11 5 6 #SB_DFF
+set_location debounceconsolereset.counter[2] 11 3 2 #SB_DFF
+set_location arses.counter_RNI04C4[9] 10 5 2 #SB_LUT4
+set_location arses.clock_out_RNIR6ER 11 4 6 #SB_LUT4
+set_location arse.divseven.seven 4 6 0 #SB_DFFE
+set_location arse.divseven.counter_RNI04101[0] 5 5 6 #SB_LUT4
+set_location arse.arse.counter_RNO[4] 16 6 3 #SB_LUT4
+set_location arses.un2_counter_cry_6_c 9 4 5 #SB_CARRY
+set_location arses.un2_counter_cry_12_c 9 5 3 #SB_CARRY
+set_location arses.counter_RNO[4] 9 4 3 #SB_LUT4
+set_location arses.counter_RNO[10] 9 5 1 #SB_LUT4
+set_location arse.seqcounter_RNO[3] 6 9 3 #SB_LUT4
+set_location debounceconsolereset.counter_RNO[1] 11 5 7 #SB_LUT4
+set_location arses.counter[4] 9 4 3 #SB_DFFSS
+set_location arse.arse.counter[0] 16 5 4 #SB_DFFSS
+set_location debounceconsolereset.counter_RNI4RTH1[6] 11 4 7 #SB_LUT4
+set_location arse.seqreset_e_0_RNIQTP13 18 6 3 #SB_LUT4
+set_location arse.arse.counter_RNO[0] 16 5 4 #SB_LUT4
+set_location debounceconsolereset.counter_RNO[5] 11 5 2 #SB_LUT4
+set_location arses.counter_RNO[9] 9 5 0 #SB_LUT4
+set_location debounceconsolereset.counter[3] 11 3 6 #SB_DFF
+set_location arse.un1_seqcounter_1_cry_0_c 6 9 0 #SB_CARRY
+set_location arses.un2_counter_cry_3_c 9 4 2 #SB_CARRY
+set_location arse.seqcounter_RNO[2] 6 9 2 #SB_LUT4
+set_location arses.counter_RNIA58[5] 9 3 0 #SB_LUT4
+set_location arses.counter[3] 9 4 2 #SB_DFFSR
 set_location GND -1 -1 -1 #GND
-set_location arse.divseven.counter_ns_2_0_.m10 12 12 5 #SB_LUT4
-set_location arse.diveight.counter_ns_2_0_.m3 31 24 6 #SB_LUT4
-set_location arse.arse.counter_RNIRIUV[4] 14 20 3 #SB_LUT4
-set_location arse.arse.counter[3] 13 20 6 #SB_DFFSR
-set_location arse.divseven.dout_RNO[1] 11 12 2 #SB_LUT4
-set_location arse.divseven.io_0_RNIIG08 32 25 4 #SB_LUT4
-set_location arse.divseven.counter_ns_2_0_.m6 13 12 7 #SB_LUT4
-set_location arse.divseven.counter_ns_2_0_.m9 12 12 4 #SB_LUT4
-set_location arse.arse.counter_RNO[2] 13 20 5 #SB_LUT4
-set_location arse.arse.clock_out 15 21 5 #SB_DFF
-set_io led4 D6
-set_io lcol3 A6
+set_location arse.l2.un1_Q 19 6 1 #SB_LUT4
+set_location arse.seqcounter[0] 6 9 0 #SB_DFF
+set_location arse.diveight.counter[2] 10 3 3 #SB_DFF
+set_location arse.arse.un16_counter_cry_2_c 16 6 1 #SB_CARRY
+set_location arses.counter_RNO[3] 9 4 2 #SB_LUT4
+set_location arses.counter[13] 9 5 4 #SB_DFFSR
+set_location arse.divseven.counter[1] 5 4 2 #SB_DFF
+set_location arse.divseven.counter_ns_2_0_.m10 5 5 4 #SB_LUT4
+set_location arse.arse.counter[3] 16 5 6 #SB_DFFSR
+set_location debounceconsolereset.out_RNO_1 11 3 4 #SB_LUT4
+set_location arses.un2_counter_cry_8_c 9 4 7 #SB_CARRY
+set_location arse.un1_seqcounter_1_cry_3_c 6 9 3 #SB_CARRY
+set_location arses.counter_RNO[6] 9 4 5 #SB_LUT4
+set_location arses.counter[9] 9 5 0 #SB_DFFSR
+set_location arses.un2_counter_cry_13_c 9 5 4 #SB_CARRY
+set_location debounceconsolereset.counter_RNO[6] 11 4 5 #SB_LUT4
+set_location debounceconsolereset.counter[0] 11 3 7 #SB_DFF
+set_location arse.divseven.counter_ns_2_0_.m9 5 5 3 #SB_LUT4
+set_location arse.arse.counter_RNO[2] 15 5 7 #SB_LUT4
+set_location arse.arse.clock_out 18 6 5 #SB_DFF
 set_io led5 A7
 set_io lcol2 D10
 set_io led6 C7
 set_io led2 A10
 set_io lcol1 A12
-set_io cpuclk C14
-set_io apureset C12
-set_io reset C6
-set_io mclkreset A11
+set_io cpuclk K14
+set_io apureset J12
 set_io led7 A4
 set_io led3 D7
 set_io lcol4 C5
-set_io cpureset D12
-set_io apusync D14
-set_io PACKAGEPIN P7
+set_io cpureset K12
+set_io apusync L12
+set_io PACKAGEPIN P8
+set_io masterreset C11
 set_io led8 C4
+set_io led4 D6
+set_io lcol3 A6
 set_io led1 C10
-set_io apuclk B14
+set_io consolereset C6
+set_io apuclk H11

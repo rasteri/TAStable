@@ -6,7 +6,7 @@
 
 * Build Date:         Dec  9 2020 17:55:50
 
-* File Generated:     Nov 14 2023 16:45:12
+* File Generated:     Jan 8 2024 23:34:52
 
 * Purpose:            
 
@@ -35,15 +35,15 @@ I2053: Starting placement of the design
 =============================================================
 
 Input Design Statistics
-    Number of LUTs      	:	29
-    Number of DFFs      	:	18
+    Number of LUTs      	:	71
+    Number of DFFs      	:	48
     Number of DFFs packed to IO	:	0
-    Number of Carrys    	:	0
+    Number of Carrys    	:	25
     Number of RAMs      	:	0
     Number of ROMs      	:	0
     Number of IOs       	:	20
-    Number of GBIOs     	:	0
-    Number of GBs       	:	0
+    Number of GBIOs     	:	1
+    Number of GBs       	:	1
     Number of WarmBoot  	:	0
     Number of PLLs      	:	1
 
@@ -52,16 +52,16 @@ Phase 1
 I2077: Start design legalization
 
 Design Legalization Statistics
-    Number of feedthru LUTs inserted to legalize input of DFFs     	:	2
+    Number of feedthru LUTs inserted to legalize input of DFFs     	:	5
     Number of feedthru LUTs inserted for LUTs driving multiple DFFs	:	0
     Number of LUTs replicated for LUTs driving multiple DFFs       	:	1
-    Number of feedthru LUTs inserted to legalize output of CARRYs  	:	0
-    Number of feedthru LUTs inserted to legalize global signals    	:	0
+    Number of feedthru LUTs inserted to legalize output of CARRYs  	:	6
+    Number of feedthru LUTs inserted to legalize global signals    	:	1
     Number of feedthru CARRYs inserted to legalize input of CARRYs 	:	0
     Number of inserted LUTs to Legalize IOs with PIN_TYPE= 01xxxx  	:	0
     Number of inserted LUTs to Legalize IOs with PIN_TYPE= 10xxxx  	:	0
     Number of inserted LUTs to Legalize IOs with PIN_TYPE= 11xxxx  	:	0
-    Total LUTs inserted                                            	:	3
+    Total LUTs inserted                                            	:	13
     Total CARRYs inserted                                          	:	0
 
 
@@ -73,29 +73,30 @@ Phase 2
 I2088: Phase 2, elapsed time : 0.0 (sec)
 
 Phase 3
-Info-1404: Inferred PLL generated clock at bum2_inst/PLLOUTCORE
-Info-1404: Inferred PLL generated clock at bum2_inst/PLLOUTGLOBAL
-Warning-1035: Removing timing arc from pin "arse.l1.N_21_0_i_LC_26/in0" to pin "arse.l1.N_21_0_i_LC_26/lcout" to break the combinatorial loop
+Info-1404: Inferred PLL generated clock at top_pll_nrtthrth.top_pll_nrtthrth_inst/PLLOUTCORE
+Info-1404: Inferred PLL generated clock at top_pll_nrtthrth.top_pll_nrtthrth_inst/PLLOUTGLOBAL
+Warning-1034: Found non-unate timing arc, from pin "in3" to pin "lcout" of instance "GB_BUFFER_PACKAGEPIN_0_c_g_THRU_LUT4_0_LC_83", in the clock network. Converting the timing arc to positive-unate
 Warning-1035: Removing timing arc from pin "arse.l2.un1_Q_LC_27/in0" to pin "arse.l2.un1_Q_LC_27/lcout" to break the combinatorial loop
+Warning-1035: Removing timing arc from pin "arse.l1.N_23_0_i_LC_26/in0" to pin "arse.l1.N_23_0_i_LC_26/lcout" to break the combinatorial loop
 
 Design Statistics after Packing
-    Number of LUTs      	:	33
-    Number of DFFs      	:	18
+    Number of LUTs      	:	85
+    Number of DFFs      	:	48
     Number of DFFs packed to IO	:	0
-    Number of Carrys    	:	0
+    Number of Carrys    	:	25
 
 Device Utilization Summary after Packing
     Sequential LogicCells
-        LUT and DFF      	:	18
-        LUT, DFF and CARRY	:	0
+        LUT and DFF      	:	32
+        LUT, DFF and CARRY	:	16
     Combinational LogicCells
-        Only LUT         	:	15
-        CARRY Only       	:	0
-        LUT with CARRY   	:	0
-    LogicCells                  :	33/7680
-    PLBs                        :	7/960
+        Only LUT         	:	31
+        CARRY Only       	:	3
+        LUT with CARRY   	:	6
+    LogicCells                  :	88/7680
+    PLBs                        :	18/960
     BRAMs                       :	0/32
-    IOs and GBIOs               :	20/95
+    IOs and GBIOs               :	21/95
     PLLs                        :	1/2
 
 
@@ -105,29 +106,29 @@ Phase 4
 I2088: Phase 4, elapsed time : 0.2 (sec)
 
 Phase 5
-I2088: Phase 5, elapsed time : 0.0 (sec)
+I2088: Phase 5, elapsed time : 0.1 (sec)
 
 Phase 6
-I2088: Phase 6, elapsed time : 9.2 (sec)
+I2088: Phase 6, elapsed time : 10.3 (sec)
 
 Final Design Statistics
-    Number of LUTs      	:	33
-    Number of DFFs      	:	18
+    Number of LUTs      	:	85
+    Number of DFFs      	:	48
     Number of DFFs packed to IO	:	0
-    Number of Carrys    	:	0
+    Number of Carrys    	:	25
     Number of RAMs      	:	0
     Number of ROMs      	:	0
     Number of IOs       	:	20
-    Number of GBIOs     	:	0
-    Number of GBs       	:	0
+    Number of GBIOs     	:	1
+    Number of GBs       	:	1
     Number of WarmBoot  	:	0
     Number of PLLs      	:	1
 
 Device Utilization Summary
-    LogicCells                  :	33/7680
-    PLBs                        :	16/960
+    LogicCells                  :	88/7680
+    PLBs                        :	33/960
     BRAMs                       :	0/32
-    IOs and GBIOs               :	20/95
+    IOs and GBIOs               :	21/95
     PLLs                        :	1/2
 
 
@@ -144,10 +145,10 @@ analysis after routing.
                      Clock Summary 
 =====================================================================
 Number of clocks: 4
-Clock: PACKAGEPIN | Frequency: N/A | Target: 166.67 MHz
-Clock: bum2_inst/PLLOUTCORE | Frequency: N/A | Target: 2375.00 MHz
-Clock: bum2_inst/PLLOUTGLOBAL | Frequency: 156.82 MHz | Target: 2375.00 MHz
-Clock: top|PACKAGEPIN | Frequency: N/A | Target: 195.31 MHz
+Clock: PACKAGEPIN | Frequency: 137.67 MHz | Target: 166.67 MHz
+Clock: top_pll_nrtthrth.top_pll_nrtthrth_inst/PLLOUTCORE | Frequency: 118.53 MHz | Target: 1333.33 MHz
+Clock: top_pll_nrtthrth.top_pll_nrtthrth_inst/PLLOUTGLOBAL | Frequency: N/A | Target: 1333.33 MHz
+Clock: top|PACKAGEPIN | Frequency: N/A | Target: 80.52 MHz
 
 =====================================================================
                      End of Clock Summary
@@ -155,5 +156,5 @@ Clock: top|PACKAGEPIN | Frequency: N/A | Target: 195.31 MHz
 
 I2054: Placement of design completed successfully
 
-I2076: Placer run-time: 9.9 sec.
+I2076: Placer run-time: 11.3 sec.
 
