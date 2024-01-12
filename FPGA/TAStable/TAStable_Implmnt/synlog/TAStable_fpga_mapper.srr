@@ -1,4 +1,4 @@
-# Mon Jan 08 23:34:47 2024
+# Thu Jan 11 23:51:36 2024
 
 Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -24,65 +24,22 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 
 Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
 
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":292:11:292:15|Tristate driver essw2 (in view: work.oldstyle(verilog)) on net essw2 (in view: work.oldstyle(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":291:11:291:15|Tristate driver essw1 (in view: work.oldstyle(verilog)) on net essw1 (in view: work.oldstyle(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":425:11:425:14|Tristate driver led8 (in view: work.top(verilog)) on net led8 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":424:11:424:14|Tristate driver led7 (in view: work.top(verilog)) on net led7 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":423:11:423:14|Tristate driver led6 (in view: work.top(verilog)) on net led6 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":422:11:422:14|Tristate driver led5 (in view: work.top(verilog)) on net led5 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":421:11:421:14|Tristate driver led4 (in view: work.top(verilog)) on net led4 (in view: work.top(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\code\tas\tas\tastable\fpga\top.v":420:11:420:14|Tristate driver led3 (in view: work.top(verilog)) on net led3 (in view: work.top(verilog)) has its enable tied to GND.
 
 Available hyper_sources - for debug and ip models
 	None Found
 
-Warning: Found 2 combinational loops!
-@W: BN137 :"c:\code\tas\tas\tastable\fpga\top.v":278:23:278:34|Found combinational loop during mapping at net arse.l1.un1_Q
-1) instance l1.un1_Q (in view: work.oldstyle(verilog)), output net l1.un1_Q (in view: work.oldstyle(verilog))
-    net        arse.l1.un1_Q
-    input  pin arse.l1.Q/I[0]
-    instance   arse.l1.Q (cell inv)
-    output pin arse.l1.Q/OUT[0]
-    net        arse.apuclockgate
-    input  pin arse.l1.un1_Q_not/I[0]
-    instance   arse.l1.un1_Q_not (cell or)
-    output pin arse.l1.un1_Q_not/OUT
-    net        arse.l1.N_2
-    input  pin arse.l1.Q_not/I[0]
-    instance   arse.l1.Q_not (cell inv)
-    output pin arse.l1.Q_not/OUT[0]
-    net        arse.l1.Q_not
-    input  pin arse.l1.un1_Q/I[0]
-    instance   arse.l1.un1_Q (cell or)
-    output pin arse.l1.un1_Q/OUT
-    net        arse.l1.un1_Q
-@W: BN137 :"c:\code\tas\tas\tastable\fpga\top.v":278:23:278:34|Found combinational loop during mapping at net arse.l2.un1_Q
-2) instance l2.un1_Q (in view: work.oldstyle(verilog)), output net l2.un1_Q (in view: work.oldstyle(verilog))
-    net        arse.l2.un1_Q
-    input  pin arse.l2.Q/I[0]
-    instance   arse.l2.Q (cell inv)
-    output pin arse.l2.Q/OUT[0]
-    net        arse.apusynclatched
-    input  pin arse.l2.un1_Q_not/I[0]
-    instance   arse.l2.un1_Q_not (cell or)
-    output pin arse.l2.un1_Q_not/OUT
-    net        arse.l2.N_2
-    input  pin arse.l2.Q_not/I[0]
-    instance   arse.l2.Q_not (cell inv)
-    output pin arse.l2.Q_not/OUT[0]
-    net        arse.l2.Q_not
-    input  pin arse.l2.un1_Q/I[0]
-    instance   arse.l2.un1_Q (cell or)
-    output pin arse.l2.un1_Q/OUT
-    net        arse.l2.un1_Q
-End of loops
 @N: MT206 |Auto Constrain mode is enabled
 @W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":25:4:25:9|User-specified initial value defined for instance arses.counter[14:0] is being ignored. 
 @W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":73:4:73:9|User-specified initial value defined for instance arse.divseven.seven is being ignored. 
-@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":25:4:25:9|User-specified initial value defined for instance arse.arse.counter[4:0] is being ignored. 
-@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":323:4:323:9|User-specified initial value defined for instance arse.seqreset is being ignored. 
-@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":323:4:323:9|User-specified initial value defined for instance arse.seqcounter[4:0] is being ignored. 
-@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":389:4:389:9|User-specified initial value defined for instance debounceconsolereset.counter[6:0] is being ignored. 
+@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":246:4:246:9|User-specified initial value defined for instance arse.cpuresetoutreg is being ignored. 
+@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":246:4:246:9|User-specified initial value defined for instance arse.cpuresetcount[7:0] is being ignored. 
+@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":246:4:246:9|User-specified initial value defined for instance arse.doingseven is being ignored. 
+@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":246:4:246:9|User-specified initial value defined for instance arse.cpuclkreset is being ignored. 
+@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":246:4:246:9|User-specified initial value defined for instance arse.apuresetoutreg is being ignored. 
+@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":689:4:689:9|User-specified initial value defined for instance delayConstant[7:0] is being ignored. 
+@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":390:4:390:9|User-specified initial value defined for instance debouncedn.counter[4:0] is being ignored. 
+@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":390:4:390:9|User-specified initial value defined for instance debounceup.counter[4:0] is being ignored. 
+@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":390:4:390:9|User-specified initial value defined for instance debounceconsolereset.counter[4:0] is being ignored. 
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
 
@@ -112,49 +69,54 @@ original code -> new code
 Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
 
 
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 137MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:00s		    -1.53ns		 102 /        48
-   2		0h:00m:00s		    -1.53ns		 102 /        48
+   1		0h:00m:00s		    -3.03ns		 170 /        80
+   2		0h:00m:00s		    -3.03ns		 166 /        80
+@N: FX271 :"c:\code\tas\tas\tastable\fpga\top.v":689:4:689:9|Replicating instance delayConstant[2] (in view: work.top(verilog)) with 13 loads 1 time to improve timing.
+@N: FX271 :"c:\code\tas\tas\tastable\fpga\top.v":689:4:689:9|Replicating instance delayConstant[6] (in view: work.top(verilog)) with 13 loads 1 time to improve timing.
+Timing driven replication report
+Added 2 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
 
-   3		0h:00m:00s		    -1.53ns		 102 /        48
-
-
-   4		0h:00m:00s		    -1.53ns		 102 /        48
-@A: BN291 :"c:\code\tas\tas\tastable\fpga\top.v":7:4:7:9|Boundary register arse.ddd.Q (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: FX1017 :"c:\code\tas\tas\tastable\fpga\top.v":450:21:450:36|SB_GB inserted on the net PLLOUTCORE_0.
-@N: FX1016 :"c:\code\tas\tas\tastable\fpga\top.v":410:10:410:19|SB_GB_IO inserted on the port PACKAGEPIN.
-
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+   3		0h:00m:00s		    -3.03ns		 168 /        82
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+   4		0h:00m:00s		    -3.03ns		 168 /        82
+@N: FX1016 :"c:\code\tas\tas\tastable\fpga\top.v":572:10:572:19|SB_GB_IO inserted on the port PACKAGEPIN.
+@N: FX1017 :"c:\code\tas\tas\tastable\fpga\top.v":616:21:616:36|SB_GB inserted on the net PLLOUTCORE.
+@N: FX1017 :"c:\code\tas\tas\tastable\fpga\top.v":58:3:58:6|SB_GB inserted on the net arse.divseven.un1_io_0_1.
+@N: FX1017 :|SB_GB inserted on the net masterreset_c_i.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
 
 @N: MT611 :|Automatically generated clock Clock_divider_20000|clock_out_derived_clock is not used and is being removed
-@N: MT611 :|Automatically generated clock Clock_divider|clock_out_derived_clock is not used and is being removed
 
 
 @S |Clock Optimization Summary
@@ -162,30 +124,31 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:
 
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
-1 non-gated/non-generated clock tree(s) driving 24 clock pin(s) of sequential element(s)
-1 gated/generated clock tree(s) driving 26 clock pin(s) of sequential element(s)
-8 instances converted, 26 sequential instances remain driven by gated/generated clocks
+2 non-gated/non-generated clock tree(s) driving 59 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 27 clock pin(s) of sequential element(s)
+30 instances converted, 27 sequential instances remain driven by gated/generated clocks
 
-====================================== Non-Gated/Non-Generated Clocks =======================================
-Clock Tree ID     Driving Element           Drive Element Type     Fanout     Sample Instance                
--------------------------------------------------------------------------------------------------------------
-@K:CKID0002       PACKAGEPIN_ibuf_gb_io     SB_GB_IO               24         debounceconsolereset.counter[0]
-=============================================================================================================
-============================================================================================================== Gated/Generated Clocks ==============================================================================================================
-Clock Tree ID     Driving Element                            Drive Element Type     Fanout     Sample Instance        Explanation                                                                                                                   
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       top_pll_nrtthrth.top_pll_nrtthrth_inst     SB_PLL40_CORE          26         arse.seqcounter[0]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
-====================================================================================================================================================================================================================================================
+================================= Non-Gated/Non-Generated Clocks ==================================
+Clock Tree ID     Driving Element           Drive Element Type     Fanout     Sample Instance      
+---------------------------------------------------------------------------------------------------
+@K:CKID0002       PACKAGEPIN_ibuf_gb_io     SB_GB_IO               58         delayConstant_fast[2]
+@K:CKID0003       arse.divseven.io_0        SB_IO                  1          arse.apusynclatched  
+===================================================================================================
+============================================================================================================ Gated/Generated Clocks =============================================================================================================
+Clock Tree ID     Driving Element                            Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       top_pll_nrtthrth.top_pll_nrtthrth_inst     SB_PLL40_CORE          27         arse.doingseven     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+=================================================================================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 133MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 137MB)
 
 Writing Analyst data base C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\synwork\TAStable_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
 
 Writing EDIF Netlist and constraint files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
@@ -193,38 +156,22 @@ Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\TAStable.edf
 L-2016.09L+ice40
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 138MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 138MB)
 
-Warning: Found 2 combinational loops!
-@W: BN137 :|Found combinational loop during mapping at net arse.l1.N_23_0_i
-1) instance N_23_0_i (in view: work.sr_latch(netlist)), output net N_23_0_i (in view: work.sr_latch(netlist))
-    net        arse.l1.G_74
-    input  pin arse.l1.N_23_0_i/I0
-    instance   arse.l1.N_23_0_i (cell SB_LUT4)
-    output pin arse.l1.N_23_0_i/O
-    net        arse.l1.N_23_0_i
-@W: BN137 :|Found combinational loop during mapping at net arse.l2.N_8_0
-2) instance un1_Q (in view: work.sr_latch_0(netlist)), output net N_8_0 (in view: work.sr_latch_0(netlist))
-    net        arse.l2.G_73
-    input  pin arse.l2.un1_Q/I0
-    instance   arse.l2.un1_Q (cell SB_LUT4)
-    output pin arse.l2.un1_Q/O
-    net        arse.l2.N_8_0
-End of loops
-@W: MT420 |Found inferred clock top|PACKAGEPIN with period 12.42ns. Please declare a user-defined clock on object "p:PACKAGEPIN"
-@N: MT615 |Found clock top_pll_nrtthrth|PLLOUTCORE_derived_clock with period 12.42ns 
+@W: MT420 |Found inferred clock top|PACKAGEPIN with period 12.38ns. Please declare a user-defined clock on object "p:PACKAGEPIN"
+@N: MT615 |Found clock top_pll_nrtthrth|PLLOUTCORE_derived_clock with period 12.38ns 
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Mon Jan 08 23:34:48 2024
+# Timing Report written on Thu Jan 11 23:51:37 2024
 #
 
 
 Top view:               top
-Requested Frequency:    80.5 MHz
+Requested Frequency:    80.8 MHz
 Wire load mode:         top
 Paths requested:        5
 Constraint File(s):    
@@ -238,13 +185,14 @@ Performance Summary
 *******************
 
 
-Worst slack in design: -2.192
+Worst slack in design: -3.217
 
                                               Requested     Estimated     Requested     Estimated                Clock                             Clock                
 Starting Clock                                Frequency     Frequency     Period        Period        Slack      Type                              Group                
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-top_pll_nrtthrth|PLLOUTCORE_derived_clock     80.5 MHz      85.2 MHz      12.422        11.731        0.345      derived (from top|PACKAGEPIN)     Autoconstr_clkgroup_0
-top|PACKAGEPIN                                80.5 MHz      68.4 MHz      12.422        14.614        -2.192     inferred                          Autoconstr_clkgroup_0
+top_pll_nrtthrth|PLLOUTCORE_derived_clock     80.8 MHz      53.2 MHz      12.380        18.814        1.990      derived (from top|PACKAGEPIN)     Autoconstr_clkgroup_0
+top|PACKAGEPIN                                80.8 MHz      53.2 MHz      12.380        18.814        -3.217     inferred                          Autoconstr_clkgroup_0
+System                                        283.4 MHz     240.9 MHz     3.528         4.151         -0.623     system                            system_clkgroup      
 ========================================================================================================================================================================
 
 
@@ -254,14 +202,17 @@ top|PACKAGEPIN                                80.5 MHz      68.4 MHz      12.422
 Clock Relationships
 *******************
 
-Clocks                                                                                |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Starting                                   Ending                                     |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-top|PACKAGEPIN                             top|PACKAGEPIN                             |  12.422      -2.192  |  No paths    -      |  No paths    -      |  No paths    -    
-top|PACKAGEPIN                             top_pll_nrtthrth|PLLOUTCORE_derived_clock  |  12.422      4.758   |  No paths    -      |  No paths    -      |  No paths    -    
-top_pll_nrtthrth|PLLOUTCORE_derived_clock  top_pll_nrtthrth|PLLOUTCORE_derived_clock  |  12.422      4.807   |  No paths    -      |  6.211       0.345  |  No paths    -    
-=============================================================================================================================================================================
+Clocks                                                                                |    rise  to  rise    |    fall  to  fall    |    rise  to  fall    |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                   Ending                                     |  constraint  slack   |  constraint  slack   |  constraint  slack   |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                     System                                     |  No paths    -       |  3.528       -0.623  |  No paths    -       |  No paths    -    
+System                                     top_pll_nrtthrth|PLLOUTCORE_derived_clock  |  No paths    -       |  12.380      6.459   |  No paths    -       |  No paths    -    
+top|PACKAGEPIN                             System                                     |  No paths    -       |  No paths    -       |  12.380      8.250   |  No paths    -    
+top|PACKAGEPIN                             top|PACKAGEPIN                             |  12.380      -2.185  |  No paths    -       |  No paths    -       |  No paths    -    
+top|PACKAGEPIN                             top_pll_nrtthrth|PLLOUTCORE_derived_clock  |  No paths    -       |  No paths    -       |  6.190       -3.217  |  No paths    -    
+top_pll_nrtthrth|PLLOUTCORE_derived_clock  top_pll_nrtthrth|PLLOUTCORE_derived_clock  |  12.380      6.360   |  12.380      2.903   |  6.190       2.039   |  6.190       1.990
+===============================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -283,41 +234,41 @@ Detailed Report for Clock: top_pll_nrtthrth|PLLOUTCORE_derived_clock
 Starting Points with Worst Slack
 ********************************
 
-                             Starting                                                                           Arrival          
-Instance                     Reference                                     Type         Pin     Net             Time        Slack
-                             Clock                                                                                               
----------------------------------------------------------------------------------------------------------------------------------
-arse.divseven.counter[0]     top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFF       Q       counter[0]      0.540       0.345
-arse.seqreset_e_0            top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFE      Q       seqreset        0.540       0.366
-arse.divseven.counter[1]     top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFF       Q       counter[1]      0.540       0.395
-arse.divseven.counter[2]     top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFF       Q       counter[2]      0.540       0.415
-arse.divseven.seven          top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFE      Q       seven           0.540       0.479
-arse.diveight.counter[2]     top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFF       Q       counter[2]      0.540       2.998
-arse.arse.clock_out          top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFF       Q       clock_out_i     0.540       4.807
-arse.arse.counter[3]         top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFSR     Q       counter[3]      0.540       4.807
-arse.arse.counter[0]         top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFSS     Q       counter[0]      0.540       4.828
-arse.arse.counter[1]         top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFSS     Q       counter[1]      0.540       4.856
-=================================================================================================================================
+                             Starting                                                                                 Arrival          
+Instance                     Reference                                     Type          Pin     Net                  Time        Slack
+                             Clock                                                                                                     
+---------------------------------------------------------------------------------------------------------------------------------------
+arse.cpuclkreset             top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFNSR     Q       cpuclkreset          0.540       1.990
+arse.diveight.counter[2]     top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFF        Q       counter[2]           0.540       2.039
+arse.divseven.counter[0]     top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFF        Q       counter[0]           0.540       2.095
+arse.doingseven              top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFNSR     Q       doingseven           0.540       2.123
+arse.divseven.counter[1]     top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFF        Q       counter[1]           0.540       2.144
+arse.divseven.counter[2]     top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFF        Q       counter[2]           0.540       2.165
+arse.divseven.seven          top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFF        Q       seven                0.540       2.228
+arse.cpuresetcount[0]        top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFNSR     Q       cpuresetcount[0]     0.540       2.903
+arse.cpuresetcount[1]        top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFNSR     Q       cpuresetcount[1]     0.540       2.952
+arse.cpuresetcount[3]        top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFNSR     Q       cpuresetcount[3]     0.540       2.952
+=======================================================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                               Starting                                                                               Required          
-Instance                       Reference                                     Type           Pin     Net               Time         Slack
-                               Clock                                                                                                    
-----------------------------------------------------------------------------------------------------------------------------------------
-arse.divseven.dout_nesr[0]     top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFNESR     E       N_65_i_0          6.211        0.345
-arse.diveight.dout[0]          top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFNSR      R       seqreset_i        6.106        2.011
-arse.divseven.dout_nesr[0]     top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFNESR     R       seqreset_i        6.106        2.011
-arse.diveight.dout[0]          top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFNSR      D       counter[2]        6.106        2.998
-arse.divseven.dout_nesr[0]     top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFNESR     D       counter[2]        6.106        2.998
-arse.ddd.Q_esr                 top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFESR      E       N_33_0            12.422       4.807
-arse.seqcounter[4]             top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFF         D       seqcounter_3      12.317       6.069
-arse.seqcounter[3]             top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFF         D       seqcounter_2      12.317       6.209
-arse.seqcounter[2]             top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFF         D       seqcounter_1      12.317       6.349
-arse.divseven.counter[1]       top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFF         D       counter_ns[1]     12.317       6.402
-========================================================================================================================================
+                             Starting                                                                                          Required          
+Instance                     Reference                                     Type          Pin         Net                       Time         Slack
+                             Clock                                                                                                               
+-------------------------------------------------------------------------------------------------------------------------------------------------
+arse.diveight.counter[0]     top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFF        D           counter_ns[0]             6.085        1.990
+arse.diveight.counter[1]     top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFF        D           counter_ns[1]             6.085        1.990
+arse.diveight.counter[2]     top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFF        D           dout_0                    6.085        1.990
+arse.diveight.dout[1]        top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFF        D           dout_0                    6.085        1.990
+arse.diveight.dout[0]        top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFN       D           dout                      6.085        2.039
+arse.divseven.dout[0]        top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFNE      E           un1_dout_2_sqmuxa_0_i     6.190        2.095
+arse.divseven.seven          top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFF        D           seven_0                   6.085        2.123
+arse.cpuresetoutreg          top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFNSR     D           cpuresetoutreg_en         12.275       2.903
+arse.divseven.dout[0]        top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_DFFNE      D           counter[2]                6.085        2.977
+arse.io_0                    top_pll_nrtthrth|PLLOUTCORE_derived_clock     SB_IO         D_OUT_0     apuresetoutreg            6.113        3.345
+=================================================================================================================================================
 
 
 
@@ -326,35 +277,32 @@ Worst Path Information
 
 
 Path information for path number 1: 
-      Requested Period:                      6.211
-    - Setup time:                            0.000
+      Requested Period:                      6.190
+    - Setup time:                            0.105
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         6.211
+    = Required time:                         6.085
 
-    - Propagation time:                      5.865
+    - Propagation time:                      4.095
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 0.345
+    = Slack (non-critical) :                 1.990
 
-    Number of logic level(s):                2
-    Starting point:                          arse.divseven.counter[0] / Q
-    Ending point:                            arse.divseven.dout_nesr[0] / E
-    The start point is clocked by            top_pll_nrtthrth|PLLOUTCORE_derived_clock [rising] on pin C
-    The end   point is clocked by            top_pll_nrtthrth|PLLOUTCORE_derived_clock [falling] on pin C
+    Number of logic level(s):                1
+    Starting point:                          arse.cpuclkreset / Q
+    Ending point:                            arse.diveight.counter[2] / D
+    The start point is clocked by            top_pll_nrtthrth|PLLOUTCORE_derived_clock [falling] on pin C
+    The end   point is clocked by            top_pll_nrtthrth|PLLOUTCORE_derived_clock [rising] on pin C
 
-Instance / Net                                       Pin      Pin               Arrival     No. of    
-Name                                  Type           Name     Dir     Delay     Time        Fan Out(s)
-------------------------------------------------------------------------------------------------------
-arse.divseven.counter[0]              SB_DFF         Q        Out     0.540     0.540       -         
-counter[0]                            Net            -        -       1.599     -           6         
-arse.divseven.counter_RNI8ECT[0]      SB_LUT4        I0       In      -         2.139       -         
-arse.divseven.counter_RNI8ECT[0]      SB_LUT4        O        Out     0.449     2.588       -         
-N_65_i                                Net            -        -       1.371     -           1         
-arse.divseven.counter_RNI04101[0]     SB_LUT4        I1       In      -         3.959       -         
-arse.divseven.counter_RNI04101[0]     SB_LUT4        O        Out     0.400     4.359       -         
-N_65_i_0                              Net            -        -       1.507     -           2         
-arse.divseven.dout_nesr[0]            SB_DFFNESR     E        In      -         5.865       -         
-======================================================================================================
-Total path delay (propagation time + setup) of 5.865 is 1.389(23.7%) logic and 4.477(76.3%) route.
+Instance / Net                                      Pin      Pin               Arrival     No. of    
+Name                                  Type          Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+arse.cpuclkreset                      SB_DFFNSR     Q        Out     0.540     0.540       -         
+cpuclkreset                           Net           -        -       1.599     -           5         
+arse.diveight.counter_RNIAAKM1[1]     SB_LUT4       I0       In      -         2.139       -         
+arse.diveight.counter_RNIAAKM1[1]     SB_LUT4       O        Out     0.449     2.588       -         
+dout_0                                Net           -        -       1.507     -           2         
+arse.diveight.counter[2]              SB_DFF        D        In      -         4.095       -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 4.200 is 1.094(26.0%) logic and 3.106(74.0%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -369,41 +317,41 @@ Detailed Report for Clock: top|PACKAGEPIN
 Starting Points with Worst Slack
 ********************************
 
-                     Starting                                               Arrival           
-Instance             Reference          Type         Pin     Net            Time        Slack 
-                     Clock                                                                    
-----------------------------------------------------------------------------------------------
-arses.counter[0]     top|PACKAGEPIN     SB_DFFSS     Q       counter[0]     0.540       -2.192
-arses.counter[2]     top|PACKAGEPIN     SB_DFFSR     Q       counter[2]     0.540       -2.143
-arses.counter[3]     top|PACKAGEPIN     SB_DFFSR     Q       counter[3]     0.540       -2.122
-arses.counter[5]     top|PACKAGEPIN     SB_DFFSR     Q       counter[5]     0.540       -2.066
-arses.counter[6]     top|PACKAGEPIN     SB_DFFSR     Q       counter[6]     0.540       -2.059
-arses.counter[7]     top|PACKAGEPIN     SB_DFFSR     Q       counter[7]     0.540       -2.031
-arses.counter[8]     top|PACKAGEPIN     SB_DFFSR     Q       counter[8]     0.540       -1.968
-arses.counter[1]     top|PACKAGEPIN     SB_DFFSS     Q       counter[1]     0.540       -0.407
-arses.counter[4]     top|PACKAGEPIN     SB_DFFSS     Q       counter[4]     0.540       -0.400
-arses.counter[9]     top|PACKAGEPIN     SB_DFFSR     Q       counter[9]     0.540       1.216 
-==============================================================================================
+                          Starting                                                          Arrival           
+Instance                  Reference          Type         Pin     Net                       Time        Slack 
+                          Clock                                                                               
+--------------------------------------------------------------------------------------------------------------
+delayConstant[0]          top|PACKAGEPIN     SB_DFFSR     Q       delayConstant[0]          0.540       -3.217
+delayConstant[3]          top|PACKAGEPIN     SB_DFFSR     Q       delayConstant[3]          0.540       -3.168
+delayConstant[4]          top|PACKAGEPIN     SB_DFFSR     Q       delayConstant[4]          0.540       -3.154
+delayConstant_fast[2]     top|PACKAGEPIN     SB_DFFSR     Q       delayConstant_fast[2]     0.540       -3.147
+delayConstant[7]          top|PACKAGEPIN     SB_DFFSR     Q       delayConstant[7]          0.540       -3.105
+delayConstant_fast[6]     top|PACKAGEPIN     SB_DFFSR     Q       delayConstant_fast[6]     0.540       -3.084
+arses.counter[0]          top|PACKAGEPIN     SB_DFFSS     Q       counter[0]                0.540       -2.185
+arses.counter[2]          top|PACKAGEPIN     SB_DFFSR     Q       counter[2]                0.540       -2.136
+arses.counter[3]          top|PACKAGEPIN     SB_DFFSR     Q       counter[3]                0.540       -2.115
+arses.counter[5]          top|PACKAGEPIN     SB_DFFSR     Q       counter[5]                0.540       -2.065
+==============================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                                    Starting                                                    Required           
-Instance                            Reference          Type         Pin     Net                 Time         Slack 
-                                    Clock                                                                          
--------------------------------------------------------------------------------------------------------------------
-debounceconsolereset.counter[0]     top|PACKAGEPIN     SB_DFF       D       counter_6           12.317       -2.192
-debounceconsolereset.counter[1]     top|PACKAGEPIN     SB_DFF       D       counter_7           12.317       -2.101
-debounceconsolereset.counter[2]     top|PACKAGEPIN     SB_DFF       D       counter_8           12.317       -2.101
-debounceconsolereset.counter[3]     top|PACKAGEPIN     SB_DFF       D       counter_9           12.317       -2.101
-debounceconsolereset.counter[4]     top|PACKAGEPIN     SB_DFF       D       counter_10          12.317       -2.101
-debounceconsolereset.counter[5]     top|PACKAGEPIN     SB_DFF       D       counter_11          12.317       -2.101
-debounceconsolereset.counter[6]     top|PACKAGEPIN     SB_DFF       D       counter_12          12.317       -2.101
-debounceconsolereset.out            top|PACKAGEPIN     SB_DFF       D       out                 12.317       -0.442
-arses.clock_out                     top|PACKAGEPIN     SB_DFF       D       clock_out_RNO_0     12.317       1.356 
-arses.counter[0]                    top|PACKAGEPIN     SB_DFFSS     D       counter_4[0]        12.317       1.370 
-===================================================================================================================
+                                    Starting                                                       Required           
+Instance                            Reference          Type          Pin     Net                   Time         Slack 
+                                    Clock                                                                             
+----------------------------------------------------------------------------------------------------------------------
+arse.cpuresetoutreg                 top|PACKAGEPIN     SB_DFFNSR     D       cpuresetoutreg_en     6.085        -3.217
+debouncedn.counter[0]               top|PACKAGEPIN     SB_DFF        D       counter_4             12.275       -2.185
+debounceup.counter[0]               top|PACKAGEPIN     SB_DFF        D       counter_4             12.275       -2.185
+debounceconsolereset.counter[0]     top|PACKAGEPIN     SB_DFF        D       counter_4             12.275       -2.185
+debounceup.counter[1]               top|PACKAGEPIN     SB_DFF        D       counter_5             12.275       -2.094
+debouncedn.counter[1]               top|PACKAGEPIN     SB_DFF        D       counter_5             12.275       -2.094
+debounceconsolereset.counter[1]     top|PACKAGEPIN     SB_DFF        D       counter_5             12.275       -2.094
+debounceconsolereset.counter[2]     top|PACKAGEPIN     SB_DFF        D       counter_6             12.275       -2.094
+debounceup.counter[2]               top|PACKAGEPIN     SB_DFF        D       counter_6             12.275       -2.094
+debouncedn.counter[2]               top|PACKAGEPIN     SB_DFF        D       counter_6             12.275       -2.094
+======================================================================================================================
 
 
 
@@ -412,242 +360,454 @@ Worst Path Information
 
 
 Path information for path number 1: 
-      Requested Period:                      12.422
+      Requested Period:                      6.190
     - Setup time:                            0.105
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         12.317
+    = Required time:                         6.085
 
-    - Propagation time:                      14.509
+    - Propagation time:                      9.302
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -2.192
+    = Slack (critical) :                     -3.217
 
-    Number of logic level(s):                7
-    Starting point:                          arses.counter[0] / Q
-    Ending point:                            debounceconsolereset.counter[0] / D
+    Number of logic level(s):                4
+    Starting point:                          delayConstant[0] / Q
+    Ending point:                            arse.cpuresetoutreg / D
     The start point is clocked by            top|PACKAGEPIN [rising] on pin C
-    The end   point is clocked by            top|PACKAGEPIN [rising] on pin C
+    The end   point is clocked by            top_pll_nrtthrth|PLLOUTCORE_derived_clock [falling] on pin C
 
-Instance / Net                                            Pin      Pin               Arrival     No. of    
-Name                                         Type         Name     Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------------------
-arses.counter[0]                             SB_DFFSS     Q        Out     0.540     0.540       -         
-counter[0]                                   Net          -        -       1.599     -           4         
-arses.counter_RNI1L5[2]                      SB_LUT4      I0       In      -         2.139       -         
-arses.counter_RNI1L5[2]                      SB_LUT4      O        Out     0.449     2.588       -         
-un1_counterlto4_2                            Net          -        -       1.371     -           1         
-arses.counter_RNIOKH[1]                      SB_LUT4      I2       In      -         3.959       -         
-arses.counter_RNIOKH[1]                      SB_LUT4      O        Out     0.351     4.309       -         
-un1_counterlt11                              Net          -        -       1.371     -           1         
-arses.counter_RNI04C4[9]                     SB_LUT4      I3       In      -         5.680       -         
-arses.counter_RNI04C4[9]                     SB_LUT4      O        Out     0.316     5.996       -         
-un1_counterlt13_0                            Net          -        -       1.371     -           1         
-arses.counter_RNIOS0A[14]                    SB_LUT4      I3       In      -         7.367       -         
-arses.counter_RNIOS0A[14]                    SB_LUT4      O        Out     0.316     7.683       -         
-counter8                                     Net          -        -       1.371     -           17        
-arses.clock_out_RNIR6ER                      SB_LUT4      I2       In      -         9.054       -         
-arses.clock_out_RNIR6ER                      SB_LUT4      O        Out     0.379     9.432       -         
-clock_out_RNIR6ER                            Net          -        -       1.371     -           9         
-debounceconsolereset.counter_RNI4RTH1[6]     SB_LUT4      I0       In      -         10.803      -         
-debounceconsolereset.counter_RNI4RTH1[6]     SB_LUT4      O        Out     0.449     11.252      -         
-counter_RNI4RTH1[6]                          Net          -        -       1.371     -           7         
-debounceconsolereset.counter_RNO[0]          SB_LUT4      I1       In      -         12.623      -         
-debounceconsolereset.counter_RNO[0]          SB_LUT4      O        Out     0.379     13.002      -         
-counter_6                                    Net          -        -       1.507     -           1         
-debounceconsolereset.counter[0]              SB_DFF       D        In      -         14.509      -         
-===========================================================================================================
-Total path delay (propagation time + setup) of 14.614 is 3.282(22.5%) logic and 11.332(77.5%) route.
+Instance / Net                              Pin      Pin               Arrival     No. of    
+Name                          Type          Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------
+delayConstant[0]              SB_DFFSR      Q        Out     0.540     0.540       -         
+delayConstant[0]              Net           -        -       1.599     -           8         
+arse.cpuresetoutreg_RNO_5     SB_LUT4       I2       In      -         2.139       -         
+arse.cpuresetoutreg_RNO_5     SB_LUT4       O        Out     0.379     2.518       -         
+g0_2                          Net           -        -       1.371     -           1         
+arse.cpuresetoutreg_RNO_3     SB_LUT4       I0       In      -         3.889       -         
+arse.cpuresetoutreg_RNO_3     SB_LUT4       O        Out     0.449     4.338       -         
+g0_7                          Net           -        -       1.371     -           1         
+arse.cpuresetoutreg_RNO_0     SB_LUT4       I3       In      -         5.708       -         
+arse.cpuresetoutreg_RNO_0     SB_LUT4       O        Out     0.316     6.024       -         
+cpuresetoutreg_1_sqmuxa       Net           -        -       1.371     -           1         
+arse.cpuresetoutreg_RNO       SB_LUT4       I1       In      -         7.395       -         
+arse.cpuresetoutreg_RNO       SB_LUT4       O        Out     0.400     7.795       -         
+cpuresetoutreg_en             Net           -        -       1.507     -           1         
+arse.cpuresetoutreg           SB_DFFNSR     D        In      -         9.302       -         
+=============================================================================================
+Total path delay (propagation time + setup) of 9.407 is 2.188(23.3%) logic and 7.219(76.7%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
 Path information for path number 2: 
-      Requested Period:                      12.422
+      Requested Period:                      6.190
     - Setup time:                            0.105
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         12.317
+    = Required time:                         6.085
 
-    - Propagation time:                      14.460
+    - Propagation time:                      9.253
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -2.143
+    = Slack (non-critical) :                 -3.168
 
-    Number of logic level(s):                7
-    Starting point:                          arses.counter[2] / Q
-    Ending point:                            debounceconsolereset.counter[0] / D
+    Number of logic level(s):                4
+    Starting point:                          delayConstant[3] / Q
+    Ending point:                            arse.cpuresetoutreg / D
     The start point is clocked by            top|PACKAGEPIN [rising] on pin C
-    The end   point is clocked by            top|PACKAGEPIN [rising] on pin C
+    The end   point is clocked by            top_pll_nrtthrth|PLLOUTCORE_derived_clock [falling] on pin C
 
-Instance / Net                                            Pin      Pin               Arrival     No. of    
-Name                                         Type         Name     Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------------------
-arses.counter[2]                             SB_DFFSR     Q        Out     0.540     0.540       -         
-counter[2]                                   Net          -        -       1.599     -           3         
-arses.counter_RNI1L5[2]                      SB_LUT4      I1       In      -         2.139       -         
-arses.counter_RNI1L5[2]                      SB_LUT4      O        Out     0.400     2.539       -         
-un1_counterlto4_2                            Net          -        -       1.371     -           1         
-arses.counter_RNIOKH[1]                      SB_LUT4      I2       In      -         3.910       -         
-arses.counter_RNIOKH[1]                      SB_LUT4      O        Out     0.351     4.260       -         
-un1_counterlt11                              Net          -        -       1.371     -           1         
-arses.counter_RNI04C4[9]                     SB_LUT4      I3       In      -         5.631       -         
-arses.counter_RNI04C4[9]                     SB_LUT4      O        Out     0.316     5.947       -         
-un1_counterlt13_0                            Net          -        -       1.371     -           1         
-arses.counter_RNIOS0A[14]                    SB_LUT4      I3       In      -         7.318       -         
-arses.counter_RNIOS0A[14]                    SB_LUT4      O        Out     0.316     7.633       -         
-counter8                                     Net          -        -       1.371     -           17        
-arses.clock_out_RNIR6ER                      SB_LUT4      I2       In      -         9.005       -         
-arses.clock_out_RNIR6ER                      SB_LUT4      O        Out     0.379     9.383       -         
-clock_out_RNIR6ER                            Net          -        -       1.371     -           9         
-debounceconsolereset.counter_RNI4RTH1[6]     SB_LUT4      I0       In      -         10.754      -         
-debounceconsolereset.counter_RNI4RTH1[6]     SB_LUT4      O        Out     0.449     11.203      -         
-counter_RNI4RTH1[6]                          Net          -        -       1.371     -           7         
-debounceconsolereset.counter_RNO[0]          SB_LUT4      I1       In      -         12.574      -         
-debounceconsolereset.counter_RNO[0]          SB_LUT4      O        Out     0.379     12.953      -         
-counter_6                                    Net          -        -       1.507     -           1         
-debounceconsolereset.counter[0]              SB_DFF       D        In      -         14.460      -         
-===========================================================================================================
-Total path delay (propagation time + setup) of 14.565 is 3.233(22.2%) logic and 11.332(77.8%) route.
+Instance / Net                              Pin      Pin               Arrival     No. of    
+Name                          Type          Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------
+delayConstant[3]              SB_DFFSR      Q        Out     0.540     0.540       -         
+delayConstant[3]              Net           -        -       1.599     -           8         
+arse.cpuresetoutreg_RNO_6     SB_LUT4       I2       In      -         2.139       -         
+arse.cpuresetoutreg_RNO_6     SB_LUT4       O        Out     0.379     2.518       -         
+g0_3                          Net           -        -       1.371     -           1         
+arse.cpuresetoutreg_RNO_3     SB_LUT4       I1       In      -         3.889       -         
+arse.cpuresetoutreg_RNO_3     SB_LUT4       O        Out     0.400     4.288       -         
+g0_7                          Net           -        -       1.371     -           1         
+arse.cpuresetoutreg_RNO_0     SB_LUT4       I3       In      -         5.659       -         
+arse.cpuresetoutreg_RNO_0     SB_LUT4       O        Out     0.316     5.975       -         
+cpuresetoutreg_1_sqmuxa       Net           -        -       1.371     -           1         
+arse.cpuresetoutreg_RNO       SB_LUT4       I1       In      -         7.346       -         
+arse.cpuresetoutreg_RNO       SB_LUT4       O        Out     0.400     7.746       -         
+cpuresetoutreg_en             Net           -        -       1.507     -           1         
+arse.cpuresetoutreg           SB_DFFNSR     D        In      -         9.253       -         
+=============================================================================================
+Total path delay (propagation time + setup) of 9.358 is 2.139(22.9%) logic and 7.219(77.1%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
 Path information for path number 3: 
-      Requested Period:                      12.422
+      Requested Period:                      6.190
     - Setup time:                            0.105
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         12.317
+    = Required time:                         6.085
 
-    - Propagation time:                      14.439
+    - Propagation time:                      9.239
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -2.122
+    = Slack (non-critical) :                 -3.154
 
-    Number of logic level(s):                7
-    Starting point:                          arses.counter[3] / Q
-    Ending point:                            debounceconsolereset.counter[0] / D
+    Number of logic level(s):                4
+    Starting point:                          delayConstant[4] / Q
+    Ending point:                            arse.cpuresetoutreg / D
     The start point is clocked by            top|PACKAGEPIN [rising] on pin C
-    The end   point is clocked by            top|PACKAGEPIN [rising] on pin C
+    The end   point is clocked by            top_pll_nrtthrth|PLLOUTCORE_derived_clock [falling] on pin C
 
-Instance / Net                                            Pin      Pin               Arrival     No. of    
-Name                                         Type         Name     Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------------------
-arses.counter[3]                             SB_DFFSR     Q        Out     0.540     0.540       -         
-counter[3]                                   Net          -        -       1.599     -           3         
-arses.counter_RNI1L5[2]                      SB_LUT4      I2       In      -         2.139       -         
-arses.counter_RNI1L5[2]                      SB_LUT4      O        Out     0.379     2.518       -         
-un1_counterlto4_2                            Net          -        -       1.371     -           1         
-arses.counter_RNIOKH[1]                      SB_LUT4      I2       In      -         3.889       -         
-arses.counter_RNIOKH[1]                      SB_LUT4      O        Out     0.351     4.239       -         
-un1_counterlt11                              Net          -        -       1.371     -           1         
-arses.counter_RNI04C4[9]                     SB_LUT4      I3       In      -         5.610       -         
-arses.counter_RNI04C4[9]                     SB_LUT4      O        Out     0.316     5.926       -         
-un1_counterlt13_0                            Net          -        -       1.371     -           1         
-arses.counter_RNIOS0A[14]                    SB_LUT4      I3       In      -         7.297       -         
-arses.counter_RNIOS0A[14]                    SB_LUT4      O        Out     0.316     7.612       -         
-counter8                                     Net          -        -       1.371     -           17        
-arses.clock_out_RNIR6ER                      SB_LUT4      I2       In      -         8.983       -         
-arses.clock_out_RNIR6ER                      SB_LUT4      O        Out     0.379     9.362       -         
-clock_out_RNIR6ER                            Net          -        -       1.371     -           9         
-debounceconsolereset.counter_RNI4RTH1[6]     SB_LUT4      I0       In      -         10.733      -         
-debounceconsolereset.counter_RNI4RTH1[6]     SB_LUT4      O        Out     0.449     11.182      -         
-counter_RNI4RTH1[6]                          Net          -        -       1.371     -           7         
-debounceconsolereset.counter_RNO[0]          SB_LUT4      I1       In      -         12.553      -         
-debounceconsolereset.counter_RNO[0]          SB_LUT4      O        Out     0.379     12.932      -         
-counter_6                                    Net          -        -       1.507     -           1         
-debounceconsolereset.counter[0]              SB_DFF       D        In      -         14.439      -         
-===========================================================================================================
-Total path delay (propagation time + setup) of 14.544 is 3.212(22.1%) logic and 11.332(77.9%) route.
+Instance / Net                              Pin      Pin               Arrival     No. of    
+Name                          Type          Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------
+delayConstant[4]              SB_DFFSR      Q        Out     0.540     0.540       -         
+delayConstant[4]              Net           -        -       1.599     -           7         
+arse.cpuresetoutreg_RNO_5     SB_LUT4       I3       In      -         2.139       -         
+arse.cpuresetoutreg_RNO_5     SB_LUT4       O        Out     0.316     2.455       -         
+g0_2                          Net           -        -       1.371     -           1         
+arse.cpuresetoutreg_RNO_3     SB_LUT4       I0       In      -         3.826       -         
+arse.cpuresetoutreg_RNO_3     SB_LUT4       O        Out     0.449     4.274       -         
+g0_7                          Net           -        -       1.371     -           1         
+arse.cpuresetoutreg_RNO_0     SB_LUT4       I3       In      -         5.645       -         
+arse.cpuresetoutreg_RNO_0     SB_LUT4       O        Out     0.316     5.961       -         
+cpuresetoutreg_1_sqmuxa       Net           -        -       1.371     -           1         
+arse.cpuresetoutreg_RNO       SB_LUT4       I1       In      -         7.332       -         
+arse.cpuresetoutreg_RNO       SB_LUT4       O        Out     0.400     7.732       -         
+cpuresetoutreg_en             Net           -        -       1.507     -           1         
+arse.cpuresetoutreg           SB_DFFNSR     D        In      -         9.239       -         
+=============================================================================================
+Total path delay (propagation time + setup) of 9.344 is 2.125(22.7%) logic and 7.219(77.3%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
 Path information for path number 4: 
-      Requested Period:                      12.422
+      Requested Period:                      6.190
     - Setup time:                            0.105
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         12.317
+    = Required time:                         6.085
 
-    - Propagation time:                      14.418
+    - Propagation time:                      9.232
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -2.101
+    = Slack (non-critical) :                 -3.147
 
-    Number of logic level(s):                7
-    Starting point:                          arses.counter[0] / Q
-    Ending point:                            debounceconsolereset.counter[5] / D
+    Number of logic level(s):                4
+    Starting point:                          delayConstant_fast[2] / Q
+    Ending point:                            arse.cpuresetoutreg / D
     The start point is clocked by            top|PACKAGEPIN [rising] on pin C
-    The end   point is clocked by            top|PACKAGEPIN [rising] on pin C
+    The end   point is clocked by            top_pll_nrtthrth|PLLOUTCORE_derived_clock [falling] on pin C
 
-Instance / Net                                            Pin      Pin               Arrival     No. of    
-Name                                         Type         Name     Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------------------
-arses.counter[0]                             SB_DFFSS     Q        Out     0.540     0.540       -         
-counter[0]                                   Net          -        -       1.599     -           4         
-arses.counter_RNI1L5[2]                      SB_LUT4      I0       In      -         2.139       -         
-arses.counter_RNI1L5[2]                      SB_LUT4      O        Out     0.449     2.588       -         
-un1_counterlto4_2                            Net          -        -       1.371     -           1         
-arses.counter_RNIOKH[1]                      SB_LUT4      I2       In      -         3.959       -         
-arses.counter_RNIOKH[1]                      SB_LUT4      O        Out     0.351     4.309       -         
-un1_counterlt11                              Net          -        -       1.371     -           1         
-arses.counter_RNI04C4[9]                     SB_LUT4      I3       In      -         5.680       -         
-arses.counter_RNI04C4[9]                     SB_LUT4      O        Out     0.316     5.996       -         
-un1_counterlt13_0                            Net          -        -       1.371     -           1         
-arses.counter_RNIOS0A[14]                    SB_LUT4      I3       In      -         7.367       -         
-arses.counter_RNIOS0A[14]                    SB_LUT4      O        Out     0.316     7.683       -         
-counter8                                     Net          -        -       1.371     -           17        
-arses.clock_out_RNIR6ER                      SB_LUT4      I2       In      -         9.054       -         
-arses.clock_out_RNIR6ER                      SB_LUT4      O        Out     0.379     9.432       -         
-clock_out_RNIR6ER                            Net          -        -       1.371     -           9         
-debounceconsolereset.counter_RNI4RTH1[6]     SB_LUT4      I0       In      -         10.803      -         
-debounceconsolereset.counter_RNI4RTH1[6]     SB_LUT4      O        Out     0.449     11.252      -         
-counter_RNI4RTH1[6]                          Net          -        -       1.371     -           7         
-debounceconsolereset.counter_RNO[5]          SB_LUT4      I3       In      -         12.623      -         
-debounceconsolereset.counter_RNO[5]          SB_LUT4      O        Out     0.287     12.911      -         
-counter_11                                   Net          -        -       1.507     -           1         
-debounceconsolereset.counter[5]              SB_DFF       D        In      -         14.418      -         
-===========================================================================================================
-Total path delay (propagation time + setup) of 14.523 is 3.191(22.0%) logic and 11.332(78.0%) route.
+Instance / Net                              Pin      Pin               Arrival     No. of    
+Name                          Type          Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------
+delayConstant_fast[2]         SB_DFFSR      Q        Out     0.540     0.540       -         
+delayConstant_fast[2]         Net           -        -       1.599     -           1         
+arse.cpuresetoutreg_RNO_7     SB_LUT4       I2       In      -         2.139       -         
+arse.cpuresetoutreg_RNO_7     SB_LUT4       O        Out     0.379     2.518       -         
+g0_4                          Net           -        -       1.371     -           1         
+arse.cpuresetoutreg_RNO_3     SB_LUT4       I2       In      -         3.889       -         
+arse.cpuresetoutreg_RNO_3     SB_LUT4       O        Out     0.379     4.267       -         
+g0_7                          Net           -        -       1.371     -           1         
+arse.cpuresetoutreg_RNO_0     SB_LUT4       I3       In      -         5.638       -         
+arse.cpuresetoutreg_RNO_0     SB_LUT4       O        Out     0.316     5.954       -         
+cpuresetoutreg_1_sqmuxa       Net           -        -       1.371     -           1         
+arse.cpuresetoutreg_RNO       SB_LUT4       I1       In      -         7.325       -         
+arse.cpuresetoutreg_RNO       SB_LUT4       O        Out     0.400     7.725       -         
+cpuresetoutreg_en             Net           -        -       1.507     -           1         
+arse.cpuresetoutreg           SB_DFFNSR     D        In      -         9.232       -         
+=============================================================================================
+Total path delay (propagation time + setup) of 9.337 is 2.118(22.7%) logic and 7.219(77.3%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
 Path information for path number 5: 
-      Requested Period:                      12.422
+      Requested Period:                      6.190
     - Setup time:                            0.105
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         12.317
+    = Required time:                         6.085
 
-    - Propagation time:                      14.418
+    - Propagation time:                      9.190
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -2.101
+    = Slack (non-critical) :                 -3.105
+
+    Number of logic level(s):                4
+    Starting point:                          delayConstant[7] / Q
+    Ending point:                            arse.cpuresetoutreg / D
+    The start point is clocked by            top|PACKAGEPIN [rising] on pin C
+    The end   point is clocked by            top_pll_nrtthrth|PLLOUTCORE_derived_clock [falling] on pin C
+
+Instance / Net                              Pin      Pin               Arrival     No. of    
+Name                          Type          Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------
+delayConstant[7]              SB_DFFSR      Q        Out     0.540     0.540       -         
+delayConstant[7]              Net           -        -       1.599     -           7         
+arse.cpuresetoutreg_RNO_6     SB_LUT4       I3       In      -         2.139       -         
+arse.cpuresetoutreg_RNO_6     SB_LUT4       O        Out     0.316     2.455       -         
+g0_3                          Net           -        -       1.371     -           1         
+arse.cpuresetoutreg_RNO_3     SB_LUT4       I1       In      -         3.826       -         
+arse.cpuresetoutreg_RNO_3     SB_LUT4       O        Out     0.400     4.225       -         
+g0_7                          Net           -        -       1.371     -           1         
+arse.cpuresetoutreg_RNO_0     SB_LUT4       I3       In      -         5.596       -         
+arse.cpuresetoutreg_RNO_0     SB_LUT4       O        Out     0.316     5.912       -         
+cpuresetoutreg_1_sqmuxa       Net           -        -       1.371     -           1         
+arse.cpuresetoutreg_RNO       SB_LUT4       I1       In      -         7.283       -         
+arse.cpuresetoutreg_RNO       SB_LUT4       O        Out     0.400     7.683       -         
+cpuresetoutreg_en             Net           -        -       1.507     -           1         
+arse.cpuresetoutreg           SB_DFFNSR     D        In      -         9.190       -         
+=============================================================================================
+Total path delay (propagation time + setup) of 9.295 is 2.076(22.3%) logic and 7.219(77.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                             Arrival           
+Instance                Reference     Type        Pin     Net                Time        Slack 
+                        Clock                                                                  
+-----------------------------------------------------------------------------------------------
+arse.apusynclatched     System        SB_DFFN     Q       apusynclatched     0.540       -0.623
+===============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                          Starting                                                     Required           
+Instance                  Reference     Type          Pin     Net                      Time         Slack 
+                          Clock                                                                           
+----------------------------------------------------------------------------------------------------------
+arse.apusynclatched       System        SB_DFFN       D       apusynclatched_1         3.423        -0.623
+arse.cpuresetoutreg       System        SB_DFFNSR     D       cpuresetoutreg_en        12.275       6.459 
+arse.cpuresetcount[7]     System        SB_DFFNSR     D       cpuresetcount_RNO[7]     12.275       7.725 
+arse.cpuresetcount[6]     System        SB_DFFNSR     D       cpuresetcount_RNO[6]     12.275       7.865 
+arse.cpuresetcount[5]     System        SB_DFFNSR     D       cpuresetcount_RNO[5]     12.275       8.005 
+arse.cpuresetcount[4]     System        SB_DFFNSR     D       cpuresetcount_RNO[4]     12.275       8.146 
+arse.cpuclkreset          System        SB_DFFNSR     D       cpuclkreset_0            12.275       8.180 
+arse.doingseven           System        SB_DFFNSR     D       doingseven_0             12.275       8.180 
+arse.cpuresetcount[3]     System        SB_DFFNSR     D       cpuresetcount_RNO[3]     12.275       8.286 
+arse.cpuresetcount[0]     System        SB_DFFNSR     D       cpuresetcount_RNO[0]     12.275       8.313 
+==========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      3.528
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         3.423
+
+    - Propagation time:                      4.046
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.623
+
+    Number of logic level(s):                1
+    Starting point:                          arse.apusynclatched / Q
+    Ending point:                            arse.apusynclatched / D
+    The start point is clocked by            System [falling] on pin C
+    The end   point is clocked by            System [falling] on pin C
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                        Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+arse.apusynclatched         SB_DFFN     Q        Out     0.540     0.540       -         
+apusynclatched              Net         -        -       1.599     -           6         
+arse.apusynclatched_RNO     SB_LUT4     I1       In      -         2.139       -         
+arse.apusynclatched_RNO     SB_LUT4     O        Out     0.400     2.539       -         
+apusynclatched_1            Net         -        -       1.507     -           1         
+arse.apusynclatched         SB_DFFN     D        In      -         4.046       -         
+=========================================================================================
+Total path delay (propagation time + setup) of 4.151 is 1.045(25.2%) logic and 3.106(74.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      12.380
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         12.275
+
+    - Propagation time:                      5.816
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 6.459
+
+    Number of logic level(s):                2
+    Starting point:                          arse.apusynclatched / Q
+    Ending point:                            arse.cpuresetoutreg / D
+    The start point is clocked by            System [falling] on pin C
+    The end   point is clocked by            top_pll_nrtthrth|PLLOUTCORE_derived_clock [falling] on pin C
+
+Instance / Net                              Pin      Pin               Arrival     No. of    
+Name                          Type          Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------
+arse.apusynclatched           SB_DFFN       Q        Out     0.540     0.540       -         
+apusynclatched                Net           -        -       1.599     -           6         
+arse.cpuresetoutreg_RNO_0     SB_LUT4       I1       In      -         2.139       -         
+arse.cpuresetoutreg_RNO_0     SB_LUT4       O        Out     0.400     2.539       -         
+cpuresetoutreg_1_sqmuxa       Net           -        -       1.371     -           1         
+arse.cpuresetoutreg_RNO       SB_LUT4       I1       In      -         3.910       -         
+arse.cpuresetoutreg_RNO       SB_LUT4       O        Out     0.400     4.309       -         
+cpuresetoutreg_en             Net           -        -       1.507     -           1         
+arse.cpuresetoutreg           SB_DFFNSR     D        In      -         5.816       -         
+=============================================================================================
+Total path delay (propagation time + setup) of 5.922 is 1.445(24.4%) logic and 4.477(75.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      12.380
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         12.275
+
+    - Propagation time:                      4.550
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 7.725
+
+    Number of logic level(s):                8
+    Starting point:                          arse.apusynclatched / Q
+    Ending point:                            arse.cpuresetcount[7] / D
+    The start point is clocked by            System [falling] on pin C
+    The end   point is clocked by            top_pll_nrtthrth|PLLOUTCORE_derived_clock [falling] on pin C
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                 Type          Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+arse.apusynclatched                  SB_DFFN       Q        Out     0.540     0.540       -         
+apusynclatched                       Net           -        -       0.834     -           6         
+arse.un1_cpuresetcount_1_cry_0_c     SB_CARRY      CI       In      -         1.374       -         
+arse.un1_cpuresetcount_1_cry_0_c     SB_CARRY      CO       Out     0.126     1.500       -         
+un1_cpuresetcount_1_cry_0            Net           -        -       0.014     -           2         
+arse.un1_cpuresetcount_1_cry_1_c     SB_CARRY      CI       In      -         1.514       -         
+arse.un1_cpuresetcount_1_cry_1_c     SB_CARRY      CO       Out     0.126     1.640       -         
+un1_cpuresetcount_1_cry_1            Net           -        -       0.014     -           2         
+arse.un1_cpuresetcount_1_cry_2_c     SB_CARRY      CI       In      -         1.654       -         
+arse.un1_cpuresetcount_1_cry_2_c     SB_CARRY      CO       Out     0.126     1.781       -         
+un1_cpuresetcount_1_cry_2            Net           -        -       0.014     -           2         
+arse.un1_cpuresetcount_1_cry_3_c     SB_CARRY      CI       In      -         1.795       -         
+arse.un1_cpuresetcount_1_cry_3_c     SB_CARRY      CO       Out     0.126     1.921       -         
+un1_cpuresetcount_1_cry_3            Net           -        -       0.014     -           2         
+arse.un1_cpuresetcount_1_cry_4_c     SB_CARRY      CI       In      -         1.935       -         
+arse.un1_cpuresetcount_1_cry_4_c     SB_CARRY      CO       Out     0.126     2.061       -         
+un1_cpuresetcount_1_cry_4            Net           -        -       0.014     -           2         
+arse.un1_cpuresetcount_1_cry_5_c     SB_CARRY      CI       In      -         2.075       -         
+arse.un1_cpuresetcount_1_cry_5_c     SB_CARRY      CO       Out     0.126     2.201       -         
+un1_cpuresetcount_1_cry_5            Net           -        -       0.014     -           2         
+arse.un1_cpuresetcount_1_cry_6_c     SB_CARRY      CI       In      -         2.215       -         
+arse.un1_cpuresetcount_1_cry_6_c     SB_CARRY      CO       Out     0.126     2.341       -         
+un1_cpuresetcount_1_cry_6            Net           -        -       0.386     -           1         
+arse.cpuresetcount_RNO[7]            SB_LUT4       I3       In      -         2.727       -         
+arse.cpuresetcount_RNO[7]            SB_LUT4       O        Out     0.316     3.043       -         
+cpuresetcount_RNO[7]                 Net           -        -       1.507     -           1         
+arse.cpuresetcount[7]                SB_DFFNSR     D        In      -         4.550       -         
+====================================================================================================
+Total path delay (propagation time + setup) of 4.655 is 1.844(39.6%) logic and 2.811(60.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      12.380
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         12.275
+
+    - Propagation time:                      4.410
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 7.865
 
     Number of logic level(s):                7
-    Starting point:                          arses.counter[0] / Q
-    Ending point:                            debounceconsolereset.counter[4] / D
-    The start point is clocked by            top|PACKAGEPIN [rising] on pin C
-    The end   point is clocked by            top|PACKAGEPIN [rising] on pin C
+    Starting point:                          arse.apusynclatched / Q
+    Ending point:                            arse.cpuresetcount[6] / D
+    The start point is clocked by            System [falling] on pin C
+    The end   point is clocked by            top_pll_nrtthrth|PLLOUTCORE_derived_clock [falling] on pin C
 
-Instance / Net                                            Pin      Pin               Arrival     No. of    
-Name                                         Type         Name     Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------------------
-arses.counter[0]                             SB_DFFSS     Q        Out     0.540     0.540       -         
-counter[0]                                   Net          -        -       1.599     -           4         
-arses.counter_RNI1L5[2]                      SB_LUT4      I0       In      -         2.139       -         
-arses.counter_RNI1L5[2]                      SB_LUT4      O        Out     0.449     2.588       -         
-un1_counterlto4_2                            Net          -        -       1.371     -           1         
-arses.counter_RNIOKH[1]                      SB_LUT4      I2       In      -         3.959       -         
-arses.counter_RNIOKH[1]                      SB_LUT4      O        Out     0.351     4.309       -         
-un1_counterlt11                              Net          -        -       1.371     -           1         
-arses.counter_RNI04C4[9]                     SB_LUT4      I3       In      -         5.680       -         
-arses.counter_RNI04C4[9]                     SB_LUT4      O        Out     0.316     5.996       -         
-un1_counterlt13_0                            Net          -        -       1.371     -           1         
-arses.counter_RNIOS0A[14]                    SB_LUT4      I3       In      -         7.367       -         
-arses.counter_RNIOS0A[14]                    SB_LUT4      O        Out     0.316     7.683       -         
-counter8                                     Net          -        -       1.371     -           17        
-arses.clock_out_RNIR6ER                      SB_LUT4      I2       In      -         9.054       -         
-arses.clock_out_RNIR6ER                      SB_LUT4      O        Out     0.379     9.432       -         
-clock_out_RNIR6ER                            Net          -        -       1.371     -           9         
-debounceconsolereset.counter_RNI4RTH1[6]     SB_LUT4      I0       In      -         10.803      -         
-debounceconsolereset.counter_RNI4RTH1[6]     SB_LUT4      O        Out     0.449     11.252      -         
-counter_RNI4RTH1[6]                          Net          -        -       1.371     -           7         
-debounceconsolereset.counter_RNO[4]          SB_LUT4      I3       In      -         12.623      -         
-debounceconsolereset.counter_RNO[4]          SB_LUT4      O        Out     0.287     12.911      -         
-counter_10                                   Net          -        -       1.507     -           1         
-debounceconsolereset.counter[4]              SB_DFF       D        In      -         14.418      -         
-===========================================================================================================
-Total path delay (propagation time + setup) of 14.523 is 3.191(22.0%) logic and 11.332(78.0%) route.
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                 Type          Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+arse.apusynclatched                  SB_DFFN       Q        Out     0.540     0.540       -         
+apusynclatched                       Net           -        -       0.834     -           6         
+arse.un1_cpuresetcount_1_cry_0_c     SB_CARRY      CI       In      -         1.374       -         
+arse.un1_cpuresetcount_1_cry_0_c     SB_CARRY      CO       Out     0.126     1.500       -         
+un1_cpuresetcount_1_cry_0            Net           -        -       0.014     -           2         
+arse.un1_cpuresetcount_1_cry_1_c     SB_CARRY      CI       In      -         1.514       -         
+arse.un1_cpuresetcount_1_cry_1_c     SB_CARRY      CO       Out     0.126     1.640       -         
+un1_cpuresetcount_1_cry_1            Net           -        -       0.014     -           2         
+arse.un1_cpuresetcount_1_cry_2_c     SB_CARRY      CI       In      -         1.654       -         
+arse.un1_cpuresetcount_1_cry_2_c     SB_CARRY      CO       Out     0.126     1.781       -         
+un1_cpuresetcount_1_cry_2            Net           -        -       0.014     -           2         
+arse.un1_cpuresetcount_1_cry_3_c     SB_CARRY      CI       In      -         1.795       -         
+arse.un1_cpuresetcount_1_cry_3_c     SB_CARRY      CO       Out     0.126     1.921       -         
+un1_cpuresetcount_1_cry_3            Net           -        -       0.014     -           2         
+arse.un1_cpuresetcount_1_cry_4_c     SB_CARRY      CI       In      -         1.935       -         
+arse.un1_cpuresetcount_1_cry_4_c     SB_CARRY      CO       Out     0.126     2.061       -         
+un1_cpuresetcount_1_cry_4            Net           -        -       0.014     -           2         
+arse.un1_cpuresetcount_1_cry_5_c     SB_CARRY      CI       In      -         2.075       -         
+arse.un1_cpuresetcount_1_cry_5_c     SB_CARRY      CO       Out     0.126     2.201       -         
+un1_cpuresetcount_1_cry_5            Net           -        -       0.386     -           2         
+arse.cpuresetcount_RNO[6]            SB_LUT4       I3       In      -         2.587       -         
+arse.cpuresetcount_RNO[6]            SB_LUT4       O        Out     0.316     2.903       -         
+cpuresetcount_RNO[6]                 Net           -        -       1.507     -           1         
+arse.cpuresetcount[6]                SB_DFFNSR     D        In      -         4.410       -         
+====================================================================================================
+Total path delay (propagation time + setup) of 4.515 is 1.718(38.1%) logic and 2.797(61.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      12.380
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         12.275
+
+    - Propagation time:                      4.270
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 8.005
+
+    Number of logic level(s):                6
+    Starting point:                          arse.apusynclatched / Q
+    Ending point:                            arse.cpuresetcount[5] / D
+    The start point is clocked by            System [falling] on pin C
+    The end   point is clocked by            top_pll_nrtthrth|PLLOUTCORE_derived_clock [falling] on pin C
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                 Type          Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+arse.apusynclatched                  SB_DFFN       Q        Out     0.540     0.540       -         
+apusynclatched                       Net           -        -       0.834     -           6         
+arse.un1_cpuresetcount_1_cry_0_c     SB_CARRY      CI       In      -         1.374       -         
+arse.un1_cpuresetcount_1_cry_0_c     SB_CARRY      CO       Out     0.126     1.500       -         
+un1_cpuresetcount_1_cry_0            Net           -        -       0.014     -           2         
+arse.un1_cpuresetcount_1_cry_1_c     SB_CARRY      CI       In      -         1.514       -         
+arse.un1_cpuresetcount_1_cry_1_c     SB_CARRY      CO       Out     0.126     1.640       -         
+un1_cpuresetcount_1_cry_1            Net           -        -       0.014     -           2         
+arse.un1_cpuresetcount_1_cry_2_c     SB_CARRY      CI       In      -         1.654       -         
+arse.un1_cpuresetcount_1_cry_2_c     SB_CARRY      CO       Out     0.126     1.781       -         
+un1_cpuresetcount_1_cry_2            Net           -        -       0.014     -           2         
+arse.un1_cpuresetcount_1_cry_3_c     SB_CARRY      CI       In      -         1.795       -         
+arse.un1_cpuresetcount_1_cry_3_c     SB_CARRY      CO       Out     0.126     1.921       -         
+un1_cpuresetcount_1_cry_3            Net           -        -       0.014     -           2         
+arse.un1_cpuresetcount_1_cry_4_c     SB_CARRY      CI       In      -         1.935       -         
+arse.un1_cpuresetcount_1_cry_4_c     SB_CARRY      CO       Out     0.126     2.061       -         
+un1_cpuresetcount_1_cry_4            Net           -        -       0.386     -           2         
+arse.cpuresetcount_RNO[5]            SB_LUT4       I3       In      -         2.447       -         
+arse.cpuresetcount_RNO[5]            SB_LUT4       O        Out     0.316     2.763       -         
+cpuresetcount_RNO[5]                 Net           -        -       1.507     -           1         
+arse.cpuresetcount[5]                SB_DFFNSR     D        In      -         4.270       -         
+====================================================================================================
+Total path delay (propagation time + setup) of 4.375 is 1.592(36.4%) logic and 2.783(63.6%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -657,10 +817,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 138MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 138MB)
 
 ---------------------------------------
 Resource Usage Report for top 
@@ -668,41 +828,41 @@ Resource Usage Report for top
 Mapping to part: ice40hx8kcb132
 Cell usage:
 GND             10 uses
-SB_CARRY        25 uses
-SB_DFF          21 uses
-SB_DFFE         2 uses
-SB_DFFESR       2 uses
-SB_DFFNESR      1 use
-SB_DFFNSR       1 use
-SB_DFFSR        15 uses
-SB_DFFSS        6 uses
-SB_GB           1 use
+SB_CARRY        36 uses
+SB_DFF          32 uses
+SB_DFFE         10 uses
+SB_DFFN         3 uses
+SB_DFFNE        1 use
+SB_DFFNSR       11 uses
+SB_DFFSR        21 uses
+SB_DFFSS        4 uses
+SB_GB           3 uses
 SB_PLL40_CORE   1 use
 VCC             10 uses
-SB_LUT4         71 uses
+SB_LUT4         145 uses
 
-I/O ports: 20
-I/O primitives: 21
+I/O ports: 22
+I/O primitives: 22
 SB_GB_IO       1 use
-SB_IO          20 uses
+SB_IO          21 uses
 
 I/O Register bits:                  0
-Register bits not including I/Os:   48 (0%)
+Register bits not including I/Os:   82 (1%)
 Total load per clock:
    top|PACKAGEPIN: 1
-   top_pll_nrtthrth|PLLOUTCORE_derived_clock: 26
+   top_pll_nrtthrth|PLLOUTCORE_derived_clock: 27
 
 @S |Mapping Summary:
-Total  LUTs: 71 (0%)
+Total  LUTs: 145 (1%)
 
 Distribution of All Consumed LUTs = LUT4 
-Distribution of All Consumed Luts 71 = 71 
+Distribution of All Consumed Luts 145 = 145 
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 27MB peak: 134MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 28MB peak: 138MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Jan 08 23:34:48 2024
+# Thu Jan 11 23:51:37 2024
 
 ###########################################################]

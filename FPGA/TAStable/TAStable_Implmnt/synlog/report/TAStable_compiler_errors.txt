@@ -1,2 +1,2 @@
-@E: CS153 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":334:27:334:27|Can't mix blocking and non-blocking assignments to a variable
+@E: CG496 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":606:4:606:7|Expecting valid net type or name
 

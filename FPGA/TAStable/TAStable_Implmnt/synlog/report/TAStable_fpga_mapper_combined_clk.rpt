@@ -5,20 +5,21 @@
 
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
-1 non-gated/non-generated clock tree(s) driving 24 clock pin(s) of sequential element(s)
-1 gated/generated clock tree(s) driving 26 clock pin(s) of sequential element(s)
-8 instances converted, 26 sequential instances remain driven by gated/generated clocks
+2 non-gated/non-generated clock tree(s) driving 59 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 27 clock pin(s) of sequential element(s)
+30 instances converted, 27 sequential instances remain driven by gated/generated clocks
 
-====================================== Non-Gated/Non-Generated Clocks =======================================
-Clock Tree ID     Driving Element           Drive Element Type     Fanout     Sample Instance                
--------------------------------------------------------------------------------------------------------------
-@K:CKID0002       PACKAGEPIN_ibuf_gb_io     SB_GB_IO               24         debounceconsolereset.counter[0]
-=============================================================================================================
-============================================================================================================== Gated/Generated Clocks ==============================================================================================================
-Clock Tree ID     Driving Element                            Drive Element Type     Fanout     Sample Instance        Explanation                                                                                                                   
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       top_pll_nrtthrth.top_pll_nrtthrth_inst     SB_PLL40_CORE          26         arse.seqcounter[0]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
-====================================================================================================================================================================================================================================================
+================================= Non-Gated/Non-Generated Clocks ==================================
+Clock Tree ID     Driving Element           Drive Element Type     Fanout     Sample Instance      
+---------------------------------------------------------------------------------------------------
+@K:CKID0002       PACKAGEPIN_ibuf_gb_io     SB_GB_IO               58         delayConstant_fast[2]
+@K:CKID0003       arse.divseven.io_0        SB_IO                  1          arse.apusynclatched  
+===================================================================================================
+============================================================================================================ Gated/Generated Clocks =============================================================================================================
+Clock Tree ID     Driving Element                            Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       top_pll_nrtthrth.top_pll_nrtthrth_inst     SB_PLL40_CORE          27         arse.doingseven     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+=================================================================================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]

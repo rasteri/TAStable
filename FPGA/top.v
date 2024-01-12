@@ -178,6 +178,7 @@ module dostuff(
     input clkin, 
     input apusync, 
     input reset,
+    input [7:0] delayConstant,
     output apuclk, 
     output cpuclk, 
     output apureset, 
@@ -253,7 +254,7 @@ module dostuff(
             else if (cpuresetcount == 8'd7) begin
                 cpuclkreset <= 1'b1;
             end
-            else if (cpuresetcount == 8'd64) begin
+            else if (cpuresetcount == delayConstant) begin
                 cpuresetoutreg <= 1'b1;
             end
             
@@ -389,7 +390,7 @@ module debounce(input in, input clk, output reg out);
     always @(posedge clk) begin
         
         if (counter > 0) begin
-            if (counter >= 100) begin
+            if (counter >= 20) begin
                 counter <= 0;
             end
             else begin
@@ -405,12 +406,175 @@ module debounce(input in, input clk, output reg out);
 
 endmodule
 
+module hexdisp(
+    input clk,
+    input [3:0] number,
+    input [1:0] col,
+    output reg [3:0] leds
+
+);
+
+    always @(posedge clk) begin
+
+        case (number)
+
+            4'd0: begin
+                case(col)
+                    2'd0: begin leds <= 4'b1110; end
+                    2'd1: begin leds <= 4'b1010; end
+                    2'd2: begin leds <= 4'b1010; end
+                    2'd3: begin leds <= 4'b1110; end
+                endcase
+            end
+
+            4'd1: begin
+                case(col)
+                    2'd0: begin leds <= 4'b0100; end
+                    2'd1: begin leds <= 4'b0100; end
+                    2'd2: begin leds <= 4'b0100; end
+                    2'd3: begin leds <= 4'b0100; end
+                endcase
+            end
+
+            4'd2: begin
+                case(col)
+                    2'd0: begin leds <= 4'b1100; end
+                    2'd1: begin leds <= 4'b0010; end
+                    2'd2: begin leds <= 4'b0100; end
+                    2'd3: begin leds <= 4'b1110; end
+                endcase
+            end
+
+            4'd3: begin
+                case(col)
+                    2'd0: begin leds <= 4'b1100; end
+                    2'd1: begin leds <= 4'b0110; end
+                    2'd2: begin leds <= 4'b0010; end
+                    2'd3: begin leds <= 4'b1100; end
+                endcase
+            end
+
+            4'd4: begin
+                case(col)
+                    2'd0: begin leds <= 4'b1010; end
+                    2'd1: begin leds <= 4'b1010; end
+                    2'd2: begin leds <= 4'b1110; end
+                    2'd3: begin leds <= 4'b0010; end
+                endcase
+            end
+
+            4'd5: begin
+                case(col)
+                    2'd0: begin leds <= 4'b1110; end
+                    2'd1: begin leds <= 4'b1000; end
+                    2'd2: begin leds <= 4'b0110; end
+                    2'd3: begin leds <= 4'b1110; end
+                endcase
+            end
+
+            4'd6: begin
+                case(col)
+                    2'd0: begin leds <= 4'b1000; end
+                    2'd1: begin leds <= 4'b1110; end
+                    2'd2: begin leds <= 4'b1010; end
+                    2'd3: begin leds <= 4'b1110; end
+                endcase
+            end
+
+            4'd7: begin
+                case(col)
+                    2'd0: begin leds <= 4'b1110; end
+                    2'd1: begin leds <= 4'b0010; end
+                    2'd2: begin leds <= 4'b0010; end
+                    2'd3: begin leds <= 4'b0010; end
+                endcase
+            end
+
+            4'd8: begin
+                case(col)
+                    2'd0: begin leds <= 4'b1110; end
+                    2'd1: begin leds <= 4'b1010; end
+                    2'd2: begin leds <= 4'b1110; end
+                    2'd3: begin leds <= 4'b1110; end
+                endcase
+            end
+
+            4'd9: begin
+                case(col)
+                    2'd0: begin leds <= 4'b1110; end
+                    2'd1: begin leds <= 4'b1010; end
+                    2'd2: begin leds <= 4'b1110; end
+                    2'd3: begin leds <= 4'b0010; end
+                endcase
+            end
+
+            4'd10: begin
+                case(col)
+                    2'd0: begin leds <= 4'b1110; end
+                    2'd1: begin leds <= 4'b1010; end
+                    2'd2: begin leds <= 4'b1110; end
+                    2'd3: begin leds <= 4'b1010; end
+                endcase
+            end
+
+            4'd11: begin
+                case(col)
+                    2'd0: begin leds <= 4'b1000; end
+                    2'd1: begin leds <= 4'b1110; end
+                    2'd2: begin leds <= 4'b1010; end
+                    2'd3: begin leds <= 4'b1110; end
+                endcase
+            end
+
+            4'd12: begin
+                case(col)
+                    2'd0: begin leds <= 4'b1110; end
+                    2'd1: begin leds <= 4'b1000; end
+                    2'd2: begin leds <= 4'b1000; end
+                    2'd3: begin leds <= 4'b1110; end
+                endcase
+            end
+
+            4'd13: begin
+                case(col)
+                    2'd0: begin leds <= 4'b1100; end
+                    2'd1: begin leds <= 4'b1010; end
+                    2'd2: begin leds <= 4'b1010; end
+                    2'd3: begin leds <= 4'b1100; end
+                endcase
+            end
+
+            4'd14: begin
+                case(col)
+                    2'd0: begin leds <= 4'b1110; end
+                    2'd1: begin leds <= 4'b1100; end
+                    2'd2: begin leds <= 4'b1000; end
+                    2'd3: begin leds <= 4'b1110; end
+                endcase
+            end
+
+            4'd15: begin
+                case(col)
+                    2'd0: begin leds <= 4'b1110; end
+                    2'd1: begin leds <= 4'b1000; end
+                    2'd2: begin leds <= 4'b1110; end
+                    2'd3: begin leds <= 4'b1000; end
+                endcase
+            end
+        endcase
+
+    end
+
+endmodule
+
 
 module top(
     inout PACKAGEPIN,
     input masterreset,
     input consolereset,
     input apusync,
+    input delup,
+    input deldn,
     output apuclk,
     output cpuclk, 
     output apureset, 
@@ -429,13 +593,14 @@ module top(
     output lcol4
     );
 
-    assign {lcol4, lcol3, lcol2, lcol1} = 4'b1110;
+
 
     //assign led7 = reset;
     //assign led6 = mclkreset;
 
-    assign led1 = 0;
-    assign led2 = 1;
+    //assign led1 = 0;
+    //assign led2 = 1;
+
 
     wire slowclk;
 
@@ -445,26 +610,35 @@ module top(
     Clock_divider # (.DIVISOR(28'd20000)) arses (PACKAGEPIN, masterreset, slowclk);
 
     debounce debounceconsolereset(consolereset, slowclk, debouncedconsolereset);
-
+    debounce debounceup(delup, slowclk, debouncedup);
+    debounce debouncedn(deldn, slowclk, debounceddn);
 
     top_pll_nrtthrth top_pll_nrtthrth(.REFERENCECLK(PACKAGEPIN),
                                          .PLLOUTCORE(PLLOUTCORE),
                                          .PLLOUTGLOBAL(PLLOUTGLOBAL),
                                          .RESET(masterreset));
 
+    reg [7:0] delayConstant = 8'd32;
+
+    //assign {led1, led2, led3, led4, led5, led6, led7, led8} = ~delayConstant;
+
+    reg oldup;
+    reg olddn;
 
 
-    /*dostuff arse (
+
+    dostuff arse (
         .clkin(PLLOUTCORE),
         .apusync(apusync),
-        .reset(consolereset),
+        .reset(debouncedconsolereset),
+        .delayConstant(delayConstant),
         .apuclk(apuclk),
         .cpuclk(cpuclk),
         .apureset(apureset),
         .cpureset(cpureset)
-    );*/
+    );
 
-    oldstyle arse (
+    /*oldstyle arse (
         .clkin(PLLOUTCORE),
         .apusync(apusync),
         .masterreset(masterreset),
@@ -473,7 +647,59 @@ module top(
         .cpuclk(cpuclk),
         .apureset(apureset),
         .cpureset(cpureset)
-    );
+    );*/
+
+    reg [1:0] col;
+    reg [3:0] lcolreg;
+    wire [7:0] ledwire;
+
+    hexdisp dig1 (
+            .clk(slowclk),
+            .number(delayConstant[3:0]),
+            .col(col),
+            .leds(ledwire[3:0])
+
+        );
+
+    hexdisp dig2 (
+            .clk(slowclk),
+            .number(delayConstant[7:4]),
+            .col(col),
+            .leds(ledwire[7:4])
+
+        );
+
+    assign {led8, led7, led6, led5, led4, led3, led2, led1} = ~ledwire[7:0];
+
+    assign {lcol4, lcol3, lcol2, lcol1} = lcolreg[3:0];
+    
+    always @(posedge slowclk) begin
+            case(col)
+                    2'd0: begin lcolreg <= 4'b1110; end
+                    2'd1: begin lcolreg <= 4'b1101; end
+                    2'd2: begin lcolreg <= 4'b1011; end
+                    2'd3: begin lcolreg <= 4'b0111; end
+            endcase      
+    end
+        
+    always @(negedge slowclk) begin
+        col <= col + 1;        
+    end
+
+    always @(posedge PACKAGEPIN) begin
+        if (!masterreset) begin
+            delayConstant <= 8'd32;
+        end
+        else if (!debouncedup && oldup) begin
+            delayConstant <= delayConstant + 1;
+        end
+        else if (!debounceddn && olddn) begin
+            delayConstant <= delayConstant - 1;
+        end
+
+        olddn <= debounceddn; 
+        oldup <= debouncedup;
+    end
 
 
 

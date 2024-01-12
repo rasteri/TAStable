@@ -5,7 +5,7 @@
 #CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\umr_capim.v":1699243812
 #CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_objects.v":1699243812
 #CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1699243812
-#CUR:"C:\\code\\TAS\\TAS\\TAStable\\FPGA\\top.v":1704756875
+#CUR:"C:\\code\\TAS\\TAS\\TAStable\\FPGA\\top.v":1705017086
 0			"C:\code\TAS\TAS\TAStable\FPGA\top.v" verilog
 #Dependency Lists(Uses List)
 0 -1
@@ -13,6 +13,7 @@
 0 -1
 #Design Unit to File Association
 module work top 0
+module work hexdisp 0
 module work debounce 0
 module work top_pll_nrtthrth 0
 module work oldstyle 0

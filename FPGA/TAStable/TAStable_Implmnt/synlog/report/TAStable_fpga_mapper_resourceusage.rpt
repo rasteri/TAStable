@@ -4,30 +4,30 @@ Resource Usage Report for top
 Mapping to part: ice40hx8kcb132
 Cell usage:
 GND             10 uses
-SB_CARRY        25 uses
-SB_DFF          21 uses
-SB_DFFE         2 uses
-SB_DFFESR       2 uses
-SB_DFFNESR      1 use
-SB_DFFNSR       1 use
-SB_DFFSR        15 uses
-SB_DFFSS        6 uses
-SB_GB           1 use
+SB_CARRY        36 uses
+SB_DFF          32 uses
+SB_DFFE         10 uses
+SB_DFFN         3 uses
+SB_DFFNE        1 use
+SB_DFFNSR       11 uses
+SB_DFFSR        21 uses
+SB_DFFSS        4 uses
+SB_GB           3 uses
 SB_PLL40_CORE   1 use
 VCC             10 uses
-SB_LUT4         71 uses
+SB_LUT4         145 uses
 
-I/O ports: 20
-I/O primitives: 21
+I/O ports: 22
+I/O primitives: 22
 SB_GB_IO       1 use
-SB_IO          20 uses
+SB_IO          21 uses
 
 I/O Register bits:                  0
-Register bits not including I/Os:   48 (0%)
+Register bits not including I/Os:   82 (1%)
 
 @S |Mapping Summary:
-Total  LUTs: 71 (0%)
+Total  LUTs: 145 (1%)
 
 Distribution of All Consumed LUTs = LUT4 
-Distribution of All Consumed Luts 71 = 71 
+Distribution of All Consumed Luts 145 = 145 
 

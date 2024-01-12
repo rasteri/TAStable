@@ -6,7 +6,7 @@
 
 * Build Date:         Dec  9 2020 17:44:35
 
-* File Generated:     Jan 8 2024 23:35:15
+* File Generated:     Jan 11 2024 23:52:03
 
 * Purpose:            Detailed routing info for each net
 
@@ -14,1682 +14,3265 @@
 
 * ******************************************************************************
 
-Net : arse.divseven.N_65_i_0
-T_5_5_wire_logic_cluster/lc_6/out
-T_6_4_sp4_v_t_45
-T_6_0_span4_vert_46
-T_6_4_lc_trk_g1_3
-T_6_4_wire_logic_cluster/lc_0/cen
-
-T_5_5_wire_logic_cluster/lc_6/out
-T_6_4_sp4_v_t_45
-T_3_4_sp4_h_l_2
-T_4_4_lc_trk_g2_2
-T_4_4_wire_logic_cluster/lc_0/cen
-
-End 
-
-Net : arse.seqresetZ0
-T_6_6_wire_logic_cluster/lc_7/out
-T_6_5_lc_trk_g1_7
-T_6_5_wire_logic_cluster/lc_5/in_3
-
-T_6_6_wire_logic_cluster/lc_7/out
-T_4_6_sp12_h_l_1
-T_16_6_sp12_h_l_1
-T_18_6_lc_trk_g0_6
-T_18_6_wire_logic_cluster/lc_7/in_3
-
-T_6_6_wire_logic_cluster/lc_7/out
-T_4_6_sp12_h_l_1
-T_16_6_sp12_h_l_1
-T_18_6_lc_trk_g0_6
-T_18_6_wire_logic_cluster/lc_3/in_3
-
-T_6_6_wire_logic_cluster/lc_7/out
-T_6_5_sp4_v_t_46
-T_3_5_sp4_h_l_5
-T_4_5_lc_trk_g2_5
-T_4_5_wire_logic_cluster/lc_6/in_3
-
-T_6_6_wire_logic_cluster/lc_7/out
-T_4_6_sp12_h_l_1
-T_16_6_sp12_h_l_1
-T_19_6_lc_trk_g1_1
-T_19_6_wire_logic_cluster/lc_1/in_3
-
-T_6_6_wire_logic_cluster/lc_7/out
-T_0_6_span12_horz_10
-T_8_6_sp12_h_l_1
-T_19_0_span12_vert_10
-T_19_5_lc_trk_g3_2
-T_19_5_input_2_1
-T_19_5_wire_logic_cluster/lc_1/in_2
-
-T_6_6_wire_logic_cluster/lc_7/out
-T_4_6_sp12_h_l_1
-T_16_6_sp12_h_l_1
-T_18_6_lc_trk_g0_6
-T_18_6_wire_logic_cluster/lc_5/in_3
-
-T_6_6_wire_logic_cluster/lc_7/out
-T_7_3_sp4_v_t_39
-T_8_3_sp4_h_l_7
-T_10_3_lc_trk_g3_2
-T_10_3_wire_logic_cluster/lc_7/in_0
-
-T_6_6_wire_logic_cluster/lc_7/out
-T_7_3_sp4_v_t_39
-T_8_3_sp4_h_l_7
-T_10_3_lc_trk_g3_2
-T_10_3_wire_logic_cluster/lc_6/in_1
-
-T_6_6_wire_logic_cluster/lc_7/out
-T_7_3_sp4_v_t_39
-T_8_3_sp4_h_l_7
-T_10_3_lc_trk_g2_2
-T_10_3_wire_logic_cluster/lc_3/in_3
-
-T_6_6_wire_logic_cluster/lc_7/out
-T_6_3_sp4_v_t_38
-T_5_4_lc_trk_g2_6
-T_5_4_wire_logic_cluster/lc_2/in_0
-
-T_6_6_wire_logic_cluster/lc_7/out
-T_5_5_lc_trk_g2_7
-T_5_5_wire_logic_cluster/lc_4/in_3
-
-T_6_6_wire_logic_cluster/lc_7/out
-T_5_5_lc_trk_g2_7
-T_5_5_wire_logic_cluster/lc_2/in_3
-
-T_6_6_wire_logic_cluster/lc_7/out
-T_0_6_span12_horz_10
-T_8_6_sp12_h_l_1
-T_18_6_sp4_h_l_10
-T_21_2_sp4_v_t_41
-T_20_4_lc_trk_g1_4
-T_20_4_wire_logic_cluster/lc_4/in_3
-
-End 
-
-Net : arse.seqreset_i
-T_6_5_wire_logic_cluster/lc_5/out
-T_5_5_lc_trk_g2_5
-T_5_5_wire_logic_cluster/lc_6/in_3
-
-T_6_5_wire_logic_cluster/lc_5/out
-T_6_1_sp4_v_t_47
-T_7_1_sp4_h_l_10
-T_10_0_span4_vert_4
-T_10_1_lc_trk_g0_4
-T_10_1_wire_logic_cluster/lc_5/s_r
-
-T_6_5_wire_logic_cluster/lc_5/out
-T_6_4_lc_trk_g1_5
-T_6_4_wire_logic_cluster/lc_5/s_r
-
-T_6_5_wire_logic_cluster/lc_5/out
-T_6_5_sp12_h_l_1
-T_18_5_sp12_h_l_1
-T_26_5_sp4_h_l_8
-T_30_5_sp4_h_l_8
-T_30_5_lc_trk_g1_5
-T_30_5_wire_logic_cluster/lc_5/s_r
-
-T_6_5_wire_logic_cluster/lc_5/out
-T_6_5_sp12_h_l_1
-T_14_5_sp4_h_l_8
-T_17_5_sp4_v_t_36
-T_16_6_lc_trk_g2_4
-T_16_6_wire_logic_cluster/lc_5/s_r
-
-T_6_5_wire_logic_cluster/lc_5/out
-T_6_5_sp12_h_l_1
-T_14_5_sp4_h_l_8
-T_16_5_lc_trk_g3_5
-T_16_5_wire_logic_cluster/lc_5/s_r
-
-T_6_5_wire_logic_cluster/lc_5/out
-T_6_5_sp12_h_l_1
-T_14_5_sp4_h_l_8
-T_16_5_lc_trk_g3_5
-T_16_5_wire_logic_cluster/lc_5/s_r
-
-T_6_5_wire_logic_cluster/lc_5/out
-T_7_4_sp4_v_t_43
-T_4_4_sp4_h_l_0
-T_4_4_lc_trk_g1_5
-T_4_4_wire_logic_cluster/lc_5/s_r
-
-T_6_5_wire_logic_cluster/lc_5/out
-T_6_5_sp12_h_l_1
-T_15_5_lc_trk_g1_5
-T_15_5_wire_logic_cluster/lc_5/s_r
-
-T_6_5_wire_logic_cluster/lc_5/out
-T_6_5_sp12_h_l_1
-T_15_5_lc_trk_g1_5
-T_15_5_wire_logic_cluster/lc_5/s_r
-
-End 
-
-Net : arse.divseven.N_65_i_cascade_
-T_5_5_wire_logic_cluster/lc_5/ltout
-T_5_5_wire_logic_cluster/lc_6/in_2
+Net : arse.divseven.un1_dout_2_sqmuxa_0_i
+T_31_9_wire_logic_cluster/lc_7/out
+T_32_8_sp4_v_t_47
+T_32_10_lc_trk_g2_2
+T_32_10_wire_logic_cluster/lc_7/cen
 
 End 
 
 Net : arse.divseven.counterZ0Z_1
-T_5_4_wire_logic_cluster/lc_2/out
-T_5_5_lc_trk_g1_2
-T_5_5_wire_logic_cluster/lc_5/in_0
+T_31_9_wire_logic_cluster/lc_3/out
+T_31_9_lc_trk_g0_3
+T_31_9_input_2_7
+T_31_9_wire_logic_cluster/lc_7/in_2
 
-T_5_4_wire_logic_cluster/lc_2/out
-T_4_5_lc_trk_g1_2
-T_4_5_wire_logic_cluster/lc_6/in_1
+T_31_9_wire_logic_cluster/lc_3/out
+T_31_9_lc_trk_g0_3
+T_31_9_wire_logic_cluster/lc_0/in_3
 
-T_5_4_wire_logic_cluster/lc_2/out
-T_5_4_sp4_h_l_9
-T_5_4_lc_trk_g0_4
-T_5_4_wire_logic_cluster/lc_1/in_1
+T_31_9_wire_logic_cluster/lc_3/out
+T_31_9_lc_trk_g1_3
+T_31_9_wire_logic_cluster/lc_1/in_1
 
-T_5_4_wire_logic_cluster/lc_2/out
-T_5_4_sp4_h_l_9
-T_4_4_lc_trk_g0_1
-T_4_4_wire_logic_cluster/lc_6/in_1
+T_31_9_wire_logic_cluster/lc_3/out
+T_31_9_lc_trk_g1_3
+T_31_9_wire_logic_cluster/lc_3/in_1
 
-T_5_4_wire_logic_cluster/lc_2/out
-T_5_5_lc_trk_g1_2
-T_5_5_wire_logic_cluster/lc_1/in_0
+T_31_9_wire_logic_cluster/lc_3/out
+T_31_9_lc_trk_g1_3
+T_31_9_input_2_2
+T_31_9_wire_logic_cluster/lc_2/in_2
 
-T_5_4_wire_logic_cluster/lc_2/out
-T_5_5_lc_trk_g0_2
-T_5_5_wire_logic_cluster/lc_3/in_1
+T_31_9_wire_logic_cluster/lc_3/out
+T_32_9_lc_trk_g1_3
+T_32_9_wire_logic_cluster/lc_3/in_3
 
 End 
 
 Net : arse.divseven.counterZ0Z_0
-T_5_5_wire_logic_cluster/lc_2/out
-T_5_5_lc_trk_g2_2
-T_5_5_wire_logic_cluster/lc_5/in_1
+T_31_9_wire_logic_cluster/lc_1/out
+T_31_9_lc_trk_g3_1
+T_31_9_wire_logic_cluster/lc_7/in_1
 
-T_5_5_wire_logic_cluster/lc_2/out
-T_4_5_lc_trk_g2_2
-T_4_5_wire_logic_cluster/lc_5/in_3
+T_31_9_wire_logic_cluster/lc_1/out
+T_31_9_lc_trk_g3_1
+T_31_9_wire_logic_cluster/lc_4/in_0
 
-T_5_5_wire_logic_cluster/lc_2/out
-T_5_5_lc_trk_g2_2
-T_5_5_wire_logic_cluster/lc_3/in_3
+T_31_9_wire_logic_cluster/lc_1/out
+T_31_9_lc_trk_g2_1
+T_31_9_wire_logic_cluster/lc_2/in_1
 
-T_5_5_wire_logic_cluster/lc_2/out
-T_5_4_lc_trk_g0_2
-T_5_4_wire_logic_cluster/lc_1/in_3
+T_31_9_wire_logic_cluster/lc_1/out
+T_31_9_lc_trk_g2_1
+T_31_9_input_2_1
+T_31_9_wire_logic_cluster/lc_1/in_2
 
-T_5_5_wire_logic_cluster/lc_2/out
-T_5_5_lc_trk_g2_2
-T_5_5_wire_logic_cluster/lc_2/in_0
+T_31_9_wire_logic_cluster/lc_1/out
+T_31_9_lc_trk_g2_1
+T_31_9_input_2_3
+T_31_9_wire_logic_cluster/lc_3/in_2
 
-T_5_5_wire_logic_cluster/lc_2/out
-T_4_4_lc_trk_g3_2
-T_4_4_wire_logic_cluster/lc_6/in_3
+T_31_9_wire_logic_cluster/lc_1/out
+T_30_8_lc_trk_g2_1
+T_30_8_wire_logic_cluster/lc_2/in_3
 
 End 
 
 Net : arse.divseven.counterZ0Z_2
-T_5_5_wire_logic_cluster/lc_4/out
-T_5_5_lc_trk_g3_4
-T_5_5_input_2_5
-T_5_5_wire_logic_cluster/lc_5/in_2
+T_31_9_wire_logic_cluster/lc_2/out
+T_31_9_lc_trk_g3_2
+T_31_9_wire_logic_cluster/lc_7/in_0
 
-T_5_5_wire_logic_cluster/lc_4/out
-T_6_4_lc_trk_g2_4
-T_6_4_wire_logic_cluster/lc_3/in_3
+T_31_9_wire_logic_cluster/lc_2/out
+T_32_10_lc_trk_g3_2
+T_32_10_wire_logic_cluster/lc_5/in_0
 
-T_5_5_wire_logic_cluster/lc_4/out
-T_4_5_lc_trk_g2_4
-T_4_5_wire_logic_cluster/lc_6/in_0
+T_31_9_wire_logic_cluster/lc_2/out
+T_31_9_lc_trk_g3_2
+T_31_9_wire_logic_cluster/lc_0/in_1
 
-T_5_5_wire_logic_cluster/lc_4/out
-T_5_5_lc_trk_g3_4
-T_5_5_wire_logic_cluster/lc_3/in_0
+T_31_9_wire_logic_cluster/lc_2/out
+T_31_9_lc_trk_g3_2
+T_31_9_wire_logic_cluster/lc_1/in_0
 
-T_5_5_wire_logic_cluster/lc_4/out
-T_5_4_lc_trk_g1_4
-T_5_4_wire_logic_cluster/lc_1/in_0
+T_31_9_wire_logic_cluster/lc_2/out
+T_31_9_lc_trk_g3_2
+T_31_9_wire_logic_cluster/lc_3/in_0
 
-T_5_5_wire_logic_cluster/lc_4/out
-T_4_4_lc_trk_g2_4
-T_4_4_wire_logic_cluster/lc_6/in_0
+T_31_9_wire_logic_cluster/lc_2/out
+T_32_9_lc_trk_g0_2
+T_32_9_wire_logic_cluster/lc_3/in_1
 
-T_5_5_wire_logic_cluster/lc_4/out
-T_5_5_lc_trk_g3_4
-T_5_5_wire_logic_cluster/lc_2/in_1
+T_31_9_wire_logic_cluster/lc_2/out
+T_31_9_lc_trk_g3_2
+T_31_9_wire_logic_cluster/lc_2/in_3
 
 End 
 
 Net : arse.divseven.sevenZ0
-T_4_6_wire_logic_cluster/lc_0/out
-T_5_5_lc_trk_g2_0
-T_5_5_wire_logic_cluster/lc_5/in_3
+T_30_8_wire_logic_cluster/lc_2/out
+T_31_9_lc_trk_g2_2
+T_31_9_wire_logic_cluster/lc_7/in_3
 
-T_4_6_wire_logic_cluster/lc_0/out
-T_4_5_lc_trk_g0_0
-T_4_5_wire_logic_cluster/lc_5/in_1
+T_30_8_wire_logic_cluster/lc_2/out
+T_31_9_lc_trk_g2_2
+T_31_9_input_2_4
+T_31_9_wire_logic_cluster/lc_4/in_2
 
-T_4_6_wire_logic_cluster/lc_0/out
-T_5_3_sp4_v_t_41
-T_5_4_lc_trk_g2_1
-T_5_4_input_2_1
-T_5_4_wire_logic_cluster/lc_1/in_2
+T_30_8_wire_logic_cluster/lc_2/out
+T_31_9_lc_trk_g2_2
+T_31_9_wire_logic_cluster/lc_2/in_0
 
-T_4_6_wire_logic_cluster/lc_0/out
-T_5_3_sp4_v_t_41
-T_4_4_lc_trk_g3_1
-T_4_4_input_2_6
-T_4_4_wire_logic_cluster/lc_6/in_2
+T_30_8_wire_logic_cluster/lc_2/out
+T_30_8_lc_trk_g3_2
+T_30_8_wire_logic_cluster/lc_2/in_1
 
-T_4_6_wire_logic_cluster/lc_0/out
-T_5_5_lc_trk_g2_0
-T_5_5_wire_logic_cluster/lc_1/in_1
+T_30_8_wire_logic_cluster/lc_2/out
+T_31_9_lc_trk_g2_2
+T_31_9_wire_logic_cluster/lc_1/in_3
 
-T_4_6_wire_logic_cluster/lc_0/out
-T_5_5_lc_trk_g3_0
-T_5_5_input_2_3
-T_5_5_wire_logic_cluster/lc_3/in_2
-
-End 
-
-Net : arse.diveight.doutZ0Z_0
-T_10_1_wire_logic_cluster/lc_0/out
-T_7_1_sp12_h_l_0
-T_19_1_sp12_h_l_0
-T_28_1_sp4_h_l_11
-T_31_1_sp4_v_t_46
-T_32_5_sp4_h_l_5
-T_33_5_lc_trk_g0_0
-T_33_5_wire_io_cluster/io_0/D_OUT_0
-
-End 
-
-Net : arse.ddd.N_33_0
-T_18_5_wire_logic_cluster/lc_2/out
-T_19_5_lc_trk_g0_2
-T_19_5_wire_logic_cluster/lc_2/cen
-
-End 
-
-Net : arse.un1_counterlt4
-T_15_6_wire_logic_cluster/lc_3/out
-T_16_6_sp4_h_l_6
-T_18_6_lc_trk_g3_3
-T_18_6_wire_logic_cluster/lc_7/in_1
-
-T_15_6_wire_logic_cluster/lc_3/out
-T_16_6_sp4_h_l_6
-T_18_6_lc_trk_g3_3
-T_18_6_wire_logic_cluster/lc_3/in_1
-
-T_15_6_wire_logic_cluster/lc_3/out
-T_16_6_sp4_h_l_6
-T_18_6_lc_trk_g3_3
-T_18_6_wire_logic_cluster/lc_5/in_1
-
-T_15_6_wire_logic_cluster/lc_3/out
-T_15_6_sp4_h_l_11
-T_16_6_lc_trk_g2_3
-T_16_6_input_2_3
-T_16_6_wire_logic_cluster/lc_3/in_2
-
-T_15_6_wire_logic_cluster/lc_3/out
-T_15_5_lc_trk_g1_3
-T_15_5_wire_logic_cluster/lc_3/in_3
-
-T_15_6_wire_logic_cluster/lc_3/out
-T_15_5_lc_trk_g1_3
-T_15_5_wire_logic_cluster/lc_7/in_3
-
-T_15_6_wire_logic_cluster/lc_3/out
-T_16_5_lc_trk_g2_3
-T_16_5_wire_logic_cluster/lc_6/in_3
-
-End 
-
-Net : arse.arse.counterZ0Z_0
-T_16_5_wire_logic_cluster/lc_4/out
-T_15_6_lc_trk_g0_4
-T_15_6_wire_logic_cluster/lc_3/in_3
-
-T_16_5_wire_logic_cluster/lc_4/out
-T_16_6_lc_trk_g1_4
-T_16_6_wire_logic_cluster/lc_0/in_1
-
-T_16_5_wire_logic_cluster/lc_4/out
-T_15_5_lc_trk_g2_4
-T_15_5_wire_logic_cluster/lc_3/in_1
-
-T_16_5_wire_logic_cluster/lc_4/out
-T_16_5_lc_trk_g1_4
-T_16_5_wire_logic_cluster/lc_4/in_3
-
-End 
-
-Net : arse.ddd.Q_esr_RNOZ0Z_0
-T_18_6_wire_logic_cluster/lc_7/out
-T_18_5_lc_trk_g0_7
-T_18_5_wire_logic_cluster/lc_2/in_3
-
-End 
-
-Net : arse.seqreset_e_0_RNIQTPZ0Z13
-T_18_6_wire_logic_cluster/lc_3/out
-T_18_5_lc_trk_g0_3
-T_18_5_wire_logic_cluster/lc_2/in_1
-
-T_18_6_wire_logic_cluster/lc_3/out
-T_18_5_sp4_v_t_38
-T_19_5_sp4_h_l_8
-T_19_5_lc_trk_g1_5
-T_19_5_wire_logic_cluster/lc_5/s_r
-
-End 
-
-Net : arse.arse.counterZ0Z_2
-T_15_5_wire_logic_cluster/lc_7/out
-T_15_6_lc_trk_g0_7
-T_15_6_wire_logic_cluster/lc_3/in_0
-
-T_15_5_wire_logic_cluster/lc_7/out
-T_16_6_lc_trk_g3_7
-T_16_6_wire_logic_cluster/lc_1/in_1
-
-T_15_5_wire_logic_cluster/lc_7/out
-T_16_5_lc_trk_g1_7
-T_16_5_wire_logic_cluster/lc_4/in_0
-
-T_15_5_wire_logic_cluster/lc_7/out
-T_15_5_lc_trk_g1_7
-T_15_5_wire_logic_cluster/lc_7/in_1
-
-End 
-
-Net : arse.arse.counterZ0Z_1
-T_15_5_wire_logic_cluster/lc_3/out
-T_15_6_lc_trk_g1_3
-T_15_6_wire_logic_cluster/lc_3/in_1
-
-T_15_5_wire_logic_cluster/lc_3/out
-T_16_6_lc_trk_g3_3
-T_16_6_input_2_0
-T_16_6_wire_logic_cluster/lc_0/in_2
-
-T_15_5_wire_logic_cluster/lc_3/out
-T_15_5_lc_trk_g0_3
-T_15_5_input_2_3
-T_15_5_wire_logic_cluster/lc_3/in_2
+T_30_8_wire_logic_cluster/lc_2/out
+T_31_9_lc_trk_g2_2
+T_31_9_wire_logic_cluster/lc_3/in_3
 
 End 
 
 Net : arse.diveight.counterZ0Z_2
-T_10_3_wire_logic_cluster/lc_3/out
-T_10_0_span4_vert_30
-T_10_1_lc_trk_g3_6
-T_10_1_wire_logic_cluster/lc_0/in_3
+T_30_6_wire_logic_cluster/lc_5/out
+T_31_6_lc_trk_g0_5
+T_31_6_wire_logic_cluster/lc_4/in_3
 
-T_10_3_wire_logic_cluster/lc_3/out
-T_4_3_sp12_h_l_1
-T_16_3_sp12_h_l_1
-T_28_3_sp12_h_l_1
-T_32_3_sp4_h_l_4
-T_31_3_sp4_v_t_41
-T_30_5_lc_trk_g0_4
-T_30_5_wire_logic_cluster/lc_5/in_3
+T_30_6_wire_logic_cluster/lc_5/out
+T_31_6_sp4_h_l_10
+T_32_6_lc_trk_g3_2
+T_32_6_wire_logic_cluster/lc_4/in_3
 
-T_10_3_wire_logic_cluster/lc_3/out
-T_10_3_lc_trk_g1_3
-T_10_3_wire_logic_cluster/lc_3/in_1
+T_30_6_wire_logic_cluster/lc_5/out
+T_30_6_lc_trk_g1_5
+T_30_6_wire_logic_cluster/lc_5/in_3
 
 End 
 
-Net : arse.arse.counterZ0Z_3
-T_16_5_wire_logic_cluster/lc_6/out
-T_17_6_lc_trk_g3_6
-T_17_6_wire_logic_cluster/lc_0/in_3
-
-T_16_5_wire_logic_cluster/lc_6/out
-T_16_6_lc_trk_g1_6
-T_16_6_wire_logic_cluster/lc_2/in_1
-
-T_16_5_wire_logic_cluster/lc_6/out
-T_16_5_lc_trk_g3_6
-T_16_5_wire_logic_cluster/lc_6/in_1
+Net : arse.cpuresetoutreg_1_sqmuxa_cascade_
+T_28_8_wire_logic_cluster/lc_4/ltout
+T_28_8_wire_logic_cluster/lc_5/in_2
 
 End 
 
-Net : arse.un1_counterlto4_0
-T_17_6_wire_logic_cluster/lc_0/out
-T_18_6_lc_trk_g1_0
-T_18_6_wire_logic_cluster/lc_7/in_0
+Net : arse.g0_i_a3_4
+T_27_7_wire_logic_cluster/lc_5/out
+T_28_7_lc_trk_g0_5
+T_28_7_wire_logic_cluster/lc_0/in_3
 
-T_17_6_wire_logic_cluster/lc_0/out
-T_18_6_lc_trk_g1_0
-T_18_6_wire_logic_cluster/lc_3/in_0
+End 
 
-T_17_6_wire_logic_cluster/lc_0/out
-T_17_6_sp4_h_l_5
-T_16_2_sp4_v_t_40
-T_15_5_lc_trk_g3_0
-T_15_5_wire_logic_cluster/lc_3/in_0
+Net : arse.N_6
+T_28_7_wire_logic_cluster/lc_0/out
+T_28_8_lc_trk_g0_0
+T_28_8_wire_logic_cluster/lc_4/in_0
 
-T_17_6_wire_logic_cluster/lc_0/out
-T_17_6_sp4_h_l_5
-T_16_2_sp4_v_t_40
-T_15_5_lc_trk_g3_0
-T_15_5_wire_logic_cluster/lc_7/in_0
+End 
 
-T_17_6_wire_logic_cluster/lc_0/out
-T_18_6_lc_trk_g1_0
-T_18_6_wire_logic_cluster/lc_5/in_0
+Net : arse.cpuresetcountZ0Z_1
+T_27_8_wire_logic_cluster/lc_1/out
+T_27_7_lc_trk_g0_1
+T_27_7_wire_logic_cluster/lc_5/in_0
 
-T_17_6_wire_logic_cluster/lc_0/out
-T_16_5_lc_trk_g2_0
-T_16_5_wire_logic_cluster/lc_6/in_0
+T_27_8_wire_logic_cluster/lc_1/out
+T_28_7_lc_trk_g2_1
+T_28_7_wire_logic_cluster/lc_6/in_1
 
-T_17_6_wire_logic_cluster/lc_0/out
-T_16_6_lc_trk_g2_0
-T_16_6_wire_logic_cluster/lc_3/in_1
+T_27_8_wire_logic_cluster/lc_1/out
+T_27_9_lc_trk_g0_1
+T_27_9_wire_logic_cluster/lc_0/in_1
 
-T_17_6_wire_logic_cluster/lc_0/out
-T_16_5_lc_trk_g3_0
-T_16_5_wire_logic_cluster/lc_4/in_1
+T_27_8_wire_logic_cluster/lc_1/out
+T_27_8_lc_trk_g3_1
+T_27_8_wire_logic_cluster/lc_1/in_1
+
+End 
+
+Net : arse.cpuresetcountZ0Z_0
+T_27_8_wire_logic_cluster/lc_0/out
+T_27_7_lc_trk_g0_0
+T_27_7_wire_logic_cluster/lc_5/in_1
+
+T_27_8_wire_logic_cluster/lc_0/out
+T_28_7_lc_trk_g3_0
+T_28_7_wire_logic_cluster/lc_6/in_3
+
+T_27_8_wire_logic_cluster/lc_0/out
+T_28_5_sp4_v_t_41
+T_28_8_lc_trk_g1_1
+T_28_8_input_2_2
+T_28_8_wire_logic_cluster/lc_2/in_2
+
+T_27_8_wire_logic_cluster/lc_0/out
+T_27_8_lc_trk_g1_0
+T_27_8_wire_logic_cluster/lc_0/in_1
+
+End 
+
+Net : arse.cpuresetcountZ0Z_4
+T_27_8_wire_logic_cluster/lc_4/out
+T_27_7_lc_trk_g1_4
+T_27_7_input_2_5
+T_27_7_wire_logic_cluster/lc_5/in_2
+
+T_27_8_wire_logic_cluster/lc_4/out
+T_28_7_lc_trk_g3_4
+T_28_7_wire_logic_cluster/lc_2/in_3
+
+T_27_8_wire_logic_cluster/lc_4/out
+T_28_8_lc_trk_g1_4
+T_28_8_wire_logic_cluster/lc_2/in_3
+
+T_27_8_wire_logic_cluster/lc_4/out
+T_27_8_lc_trk_g3_4
+T_27_8_wire_logic_cluster/lc_4/in_1
+
+End 
+
+Net : arse.cpuresetcountZ0Z_5
+T_27_8_wire_logic_cluster/lc_5/out
+T_27_7_lc_trk_g1_5
+T_27_7_wire_logic_cluster/lc_5/in_3
+
+T_27_8_wire_logic_cluster/lc_5/out
+T_28_7_lc_trk_g2_5
+T_28_7_wire_logic_cluster/lc_2/in_1
+
+T_27_8_wire_logic_cluster/lc_5/out
+T_27_9_lc_trk_g0_5
+T_27_9_wire_logic_cluster/lc_0/in_3
+
+T_27_8_wire_logic_cluster/lc_5/out
+T_27_8_lc_trk_g1_5
+T_27_8_wire_logic_cluster/lc_5/in_1
 
 End 
 
 Net : arse.divseven.doutZ0Z_1
-T_4_4_wire_logic_cluster/lc_6/out
-T_0_4_span12_horz_12
-T_0_4_lc_trk_g1_4
-T_0_4_wire_io_cluster/io_0/D_OUT_1
+T_32_9_wire_logic_cluster/lc_3/out
+T_33_10_lc_trk_g1_3
+T_33_10_wire_io_cluster/io_1/D_OUT_1
 
-End 
-
-Net : arse.arse.counterZ0Z_4
-T_16_6_wire_logic_cluster/lc_3/out
-T_17_6_lc_trk_g0_3
-T_17_6_wire_logic_cluster/lc_0/in_1
-
-T_16_6_wire_logic_cluster/lc_3/out
-T_16_6_lc_trk_g0_3
-T_16_6_wire_logic_cluster/lc_3/in_0
+T_32_9_wire_logic_cluster/lc_3/out
+T_32_9_lc_trk_g0_3
+T_32_9_wire_logic_cluster/lc_3/in_0
 
 End 
 
 Net : arse.diveight.doutZ0Z_1
-T_30_5_wire_logic_cluster/lc_5/out
-T_31_5_sp4_h_l_10
-T_33_5_lc_trk_g1_2
+T_32_6_wire_logic_cluster/lc_4/out
+T_33_5_lc_trk_g1_4
 T_33_5_wire_io_cluster/io_0/D_OUT_1
 
 End 
 
-Net : arse.G_2_0_cascade_
-T_18_6_wire_logic_cluster/lc_2/ltout
-T_18_6_wire_logic_cluster/lc_3/in_2
+Net : arse.cpuresetcountZ0Z_7
+T_27_8_wire_logic_cluster/lc_7/out
+T_28_7_lc_trk_g3_7
+T_28_7_wire_logic_cluster/lc_2/in_0
+
+T_27_8_wire_logic_cluster/lc_7/out
+T_28_8_lc_trk_g0_7
+T_28_8_input_2_1
+T_28_8_wire_logic_cluster/lc_1/in_2
+
+T_27_8_wire_logic_cluster/lc_7/out
+T_28_7_lc_trk_g3_7
+T_28_7_wire_logic_cluster/lc_0/in_0
+
+T_27_8_wire_logic_cluster/lc_7/out
+T_27_8_lc_trk_g1_7
+T_27_8_wire_logic_cluster/lc_7/in_1
 
 End 
 
-Net : arse.clock_out_i
-T_18_6_wire_logic_cluster/lc_5/out
-T_18_6_lc_trk_g2_5
-T_18_6_wire_logic_cluster/lc_2/in_3
-
-T_18_6_wire_logic_cluster/lc_5/out
-T_18_6_lc_trk_g2_5
-T_18_6_input_2_7
-T_18_6_wire_logic_cluster/lc_7/in_2
-
-T_18_6_wire_logic_cluster/lc_5/out
-T_18_6_lc_trk_g2_5
-T_18_6_input_2_5
-T_18_6_wire_logic_cluster/lc_5/in_2
+Net : arse.doingseven3
+T_28_7_wire_logic_cluster/lc_3/out
+T_29_7_lc_trk_g0_3
+T_29_7_wire_logic_cluster/lc_6/in_3
 
 End 
 
-Net : arse.divseven.counter_6_sqmuxa
-T_4_5_wire_logic_cluster/lc_6/out
-T_4_0_span12_vert_20
-T_4_6_lc_trk_g3_3
-T_4_6_wire_logic_cluster/lc_1/cen
+Net : arse.doingseven3_1
+T_28_7_wire_logic_cluster/lc_6/out
+T_28_7_lc_trk_g0_6
+T_28_7_wire_logic_cluster/lc_3/in_1
 
 End 
 
-Net : G_73
-T_19_6_wire_logic_cluster/lc_1/out
-T_19_5_lc_trk_g1_1
-T_19_5_wire_logic_cluster/lc_1/in_1
-
-T_19_6_wire_logic_cluster/lc_1/out
-T_19_6_lc_trk_g0_1
-T_19_6_wire_logic_cluster/lc_1/in_0
+Net : arse.doingseven4
+T_28_7_wire_logic_cluster/lc_7/out
+T_29_6_lc_trk_g2_7
+T_29_6_wire_logic_cluster/lc_6/in_3
 
 End 
 
-Net : arse.divseven.N_60_i_cascade_
-T_4_5_wire_logic_cluster/lc_5/ltout
-T_4_5_wire_logic_cluster/lc_6/in_2
+Net : arse.doingseven3_6
+T_28_7_wire_logic_cluster/lc_2/out
+T_28_7_lc_trk_g0_2
+T_28_7_wire_logic_cluster/lc_7/in_1
 
 End 
 
-Net : arse.seqcounterZ0Z_4
-T_6_9_wire_logic_cluster/lc_4/out
-T_6_9_lc_trk_g0_4
-T_6_9_wire_logic_cluster/lc_5/in_3
+Net : arse.cpuresetcountZ0Z_6
+T_27_8_wire_logic_cluster/lc_6/out
+T_28_7_lc_trk_g2_6
+T_28_7_input_2_2
+T_28_7_wire_logic_cluster/lc_2/in_2
 
-T_6_9_wire_logic_cluster/lc_4/out
-T_6_5_sp4_v_t_45
-T_6_6_lc_trk_g3_5
-T_6_6_wire_logic_cluster/lc_7/in_3
+T_27_8_wire_logic_cluster/lc_6/out
+T_28_8_lc_trk_g0_6
+T_28_8_input_2_0
+T_28_8_wire_logic_cluster/lc_0/in_2
 
-T_6_9_wire_logic_cluster/lc_4/out
-T_6_9_lc_trk_g0_4
-T_6_9_wire_logic_cluster/lc_4/in_0
+T_27_8_wire_logic_cluster/lc_6/out
+T_28_7_lc_trk_g2_6
+T_28_7_input_2_0
+T_28_7_wire_logic_cluster/lc_0/in_2
 
-End 
-
-Net : arse.seqcounter_i_4
-T_6_9_wire_logic_cluster/lc_5/out
-T_6_9_lc_trk_g3_5
-T_6_9_input_2_0
-T_6_9_wire_logic_cluster/lc_0/in_2
-
-T_6_9_wire_logic_cluster/lc_5/out
-T_6_9_lc_trk_g0_5
-T_6_9_wire_logic_cluster/lc_0/in_3
+T_27_8_wire_logic_cluster/lc_6/out
+T_27_8_lc_trk_g1_6
+T_27_8_wire_logic_cluster/lc_6/in_1
 
 End 
 
-Net : arse.un1_seqcounter_1_cry_3
-T_6_9_wire_logic_cluster/lc_3/cout
-T_6_9_wire_logic_cluster/lc_4/in_3
+Net : arse.g0_7_cascade_
+T_28_8_wire_logic_cluster/lc_3/ltout
+T_28_8_wire_logic_cluster/lc_4/in_2
 
 End 
 
-Net : arse.un1_seqcounter_1_cry_2
-T_6_9_wire_logic_cluster/lc_2/cout
-T_6_9_wire_logic_cluster/lc_3/in_3
-
-Net : arse.un1_seqcounter_1_cry_1
-T_6_9_wire_logic_cluster/lc_1/cout
-T_6_9_wire_logic_cluster/lc_2/in_3
-
-Net : arse.arse.un16_counter_cry_2_THRU_CO
-T_16_6_wire_logic_cluster/lc_2/out
-T_16_5_lc_trk_g0_2
-T_16_5_input_2_6
-T_16_5_wire_logic_cluster/lc_6/in_2
+Net : arse.g0_3
+T_28_8_wire_logic_cluster/lc_1/out
+T_28_8_lc_trk_g3_1
+T_28_8_wire_logic_cluster/lc_3/in_1
 
 End 
 
-Net : arse.arse.un16_counter_cry_2
-T_16_6_wire_logic_cluster/lc_1/cout
-T_16_6_wire_logic_cluster/lc_2/in_3
-
-Net : arse.un1_seqcounter_1_cry_0
-T_6_9_wire_logic_cluster/lc_0/cout
-T_6_9_wire_logic_cluster/lc_1/in_3
-
-Net : arse.arse.un16_counter_cry_1
-T_16_6_wire_logic_cluster/lc_0/cout
-T_16_6_wire_logic_cluster/lc_1/in_3
-
-Net : arse.arse.un16_counter_cry_1_THRU_CO
-T_16_6_wire_logic_cluster/lc_1/out
-T_15_5_lc_trk_g2_1
-T_15_5_input_2_7
-T_15_5_wire_logic_cluster/lc_7/in_2
+Net : arse.g0_4
+T_28_8_wire_logic_cluster/lc_0/out
+T_28_8_lc_trk_g2_0
+T_28_8_wire_logic_cluster/lc_3/in_3
 
 End 
 
-Net : arse.seqcounterZ0Z_0
-T_6_9_wire_logic_cluster/lc_0/out
-T_6_9_lc_trk_g1_0
-T_6_9_wire_logic_cluster/lc_0/in_1
+Net : arse.cpuresetcountZ0Z_3
+T_27_8_wire_logic_cluster/lc_3/out
+T_28_8_lc_trk_g1_3
+T_28_8_wire_logic_cluster/lc_1/in_3
+
+T_27_8_wire_logic_cluster/lc_3/out
+T_28_7_lc_trk_g2_3
+T_28_7_wire_logic_cluster/lc_0/in_1
+
+T_27_8_wire_logic_cluster/lc_3/out
+T_28_7_lc_trk_g2_3
+T_28_7_wire_logic_cluster/lc_7/in_0
+
+T_27_8_wire_logic_cluster/lc_3/out
+T_28_7_lc_trk_g2_3
+T_28_7_wire_logic_cluster/lc_3/in_0
+
+T_27_8_wire_logic_cluster/lc_3/out
+T_27_8_lc_trk_g1_3
+T_27_8_wire_logic_cluster/lc_3/in_1
 
 End 
 
-Net : arse.divseven.doutZ0Z_0
-T_6_4_wire_logic_cluster/lc_3/out
-T_0_4_span12_horz_2
-T_0_4_lc_trk_g0_2
-T_0_4_wire_io_cluster/io_0/D_OUT_0
+Net : arse.cpuresetcountZ0Z_2
+T_27_8_wire_logic_cluster/lc_2/out
+T_28_8_lc_trk_g1_2
+T_28_8_wire_logic_cluster/lc_0/in_3
+
+T_27_8_wire_logic_cluster/lc_2/out
+T_27_8_lc_trk_g1_2
+T_27_8_wire_logic_cluster/lc_2/in_1
+
+T_27_8_wire_logic_cluster/lc_2/out
+T_28_7_lc_trk_g2_2
+T_28_7_wire_logic_cluster/lc_7/in_3
+
+T_27_8_wire_logic_cluster/lc_2/out
+T_28_7_lc_trk_g2_2
+T_28_7_wire_logic_cluster/lc_3/in_3
 
 End 
 
-Net : arse.divseven.N_6_cascade_
-T_5_4_wire_logic_cluster/lc_1/ltout
-T_5_4_wire_logic_cluster/lc_2/in_2
+Net : arse.cpuclkresetZ0
+T_29_6_wire_logic_cluster/lc_6/out
+T_28_6_sp12_h_l_0
+T_32_6_lc_trk_g0_3
+T_32_6_wire_logic_cluster/lc_4/in_1
+
+T_29_6_wire_logic_cluster/lc_6/out
+T_30_6_lc_trk_g1_6
+T_30_6_wire_logic_cluster/lc_5/in_0
+
+T_29_6_wire_logic_cluster/lc_6/out
+T_28_6_sp12_h_l_0
+T_31_6_lc_trk_g1_0
+T_31_6_wire_logic_cluster/lc_4/in_1
+
+T_29_6_wire_logic_cluster/lc_6/out
+T_30_6_lc_trk_g1_6
+T_30_6_wire_logic_cluster/lc_4/in_3
+
+T_29_6_wire_logic_cluster/lc_6/out
+T_30_6_lc_trk_g1_6
+T_30_6_wire_logic_cluster/lc_6/in_3
+
+T_29_6_wire_logic_cluster/lc_6/out
+T_29_6_lc_trk_g3_6
+T_29_6_wire_logic_cluster/lc_6/in_1
 
 End 
 
-Net : arse.arse.un16_counter_cry_3
-T_16_6_wire_logic_cluster/lc_2/cout
-T_16_6_wire_logic_cluster/lc_3/in_3
+Net : arse.g0_2_cascade_
+T_28_8_wire_logic_cluster/lc_2/ltout
+T_28_8_wire_logic_cluster/lc_3/in_2
 
 End 
 
-Net : arse.seqcounterZ0Z_1
-T_6_9_wire_logic_cluster/lc_1/out
-T_6_9_lc_trk_g3_1
-T_6_9_wire_logic_cluster/lc_1/in_1
+Net : arse.g0_1
+T_27_9_wire_logic_cluster/lc_0/out
+T_28_8_lc_trk_g3_0
+T_28_8_wire_logic_cluster/lc_4/in_1
 
 End 
 
-Net : arse.seqcounterZ0Z_2
-T_6_9_wire_logic_cluster/lc_2/out
-T_6_9_lc_trk_g1_2
-T_6_9_wire_logic_cluster/lc_2/in_1
+Net : arse.doingseven3_1_cascade_
+T_28_7_wire_logic_cluster/lc_6/ltout
+T_28_7_wire_logic_cluster/lc_7/in_2
 
 End 
 
-Net : arse.seqcounterZ1Z_3
-T_6_9_wire_logic_cluster/lc_3/out
-T_6_9_lc_trk_g1_3
-T_6_9_wire_logic_cluster/lc_3/in_1
+Net : arse.doingseven3_6_cascade_
+T_28_7_wire_logic_cluster/lc_2/ltout
+T_28_7_wire_logic_cluster/lc_3/in_2
 
 End 
 
-Net : arse.divseven.un1_dout_2_sqmuxa_i_o2_0_cascade_
-T_5_5_wire_logic_cluster/lc_1/ltout
-T_5_5_wire_logic_cluster/lc_2/in_2
+Net : arse.un1_cpuresetcount_1_cry_6
+T_27_8_wire_logic_cluster/lc_6/cout
+T_27_8_wire_logic_cluster/lc_7/in_3
 
 End 
 
-Net : arse.divseven.N_10_cascade_
-T_5_5_wire_logic_cluster/lc_3/ltout
-T_5_5_wire_logic_cluster/lc_4/in_2
+Net : arse.divseven.un1_counter_i_0_0
+T_31_9_wire_logic_cluster/lc_0/out
+T_30_8_lc_trk_g2_0
+T_30_8_wire_logic_cluster/lc_2/in_0
 
 End 
+
+Net : arse.un1_cpuresetcount_1_cry_5
+T_27_8_wire_logic_cluster/lc_5/cout
+T_27_8_wire_logic_cluster/lc_6/in_3
+
+Net : arse.divseven.N_46_0
+T_31_9_wire_logic_cluster/lc_4/out
+T_32_9_lc_trk_g1_4
+T_32_9_input_2_3
+T_32_9_wire_logic_cluster/lc_3/in_2
+
+End 
+
+Net : arse.cpuresetoutregZ0
+T_28_8_wire_logic_cluster/lc_5/out
+T_29_4_sp4_v_t_46
+T_30_4_sp4_h_l_4
+T_33_4_lc_trk_g1_1
+T_33_4_wire_io_cluster/io_0/D_OUT_0
+
+T_28_8_wire_logic_cluster/lc_5/out
+T_28_8_lc_trk_g1_5
+T_28_8_wire_logic_cluster/lc_5/in_3
+
+End 
+
+Net : arse.un1_cpuresetcount_1_cry_4
+T_27_8_wire_logic_cluster/lc_4/cout
+T_27_8_wire_logic_cluster/lc_5/in_3
+
+Net : arse.diveight.doutZ1Z_0
+T_31_6_wire_logic_cluster/lc_4/out
+T_32_5_sp4_v_t_41
+T_33_5_span4_horz_4
+T_33_5_lc_trk_g0_4
+T_33_5_wire_io_cluster/io_0/D_OUT_0
+
+End 
+
+Net : arse.un1_cpuresetcount_1_cry_3
+T_27_8_wire_logic_cluster/lc_3/cout
+T_27_8_wire_logic_cluster/lc_4/in_3
+
+Net : arse.un1_cpuresetcount_1_cry_2
+T_27_8_wire_logic_cluster/lc_2/cout
+T_27_8_wire_logic_cluster/lc_3/in_3
+
+Net : arse.un1_cpuresetcount_1_cry_1
+T_27_8_wire_logic_cluster/lc_1/cout
+T_27_8_wire_logic_cluster/lc_2/in_3
 
 Net : arse.diveight.counterZ0Z_0
-T_10_3_wire_logic_cluster/lc_7/out
-T_10_3_lc_trk_g2_7
-T_10_3_wire_logic_cluster/lc_3/in_0
+T_30_6_wire_logic_cluster/lc_4/out
+T_31_6_sp4_h_l_8
+T_32_6_lc_trk_g2_0
+T_32_6_wire_logic_cluster/lc_4/in_0
 
-T_10_3_wire_logic_cluster/lc_7/out
-T_10_3_lc_trk_g1_7
-T_10_3_wire_logic_cluster/lc_7/in_1
+T_30_6_wire_logic_cluster/lc_4/out
+T_30_6_lc_trk_g1_4
+T_30_6_wire_logic_cluster/lc_4/in_1
 
-T_10_3_wire_logic_cluster/lc_7/out
-T_10_3_lc_trk_g1_7
-T_10_3_input_2_6
-T_10_3_wire_logic_cluster/lc_6/in_2
+T_30_6_wire_logic_cluster/lc_4/out
+T_30_6_lc_trk_g1_4
+T_30_6_wire_logic_cluster/lc_6/in_1
+
+T_30_6_wire_logic_cluster/lc_4/out
+T_30_6_lc_trk_g1_4
+T_30_6_input_2_5
+T_30_6_wire_logic_cluster/lc_5/in_2
+
+End 
+
+Net : arse.un1_cpuresetcount_1_cry_0
+T_27_8_wire_logic_cluster/lc_0/cout
+T_27_8_wire_logic_cluster/lc_1/in_3
+
+Net : arse.doingsevenZ0
+T_29_7_wire_logic_cluster/lc_6/out
+T_30_8_lc_trk_g2_6
+T_30_8_input_2_2
+T_30_8_wire_logic_cluster/lc_2/in_2
+
+T_29_7_wire_logic_cluster/lc_6/out
+T_29_7_lc_trk_g3_6
+T_29_7_wire_logic_cluster/lc_6/in_1
 
 End 
 
 Net : arse.diveight.counterZ0Z_1
-T_10_3_wire_logic_cluster/lc_6/out
-T_10_3_lc_trk_g3_6
-T_10_3_input_2_3
-T_10_3_wire_logic_cluster/lc_3/in_2
+T_30_6_wire_logic_cluster/lc_6/out
+T_30_6_sp4_h_l_1
+T_32_6_lc_trk_g2_4
+T_32_6_input_2_4
+T_32_6_wire_logic_cluster/lc_4/in_2
 
-T_10_3_wire_logic_cluster/lc_6/out
-T_10_3_lc_trk_g3_6
-T_10_3_wire_logic_cluster/lc_6/in_3
+T_30_6_wire_logic_cluster/lc_6/out
+T_30_6_lc_trk_g2_6
+T_30_6_wire_logic_cluster/lc_6/in_0
 
-End 
-
-Net : debounceconsolereset.counter_RNI4RTH1Z0Z_6
-T_11_4_wire_logic_cluster/lc_7/out
-T_11_3_lc_trk_g1_7
-T_11_3_wire_logic_cluster/lc_2/in_0
-
-T_11_4_wire_logic_cluster/lc_7/out
-T_11_3_lc_trk_g1_7
-T_11_3_wire_logic_cluster/lc_6/in_0
-
-T_11_4_wire_logic_cluster/lc_7/out
-T_11_3_lc_trk_g1_7
-T_11_3_wire_logic_cluster/lc_0/in_0
-
-T_11_4_wire_logic_cluster/lc_7/out
-T_11_5_lc_trk_g1_7
-T_11_5_wire_logic_cluster/lc_2/in_0
-
-T_11_4_wire_logic_cluster/lc_7/out
-T_11_4_lc_trk_g2_7
-T_11_4_input_2_5
-T_11_4_wire_logic_cluster/lc_5/in_2
-
-T_11_4_wire_logic_cluster/lc_7/out
-T_11_3_lc_trk_g1_7
-T_11_3_wire_logic_cluster/lc_7/in_3
-
-T_11_4_wire_logic_cluster/lc_7/out
-T_11_5_lc_trk_g1_7
-T_11_5_wire_logic_cluster/lc_7/in_1
+T_30_6_wire_logic_cluster/lc_6/out
+T_30_6_lc_trk_g2_6
+T_30_6_wire_logic_cluster/lc_5/in_1
 
 End 
 
-Net : clock_out_RNIR6ER_cascade_
-T_11_4_wire_logic_cluster/lc_6/ltout
-T_11_4_wire_logic_cluster/lc_7/in_2
+Net : arse.apuresetoutregZ0
+T_32_5_wire_logic_cluster/lc_5/out
+T_33_5_lc_trk_g0_5
+T_33_5_wire_io_cluster/io_1/D_OUT_0
 
 End 
 
-Net : arses.un1_counterlt11
-T_10_4_wire_logic_cluster/lc_1/out
-T_10_5_lc_trk_g0_1
-T_10_5_wire_logic_cluster/lc_2/in_1
+Net : arse.divseven.doutZ0Z_0
+T_32_10_wire_logic_cluster/lc_5/out
+T_33_10_lc_trk_g0_5
+T_33_10_wire_io_cluster/io_1/D_OUT_0
 
 End 
 
-Net : arses.un1_counterlt13_0_cascade_
-T_10_5_wire_logic_cluster/lc_2/ltout
-T_10_5_wire_logic_cluster/lc_3/in_2
-
-End 
-
-Net : arses.counterZ0Z_7
-T_9_4_wire_logic_cluster/lc_6/out
-T_9_3_lc_trk_g0_6
-T_9_3_wire_logic_cluster/lc_0/in_0
-
-T_9_4_wire_logic_cluster/lc_6/out
-T_9_4_lc_trk_g1_6
-T_9_4_wire_logic_cluster/lc_6/in_1
-
-End 
-
-Net : arses.counter8
-T_10_5_wire_logic_cluster/lc_3/out
-T_11_4_lc_trk_g2_3
-T_11_4_wire_logic_cluster/lc_6/in_3
-
-T_10_5_wire_logic_cluster/lc_3/out
-T_9_5_lc_trk_g3_3
-T_9_5_wire_logic_cluster/lc_2/in_0
-
-T_10_5_wire_logic_cluster/lc_3/out
-T_9_5_lc_trk_g3_3
-T_9_5_wire_logic_cluster/lc_4/in_0
-
-T_10_5_wire_logic_cluster/lc_3/out
-T_9_5_lc_trk_g3_3
-T_9_5_wire_logic_cluster/lc_0/in_0
-
-T_10_5_wire_logic_cluster/lc_3/out
-T_9_4_lc_trk_g3_3
-T_9_4_wire_logic_cluster/lc_2/in_0
-
-T_10_5_wire_logic_cluster/lc_3/out
-T_9_4_lc_trk_g3_3
-T_9_4_wire_logic_cluster/lc_4/in_0
-
-T_10_5_wire_logic_cluster/lc_3/out
-T_9_4_lc_trk_g3_3
-T_9_4_wire_logic_cluster/lc_6/in_0
-
-T_10_5_wire_logic_cluster/lc_3/out
-T_10_4_lc_trk_g1_3
-T_10_4_wire_logic_cluster/lc_4/in_0
-
-T_10_5_wire_logic_cluster/lc_3/out
-T_9_5_lc_trk_g2_3
-T_9_5_wire_logic_cluster/lc_1/in_0
-
-T_10_5_wire_logic_cluster/lc_3/out
-T_9_5_lc_trk_g2_3
-T_9_5_wire_logic_cluster/lc_3/in_0
-
-T_10_5_wire_logic_cluster/lc_3/out
-T_9_4_lc_trk_g2_3
-T_9_4_wire_logic_cluster/lc_1/in_0
-
-T_10_5_wire_logic_cluster/lc_3/out
-T_9_4_lc_trk_g2_3
-T_9_4_wire_logic_cluster/lc_3/in_0
-
-T_10_5_wire_logic_cluster/lc_3/out
-T_9_4_lc_trk_g2_3
-T_9_4_wire_logic_cluster/lc_5/in_0
-
-T_10_5_wire_logic_cluster/lc_3/out
-T_9_4_lc_trk_g2_3
-T_9_4_wire_logic_cluster/lc_7/in_0
-
-T_10_5_wire_logic_cluster/lc_3/out
-T_9_5_lc_trk_g2_3
-T_9_5_wire_logic_cluster/lc_5/in_0
-
-T_10_5_wire_logic_cluster/lc_3/out
-T_10_4_lc_trk_g1_3
-T_10_4_wire_logic_cluster/lc_3/in_3
-
-T_10_5_wire_logic_cluster/lc_3/out
-T_11_5_lc_trk_g1_3
-T_11_5_wire_logic_cluster/lc_1/in_3
-
-End 
-
-Net : arses.un1_counterlto8_2
-T_9_3_wire_logic_cluster/lc_0/out
-T_10_4_lc_trk_g2_0
-T_10_4_wire_logic_cluster/lc_1/in_3
-
-End 
-
-Net : arses.counterZ0Z_6
-T_9_4_wire_logic_cluster/lc_5/out
-T_9_3_lc_trk_g0_5
-T_9_3_wire_logic_cluster/lc_0/in_1
-
-T_9_4_wire_logic_cluster/lc_5/out
-T_9_4_lc_trk_g1_5
-T_9_4_wire_logic_cluster/lc_5/in_1
-
-End 
-
-Net : arses.counterZ0Z_8
-T_9_4_wire_logic_cluster/lc_7/out
-T_9_3_lc_trk_g1_7
-T_9_3_input_2_0
-T_9_3_wire_logic_cluster/lc_0/in_2
-
-T_9_4_wire_logic_cluster/lc_7/out
-T_9_4_lc_trk_g3_7
-T_9_4_wire_logic_cluster/lc_7/in_1
-
-End 
-
-Net : arses.counterZ0Z_5
-T_9_4_wire_logic_cluster/lc_4/out
-T_9_3_lc_trk_g1_4
-T_9_3_wire_logic_cluster/lc_0/in_3
-
-T_9_4_wire_logic_cluster/lc_4/out
-T_9_4_lc_trk_g3_4
-T_9_4_wire_logic_cluster/lc_4/in_1
-
-End 
-
-Net : clock_out_RNIR6ER
-T_11_4_wire_logic_cluster/lc_6/out
-T_11_5_lc_trk_g1_6
-T_11_5_wire_logic_cluster/lc_7/in_0
-
-T_11_4_wire_logic_cluster/lc_6/out
-T_11_3_lc_trk_g0_6
-T_11_3_wire_logic_cluster/lc_7/in_1
-
-T_11_4_wire_logic_cluster/lc_6/out
-T_11_5_lc_trk_g1_6
-T_11_5_wire_logic_cluster/lc_6/in_1
-
-T_11_4_wire_logic_cluster/lc_6/out
-T_11_4_lc_trk_g2_6
-T_11_4_wire_logic_cluster/lc_5/in_1
-
-T_11_4_wire_logic_cluster/lc_6/out
-T_11_3_lc_trk_g1_6
-T_11_3_wire_logic_cluster/lc_2/in_3
-
-T_11_4_wire_logic_cluster/lc_6/out
-T_11_3_lc_trk_g1_6
-T_11_3_wire_logic_cluster/lc_6/in_3
-
-T_11_4_wire_logic_cluster/lc_6/out
-T_11_3_lc_trk_g0_6
-T_11_3_input_2_0
-T_11_3_wire_logic_cluster/lc_0/in_2
-
-T_11_4_wire_logic_cluster/lc_6/out
-T_11_5_lc_trk_g1_6
-T_11_5_wire_logic_cluster/lc_2/in_3
-
-End 
-
-Net : arses.counterZ0Z_4
-T_9_4_wire_logic_cluster/lc_3/out
-T_9_4_sp4_h_l_11
-T_10_4_lc_trk_g2_3
-T_10_4_wire_logic_cluster/lc_1/in_0
-
-T_9_4_wire_logic_cluster/lc_3/out
-T_9_4_lc_trk_g1_3
-T_9_4_wire_logic_cluster/lc_3/in_1
+Net : arses.un1_counterlto4_2
+T_18_17_wire_logic_cluster/lc_5/out
+T_18_16_lc_trk_g1_5
+T_18_16_wire_logic_cluster/lc_3/in_3
 
 End 
 
 Net : arses.counterZ0Z_0
-T_10_4_wire_logic_cluster/lc_3/out
-T_10_4_lc_trk_g0_3
-T_10_4_wire_logic_cluster/lc_0/in_3
+T_18_18_wire_logic_cluster/lc_6/out
+T_18_17_lc_trk_g0_6
+T_18_17_wire_logic_cluster/lc_5/in_3
 
-T_10_4_wire_logic_cluster/lc_3/out
-T_10_4_sp4_h_l_11
-T_9_4_lc_trk_g0_3
-T_9_4_wire_logic_cluster/lc_0/in_1
+T_18_18_wire_logic_cluster/lc_6/out
+T_18_15_sp4_v_t_36
+T_17_16_lc_trk_g2_4
+T_17_16_input_2_0
+T_17_16_wire_logic_cluster/lc_0/in_2
 
-T_10_4_wire_logic_cluster/lc_3/out
-T_10_4_lc_trk_g0_3
-T_10_4_wire_logic_cluster/lc_3/in_0
+T_18_18_wire_logic_cluster/lc_6/out
+T_18_18_lc_trk_g3_6
+T_18_18_wire_logic_cluster/lc_6/in_1
 
-T_10_4_wire_logic_cluster/lc_3/out
-T_10_4_lc_trk_g0_3
-T_10_4_wire_logic_cluster/lc_4/in_3
+T_18_18_wire_logic_cluster/lc_6/out
+T_17_18_lc_trk_g3_6
+T_17_18_wire_logic_cluster/lc_0/in_1
+
+End 
+
+Net : clock_out_RNIR6ER_0
+T_17_15_wire_logic_cluster/lc_4/out
+T_17_13_sp4_v_t_37
+T_18_17_sp4_h_l_6
+T_14_17_sp4_h_l_6
+T_18_17_sp4_h_l_2
+T_21_13_sp4_v_t_39
+T_20_15_lc_trk_g0_2
+T_20_15_wire_logic_cluster/lc_0/cen
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_17_13_sp4_v_t_37
+T_18_17_sp4_h_l_6
+T_14_17_sp4_h_l_6
+T_18_17_sp4_h_l_2
+T_21_13_sp4_v_t_39
+T_20_15_lc_trk_g0_2
+T_20_15_wire_logic_cluster/lc_0/cen
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_17_13_sp4_v_t_37
+T_18_17_sp4_h_l_6
+T_14_17_sp4_h_l_6
+T_18_17_sp4_h_l_2
+T_21_13_sp4_v_t_39
+T_20_15_lc_trk_g0_2
+T_20_15_wire_logic_cluster/lc_0/cen
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_18_14_lc_trk_g2_4
+T_18_14_input_2_2
+T_18_14_wire_logic_cluster/lc_2/in_2
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_17_13_sp4_v_t_37
+T_18_17_sp4_h_l_6
+T_14_17_sp4_h_l_6
+T_18_17_sp4_h_l_2
+T_19_17_lc_trk_g2_2
+T_19_17_wire_logic_cluster/lc_6/cen
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_16_15_lc_trk_g2_4
+T_16_15_wire_logic_cluster/lc_1/in_3
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_17_13_sp4_v_t_37
+T_18_17_sp4_h_l_6
+T_21_17_sp4_v_t_43
+T_20_18_lc_trk_g3_3
+T_20_18_wire_logic_cluster/lc_1/cen
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_17_13_sp4_v_t_37
+T_18_17_sp4_h_l_6
+T_14_17_sp4_h_l_6
+T_16_17_lc_trk_g3_3
+T_16_17_wire_logic_cluster/lc_1/cen
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_17_13_sp4_v_t_37
+T_18_17_sp4_h_l_6
+T_14_17_sp4_h_l_6
+T_16_17_lc_trk_g3_3
+T_16_17_wire_logic_cluster/lc_1/cen
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_15_15_sp4_h_l_5
+T_18_11_sp4_v_t_46
+T_18_13_lc_trk_g3_3
+T_18_13_wire_logic_cluster/lc_7/cen
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_15_15_sp4_h_l_5
+T_18_11_sp4_v_t_46
+T_18_15_lc_trk_g1_3
+T_18_15_wire_logic_cluster/lc_2/cen
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_17_13_sp4_v_t_37
+T_18_13_sp4_h_l_0
+T_19_13_lc_trk_g2_0
+T_19_13_wire_logic_cluster/lc_5/in_3
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_17_13_sp4_v_t_37
+T_18_13_sp4_h_l_0
+T_20_13_lc_trk_g2_5
+T_20_13_wire_logic_cluster/lc_4/in_3
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_18_15_sp12_h_l_0
+T_22_15_lc_trk_g1_3
+T_22_15_wire_logic_cluster/lc_7/cen
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_15_15_sp4_h_l_5
+T_15_15_lc_trk_g0_0
+T_15_15_wire_logic_cluster/lc_3/in_1
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_16_15_lc_trk_g2_4
+T_16_15_wire_logic_cluster/lc_0/in_0
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_16_15_lc_trk_g2_4
+T_16_15_wire_logic_cluster/lc_2/in_0
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_17_15_lc_trk_g0_4
+T_17_15_wire_logic_cluster/lc_6/in_0
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_18_14_lc_trk_g2_4
+T_18_14_wire_logic_cluster/lc_3/in_1
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_17_14_lc_trk_g0_4
+T_17_14_wire_logic_cluster/lc_3/in_1
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_18_14_lc_trk_g3_4
+T_18_14_wire_logic_cluster/lc_6/in_1
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_17_15_lc_trk_g0_4
+T_17_15_wire_logic_cluster/lc_3/in_1
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_16_15_lc_trk_g3_4
+T_16_15_input_2_7
+T_16_15_wire_logic_cluster/lc_7/in_2
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_17_14_lc_trk_g1_4
+T_17_14_input_2_7
+T_17_14_wire_logic_cluster/lc_7/in_2
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_16_14_lc_trk_g3_4
+T_16_14_input_2_5
+T_16_14_wire_logic_cluster/lc_5/in_2
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_16_15_lc_trk_g3_4
+T_16_15_input_2_3
+T_16_15_wire_logic_cluster/lc_3/in_2
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_16_15_lc_trk_g2_4
+T_16_15_input_2_6
+T_16_15_wire_logic_cluster/lc_6/in_2
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_17_14_lc_trk_g0_4
+T_17_14_input_2_4
+T_17_14_wire_logic_cluster/lc_4/in_2
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_16_16_lc_trk_g1_4
+T_16_16_wire_logic_cluster/lc_2/in_3
+
+T_17_15_wire_logic_cluster/lc_4/out
+T_17_15_lc_trk_g0_4
+T_17_15_wire_logic_cluster/lc_7/in_3
 
 End 
 
 Net : arses.counterZ0Z_3
-T_9_4_wire_logic_cluster/lc_2/out
-T_10_4_lc_trk_g0_2
-T_10_4_wire_logic_cluster/lc_0/in_0
+T_17_16_wire_logic_cluster/lc_2/out
+T_18_17_lc_trk_g3_2
+T_18_17_wire_logic_cluster/lc_5/in_0
 
-T_9_4_wire_logic_cluster/lc_2/out
-T_9_4_lc_trk_g1_2
-T_9_4_wire_logic_cluster/lc_2/in_1
+T_17_16_wire_logic_cluster/lc_2/out
+T_17_16_lc_trk_g1_2
+T_17_16_wire_logic_cluster/lc_2/in_1
 
 End 
 
-Net : arses.un1_counterlto4_2_cascade_
-T_10_4_wire_logic_cluster/lc_0/ltout
-T_10_4_wire_logic_cluster/lc_1/in_2
+Net : arses.counter8
+T_18_16_wire_logic_cluster/lc_5/out
+T_17_15_lc_trk_g2_5
+T_17_15_wire_logic_cluster/lc_4/in_3
+
+T_18_16_wire_logic_cluster/lc_5/out
+T_19_16_lc_trk_g0_5
+T_19_16_wire_logic_cluster/lc_2/in_3
+
+T_18_16_wire_logic_cluster/lc_5/out
+T_18_15_sp4_v_t_42
+T_18_18_lc_trk_g1_2
+T_18_18_wire_logic_cluster/lc_6/in_3
+
+T_18_16_wire_logic_cluster/lc_5/out
+T_18_15_sp4_v_t_42
+T_17_18_lc_trk_g3_2
+T_17_18_wire_logic_cluster/lc_0/in_3
+
+T_18_16_wire_logic_cluster/lc_5/out
+T_17_16_lc_trk_g3_5
+T_17_16_wire_logic_cluster/lc_2/in_0
+
+T_18_16_wire_logic_cluster/lc_5/out
+T_17_16_lc_trk_g3_5
+T_17_16_wire_logic_cluster/lc_4/in_0
+
+T_18_16_wire_logic_cluster/lc_5/out
+T_17_16_lc_trk_g3_5
+T_17_16_wire_logic_cluster/lc_6/in_0
+
+T_18_16_wire_logic_cluster/lc_5/out
+T_17_17_lc_trk_g1_5
+T_17_17_wire_logic_cluster/lc_2/in_0
+
+T_18_16_wire_logic_cluster/lc_5/out
+T_17_17_lc_trk_g1_5
+T_17_17_wire_logic_cluster/lc_4/in_0
+
+T_18_16_wire_logic_cluster/lc_5/out
+T_17_17_lc_trk_g1_5
+T_17_17_wire_logic_cluster/lc_0/in_0
+
+T_18_16_wire_logic_cluster/lc_5/out
+T_17_16_lc_trk_g2_5
+T_17_16_wire_logic_cluster/lc_1/in_0
+
+T_18_16_wire_logic_cluster/lc_5/out
+T_17_16_lc_trk_g2_5
+T_17_16_wire_logic_cluster/lc_3/in_0
+
+T_18_16_wire_logic_cluster/lc_5/out
+T_17_16_lc_trk_g2_5
+T_17_16_wire_logic_cluster/lc_5/in_0
+
+T_18_16_wire_logic_cluster/lc_5/out
+T_17_16_lc_trk_g2_5
+T_17_16_wire_logic_cluster/lc_7/in_0
+
+T_18_16_wire_logic_cluster/lc_5/out
+T_17_17_lc_trk_g0_5
+T_17_17_wire_logic_cluster/lc_1/in_0
+
+T_18_16_wire_logic_cluster/lc_5/out
+T_17_17_lc_trk_g0_5
+T_17_17_wire_logic_cluster/lc_3/in_0
+
+T_18_16_wire_logic_cluster/lc_5/out
+T_17_17_lc_trk_g0_5
+T_17_17_wire_logic_cluster/lc_5/in_0
+
+End 
+
+Net : arses.un1_counterlt11_cascade_
+T_18_16_wire_logic_cluster/lc_3/ltout
+T_18_16_wire_logic_cluster/lc_4/in_2
+
+End 
+
+Net : arses.un1_counterlt13_0_cascade_
+T_18_16_wire_logic_cluster/lc_4/ltout
+T_18_16_wire_logic_cluster/lc_5/in_2
 
 End 
 
 Net : arses.counterZ0Z_2
-T_9_4_wire_logic_cluster/lc_1/out
-T_10_4_lc_trk_g0_1
-T_10_4_wire_logic_cluster/lc_0/in_1
+T_17_16_wire_logic_cluster/lc_1/out
+T_18_17_lc_trk_g3_1
+T_18_17_wire_logic_cluster/lc_5/in_1
 
-T_9_4_wire_logic_cluster/lc_1/out
-T_9_4_lc_trk_g3_1
-T_9_4_wire_logic_cluster/lc_1/in_1
+T_17_16_wire_logic_cluster/lc_1/out
+T_17_16_lc_trk_g3_1
+T_17_16_wire_logic_cluster/lc_1/in_1
+
+End 
+
+Net : debounceup.counter_RNI45V02Z0Z_4
+T_18_14_wire_logic_cluster/lc_2/out
+T_18_14_sp4_h_l_9
+T_17_14_lc_trk_g0_1
+T_17_14_input_2_3
+T_17_14_wire_logic_cluster/lc_3/in_2
+
+T_18_14_wire_logic_cluster/lc_2/out
+T_17_14_lc_trk_g2_2
+T_17_14_wire_logic_cluster/lc_4/in_0
+
+T_18_14_wire_logic_cluster/lc_2/out
+T_18_14_lc_trk_g3_2
+T_18_14_wire_logic_cluster/lc_6/in_3
+
+T_18_14_wire_logic_cluster/lc_2/out
+T_17_14_lc_trk_g2_2
+T_17_14_wire_logic_cluster/lc_7/in_3
+
+End 
+
+Net : debouncedn.counter_RNIBTPA2Z0Z_4
+T_16_15_wire_logic_cluster/lc_1/out
+T_16_15_lc_trk_g3_1
+T_16_15_wire_logic_cluster/lc_6/in_0
+
+T_16_15_wire_logic_cluster/lc_1/out
+T_15_15_lc_trk_g2_1
+T_15_15_input_2_3
+T_15_15_wire_logic_cluster/lc_3/in_2
+
+T_16_15_wire_logic_cluster/lc_1/out
+T_16_15_lc_trk_g3_1
+T_16_15_wire_logic_cluster/lc_7/in_3
+
+T_16_15_wire_logic_cluster/lc_1/out
+T_16_14_lc_trk_g1_1
+T_16_14_wire_logic_cluster/lc_5/in_3
+
+End 
+
+Net : arses.counterZ0Z_7
+T_17_16_wire_logic_cluster/lc_6/out
+T_18_16_lc_trk_g0_6
+T_18_16_wire_logic_cluster/lc_2/in_0
+
+T_17_16_wire_logic_cluster/lc_6/out
+T_17_16_lc_trk_g1_6
+T_17_16_wire_logic_cluster/lc_6/in_1
 
 End 
 
 Net : arses.counterZ0Z_1
-T_10_4_wire_logic_cluster/lc_4/out
-T_10_4_lc_trk_g0_4
-T_10_4_wire_logic_cluster/lc_1/in_1
+T_17_18_wire_logic_cluster/lc_0/out
+T_18_15_sp4_v_t_41
+T_18_16_lc_trk_g3_1
+T_18_16_wire_logic_cluster/lc_3/in_1
 
-T_10_4_wire_logic_cluster/lc_4/out
-T_9_4_lc_trk_g2_4
-T_9_4_input_2_0
-T_9_4_wire_logic_cluster/lc_0/in_2
+T_17_18_wire_logic_cluster/lc_0/out
+T_17_15_sp4_v_t_40
+T_17_16_lc_trk_g3_0
+T_17_16_wire_logic_cluster/lc_0/in_1
 
-T_10_4_wire_logic_cluster/lc_4/out
-T_10_4_lc_trk_g0_4
-T_10_4_input_2_4
-T_10_4_wire_logic_cluster/lc_4/in_2
+T_17_18_wire_logic_cluster/lc_0/out
+T_17_18_lc_trk_g0_0
+T_17_18_wire_logic_cluster/lc_0/in_0
 
 End 
 
-Net : arses.counterZ0Z_10
-T_9_5_wire_logic_cluster/lc_1/out
-T_10_5_lc_trk_g1_1
-T_10_5_wire_logic_cluster/lc_2/in_0
+Net : arses.un1_counterlto8_2_cascade_
+T_18_16_wire_logic_cluster/lc_2/ltout
+T_18_16_wire_logic_cluster/lc_3/in_2
 
-T_9_5_wire_logic_cluster/lc_1/out
-T_9_5_lc_trk_g3_1
-T_9_5_wire_logic_cluster/lc_1/in_1
+End 
+
+Net : arses.counterZ0Z_6
+T_17_16_wire_logic_cluster/lc_5/out
+T_18_16_lc_trk_g0_5
+T_18_16_wire_logic_cluster/lc_2/in_1
+
+T_17_16_wire_logic_cluster/lc_5/out
+T_17_16_lc_trk_g1_5
+T_17_16_wire_logic_cluster/lc_5/in_1
+
+End 
+
+Net : arses.counterZ0Z_8
+T_17_16_wire_logic_cluster/lc_7/out
+T_18_16_lc_trk_g1_7
+T_18_16_input_2_2
+T_18_16_wire_logic_cluster/lc_2/in_2
+
+T_17_16_wire_logic_cluster/lc_7/out
+T_17_16_lc_trk_g3_7
+T_17_16_wire_logic_cluster/lc_7/in_1
+
+End 
+
+Net : arses.counterZ0Z_5
+T_17_16_wire_logic_cluster/lc_4/out
+T_18_16_lc_trk_g1_4
+T_18_16_wire_logic_cluster/lc_2/in_3
+
+T_17_16_wire_logic_cluster/lc_4/out
+T_17_16_lc_trk_g3_4
+T_17_16_wire_logic_cluster/lc_4/in_1
+
+End 
+
+Net : arses.counterZ0Z_4
+T_17_16_wire_logic_cluster/lc_3/out
+T_18_16_lc_trk_g0_3
+T_18_16_wire_logic_cluster/lc_3/in_0
+
+T_17_16_wire_logic_cluster/lc_3/out
+T_17_16_lc_trk_g1_3
+T_17_16_wire_logic_cluster/lc_3/in_1
+
+End 
+
+Net : debounceconsolereset.counter_RNINST81Z0Z_4
+T_17_15_wire_logic_cluster/lc_5/out
+T_16_15_lc_trk_g2_5
+T_16_15_wire_logic_cluster/lc_3/in_0
+
+T_17_15_wire_logic_cluster/lc_5/out
+T_17_15_lc_trk_g1_5
+T_17_15_wire_logic_cluster/lc_7/in_1
+
+T_17_15_wire_logic_cluster/lc_5/out
+T_17_15_lc_trk_g0_5
+T_17_15_input_2_3
+T_17_15_wire_logic_cluster/lc_3/in_2
+
+T_17_15_wire_logic_cluster/lc_5/out
+T_16_15_lc_trk_g2_5
+T_16_15_wire_logic_cluster/lc_0/in_3
+
+End 
+
+Net : clock_out_RNIR6ER_0_cascade_
+T_17_15_wire_logic_cluster/lc_4/ltout
+T_17_15_wire_logic_cluster/lc_5/in_2
+
+End 
+
+Net : un1_delayConstant_cry_0_c_RNOZ0
+T_20_12_wire_logic_cluster/lc_2/out
+T_21_12_lc_trk_g0_2
+T_21_12_input_2_0
+T_21_12_wire_logic_cluster/lc_0/in_2
+
+End 
+
+Net : debounceddn
+T_19_13_wire_logic_cluster/lc_5/out
+T_20_12_lc_trk_g2_5
+T_20_12_wire_logic_cluster/lc_4/in_3
+
+T_19_13_wire_logic_cluster/lc_5/out
+T_20_12_lc_trk_g2_5
+T_20_12_wire_logic_cluster/lc_7/in_0
+
+T_19_13_wire_logic_cluster/lc_5/out
+T_19_13_lc_trk_g0_5
+T_19_13_input_2_5
+T_19_13_wire_logic_cluster/lc_5/in_2
+
+End 
+
+Net : un1_delayConstant_cry_5_0_c_RNIR4GAZ0Z2
+T_21_12_wire_logic_cluster/lc_6/out
+T_21_13_lc_trk_g1_6
+T_21_13_wire_logic_cluster/lc_6/in_3
+
+T_21_12_wire_logic_cluster/lc_6/out
+T_22_11_lc_trk_g3_6
+T_22_11_wire_logic_cluster/lc_4/in_3
+
+End 
+
+Net : un1_delayConstant_cry_5
+T_21_12_wire_logic_cluster/lc_5/cout
+T_21_12_wire_logic_cluster/lc_6/in_3
+
+Net : olddn_RNIEENHZ0
+T_20_12_wire_logic_cluster/lc_4/out
+T_20_12_lc_trk_g1_4
+T_20_12_wire_logic_cluster/lc_2/in_3
+
+T_20_12_wire_logic_cluster/lc_4/out
+T_21_11_lc_trk_g2_4
+T_21_11_wire_logic_cluster/lc_1/in_3
+
+T_20_12_wire_logic_cluster/lc_4/out
+T_20_12_lc_trk_g1_4
+T_20_12_wire_logic_cluster/lc_3/in_0
+
+T_20_12_wire_logic_cluster/lc_4/out
+T_20_12_lc_trk_g1_4
+T_20_12_wire_logic_cluster/lc_0/in_3
+
+T_20_12_wire_logic_cluster/lc_4/out
+T_21_11_lc_trk_g2_4
+T_21_11_wire_logic_cluster/lc_7/in_3
+
+T_20_12_wire_logic_cluster/lc_4/out
+T_20_12_lc_trk_g1_4
+T_20_12_wire_logic_cluster/lc_6/in_3
+
+T_20_12_wire_logic_cluster/lc_4/out
+T_21_11_lc_trk_g2_4
+T_21_11_wire_logic_cluster/lc_3/in_3
+
+T_20_12_wire_logic_cluster/lc_4/out
+T_20_11_lc_trk_g1_4
+T_20_11_wire_logic_cluster/lc_6/in_1
+
+T_20_12_wire_logic_cluster/lc_4/out
+T_21_12_lc_trk_g0_4
+T_21_12_wire_logic_cluster/lc_7/in_1
+
+End 
+
+Net : debounceup.counter_RNI45V02Z0Z_4_cascade_
+T_18_14_wire_logic_cluster/lc_2/ltout
+T_18_14_wire_logic_cluster/lc_3/in_2
 
 End 
 
 Net : arses.counterZ0Z_11
-T_9_5_wire_logic_cluster/lc_2/out
-T_10_5_lc_trk_g0_2
-T_10_5_input_2_2
-T_10_5_wire_logic_cluster/lc_2/in_2
+T_17_17_wire_logic_cluster/lc_2/out
+T_18_16_lc_trk_g2_2
+T_18_16_wire_logic_cluster/lc_4/in_0
 
-T_9_5_wire_logic_cluster/lc_2/out
-T_9_5_lc_trk_g1_2
-T_9_5_wire_logic_cluster/lc_2/in_1
+T_17_17_wire_logic_cluster/lc_2/out
+T_17_17_lc_trk_g1_2
+T_17_17_wire_logic_cluster/lc_2/in_1
+
+End 
+
+Net : arses.counterZ0Z_10
+T_17_17_wire_logic_cluster/lc_1/out
+T_18_16_lc_trk_g2_1
+T_18_16_wire_logic_cluster/lc_4/in_1
+
+T_17_17_wire_logic_cluster/lc_1/out
+T_17_17_lc_trk_g3_1
+T_17_17_wire_logic_cluster/lc_1/in_1
+
+End 
+
+Net : olddnZ0
+T_20_12_wire_logic_cluster/lc_7/out
+T_20_12_lc_trk_g2_7
+T_20_12_wire_logic_cluster/lc_4/in_1
+
+End 
+
+Net : debouncedn.counter_RNIBTPA2Z0Z_4_cascade_
+T_16_15_wire_logic_cluster/lc_1/ltout
+T_16_15_wire_logic_cluster/lc_2/in_2
+
+End 
+
+Net : debouncedup
+T_20_13_wire_logic_cluster/lc_4/out
+T_20_12_lc_trk_g0_4
+T_20_12_wire_logic_cluster/lc_1/in_3
+
+T_20_13_wire_logic_cluster/lc_4/out
+T_20_13_lc_trk_g1_4
+T_20_13_wire_logic_cluster/lc_4/in_1
+
+T_20_13_wire_logic_cluster/lc_4/out
+T_20_12_lc_trk_g0_4
+T_20_12_wire_logic_cluster/lc_5/in_3
+
+End 
+
+Net : olddn_RNIM5BH1Z0Z_1
+T_21_11_wire_logic_cluster/lc_1/out
+T_21_12_lc_trk_g1_1
+T_21_12_wire_logic_cluster/lc_1/in_1
+
+End 
+
+Net : delayConstant16_i
+T_20_12_wire_logic_cluster/lc_1/out
+T_21_11_lc_trk_g3_1
+T_21_11_wire_logic_cluster/lc_1/in_1
+
+T_20_12_wire_logic_cluster/lc_1/out
+T_20_12_lc_trk_g2_1
+T_20_12_input_2_3
+T_20_12_wire_logic_cluster/lc_3/in_2
+
+T_20_12_wire_logic_cluster/lc_1/out
+T_20_12_lc_trk_g2_1
+T_20_12_wire_logic_cluster/lc_0/in_1
+
+T_20_12_wire_logic_cluster/lc_1/out
+T_21_11_lc_trk_g3_1
+T_21_11_wire_logic_cluster/lc_7/in_1
+
+T_20_12_wire_logic_cluster/lc_1/out
+T_20_12_lc_trk_g2_1
+T_20_12_wire_logic_cluster/lc_6/in_1
+
+T_20_12_wire_logic_cluster/lc_1/out
+T_21_11_lc_trk_g3_1
+T_21_11_wire_logic_cluster/lc_3/in_1
+
+T_20_12_wire_logic_cluster/lc_1/out
+T_20_11_lc_trk_g1_1
+T_20_11_wire_logic_cluster/lc_6/in_0
+
+T_20_12_wire_logic_cluster/lc_1/out
+T_21_12_lc_trk_g0_1
+T_21_12_wire_logic_cluster/lc_7/in_0
+
+End 
+
+Net : olddn_RNIM5BH1Z0Z_3
+T_20_12_wire_logic_cluster/lc_3/out
+T_20_12_sp4_h_l_11
+T_21_12_lc_trk_g3_3
+T_21_12_input_2_4
+T_21_12_wire_logic_cluster/lc_4/in_2
+
+End 
+
+Net : oldupZ0
+T_20_12_wire_logic_cluster/lc_5/out
+T_20_12_lc_trk_g3_5
+T_20_12_wire_logic_cluster/lc_1/in_1
 
 End 
 
 Net : arses.counterZ0Z_9
-T_9_5_wire_logic_cluster/lc_0/out
-T_10_5_lc_trk_g1_0
-T_10_5_wire_logic_cluster/lc_2/in_3
+T_17_17_wire_logic_cluster/lc_0/out
+T_18_16_lc_trk_g3_0
+T_18_16_wire_logic_cluster/lc_4/in_3
 
-T_9_5_wire_logic_cluster/lc_0/out
-T_9_5_lc_trk_g3_0
-T_9_5_wire_logic_cluster/lc_0/in_1
+T_17_17_wire_logic_cluster/lc_0/out
+T_17_17_lc_trk_g3_0
+T_17_17_wire_logic_cluster/lc_0/in_1
 
 End 
 
-Net : arses.un2_counter_cry_13
-T_9_5_wire_logic_cluster/lc_4/cout
-T_9_5_wire_logic_cluster/lc_5/in_3
+Net : olddn_RNIM5BHZ0Z1
+T_20_12_wire_logic_cluster/lc_0/out
+T_21_12_lc_trk_g1_0
+T_21_12_wire_logic_cluster/lc_2/in_1
 
 End 
 
 Net : arses.counterZ0Z_14
-T_9_5_wire_logic_cluster/lc_5/out
-T_10_5_lc_trk_g0_5
-T_10_5_wire_logic_cluster/lc_3/in_0
+T_17_17_wire_logic_cluster/lc_5/out
+T_18_16_lc_trk_g2_5
+T_18_16_wire_logic_cluster/lc_5/in_0
 
-T_9_5_wire_logic_cluster/lc_5/out
-T_9_5_lc_trk_g3_5
-T_9_5_wire_logic_cluster/lc_5/in_1
+T_17_17_wire_logic_cluster/lc_5/out
+T_17_17_lc_trk_g3_5
+T_17_17_wire_logic_cluster/lc_5/in_1
+
+End 
+
+Net : olddn_RNIM5BH1Z0Z_2
+T_21_11_wire_logic_cluster/lc_7/out
+T_21_12_lc_trk_g0_7
+T_21_12_input_2_3
+T_21_12_wire_logic_cluster/lc_3/in_2
+
+End 
+
+Net : clock_out_RNIR6ER
+T_19_16_wire_logic_cluster/lc_2/out
+T_20_16_lc_trk_g1_2
+T_20_16_wire_logic_cluster/lc_6/in_3
+
+T_19_16_wire_logic_cluster/lc_2/out
+T_20_16_lc_trk_g1_2
+T_20_16_wire_logic_cluster/lc_0/in_3
 
 End 
 
 Net : arses.counterZ0Z_13
-T_9_5_wire_logic_cluster/lc_4/out
-T_10_5_lc_trk_g0_4
-T_10_5_wire_logic_cluster/lc_3/in_1
+T_17_17_wire_logic_cluster/lc_4/out
+T_18_16_lc_trk_g2_4
+T_18_16_wire_logic_cluster/lc_5/in_1
 
-T_9_5_wire_logic_cluster/lc_4/out
-T_9_5_lc_trk_g3_4
-T_9_5_wire_logic_cluster/lc_4/in_1
+T_17_17_wire_logic_cluster/lc_4/out
+T_17_17_lc_trk_g3_4
+T_17_17_wire_logic_cluster/lc_4/in_1
 
 End 
 
-Net : arses.un2_counter_cry_12
-T_9_5_wire_logic_cluster/lc_3/cout
-T_9_5_wire_logic_cluster/lc_4/in_3
-
 Net : arses.counterZ0Z_12
-T_9_5_wire_logic_cluster/lc_3/out
-T_10_5_lc_trk_g1_3
-T_10_5_wire_logic_cluster/lc_3/in_3
+T_17_17_wire_logic_cluster/lc_3/out
+T_18_16_lc_trk_g3_3
+T_18_16_wire_logic_cluster/lc_5/in_3
 
-T_9_5_wire_logic_cluster/lc_3/out
-T_9_5_lc_trk_g1_3
-T_9_5_wire_logic_cluster/lc_3/in_1
+T_17_17_wire_logic_cluster/lc_3/out
+T_17_17_lc_trk_g1_3
+T_17_17_wire_logic_cluster/lc_3/in_1
+
+End 
+
+Net : un1_delayConstant_cry_1
+T_21_12_wire_logic_cluster/lc_1/cout
+T_21_12_wire_logic_cluster/lc_2/in_3
+
+Net : un1_delayConstant_cry_1_0_c_RNIJGNZ0Z92
+T_21_12_wire_logic_cluster/lc_2/out
+T_21_13_lc_trk_g0_2
+T_21_13_wire_logic_cluster/lc_7/in_3
+
+T_21_12_wire_logic_cluster/lc_2/out
+T_22_11_lc_trk_g2_2
+T_22_11_wire_logic_cluster/lc_7/in_3
+
+End 
+
+Net : olddn_RNIM5BH1Z0Z_0
+T_20_12_wire_logic_cluster/lc_6/out
+T_21_12_lc_trk_g0_6
+T_21_12_wire_logic_cluster/lc_5/in_1
+
+End 
+
+Net : delayConstant16_i_cascade_
+T_20_12_wire_logic_cluster/lc_1/ltout
+T_20_12_wire_logic_cluster/lc_2/in_2
+
+End 
+
+Net : debounceconsolereset.counter_RNINST81Z0Z_4_cascade_
+T_17_15_wire_logic_cluster/lc_5/ltout
+T_17_15_wire_logic_cluster/lc_6/in_2
+
+End 
+
+Net : olddn_RNIM5BH1Z0Z_4
+T_21_11_wire_logic_cluster/lc_3/out
+T_22_8_sp4_v_t_47
+T_21_12_lc_trk_g2_2
+T_21_12_input_2_6
+T_21_12_wire_logic_cluster/lc_6/in_2
+
+End 
+
+Net : un1_delayConstant_cry_6
+T_21_12_wire_logic_cluster/lc_6/cout
+T_21_12_wire_logic_cluster/lc_7/in_3
+
+End 
+
+Net : un1_delayConstant_cry_4
+T_21_12_wire_logic_cluster/lc_4/cout
+T_21_12_wire_logic_cluster/lc_5/in_3
+
+Net : dig1.m77_bm
+T_20_13_wire_logic_cluster/lc_5/out
+T_19_13_sp4_h_l_2
+T_19_13_lc_trk_g0_7
+T_19_13_wire_logic_cluster/lc_3/in_0
+
+End 
+
+Net : colZ0Z_0
+T_20_16_wire_logic_cluster/lc_6/out
+T_20_10_sp12_v_t_23
+T_20_13_lc_trk_g2_3
+T_20_13_wire_logic_cluster/lc_5/in_0
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_20_10_sp12_v_t_23
+T_20_13_lc_trk_g2_3
+T_20_13_wire_logic_cluster/lc_2/in_3
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_21_16_lc_trk_g0_6
+T_21_16_wire_logic_cluster/lc_3/in_3
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_21_16_lc_trk_g0_6
+T_21_16_wire_logic_cluster/lc_6/in_0
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_21_17_lc_trk_g2_6
+T_21_17_wire_logic_cluster/lc_1/in_3
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_20_16_lc_trk_g2_6
+T_20_16_wire_logic_cluster/lc_7/in_3
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_21_15_lc_trk_g3_6
+T_21_15_wire_logic_cluster/lc_2/in_3
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_19_15_lc_trk_g2_6
+T_19_15_wire_logic_cluster/lc_5/in_3
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_20_16_sp4_h_l_1
+T_22_16_lc_trk_g2_4
+T_22_16_wire_logic_cluster/lc_6/in_0
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_20_16_sp4_h_l_1
+T_19_12_sp4_v_t_43
+T_19_13_lc_trk_g3_3
+T_19_13_input_2_4
+T_19_13_wire_logic_cluster/lc_4/in_2
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_20_16_sp4_h_l_1
+T_22_16_lc_trk_g2_4
+T_22_16_wire_logic_cluster/lc_1/in_3
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_21_16_lc_trk_g0_6
+T_21_16_wire_logic_cluster/lc_4/in_0
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_20_16_lc_trk_g2_6
+T_20_16_wire_logic_cluster/lc_3/in_3
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_21_15_lc_trk_g3_6
+T_21_15_wire_logic_cluster/lc_4/in_3
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_21_17_lc_trk_g2_6
+T_21_17_wire_logic_cluster/lc_5/in_3
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_20_10_sp12_v_t_23
+T_20_14_lc_trk_g3_0
+T_20_14_wire_logic_cluster/lc_4/in_3
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_19_15_lc_trk_g2_6
+T_19_15_wire_logic_cluster/lc_3/in_3
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_20_17_lc_trk_g1_6
+T_20_17_wire_logic_cluster/lc_7/in_0
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_19_16_lc_trk_g2_6
+T_19_16_wire_logic_cluster/lc_1/in_3
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_20_17_lc_trk_g1_6
+T_20_17_wire_logic_cluster/lc_2/in_1
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_19_16_lc_trk_g2_6
+T_19_16_wire_logic_cluster/lc_0/in_0
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_20_13_sp4_v_t_36
+T_17_17_sp4_h_l_1
+T_16_17_lc_trk_g1_1
+T_16_17_wire_logic_cluster/lc_1/in_3
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_20_13_sp4_v_t_36
+T_17_17_sp4_h_l_1
+T_16_17_lc_trk_g1_1
+T_16_17_wire_logic_cluster/lc_3/in_3
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_20_16_lc_trk_g2_6
+T_20_16_wire_logic_cluster/lc_6/in_0
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_20_15_lc_trk_g1_6
+T_20_15_wire_logic_cluster/lc_6/in_3
+
+T_20_16_wire_logic_cluster/lc_6/out
+T_19_17_lc_trk_g1_6
+T_19_17_wire_logic_cluster/lc_6/in_3
+
+End 
+
+Net : dig1.N_78
+T_19_13_wire_logic_cluster/lc_3/out
+T_18_13_lc_trk_g2_3
+T_18_13_wire_logic_cluster/lc_0/in_3
+
+End 
+
+Net : dig1.leds_17_i_0_ns_1_2
+T_21_17_wire_logic_cluster/lc_6/out
+T_20_18_lc_trk_g1_6
+T_20_18_wire_logic_cluster/lc_1/in_0
+
+End 
+
+Net : dig1.N_25
+T_21_17_wire_logic_cluster/lc_1/out
+T_21_17_lc_trk_g3_1
+T_21_17_wire_logic_cluster/lc_6/in_0
+
+End 
+
+Net : delayConstantZ0Z_5
+T_21_12_wire_logic_cluster/lc_5/out
+T_21_11_sp4_v_t_42
+T_21_15_sp4_v_t_42
+T_21_17_lc_trk_g2_7
+T_21_17_input_2_1
+T_21_17_wire_logic_cluster/lc_1/in_2
+
+T_21_12_wire_logic_cluster/lc_5/out
+T_21_11_sp4_v_t_42
+T_21_15_sp4_v_t_42
+T_20_16_lc_trk_g3_2
+T_20_16_input_2_7
+T_20_16_wire_logic_cluster/lc_7/in_2
+
+T_21_12_wire_logic_cluster/lc_5/out
+T_21_11_sp4_v_t_42
+T_21_15_lc_trk_g1_7
+T_21_15_input_2_2
+T_21_15_wire_logic_cluster/lc_2/in_2
+
+T_21_12_wire_logic_cluster/lc_5/out
+T_21_11_sp4_v_t_42
+T_21_15_sp4_v_t_42
+T_20_16_lc_trk_g3_2
+T_20_16_input_2_3
+T_20_16_wire_logic_cluster/lc_3/in_2
+
+T_21_12_wire_logic_cluster/lc_5/out
+T_21_11_sp4_v_t_42
+T_21_15_sp4_v_t_42
+T_21_17_lc_trk_g2_7
+T_21_17_input_2_5
+T_21_17_wire_logic_cluster/lc_5/in_2
+
+T_21_12_wire_logic_cluster/lc_5/out
+T_21_11_sp4_v_t_42
+T_21_15_sp4_v_t_47
+T_21_16_lc_trk_g3_7
+T_21_16_input_2_4
+T_21_16_wire_logic_cluster/lc_4/in_2
+
+T_21_12_wire_logic_cluster/lc_5/out
+T_21_11_sp4_v_t_42
+T_21_15_lc_trk_g1_7
+T_21_15_input_2_4
+T_21_15_wire_logic_cluster/lc_4/in_2
+
+T_21_12_wire_logic_cluster/lc_5/out
+T_21_11_sp4_v_t_42
+T_21_15_sp4_v_t_42
+T_20_17_lc_trk_g0_7
+T_20_17_input_2_7
+T_20_17_wire_logic_cluster/lc_7/in_2
+
+T_21_12_wire_logic_cluster/lc_5/out
+T_21_11_sp4_v_t_42
+T_21_15_sp4_v_t_42
+T_20_17_lc_trk_g0_7
+T_20_17_wire_logic_cluster/lc_2/in_3
+
+T_21_12_wire_logic_cluster/lc_5/out
+T_21_12_lc_trk_g0_5
+T_21_12_input_2_5
+T_21_12_wire_logic_cluster/lc_5/in_2
+
+T_21_12_wire_logic_cluster/lc_5/out
+T_21_11_sp4_v_t_42
+T_20_14_lc_trk_g3_2
+T_20_14_wire_logic_cluster/lc_4/in_1
+
+T_21_12_wire_logic_cluster/lc_5/out
+T_21_12_sp12_h_l_1
+T_25_12_sp4_h_l_4
+T_28_8_sp4_v_t_47
+T_27_9_lc_trk_g3_7
+T_27_9_input_2_0
+T_27_9_wire_logic_cluster/lc_0/in_2
+
+End 
+
+Net : un1_delayConstant_cry_3
+T_21_12_wire_logic_cluster/lc_3/cout
+T_21_12_wire_logic_cluster/lc_4/in_3
+
+Net : dig1.N_18
+T_20_16_wire_logic_cluster/lc_4/out
+T_20_15_lc_trk_g1_4
+T_20_15_wire_logic_cluster/lc_3/in_0
+
+End 
+
+Net : dig1.N_17
+T_20_16_wire_logic_cluster/lc_7/out
+T_20_16_lc_trk_g2_7
+T_20_16_wire_logic_cluster/lc_4/in_1
+
+End 
+
+Net : dig1.N_61
+T_19_15_wire_logic_cluster/lc_5/out
+T_19_15_lc_trk_g3_5
+T_19_15_wire_logic_cluster/lc_4/in_0
+
+End 
+
+Net : dig1.leds_17_i_ns_1_2
+T_19_15_wire_logic_cluster/lc_4/out
+T_18_15_lc_trk_g3_4
+T_18_15_wire_logic_cluster/lc_0/in_1
+
+End 
+
+Net : delayConstantZ0Z_1
+T_21_12_wire_logic_cluster/lc_1/out
+T_21_12_sp4_h_l_7
+T_20_12_sp4_v_t_36
+T_19_15_lc_trk_g2_4
+T_19_15_wire_logic_cluster/lc_5/in_1
+
+T_21_12_wire_logic_cluster/lc_1/out
+T_21_9_sp12_v_t_22
+T_21_16_lc_trk_g3_2
+T_21_16_wire_logic_cluster/lc_6/in_3
+
+T_21_12_wire_logic_cluster/lc_1/out
+T_21_12_sp4_h_l_7
+T_20_12_sp4_v_t_36
+T_21_16_sp4_h_l_1
+T_22_16_lc_trk_g3_1
+T_22_16_wire_logic_cluster/lc_1/in_1
+
+T_21_12_wire_logic_cluster/lc_1/out
+T_21_12_sp4_h_l_7
+T_20_12_sp4_v_t_36
+T_21_16_sp4_h_l_1
+T_22_16_lc_trk_g3_1
+T_22_16_input_2_6
+T_22_16_wire_logic_cluster/lc_6/in_2
+
+T_21_12_wire_logic_cluster/lc_1/out
+T_20_13_lc_trk_g1_1
+T_20_13_wire_logic_cluster/lc_5/in_3
+
+T_21_12_wire_logic_cluster/lc_1/out
+T_21_12_sp4_h_l_7
+T_20_12_sp4_v_t_36
+T_19_15_lc_trk_g2_4
+T_19_15_wire_logic_cluster/lc_3/in_1
+
+T_21_12_wire_logic_cluster/lc_1/out
+T_20_13_lc_trk_g1_1
+T_20_13_input_2_2
+T_20_13_wire_logic_cluster/lc_2/in_2
+
+T_21_12_wire_logic_cluster/lc_1/out
+T_21_12_lc_trk_g2_1
+T_21_12_input_2_1
+T_21_12_wire_logic_cluster/lc_1/in_2
+
+T_21_12_wire_logic_cluster/lc_1/out
+T_21_12_sp4_h_l_7
+T_20_12_sp4_v_t_36
+T_19_16_lc_trk_g1_1
+T_19_16_wire_logic_cluster/lc_1/in_1
+
+T_21_12_wire_logic_cluster/lc_1/out
+T_21_12_sp4_h_l_7
+T_20_12_sp4_v_t_42
+T_19_13_lc_trk_g3_2
+T_19_13_wire_logic_cluster/lc_4/in_1
+
+T_21_12_wire_logic_cluster/lc_1/out
+T_21_12_sp4_h_l_7
+T_20_12_sp4_v_t_36
+T_19_16_lc_trk_g1_1
+T_19_16_input_2_0
+T_19_16_wire_logic_cluster/lc_0/in_2
+
+T_21_12_wire_logic_cluster/lc_1/out
+T_21_9_sp12_v_t_22
+T_22_9_sp12_h_l_1
+T_27_9_lc_trk_g1_5
+T_27_9_wire_logic_cluster/lc_0/in_0
+
+End 
+
+Net : delayConstantZ0Z_2
+T_21_13_wire_logic_cluster/lc_7/out
+T_21_11_sp4_v_t_43
+T_18_15_sp4_h_l_6
+T_19_15_lc_trk_g3_6
+T_19_15_input_2_5
+T_19_15_wire_logic_cluster/lc_5/in_2
+
+T_21_13_wire_logic_cluster/lc_7/out
+T_22_12_sp4_v_t_47
+T_21_16_lc_trk_g2_2
+T_21_16_input_2_6
+T_21_16_wire_logic_cluster/lc_6/in_2
+
+T_21_13_wire_logic_cluster/lc_7/out
+T_20_13_lc_trk_g2_7
+T_20_13_input_2_5
+T_20_13_wire_logic_cluster/lc_5/in_2
+
+T_21_13_wire_logic_cluster/lc_7/out
+T_21_8_sp12_v_t_22
+T_21_12_lc_trk_g3_1
+T_21_12_input_2_2
+T_21_12_wire_logic_cluster/lc_2/in_2
+
+T_21_13_wire_logic_cluster/lc_7/out
+T_21_11_sp4_v_t_43
+T_18_15_sp4_h_l_6
+T_19_15_lc_trk_g3_6
+T_19_15_input_2_3
+T_19_15_wire_logic_cluster/lc_3/in_2
+
+T_21_13_wire_logic_cluster/lc_7/out
+T_20_13_lc_trk_g2_7
+T_20_13_wire_logic_cluster/lc_2/in_1
+
+T_21_13_wire_logic_cluster/lc_7/out
+T_22_12_sp4_v_t_47
+T_22_16_lc_trk_g1_2
+T_22_16_input_2_1
+T_22_16_wire_logic_cluster/lc_1/in_2
+
+T_21_13_wire_logic_cluster/lc_7/out
+T_22_12_sp4_v_t_47
+T_22_16_lc_trk_g1_2
+T_22_16_wire_logic_cluster/lc_6/in_1
+
+T_21_13_wire_logic_cluster/lc_7/out
+T_22_12_sp4_v_t_47
+T_19_16_sp4_h_l_10
+T_19_16_lc_trk_g0_7
+T_19_16_input_2_1
+T_19_16_wire_logic_cluster/lc_1/in_2
+
+T_21_13_wire_logic_cluster/lc_7/out
+T_22_12_sp4_v_t_47
+T_19_16_sp4_h_l_10
+T_19_16_lc_trk_g0_7
+T_19_16_wire_logic_cluster/lc_0/in_1
+
+T_21_13_wire_logic_cluster/lc_7/out
+T_20_13_sp4_h_l_6
+T_19_13_lc_trk_g0_6
+T_19_13_wire_logic_cluster/lc_4/in_0
+
+T_21_13_wire_logic_cluster/lc_7/out
+T_22_12_sp4_v_t_47
+T_22_16_lc_trk_g0_2
+T_22_16_wire_logic_cluster/lc_7/in_1
+
+End 
+
+Net : delayConstantZ0Z_6
+T_21_13_wire_logic_cluster/lc_6/out
+T_21_7_sp12_v_t_23
+T_21_17_lc_trk_g3_4
+T_21_17_wire_logic_cluster/lc_1/in_0
+
+T_21_13_wire_logic_cluster/lc_6/out
+T_21_7_sp12_v_t_23
+T_21_15_lc_trk_g2_0
+T_21_15_wire_logic_cluster/lc_2/in_0
+
+T_21_13_wire_logic_cluster/lc_6/out
+T_21_12_sp4_v_t_44
+T_20_16_lc_trk_g2_1
+T_20_16_wire_logic_cluster/lc_7/in_0
+
+T_21_13_wire_logic_cluster/lc_6/out
+T_21_7_sp12_v_t_23
+T_21_15_sp4_v_t_37
+T_20_17_lc_trk_g0_0
+T_20_17_wire_logic_cluster/lc_2/in_0
+
+T_21_13_wire_logic_cluster/lc_6/out
+T_21_7_sp12_v_t_23
+T_21_17_lc_trk_g3_4
+T_21_17_wire_logic_cluster/lc_5/in_0
+
+T_21_13_wire_logic_cluster/lc_6/out
+T_21_7_sp12_v_t_23
+T_21_15_sp4_v_t_37
+T_20_17_lc_trk_g0_0
+T_20_17_wire_logic_cluster/lc_7/in_1
+
+T_21_13_wire_logic_cluster/lc_6/out
+T_21_7_sp12_v_t_23
+T_21_15_lc_trk_g2_0
+T_21_15_wire_logic_cluster/lc_4/in_0
+
+T_21_13_wire_logic_cluster/lc_6/out
+T_21_12_sp4_v_t_44
+T_20_16_lc_trk_g2_1
+T_20_16_wire_logic_cluster/lc_3/in_0
+
+T_21_13_wire_logic_cluster/lc_6/out
+T_21_12_sp4_v_t_44
+T_21_16_lc_trk_g0_1
+T_21_16_wire_logic_cluster/lc_4/in_1
+
+T_21_13_wire_logic_cluster/lc_6/out
+T_21_12_sp4_v_t_44
+T_21_16_lc_trk_g0_1
+T_21_16_wire_logic_cluster/lc_5/in_0
+
+T_21_13_wire_logic_cluster/lc_6/out
+T_21_12_lc_trk_g1_6
+T_21_12_wire_logic_cluster/lc_6/in_1
+
+T_21_13_wire_logic_cluster/lc_6/out
+T_20_14_lc_trk_g0_6
+T_20_14_input_2_4
+T_20_14_wire_logic_cluster/lc_4/in_2
+
+End 
+
+Net : un1_delayConstant_cry_2
+T_21_12_wire_logic_cluster/lc_2/cout
+T_21_12_wire_logic_cluster/lc_3/in_3
+
+Net : colZ0Z_1
+T_20_16_wire_logic_cluster/lc_0/out
+T_20_12_sp4_v_t_37
+T_20_13_lc_trk_g3_5
+T_20_13_wire_logic_cluster/lc_5/in_1
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_20_12_sp4_v_t_37
+T_19_15_lc_trk_g2_5
+T_19_15_wire_logic_cluster/lc_5/in_0
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_20_12_sp4_v_t_37
+T_20_13_lc_trk_g3_5
+T_20_13_wire_logic_cluster/lc_2/in_0
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_21_16_lc_trk_g1_0
+T_21_16_wire_logic_cluster/lc_3/in_0
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_21_17_lc_trk_g2_0
+T_21_17_wire_logic_cluster/lc_1/in_1
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_21_16_lc_trk_g1_0
+T_21_16_wire_logic_cluster/lc_6/in_1
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_20_16_lc_trk_g0_0
+T_20_16_wire_logic_cluster/lc_7/in_1
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_21_15_lc_trk_g3_0
+T_21_15_wire_logic_cluster/lc_2/in_1
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_20_16_sp4_h_l_5
+T_22_16_lc_trk_g3_0
+T_22_16_wire_logic_cluster/lc_1/in_0
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_20_12_sp4_v_t_37
+T_19_15_lc_trk_g2_5
+T_19_15_wire_logic_cluster/lc_3/in_0
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_20_16_sp4_h_l_5
+T_19_12_sp4_v_t_47
+T_19_13_lc_trk_g2_7
+T_19_13_wire_logic_cluster/lc_4/in_3
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_20_16_sp4_h_l_5
+T_22_16_lc_trk_g3_0
+T_22_16_wire_logic_cluster/lc_6/in_3
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_20_16_lc_trk_g0_0
+T_20_16_wire_logic_cluster/lc_3/in_1
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_21_15_lc_trk_g3_0
+T_21_15_wire_logic_cluster/lc_4/in_1
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_21_17_lc_trk_g2_0
+T_21_17_wire_logic_cluster/lc_5/in_1
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_20_14_sp4_v_t_45
+T_20_17_lc_trk_g1_5
+T_20_17_input_2_2
+T_20_17_wire_logic_cluster/lc_2/in_2
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_20_12_sp4_v_t_37
+T_20_14_lc_trk_g2_0
+T_20_14_wire_logic_cluster/lc_4/in_0
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_21_16_lc_trk_g1_0
+T_21_16_wire_logic_cluster/lc_4/in_3
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_19_16_lc_trk_g3_0
+T_19_16_wire_logic_cluster/lc_1/in_0
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_20_13_sp4_v_t_40
+T_17_17_sp4_h_l_10
+T_16_17_lc_trk_g0_2
+T_16_17_wire_logic_cluster/lc_1/in_1
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_20_13_sp4_v_t_40
+T_17_17_sp4_h_l_10
+T_16_17_lc_trk_g0_2
+T_16_17_wire_logic_cluster/lc_3/in_1
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_20_16_lc_trk_g0_0
+T_20_16_wire_logic_cluster/lc_0/in_0
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_20_15_lc_trk_g1_0
+T_20_15_wire_logic_cluster/lc_6/in_1
+
+T_20_16_wire_logic_cluster/lc_0/out
+T_19_17_lc_trk_g1_0
+T_19_17_wire_logic_cluster/lc_6/in_1
+
+End 
+
+Net : dig1.N_44
+T_21_15_wire_logic_cluster/lc_5/out
+T_20_15_lc_trk_g2_5
+T_20_15_wire_logic_cluster/lc_7/in_0
+
+End 
+
+Net : dig1.m41_bm
+T_21_15_wire_logic_cluster/lc_2/out
+T_21_15_lc_trk_g2_2
+T_21_15_wire_logic_cluster/lc_5/in_1
+
+End 
+
+Net : slowclk
+T_18_16_wire_logic_cluster/lc_6/out
+T_17_15_lc_trk_g3_6
+T_17_15_wire_logic_cluster/lc_4/in_1
+
+T_18_16_wire_logic_cluster/lc_6/out
+T_19_16_lc_trk_g0_6
+T_19_16_wire_logic_cluster/lc_2/in_0
+
+T_18_16_wire_logic_cluster/lc_6/out
+T_18_16_sp4_h_l_1
+T_20_16_lc_trk_g3_4
+T_20_16_wire_logic_cluster/lc_6/in_1
+
+T_18_16_wire_logic_cluster/lc_6/out
+T_18_16_sp4_h_l_1
+T_20_16_lc_trk_g2_4
+T_20_16_input_2_0
+T_20_16_wire_logic_cluster/lc_0/in_2
+
+T_18_16_wire_logic_cluster/lc_6/out
+T_18_16_lc_trk_g3_6
+T_18_16_wire_logic_cluster/lc_6/in_3
+
+End 
+
+Net : arses.un2_counter_cry_13
+T_17_17_wire_logic_cluster/lc_4/cout
+T_17_17_wire_logic_cluster/lc_5/in_3
+
+End 
+
+Net : dig1.N_55
+T_22_16_wire_logic_cluster/lc_2/out
+T_22_15_lc_trk_g0_2
+T_22_15_wire_logic_cluster/lc_6/in_0
+
+End 
+
+Net : dig1.N_54
+T_21_16_wire_logic_cluster/lc_6/out
+T_22_16_lc_trk_g1_6
+T_22_16_wire_logic_cluster/lc_2/in_3
+
+End 
+
+Net : dig1.N_52_cascade_
+T_22_16_wire_logic_cluster/lc_1/ltout
+T_22_16_wire_logic_cluster/lc_2/in_2
+
+End 
+
+Net : un1_delayConstant_cry_0
+T_21_12_wire_logic_cluster/lc_0/cout
+T_21_12_wire_logic_cluster/lc_1/in_3
+
+Net : arses.un2_counter_cry_12
+T_17_17_wire_logic_cluster/lc_3/cout
+T_17_17_wire_logic_cluster/lc_4/in_3
+
+Net : dig1.N_49
+T_22_16_wire_logic_cluster/lc_7/out
+T_22_15_lc_trk_g0_7
+T_22_15_wire_logic_cluster/lc_6/in_1
+
+End 
+
+Net : dig1.m47_ns_1_cascade_
+T_22_16_wire_logic_cluster/lc_6/ltout
+T_22_16_wire_logic_cluster/lc_7/in_2
+
+End 
+
+Net : dig1.m77_am
+T_20_13_wire_logic_cluster/lc_2/out
+T_19_13_lc_trk_g2_2
+T_19_13_wire_logic_cluster/lc_3/in_1
 
 End 
 
 Net : arses.un2_counter_cry_11
-T_9_5_wire_logic_cluster/lc_2/cout
-T_9_5_wire_logic_cluster/lc_3/in_3
+T_17_17_wire_logic_cluster/lc_2/cout
+T_17_17_wire_logic_cluster/lc_3/in_3
+
+Net : col_1_1
+T_21_16_wire_logic_cluster/lc_3/out
+T_19_16_sp4_h_l_3
+T_19_16_lc_trk_g1_6
+T_19_16_wire_logic_cluster/lc_0/in_3
+
+T_21_16_wire_logic_cluster/lc_3/out
+T_21_16_lc_trk_g1_3
+T_21_16_wire_logic_cluster/lc_5/in_1
+
+T_21_16_wire_logic_cluster/lc_3/out
+T_22_16_lc_trk_g1_3
+T_22_16_wire_logic_cluster/lc_7/in_3
+
+T_21_16_wire_logic_cluster/lc_3/out
+T_20_17_lc_trk_g1_3
+T_20_17_wire_logic_cluster/lc_7/in_3
+
+T_21_16_wire_logic_cluster/lc_3/out
+T_20_16_lc_trk_g2_3
+T_20_16_wire_logic_cluster/lc_0/in_1
+
+End 
+
+Net : dig1.m68_bm
+T_19_16_wire_logic_cluster/lc_0/out
+T_18_15_lc_trk_g3_0
+T_18_15_wire_logic_cluster/lc_0/in_3
+
+End 
+
+Net : dig1.N_15_cascade_
+T_20_16_wire_logic_cluster/lc_3/ltout
+T_20_16_wire_logic_cluster/lc_4/in_2
+
+End 
+
+Net : dig1.N_22_cascade_
+T_21_17_wire_logic_cluster/lc_5/ltout
+T_21_17_wire_logic_cluster/lc_6/in_2
+
+End 
 
 Net : arses.un2_counter_cry_10
-T_9_5_wire_logic_cluster/lc_1/cout
-T_9_5_wire_logic_cluster/lc_2/in_3
+T_17_17_wire_logic_cluster/lc_1/cout
+T_17_17_wire_logic_cluster/lc_2/in_3
 
-Net : debounceconsolereset.counterZ0Z_2
-T_11_3_wire_logic_cluster/lc_2/out
-T_11_3_lc_trk_g0_2
-T_11_3_wire_logic_cluster/lc_5/in_3
-
-T_11_3_wire_logic_cluster/lc_2/out
-T_11_3_lc_trk_g0_2
-T_11_3_wire_logic_cluster/lc_4/in_0
-
-T_11_3_wire_logic_cluster/lc_2/out
-T_11_4_lc_trk_g0_2
-T_11_4_wire_logic_cluster/lc_1/in_1
-
-T_11_3_wire_logic_cluster/lc_2/out
-T_11_3_lc_trk_g0_2
-T_11_3_input_2_2
-T_11_3_wire_logic_cluster/lc_2/in_2
+Net : debouncedn.out_cnv_2
+T_16_14_wire_logic_cluster/lc_3/out
+T_16_13_sp4_v_t_38
+T_17_13_sp4_h_l_3
+T_19_13_lc_trk_g3_6
+T_19_13_wire_logic_cluster/lc_5/in_0
 
 End 
 
-Net : debounceconsolereset.un1_counterlt6
-T_11_3_wire_logic_cluster/lc_5/out
-T_11_4_lc_trk_g1_5
-T_11_4_wire_logic_cluster/lc_7/in_3
+Net : debounceup.out_cnv_2
+T_18_14_wire_logic_cluster/lc_5/out
+T_18_13_sp4_v_t_42
+T_19_13_sp4_h_l_7
+T_20_13_lc_trk_g3_7
+T_20_13_wire_logic_cluster/lc_4/in_0
 
 End 
 
-Net : debounceconsolereset.counterZ0Z_4
-T_11_3_wire_logic_cluster/lc_0/out
-T_11_3_lc_trk_g1_0
-T_11_3_wire_logic_cluster/lc_5/in_0
+Net : debounceup.counterZ0Z_2
+T_17_14_wire_logic_cluster/lc_7/out
+T_18_14_lc_trk_g0_7
+T_18_14_wire_logic_cluster/lc_4/in_3
 
-T_11_3_wire_logic_cluster/lc_0/out
-T_11_3_lc_trk_g1_0
-T_11_3_wire_logic_cluster/lc_4/in_1
+T_17_14_wire_logic_cluster/lc_7/out
+T_17_14_lc_trk_g3_7
+T_17_14_wire_logic_cluster/lc_1/in_1
 
-T_11_3_wire_logic_cluster/lc_0/out
-T_11_4_lc_trk_g0_0
-T_11_4_wire_logic_cluster/lc_3/in_1
+T_17_14_wire_logic_cluster/lc_7/out
+T_18_14_lc_trk_g0_7
+T_18_14_wire_logic_cluster/lc_2/in_3
 
-T_11_3_wire_logic_cluster/lc_0/out
-T_11_3_lc_trk_g1_0
-T_11_3_wire_logic_cluster/lc_0/in_3
+T_17_14_wire_logic_cluster/lc_7/out
+T_17_14_lc_trk_g3_7
+T_17_14_wire_logic_cluster/lc_7/in_1
 
 End 
 
-Net : debounceconsolereset.counterZ0Z_3
-T_11_3_wire_logic_cluster/lc_6/out
-T_11_3_lc_trk_g2_6
-T_11_3_wire_logic_cluster/lc_5/in_1
+Net : debouncedn.counterZ0Z_2
+T_16_15_wire_logic_cluster/lc_7/out
+T_16_14_lc_trk_g0_7
+T_16_14_wire_logic_cluster/lc_2/in_3
 
-T_11_3_wire_logic_cluster/lc_6/out
-T_11_3_lc_trk_g2_6
-T_11_3_input_2_4
-T_11_3_wire_logic_cluster/lc_4/in_2
+T_16_15_wire_logic_cluster/lc_7/out
+T_15_15_lc_trk_g3_7
+T_15_15_wire_logic_cluster/lc_1/in_1
 
-T_11_3_wire_logic_cluster/lc_6/out
-T_11_4_lc_trk_g1_6
-T_11_4_wire_logic_cluster/lc_2/in_1
+T_16_15_wire_logic_cluster/lc_7/out
+T_16_15_lc_trk_g1_7
+T_16_15_wire_logic_cluster/lc_1/in_1
 
-T_11_3_wire_logic_cluster/lc_6/out
-T_11_3_lc_trk_g2_6
-T_11_3_input_2_6
-T_11_3_wire_logic_cluster/lc_6/in_2
+T_16_15_wire_logic_cluster/lc_7/out
+T_16_15_lc_trk_g1_7
+T_16_15_wire_logic_cluster/lc_7/in_1
+
+End 
+
+Net : debouncedn.counter18_0_2_cascade_
+T_16_14_wire_logic_cluster/lc_2/ltout
+T_16_14_wire_logic_cluster/lc_3/in_2
+
+End 
+
+Net : debounceup.counter18_0_2_cascade_
+T_18_14_wire_logic_cluster/lc_4/ltout
+T_18_14_wire_logic_cluster/lc_5/in_2
+
+End 
+
+Net : debounceup.counterZ0Z_3
+T_17_14_wire_logic_cluster/lc_4/out
+T_18_14_lc_trk_g1_4
+T_18_14_wire_logic_cluster/lc_4/in_1
+
+T_17_14_wire_logic_cluster/lc_4/out
+T_18_14_lc_trk_g0_4
+T_18_14_wire_logic_cluster/lc_2/in_0
+
+T_17_14_wire_logic_cluster/lc_4/out
+T_17_14_lc_trk_g3_4
+T_17_14_wire_logic_cluster/lc_2/in_1
+
+T_17_14_wire_logic_cluster/lc_4/out
+T_17_14_lc_trk_g3_4
+T_17_14_wire_logic_cluster/lc_4/in_3
+
+End 
+
+Net : debouncedn.counterZ0Z_3
+T_16_15_wire_logic_cluster/lc_6/out
+T_16_14_lc_trk_g1_6
+T_16_14_wire_logic_cluster/lc_2/in_1
+
+T_16_15_wire_logic_cluster/lc_6/out
+T_16_15_lc_trk_g1_6
+T_16_15_wire_logic_cluster/lc_1/in_0
+
+T_16_15_wire_logic_cluster/lc_6/out
+T_15_15_lc_trk_g3_6
+T_15_15_wire_logic_cluster/lc_2/in_1
+
+T_16_15_wire_logic_cluster/lc_6/out
+T_16_15_lc_trk_g1_6
+T_16_15_wire_logic_cluster/lc_6/in_3
+
+End 
+
+Net : dig1.N_58_cascade_
+T_19_15_wire_logic_cluster/lc_3/ltout
+T_19_15_wire_logic_cluster/lc_4/in_2
+
+End 
+
+Net : dig1.N_11_0
+T_21_16_wire_logic_cluster/lc_5/out
+T_20_15_lc_trk_g3_5
+T_20_15_wire_logic_cluster/lc_3/in_1
+
+End 
+
+Net : dig1.m10_ns_1_cascade_
+T_21_16_wire_logic_cluster/lc_4/ltout
+T_21_16_wire_logic_cluster/lc_5/in_2
 
 End 
 
 Net : arses.un2_counter_cry_9
-T_9_5_wire_logic_cluster/lc_0/cout
-T_9_5_wire_logic_cluster/lc_1/in_3
+T_17_17_wire_logic_cluster/lc_0/cout
+T_17_17_wire_logic_cluster/lc_1/in_3
 
-Net : bfn_9_5_0_
-T_9_5_wire_logic_cluster/carry_in_mux/cout
-T_9_5_wire_logic_cluster/lc_0/in_3
-
-Net : debounceconsolereset.un3_counter_cry_4_THRU_CO
-T_11_4_wire_logic_cluster/lc_4/out
-T_11_5_lc_trk_g0_4
-T_11_5_input_2_2
-T_11_5_wire_logic_cluster/lc_2/in_2
+Net : dig1.m32_bm
+T_20_17_wire_logic_cluster/lc_7/out
+T_20_18_lc_trk_g1_7
+T_20_18_wire_logic_cluster/lc_1/in_1
 
 End 
 
-Net : debounceconsolereset.un3_counter_cry_4
-T_11_4_wire_logic_cluster/lc_3/cout
-T_11_4_wire_logic_cluster/lc_4/in_3
+Net : arses.counter8_cascade_
+T_18_16_wire_logic_cluster/lc_5/ltout
+T_18_16_wire_logic_cluster/lc_6/in_2
+
+End 
+
+Net : dig1.m32_am
+T_20_17_wire_logic_cluster/lc_2/out
+T_20_18_lc_trk_g1_2
+T_20_18_input_2_1
+T_20_18_wire_logic_cluster/lc_1/in_2
+
+End 
+
+Net : delayConstantZ0Z_0
+T_20_11_wire_logic_cluster/lc_6/out
+T_21_12_lc_trk_g3_6
+T_21_12_wire_logic_cluster/lc_0/in_1
+
+T_20_11_wire_logic_cluster/lc_6/out
+T_20_11_sp4_h_l_1
+T_19_11_sp4_v_t_36
+T_19_15_lc_trk_g0_1
+T_19_15_wire_logic_cluster/lc_4/in_1
+
+T_20_11_wire_logic_cluster/lc_6/out
+T_20_11_sp4_h_l_1
+T_19_11_sp4_v_t_36
+T_18_13_lc_trk_g1_1
+T_18_13_wire_logic_cluster/lc_0/in_0
+
+T_20_11_wire_logic_cluster/lc_6/out
+T_20_11_sp4_h_l_1
+T_19_11_sp4_v_t_36
+T_18_15_lc_trk_g1_1
+T_18_15_input_2_0
+T_18_15_wire_logic_cluster/lc_0/in_2
+
+T_20_11_wire_logic_cluster/lc_6/out
+T_20_11_sp4_h_l_1
+T_23_11_sp4_v_t_43
+T_22_15_lc_trk_g1_6
+T_22_15_wire_logic_cluster/lc_6/in_3
+
+T_20_11_wire_logic_cluster/lc_6/out
+T_20_11_lc_trk_g3_6
+T_20_11_wire_logic_cluster/lc_6/in_3
+
+T_20_11_wire_logic_cluster/lc_6/out
+T_19_11_sp12_h_l_0
+T_26_11_sp4_h_l_9
+T_29_7_sp4_v_t_44
+T_28_8_lc_trk_g3_4
+T_28_8_wire_logic_cluster/lc_2/in_1
+
+T_20_11_wire_logic_cluster/lc_6/out
+T_20_12_lc_trk_g0_6
+T_20_12_wire_logic_cluster/lc_2/in_0
+
+End 
+
+Net : dig1.m41_am_cascade_
+T_21_15_wire_logic_cluster/lc_4/ltout
+T_21_15_wire_logic_cluster/lc_5/in_2
+
+End 
+
+Net : bfn_17_17_0_
+T_17_17_wire_logic_cluster/carry_in_mux/cout
+T_17_17_wire_logic_cluster/lc_0/in_3
+
+Net : delayConstantZ0Z_3
+T_21_12_wire_logic_cluster/lc_3/out
+T_19_12_sp4_h_l_3
+T_22_12_sp4_v_t_45
+T_22_16_lc_trk_g1_0
+T_22_16_wire_logic_cluster/lc_2/in_1
+
+T_21_12_wire_logic_cluster/lc_3/out
+T_19_12_sp4_h_l_3
+T_22_12_sp4_v_t_45
+T_22_16_lc_trk_g1_0
+T_22_16_wire_logic_cluster/lc_7/in_0
+
+T_21_12_wire_logic_cluster/lc_3/out
+T_21_11_sp4_v_t_38
+T_18_15_sp4_h_l_8
+T_19_15_lc_trk_g3_0
+T_19_15_wire_logic_cluster/lc_4/in_3
+
+T_21_12_wire_logic_cluster/lc_3/out
+T_21_12_lc_trk_g1_3
+T_21_12_wire_logic_cluster/lc_3/in_1
+
+T_21_12_wire_logic_cluster/lc_3/out
+T_21_9_sp4_v_t_46
+T_18_13_sp4_h_l_4
+T_19_13_lc_trk_g2_4
+T_19_13_wire_logic_cluster/lc_3/in_3
+
+T_21_12_wire_logic_cluster/lc_3/out
+T_19_12_sp4_h_l_3
+T_18_12_sp4_v_t_44
+T_18_13_lc_trk_g2_4
+T_18_13_input_2_0
+T_18_13_wire_logic_cluster/lc_0/in_2
+
+T_21_12_wire_logic_cluster/lc_3/out
+T_22_12_sp4_h_l_6
+T_25_8_sp4_v_t_43
+T_26_8_sp4_h_l_11
+T_28_8_lc_trk_g2_6
+T_28_8_wire_logic_cluster/lc_1/in_1
+
+End 
+
+Net : dig1.m68_am
+T_19_16_wire_logic_cluster/lc_1/out
+T_18_15_lc_trk_g3_1
+T_18_15_wire_logic_cluster/lc_0/in_0
+
+End 
+
+Net : debounceup.counterZ0Z_4
+T_17_14_wire_logic_cluster/lc_3/out
+T_18_14_lc_trk_g0_3
+T_18_14_wire_logic_cluster/lc_5/in_0
+
+T_17_14_wire_logic_cluster/lc_3/out
+T_18_14_lc_trk_g0_3
+T_18_14_wire_logic_cluster/lc_2/in_1
+
+T_17_14_wire_logic_cluster/lc_3/out
+T_17_14_lc_trk_g0_3
+T_17_14_wire_logic_cluster/lc_3/in_0
+
+End 
+
+Net : delayConstantZ0Z_4
+T_21_12_wire_logic_cluster/lc_4/out
+T_21_11_sp4_v_t_40
+T_21_15_sp4_v_t_36
+T_21_17_lc_trk_g2_1
+T_21_17_wire_logic_cluster/lc_6/in_1
+
+T_21_12_wire_logic_cluster/lc_4/out
+T_21_12_lc_trk_g3_4
+T_21_12_wire_logic_cluster/lc_4/in_1
+
+T_21_12_wire_logic_cluster/lc_4/out
+T_21_11_sp4_v_t_40
+T_21_15_sp4_v_t_36
+T_20_18_lc_trk_g2_4
+T_20_18_wire_logic_cluster/lc_1/in_3
+
+T_21_12_wire_logic_cluster/lc_4/out
+T_21_11_sp4_v_t_40
+T_20_15_lc_trk_g1_5
+T_20_15_wire_logic_cluster/lc_7/in_1
+
+T_21_12_wire_logic_cluster/lc_4/out
+T_21_11_sp4_v_t_40
+T_20_15_lc_trk_g1_5
+T_20_15_wire_logic_cluster/lc_3/in_3
+
+T_21_12_wire_logic_cluster/lc_4/out
+T_21_8_sp4_v_t_45
+T_22_8_sp4_h_l_1
+T_26_8_sp4_h_l_9
+T_28_8_lc_trk_g2_4
+T_28_8_wire_logic_cluster/lc_2/in_0
+
+End 
+
+Net : debouncedn.counterZ0Z_4
+T_15_15_wire_logic_cluster/lc_3/out
+T_16_14_lc_trk_g2_3
+T_16_14_wire_logic_cluster/lc_3/in_0
+
+T_15_15_wire_logic_cluster/lc_3/out
+T_16_15_lc_trk_g0_3
+T_16_15_input_2_1
+T_16_15_wire_logic_cluster/lc_1/in_2
+
+T_15_15_wire_logic_cluster/lc_3/out
+T_15_15_lc_trk_g0_3
+T_15_15_wire_logic_cluster/lc_3/in_0
+
+End 
+
+Net : delayConstantZ0Z_7
+T_21_12_wire_logic_cluster/lc_7/out
+T_21_12_sp4_h_l_3
+T_20_12_sp4_v_t_38
+T_20_16_lc_trk_g0_3
+T_20_16_wire_logic_cluster/lc_4/in_3
+
+T_21_12_wire_logic_cluster/lc_7/out
+T_21_7_sp12_v_t_22
+T_21_17_lc_trk_g2_5
+T_21_17_wire_logic_cluster/lc_6/in_3
+
+T_21_12_wire_logic_cluster/lc_7/out
+T_21_7_sp12_v_t_22
+T_21_16_lc_trk_g2_6
+T_21_16_wire_logic_cluster/lc_5/in_3
+
+T_21_12_wire_logic_cluster/lc_7/out
+T_21_11_sp4_v_t_46
+T_21_15_lc_trk_g1_3
+T_21_15_wire_logic_cluster/lc_5/in_3
+
+T_21_12_wire_logic_cluster/lc_7/out
+T_21_11_sp4_v_t_46
+T_20_15_lc_trk_g2_3
+T_20_15_input_2_7
+T_20_15_wire_logic_cluster/lc_7/in_2
+
+T_21_12_wire_logic_cluster/lc_7/out
+T_21_12_lc_trk_g2_7
+T_21_12_input_2_7
+T_21_12_wire_logic_cluster/lc_7/in_2
+
+T_21_12_wire_logic_cluster/lc_7/out
+T_21_12_sp4_h_l_3
+T_25_12_sp4_h_l_3
+T_28_8_sp4_v_t_38
+T_29_8_sp4_h_l_3
+T_28_8_lc_trk_g0_3
+T_28_8_wire_logic_cluster/lc_1/in_0
+
+End 
+
+Net : debounceup.counterZ0Z_0
+T_18_14_wire_logic_cluster/lc_3/out
+T_18_14_lc_trk_g1_3
+T_18_14_wire_logic_cluster/lc_5/in_1
+
+T_18_14_wire_logic_cluster/lc_3/out
+T_17_14_lc_trk_g3_3
+T_17_14_input_2_0
+T_17_14_wire_logic_cluster/lc_0/in_2
+
+T_18_14_wire_logic_cluster/lc_3/out
+T_18_14_lc_trk_g1_3
+T_18_14_input_2_6
+T_18_14_wire_logic_cluster/lc_6/in_2
+
+T_18_14_wire_logic_cluster/lc_3/out
+T_18_14_lc_trk_g1_3
+T_18_14_wire_logic_cluster/lc_3/in_3
+
+End 
+
+Net : debouncedn.counterZ0Z_0
+T_16_15_wire_logic_cluster/lc_2/out
+T_16_14_lc_trk_g0_2
+T_16_14_wire_logic_cluster/lc_3/in_1
+
+T_16_15_wire_logic_cluster/lc_2/out
+T_15_15_lc_trk_g2_2
+T_15_15_input_2_0
+T_15_15_wire_logic_cluster/lc_0/in_2
+
+T_16_15_wire_logic_cluster/lc_2/out
+T_16_14_lc_trk_g0_2
+T_16_14_wire_logic_cluster/lc_5/in_1
+
+T_16_15_wire_logic_cluster/lc_2/out
+T_16_15_lc_trk_g3_2
+T_16_15_wire_logic_cluster/lc_2/in_3
+
+End 
+
+Net : dig1.N_72
+T_19_13_wire_logic_cluster/lc_4/out
+T_18_13_lc_trk_g3_4
+T_18_13_wire_logic_cluster/lc_0/in_1
+
+End 
+
+Net : debounceup.counterZ0Z_1
+T_18_14_wire_logic_cluster/lc_6/out
+T_18_14_lc_trk_g2_6
+T_18_14_wire_logic_cluster/lc_5/in_3
+
+T_18_14_wire_logic_cluster/lc_6/out
+T_17_14_lc_trk_g3_6
+T_17_14_wire_logic_cluster/lc_0/in_1
+
+T_18_14_wire_logic_cluster/lc_6/out
+T_18_14_lc_trk_g2_6
+T_18_14_wire_logic_cluster/lc_6/in_0
+
+End 
+
+Net : debouncedn.counterZ0Z_1
+T_16_14_wire_logic_cluster/lc_5/out
+T_16_14_lc_trk_g1_5
+T_16_14_wire_logic_cluster/lc_3/in_3
+
+T_16_14_wire_logic_cluster/lc_5/out
+T_15_15_lc_trk_g0_5
+T_15_15_wire_logic_cluster/lc_0/in_1
+
+T_16_14_wire_logic_cluster/lc_5/out
+T_16_14_lc_trk_g2_5
+T_16_14_wire_logic_cluster/lc_5/in_0
+
+End 
 
 Net : debounceconsolereset.counterZ0Z_1
-T_11_5_wire_logic_cluster/lc_7/out
-T_11_4_lc_trk_g0_7
-T_11_4_wire_logic_cluster/lc_0/in_1
+T_16_15_wire_logic_cluster/lc_3/out
+T_17_15_lc_trk_g0_3
+T_17_15_wire_logic_cluster/lc_0/in_1
 
-T_11_5_wire_logic_cluster/lc_7/out
-T_11_5_lc_trk_g2_7
-T_11_5_input_2_5
-T_11_5_wire_logic_cluster/lc_5/in_2
+T_16_15_wire_logic_cluster/lc_3/out
+T_16_15_lc_trk_g1_3
+T_16_15_wire_logic_cluster/lc_5/in_3
 
-T_11_5_wire_logic_cluster/lc_7/out
-T_11_5_lc_trk_g2_7
-T_11_5_input_2_7
-T_11_5_wire_logic_cluster/lc_7/in_2
+T_16_15_wire_logic_cluster/lc_3/out
+T_16_15_lc_trk_g1_3
+T_16_15_wire_logic_cluster/lc_3/in_3
 
 End 
 
-Net : debounceconsolereset.counterZ0Z_0
-T_11_3_wire_logic_cluster/lc_7/out
-T_11_4_lc_trk_g1_7
-T_11_4_input_2_0
-T_11_4_wire_logic_cluster/lc_0/in_2
-
-T_11_3_wire_logic_cluster/lc_7/out
-T_11_3_lc_trk_g2_7
-T_11_3_wire_logic_cluster/lc_4/in_3
-
-T_11_3_wire_logic_cluster/lc_7/out
-T_11_2_sp4_v_t_46
-T_11_5_lc_trk_g0_6
-T_11_5_wire_logic_cluster/lc_7/in_3
-
-T_11_3_wire_logic_cluster/lc_7/out
-T_11_3_lc_trk_g2_7
-T_11_3_wire_logic_cluster/lc_7/in_0
+Net : debounceconsolereset.un3_counter_cry_2_THRU_CO
+T_17_15_wire_logic_cluster/lc_2/out
+T_17_15_lc_trk_g3_2
+T_17_15_wire_logic_cluster/lc_6/in_1
 
 End 
 
-Net : debounceconsolereset.out_cnv_3
-T_11_3_wire_logic_cluster/lc_4/out
-T_11_2_sp4_v_t_40
-T_11_5_lc_trk_g0_0
-T_11_5_wire_logic_cluster/lc_5/in_1
-
-End 
-
-Net : debounceconsolereset.out_cnv_4_cascade_
-T_11_5_wire_logic_cluster/lc_5/ltout
-T_11_5_wire_logic_cluster/lc_6/in_2
-
-End 
-
-Net : debounceconsolereset.un3_counter_cry_3
-T_11_4_wire_logic_cluster/lc_2/cout
-T_11_4_wire_logic_cluster/lc_3/in_3
-
-Net : debounceconsolereset.un3_counter_cry_3_THRU_CO
-T_11_4_wire_logic_cluster/lc_3/out
-T_11_3_lc_trk_g0_3
-T_11_3_wire_logic_cluster/lc_0/in_1
+Net : debouncedn.un3_counter_cry_2_THRU_CO
+T_15_15_wire_logic_cluster/lc_2/out
+T_16_15_lc_trk_g1_2
+T_16_15_wire_logic_cluster/lc_6/in_1
 
 End 
 
 Net : debounceconsolereset.un3_counter_cry_2
-T_11_4_wire_logic_cluster/lc_1/cout
-T_11_4_wire_logic_cluster/lc_2/in_3
+T_17_15_wire_logic_cluster/lc_1/cout
+T_17_15_wire_logic_cluster/lc_2/in_3
 
-Net : debounceconsolereset.un3_counter_cry_2_THRU_CO
-T_11_4_wire_logic_cluster/lc_2/out
-T_11_3_lc_trk_g1_2
-T_11_3_wire_logic_cluster/lc_6/in_1
+Net : debounceup.un3_counter_cry_2
+T_17_14_wire_logic_cluster/lc_1/cout
+T_17_14_wire_logic_cluster/lc_2/in_3
+
+Net : debounceup.un3_counter_cry_2_THRU_CO
+T_17_14_wire_logic_cluster/lc_2/out
+T_17_14_lc_trk_g3_2
+T_17_14_wire_logic_cluster/lc_4/in_1
+
+End 
+
+Net : debouncedn.un3_counter_cry_2
+T_15_15_wire_logic_cluster/lc_1/cout
+T_15_15_wire_logic_cluster/lc_2/in_3
+
+Net : debounceconsolereset.counterZ0Z_0
+T_16_15_wire_logic_cluster/lc_0/out
+T_17_15_lc_trk_g0_0
+T_17_15_input_2_0
+T_17_15_wire_logic_cluster/lc_0/in_2
+
+T_16_15_wire_logic_cluster/lc_0/out
+T_16_15_lc_trk_g0_0
+T_16_15_wire_logic_cluster/lc_5/in_1
+
+T_16_15_wire_logic_cluster/lc_0/out
+T_16_15_lc_trk_g0_0
+T_16_15_wire_logic_cluster/lc_3/in_1
+
+T_16_15_wire_logic_cluster/lc_0/out
+T_16_15_lc_trk_g0_0
+T_16_15_input_2_0
+T_16_15_wire_logic_cluster/lc_0/in_2
 
 End 
 
 Net : arses.un2_counter_cry_7
-T_9_4_wire_logic_cluster/lc_6/cout
-T_9_4_wire_logic_cluster/lc_7/in_3
+T_17_16_wire_logic_cluster/lc_6/cout
+T_17_16_wire_logic_cluster/lc_7/in_3
 
-Net : debounceconsolereset.un3_counter_cry_1
-T_11_4_wire_logic_cluster/lc_0/cout
-T_11_4_wire_logic_cluster/lc_1/in_3
+Net : debouncedn.un3_counter_cry_1_THRU_CO
+T_15_15_wire_logic_cluster/lc_1/out
+T_16_15_lc_trk_g0_1
+T_16_15_wire_logic_cluster/lc_7/in_0
+
+End 
+
+Net : debounceup.un3_counter_cry_1_THRU_CO
+T_17_14_wire_logic_cluster/lc_1/out
+T_17_14_lc_trk_g2_1
+T_17_14_wire_logic_cluster/lc_7/in_0
+
+End 
+
+Net : debounceup.un3_counter_cry_1
+T_17_14_wire_logic_cluster/lc_0/cout
+T_17_14_wire_logic_cluster/lc_1/in_3
+
+Net : debouncedn.un3_counter_cry_1
+T_15_15_wire_logic_cluster/lc_0/cout
+T_15_15_wire_logic_cluster/lc_1/in_3
+
+Net : debounceconsolereset.counterZ0Z_2
+T_17_15_wire_logic_cluster/lc_7/out
+T_17_15_lc_trk_g3_7
+T_17_15_wire_logic_cluster/lc_1/in_1
+
+T_17_15_wire_logic_cluster/lc_7/out
+T_16_15_lc_trk_g3_7
+T_16_15_wire_logic_cluster/lc_4/in_0
+
+T_17_15_wire_logic_cluster/lc_7/out
+T_17_15_lc_trk_g3_7
+T_17_15_wire_logic_cluster/lc_5/in_3
+
+T_17_15_wire_logic_cluster/lc_7/out
+T_17_15_lc_trk_g2_7
+T_17_15_wire_logic_cluster/lc_7/in_0
+
+End 
 
 Net : debounceconsolereset.un3_counter_cry_1_THRU_CO
-T_11_4_wire_logic_cluster/lc_1/out
-T_11_3_lc_trk_g0_1
-T_11_3_wire_logic_cluster/lc_2/in_1
+T_17_15_wire_logic_cluster/lc_1/out
+T_17_15_lc_trk_g0_1
+T_17_15_input_2_7
+T_17_15_wire_logic_cluster/lc_7/in_2
 
 End 
 
-Net : arses.clock_out_i
-T_11_5_wire_logic_cluster/lc_1/out
-T_11_4_lc_trk_g0_1
-T_11_4_wire_logic_cluster/lc_6/in_1
-
-T_11_5_wire_logic_cluster/lc_1/out
-T_11_5_lc_trk_g3_1
-T_11_5_wire_logic_cluster/lc_1/in_1
-
-End 
+Net : debounceconsolereset.un3_counter_cry_1
+T_17_15_wire_logic_cluster/lc_0/cout
+T_17_15_wire_logic_cluster/lc_1/in_3
 
 Net : arses.un2_counter_cry_6
-T_9_4_wire_logic_cluster/lc_5/cout
-T_9_4_wire_logic_cluster/lc_6/in_3
+T_17_16_wire_logic_cluster/lc_5/cout
+T_17_16_wire_logic_cluster/lc_6/in_3
 
-Net : arses.un2_counter_cry_5
-T_9_4_wire_logic_cluster/lc_4/cout
-T_9_4_wire_logic_cluster/lc_5/in_3
-
-Net : arses.un2_counter_cry_4
-T_9_4_wire_logic_cluster/lc_3/cout
-T_9_4_wire_logic_cluster/lc_4/in_3
-
-Net : debounceconsolereset.counterZ0Z_5
-T_11_5_wire_logic_cluster/lc_2/out
-T_11_4_lc_trk_g1_2
-T_11_4_wire_logic_cluster/lc_7/in_0
-
-T_11_5_wire_logic_cluster/lc_2/out
-T_11_4_lc_trk_g1_2
-T_11_4_wire_logic_cluster/lc_4/in_1
-
-T_11_5_wire_logic_cluster/lc_2/out
-T_11_5_lc_trk_g3_2
-T_11_5_wire_logic_cluster/lc_5/in_0
-
-T_11_5_wire_logic_cluster/lc_2/out
-T_11_5_lc_trk_g3_2
-T_11_5_wire_logic_cluster/lc_2/in_1
+Net : debounceconsolereset.counter18_0_2_cascade_
+T_16_15_wire_logic_cluster/lc_4/ltout
+T_16_15_wire_logic_cluster/lc_5/in_2
 
 End 
 
-Net : debounceconsolereset.counterZ0Z_6
-T_11_4_wire_logic_cluster/lc_5/out
-T_11_4_lc_trk_g3_5
-T_11_4_wire_logic_cluster/lc_7/in_1
+Net : debounceconsolereset.out_cnv_2
+T_16_15_wire_logic_cluster/lc_5/out
+T_16_16_lc_trk_g0_5
+T_16_16_wire_logic_cluster/lc_2/in_1
 
-T_11_4_wire_logic_cluster/lc_5/out
-T_11_5_lc_trk_g1_5
-T_11_5_wire_logic_cluster/lc_5/in_3
+End 
 
-T_11_4_wire_logic_cluster/lc_5/out
-T_11_4_lc_trk_g2_5
-T_11_4_wire_logic_cluster/lc_5/in_0
+Net : debounceconsolereset.counterZ0Z_3
+T_17_15_wire_logic_cluster/lc_6/out
+T_16_15_lc_trk_g2_6
+T_16_15_input_2_4
+T_16_15_wire_logic_cluster/lc_4/in_2
+
+T_17_15_wire_logic_cluster/lc_6/out
+T_17_15_lc_trk_g2_6
+T_17_15_wire_logic_cluster/lc_5/in_1
+
+T_17_15_wire_logic_cluster/lc_6/out
+T_17_15_lc_trk_g2_6
+T_17_15_input_2_2
+T_17_15_wire_logic_cluster/lc_2/in_2
+
+T_17_15_wire_logic_cluster/lc_6/out
+T_17_15_lc_trk_g1_6
+T_17_15_wire_logic_cluster/lc_6/in_3
+
+End 
+
+Net : dig1.N_39
+T_20_14_wire_logic_cluster/lc_4/out
+T_20_15_lc_trk_g0_4
+T_20_15_wire_logic_cluster/lc_7/in_3
+
+End 
+
+Net : arses.un2_counter_cry_5
+T_17_16_wire_logic_cluster/lc_4/cout
+T_17_16_wire_logic_cluster/lc_5/in_3
+
+Net : arses.un2_counter_cry_4
+T_17_16_wire_logic_cluster/lc_3/cout
+T_17_16_wire_logic_cluster/lc_4/in_3
+
+Net : debounceconsolereset.counterZ0Z_4
+T_17_15_wire_logic_cluster/lc_3/out
+T_17_15_lc_trk_g2_3
+T_17_15_wire_logic_cluster/lc_5/in_0
+
+T_17_15_wire_logic_cluster/lc_3/out
+T_16_15_lc_trk_g2_3
+T_16_15_wire_logic_cluster/lc_5/in_0
+
+T_17_15_wire_logic_cluster/lc_3/out
+T_17_15_lc_trk_g2_3
+T_17_15_wire_logic_cluster/lc_3/in_0
 
 End 
 
 Net : arses.un2_counter_cry_3
-T_9_4_wire_logic_cluster/lc_2/cout
-T_9_4_wire_logic_cluster/lc_3/in_3
+T_17_16_wire_logic_cluster/lc_2/cout
+T_17_16_wire_logic_cluster/lc_3/in_3
 
-Net : debounceconsolereset.un3_counter_cry_5
-T_11_4_wire_logic_cluster/lc_4/cout
-T_11_4_wire_logic_cluster/lc_5/in_3
+Net : arses.un2_counter_cry_2
+T_17_16_wire_logic_cluster/lc_1/cout
+T_17_16_wire_logic_cluster/lc_2/in_3
+
+Net : arses.un2_counter_cry_1
+T_17_16_wire_logic_cluster/lc_0/cout
+T_17_16_wire_logic_cluster/lc_1/in_3
+
+Net : debouncedn.un3_counter_cry_3
+T_15_15_wire_logic_cluster/lc_2/cout
+T_15_15_wire_logic_cluster/lc_3/in_3
 
 End 
 
-Net : arses.un2_counter_cry_2
-T_9_4_wire_logic_cluster/lc_1/cout
-T_9_4_wire_logic_cluster/lc_2/in_3
+Net : debounceup.un3_counter_cry_3
+T_17_14_wire_logic_cluster/lc_2/cout
+T_17_14_wire_logic_cluster/lc_3/in_3
 
-Net : arses.un2_counter_cry_1
-T_9_4_wire_logic_cluster/lc_0/cout
-T_9_4_wire_logic_cluster/lc_1/in_3
+End 
 
-Net : apureset_c
-T_11_5_wire_logic_cluster/lc_6/out
-T_11_5_lc_trk_g3_6
-T_11_5_wire_logic_cluster/lc_6/in_3
+Net : debounceconsolereset.un3_counter_cry_3
+T_17_15_wire_logic_cluster/lc_2/cout
+T_17_15_wire_logic_cluster/lc_3/in_3
 
-T_11_5_wire_logic_cluster/lc_6/out
-T_11_5_sp4_h_l_1
-T_15_5_sp4_h_l_4
-T_18_5_sp4_v_t_41
-T_18_6_lc_trk_g2_1
-T_18_6_wire_logic_cluster/lc_2/in_1
+End 
 
-T_11_5_wire_logic_cluster/lc_6/out
-T_10_5_sp12_h_l_0
-T_19_5_lc_trk_g1_4
-T_19_5_wire_logic_cluster/lc_1/in_0
+Net : debouncedconsolereset
+T_16_16_wire_logic_cluster/lc_2/out
+T_16_16_lc_trk_g0_2
+T_16_16_input_2_2
+T_16_16_wire_logic_cluster/lc_2/in_2
 
-T_11_5_wire_logic_cluster/lc_6/out
-T_10_5_sp12_h_l_0
-T_17_5_sp4_h_l_9
-T_20_5_sp4_v_t_39
-T_19_6_lc_trk_g2_7
-T_19_6_input_2_1
-T_19_6_wire_logic_cluster/lc_1/in_2
+T_16_16_wire_logic_cluster/lc_2/out
+T_16_6_sp12_v_t_23
+T_17_6_sp12_h_l_0
+T_26_6_sp4_h_l_11
+T_29_6_sp4_v_t_46
+T_29_8_lc_trk_g3_3
+T_29_8_wire_logic_cluster/lc_4/in_0
 
-T_11_5_wire_logic_cluster/lc_6/out
-T_10_5_sp12_h_l_0
-T_22_5_sp12_h_l_0
-T_33_5_lc_trk_g0_7
-T_33_5_wire_io_cluster/io_1/D_OUT_0
+T_16_16_wire_logic_cluster/lc_2/out
+T_16_6_sp12_v_t_23
+T_17_6_sp12_h_l_0
+T_28_6_sp12_v_t_23
+T_28_8_sp4_v_t_43
+T_29_8_sp4_h_l_11
+T_32_4_sp4_v_t_46
+T_32_5_lc_trk_g2_6
+T_32_5_wire_logic_cluster/lc_5/in_3
+
+T_16_16_wire_logic_cluster/lc_2/out
+T_11_16_sp12_h_l_0
+T_22_4_sp12_v_t_23
+T_23_4_sp12_h_l_0
+T_32_4_lc_trk_g0_4
+T_32_4_wire_logic_cluster/lc_7/in_3
+
+End 
+
+Net : delayConstant_fastZ0Z_6
+T_22_11_wire_logic_cluster/lc_4/out
+T_21_11_sp4_h_l_0
+T_25_11_sp4_h_l_0
+T_28_7_sp4_v_t_43
+T_28_8_lc_trk_g3_3
+T_28_8_wire_logic_cluster/lc_0/in_0
+
+End 
+
+Net : delayConstant_fastZ0Z_2
+T_22_11_wire_logic_cluster/lc_7/out
+T_22_8_sp4_v_t_38
+T_23_8_sp4_h_l_3
+T_27_8_sp4_h_l_3
+T_28_8_lc_trk_g2_3
+T_28_8_wire_logic_cluster/lc_0/in_1
+
+End 
+
+Net : delup_c
+T_26_33_wire_io_cluster/io_0/D_IN_0
+T_26_25_sp12_v_t_23
+T_26_13_sp12_v_t_23
+T_15_13_sp12_h_l_0
+T_20_13_lc_trk_g0_4
+T_20_13_input_2_4
+T_20_13_wire_logic_cluster/lc_4/in_2
+
+End 
+
+Net : deldn_c
+T_10_33_wire_io_cluster/io_1/D_IN_0
+T_10_27_sp12_v_t_23
+T_10_15_sp12_v_t_23
+T_11_15_sp12_h_l_0
+T_16_15_sp4_h_l_7
+T_19_11_sp4_v_t_42
+T_19_13_lc_trk_g3_7
+T_19_13_wire_logic_cluster/lc_5/in_1
 
 End 
 
 Net : consolereset_c
 T_11_33_wire_io_cluster/io_1/D_IN_0
-T_11_27_sp12_v_t_23
-T_11_15_sp12_v_t_23
-T_11_3_sp12_v_t_23
-T_11_5_lc_trk_g2_4
-T_11_5_wire_logic_cluster/lc_6/in_0
-
-End 
-
-Net : cpureset_c
-T_19_5_wire_logic_cluster/lc_1/out
-T_20_4_lc_trk_g3_1
-T_20_4_input_2_4
-T_20_4_wire_logic_cluster/lc_4/in_2
-
-T_19_5_wire_logic_cluster/lc_1/out
-T_19_5_sp4_h_l_7
-T_23_5_sp4_h_l_7
-T_27_5_sp4_h_l_7
-T_31_5_sp4_h_l_7
-T_33_1_span4_vert_t_13
-T_33_4_lc_trk_g1_5
-T_33_4_wire_io_cluster/io_0/D_OUT_0
-
-End 
-
-Net : G_74
-T_20_4_wire_logic_cluster/lc_4/out
-T_20_4_lc_trk_g0_4
-T_20_4_wire_logic_cluster/lc_4/in_0
-
-End 
-
-Net : arse_un1_apuclk_i
-T_20_4_wire_logic_cluster/lc_5/out
-T_20_4_sp12_h_l_1
-T_26_4_sp4_h_l_6
-T_29_4_sp4_v_t_43
-T_30_8_sp4_h_l_0
-T_33_8_span4_vert_t_14
-T_33_10_lc_trk_g1_2
-T_33_10_wire_io_cluster/io_1/D_OUT_0
-
-End 
-
-Net : arse.divseven.io_0_D_IN_0
-T_0_4_wire_io_cluster/io_0/D_IN_0
-T_0_4_span12_horz_0
-T_13_4_sp12_h_l_0
-T_20_4_lc_trk_g1_0
-T_20_4_wire_logic_cluster/lc_5/in_0
-
-End 
-
-Net : CONSTANT_ONE_NET
-T_18_16_wire_logic_cluster/lc_0/out
-T_18_12_sp12_v_t_23
-T_18_24_sp12_v_t_23
-T_18_26_sp4_v_t_43
-T_18_30_sp4_v_t_43
-T_14_33_span4_horz_r_3
-T_16_33_lc_trk_g0_3
-T_16_33_wire_io_cluster/io_1/D_OUT_0
-
-T_18_16_wire_logic_cluster/lc_0/out
-T_18_12_sp12_v_t_23
-T_18_24_sp12_v_t_23
-T_18_26_sp4_v_t_43
-T_18_30_sp4_v_t_43
-T_18_33_span4_horz_r_3
-T_22_33_span4_horz_r_3
-T_25_33_lc_trk_g1_7
-T_25_33_wire_io_cluster/io_0/D_OUT_0
-
-T_18_16_wire_logic_cluster/lc_0/out
-T_18_4_sp12_v_t_23
-T_7_4_sp12_h_l_0
-T_6_4_sp4_h_l_1
-T_5_4_sp4_v_t_42
-T_4_6_lc_trk_g1_7
-T_4_6_wire_logic_cluster/lc_0/in_0
-
-T_18_16_wire_logic_cluster/lc_0/out
-T_18_12_sp12_v_t_23
-T_18_24_sp12_v_t_23
-T_18_26_sp4_v_t_43
-T_18_30_sp4_v_t_43
-T_18_33_span4_horz_r_3
-T_22_33_span4_horz_r_3
-T_26_33_span4_horz_r_3
-T_27_33_lc_trk_g1_7
-T_27_33_wire_io_cluster/io_0/D_OUT_0
-
-T_18_16_wire_logic_cluster/lc_0/out
-T_18_4_sp12_v_t_23
-T_19_4_sp12_h_l_0
-T_26_4_sp4_h_l_9
-T_30_4_sp4_h_l_0
-T_33_4_span4_vert_t_14
-T_33_5_lc_trk_g1_6
-T_33_5_wire_io_cluster/io_0/OUT_ENB
-
-T_18_16_wire_logic_cluster/lc_0/out
-T_18_12_sp12_v_t_23
-T_18_24_sp12_v_t_23
-T_18_26_sp4_v_t_43
-T_18_30_sp4_v_t_43
-T_14_33_span4_horz_r_3
-T_10_33_span4_horz_r_3
-T_6_33_span4_horz_r_3
-T_8_33_lc_trk_g0_3
-T_8_33_wire_io_cluster/io_1/D_OUT_0
-
-T_18_16_wire_logic_cluster/lc_0/out
-T_18_4_sp12_v_t_23
-T_7_4_sp12_h_l_0
-T_6_4_sp4_h_l_1
-T_2_4_sp4_h_l_9
-T_0_4_span4_horz_40
-T_0_4_lc_trk_g1_0
-T_0_4_wire_io_cluster/io_0/OUT_ENB
-
-End 
-
-Net : apusync_c
-T_33_2_wire_io_cluster/io_0/D_IN_0
-T_33_2_span12_horz_0
-T_21_2_sp12_h_l_0
-T_20_2_sp12_v_t_23
-T_20_4_lc_trk_g3_4
-T_20_4_wire_logic_cluster/lc_4/in_1
-
-T_33_2_wire_io_cluster/io_0/D_IN_0
-T_33_2_span12_horz_0
-T_21_2_sp12_h_l_0
-T_20_2_sp12_v_t_23
-T_20_2_sp4_v_t_45
-T_19_5_lc_trk_g3_5
-T_19_5_wire_logic_cluster/lc_1/in_3
-
-T_33_2_wire_io_cluster/io_0/D_IN_0
-T_33_2_span12_horz_0
-T_21_2_sp12_h_l_0
-T_20_2_sp12_v_t_23
-T_20_2_sp4_v_t_45
-T_19_6_lc_trk_g2_0
-T_19_6_wire_logic_cluster/lc_1/in_1
-
-End 
-
-Net : G_74_cascade_
-T_20_4_wire_logic_cluster/lc_4/ltout
-T_20_4_wire_logic_cluster/lc_5/in_2
+T_11_31_sp12_v_t_23
+T_11_19_sp12_v_t_23
+T_12_19_sp12_h_l_0
+T_13_19_sp4_h_l_3
+T_16_15_sp4_v_t_44
+T_16_16_lc_trk_g2_4
+T_16_16_wire_logic_cluster/lc_2/in_0
 
 End 
 
 Net : GB_BUFFER_PACKAGEPIN_0_c_g_THRU_CO
-T_16_1_wire_logic_cluster/lc_5/out
-T_17_0_span4_vert_43
-T_13_0_span4_horz_r_3
-T_13_0_lc_trk_g0_3
+T_16_1_wire_logic_cluster/lc_2/out
+T_17_0_span4_vert_37
+T_13_0_span4_horz_r_2
+T_13_0_lc_trk_g1_2
 T_16_0_wire_pll/REFERENCECLK
 
 End 
 
-Net : PLLOUTCORE_0_g
+Net : lcol1_c
+T_20_15_wire_logic_cluster/lc_6/out
+T_19_15_sp12_h_l_0
+T_30_15_sp12_v_t_23
+T_30_27_sp12_v_t_23
+T_30_33_lc_trk_g1_4
+T_30_33_wire_io_cluster/io_1/D_OUT_0
+
+End 
+
+Net : lcol2_c
+T_19_17_wire_logic_cluster/lc_6/out
+T_18_17_sp12_h_l_0
+T_17_17_sp12_v_t_23
+T_18_29_sp12_h_l_0
+T_23_29_sp4_h_l_7
+T_26_29_sp4_v_t_42
+T_26_33_span4_horz_r_1
+T_27_33_lc_trk_g1_5
+T_27_33_wire_io_cluster/io_0/D_OUT_0
+
+End 
+
+Net : lcol3_c
+T_16_17_wire_logic_cluster/lc_1/out
+T_16_14_sp12_v_t_22
+T_16_26_sp12_v_t_22
+T_16_29_sp4_v_t_42
+T_16_33_lc_trk_g0_7
+T_16_33_wire_io_cluster/io_1/D_OUT_0
+
+End 
+
+Net : lcol4_c
+T_16_17_wire_logic_cluster/lc_3/out
+T_16_16_sp12_v_t_22
+T_16_25_sp4_v_t_36
+T_16_29_sp4_v_t_36
+T_12_33_span4_horz_r_0
+T_8_33_span4_horz_r_0
+T_8_33_lc_trk_g1_0
+T_8_33_wire_io_cluster/io_1/D_OUT_0
+
+End 
+
+Net : leds_1_i_0_1
+T_22_15_wire_logic_cluster/lc_6/out
+T_22_9_sp12_v_t_23
+T_22_21_sp12_v_t_23
+T_22_25_sp4_v_t_41
+T_22_29_sp4_v_t_42
+T_22_33_span4_horz_r_1
+T_25_33_lc_trk_g1_5
+T_25_33_wire_io_cluster/io_0/D_OUT_0
+
+End 
+
+Net : leds_1_i_0_2
+T_18_15_wire_logic_cluster/lc_0/out
+T_15_15_sp12_h_l_0
+T_14_15_sp12_v_t_23
+T_14_21_sp4_v_t_39
+T_14_25_sp4_v_t_47
+T_14_29_sp4_v_t_36
+T_10_33_span4_horz_r_0
+T_13_33_lc_trk_g1_4
+T_13_33_wire_io_cluster/io_1/D_OUT_0
+
+End 
+
+Net : leds_1_i_0_3
+T_18_13_wire_logic_cluster/lc_0/out
+T_18_9_sp12_v_t_23
+T_18_21_sp12_v_t_23
+T_18_25_sp4_v_t_41
+T_18_29_sp4_v_t_42
+T_14_33_span4_horz_r_1
+T_10_33_span4_horz_r_1
+T_11_33_lc_trk_g1_5
+T_11_33_wire_io_cluster/io_0/D_OUT_0
+
+End 
+
+Net : leds_1_i_1
+T_20_15_wire_logic_cluster/lc_3/out
+T_20_14_sp12_v_t_22
+T_20_26_sp12_v_t_22
+T_20_29_sp4_v_t_42
+T_16_33_span4_horz_r_1
+T_12_33_span4_horz_r_1
+T_14_33_lc_trk_g0_1
+T_14_33_wire_io_cluster/io_1/D_OUT_0
+
+End 
+
+Net : leds_1_i_2
+T_20_18_wire_logic_cluster/lc_1/out
+T_16_18_sp12_h_l_1
+T_15_18_sp12_v_t_22
+T_4_30_sp12_h_l_1
+T_6_30_sp4_h_l_2
+T_5_30_sp4_v_t_39
+T_5_33_lc_trk_g1_7
+T_5_33_wire_io_cluster/io_0/D_OUT_0
+
+End 
+
+Net : leds_1_i_3
+T_20_15_wire_logic_cluster/lc_7/out
+T_20_10_sp12_v_t_22
+T_9_22_sp12_h_l_1
+T_8_22_sp12_v_t_22
+T_8_25_sp4_v_t_42
+T_8_29_sp4_v_t_42
+T_4_33_span4_horz_r_1
+T_4_33_lc_trk_g1_1
+T_4_33_wire_io_cluster/io_0/D_OUT_0
+
+End 
+
+Net : masterreset_c
+T_28_33_wire_io_cluster/io_1/D_IN_0
+T_28_31_sp12_v_t_23
+T_28_19_sp12_v_t_23
+T_17_19_sp12_h_l_0
+T_20_19_sp4_h_l_5
+T_19_15_sp4_v_t_47
+T_19_16_lc_trk_g2_7
+T_19_16_wire_logic_cluster/lc_2/in_1
+
+T_28_33_wire_io_cluster/io_1/D_IN_0
+T_28_31_sp12_v_t_23
+T_28_19_sp12_v_t_23
+T_17_19_sp12_h_l_0
+T_20_19_sp4_h_l_5
+T_19_15_sp4_v_t_47
+T_18_16_lc_trk_g3_7
+T_18_16_wire_logic_cluster/lc_6/in_0
+
+T_28_33_wire_io_cluster/io_1/D_IN_0
+T_28_27_sp12_v_t_23
+T_28_15_sp12_v_t_23
+T_17_15_sp12_h_l_0
+T_17_15_lc_trk_g1_3
+T_17_15_wire_logic_cluster/lc_4/in_0
+
+T_28_33_wire_io_cluster/io_1/D_IN_0
+T_28_27_sp12_v_t_23
+T_28_15_sp12_v_t_23
+T_17_15_sp12_h_l_0
+T_18_15_sp4_h_l_3
+T_21_11_sp4_v_t_44
+T_20_12_lc_trk_g3_4
+T_20_12_wire_logic_cluster/lc_1/in_0
+
+T_28_33_wire_io_cluster/io_1/D_IN_0
+T_28_27_sp12_v_t_23
+T_28_15_sp12_v_t_23
+T_17_15_sp12_h_l_0
+T_18_15_sp4_h_l_3
+T_14_15_sp4_h_l_11
+T_13_15_sp4_v_t_46
+T_12_16_lc_trk_g3_6
+T_12_16_wire_logic_cluster/lc_3/in_0
+
+T_28_33_wire_io_cluster/io_1/D_IN_0
+T_28_27_sp12_v_t_23
+T_28_15_sp12_v_t_23
+T_17_15_sp12_h_l_0
+T_18_15_sp4_h_l_3
+T_21_11_sp4_v_t_44
+T_21_7_sp4_v_t_40
+T_21_3_sp4_v_t_40
+T_21_0_span4_vert_25
+T_17_0_span4_horz_r_0
+T_20_0_lc_trk_g1_4
+T_16_0_wire_pll/RESET
+
+End 
+
+Net : masterreset_c_i
+T_12_16_wire_logic_cluster/lc_3/out
+T_6_16_sp12_h_l_1
+T_0_16_span12_horz_14
+T_0_16_lc_trk_g1_6
+T_0_16_wire_gbuf/in
+
+End 
+
+Net : masterreset_c_i_g
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_0_4_wire_io_cluster/io_0/outclk
+T_17_16_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_6_9_wire_logic_cluster/lc_3/clk
+T_17_16_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_6_9_wire_logic_cluster/lc_3/clk
+T_17_16_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_6_9_wire_logic_cluster/lc_3/clk
+T_17_16_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_6_9_wire_logic_cluster/lc_3/clk
+T_17_16_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_6_9_wire_logic_cluster/lc_3/clk
+T_17_16_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_4_6_wire_logic_cluster/lc_3/clk
+T_17_16_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_4_4_wire_logic_cluster/lc_3/clk
+T_17_17_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_5_5_wire_logic_cluster/lc_3/clk
+T_17_17_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_5_5_wire_logic_cluster/lc_3/clk
+T_17_17_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_6_6_wire_logic_cluster/lc_3/clk
+T_17_17_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_5_4_wire_logic_cluster/lc_3/clk
+T_17_17_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_6_4_wire_logic_cluster/lc_3/clk
+T_17_17_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_10_3_wire_logic_cluster/lc_3/clk
+T_17_18_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_10_3_wire_logic_cluster/lc_3/clk
+T_18_18_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_10_3_wire_logic_cluster/lc_3/clk
+T_21_13_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_10_1_wire_logic_cluster/lc_3/clk
+T_21_13_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_15_5_wire_logic_cluster/lc_3/clk
+T_20_11_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_15_5_wire_logic_cluster/lc_3/clk
+T_21_12_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_16_6_wire_logic_cluster/lc_3/clk
+T_21_12_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_16_5_wire_logic_cluster/lc_3/clk
+T_21_12_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_16_5_wire_logic_cluster/lc_3/clk
+T_21_12_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_18_6_wire_logic_cluster/lc_3/clk
+T_21_12_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_19_5_wire_logic_cluster/lc_3/clk
+T_22_11_wire_logic_cluster/lc_5/s_r
 
 T_0_16_wire_gbuf/out
 T_0_0_fabout_6
 T_0_0_glb_netwk_6
-T_30_5_wire_logic_cluster/lc_3/clk
+T_22_11_wire_logic_cluster/lc_5/s_r
 
-T_0_16_wire_gbuf/out
-T_0_0_fabout_6
-T_0_0_glb_netwk_6
+End 
+
+Net : PLLOUTCORE_g
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
+T_27_8_wire_logic_cluster/lc_3/clk
+
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
+T_28_8_wire_logic_cluster/lc_3/clk
+
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
+T_29_7_wire_logic_cluster/lc_3/clk
+
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
+T_30_8_wire_logic_cluster/lc_3/clk
+
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
+T_31_9_wire_logic_cluster/lc_3/clk
+
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
+T_31_9_wire_logic_cluster/lc_3/clk
+
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
+T_31_9_wire_logic_cluster/lc_3/clk
+
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
+T_32_10_wire_logic_cluster/lc_3/clk
+
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
+T_29_6_wire_logic_cluster/lc_3/clk
+
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
+T_32_9_wire_logic_cluster/lc_3/clk
+
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
+T_33_10_wire_io_cluster/io_0/outclk
+
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
+T_30_6_wire_logic_cluster/lc_3/clk
+
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
+T_30_6_wire_logic_cluster/lc_3/clk
+
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
+T_30_6_wire_logic_cluster/lc_3/clk
+
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
+T_31_6_wire_logic_cluster/lc_3/clk
+
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
+T_32_6_wire_logic_cluster/lc_3/clk
+
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
+T_32_5_wire_logic_cluster/lc_3/clk
+
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
 T_33_5_wire_io_cluster/io_0/outclk
+
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
+T_33_5_wire_io_cluster/io_0/outclk
+
+T_17_33_wire_gbuf/out
+T_0_0_fabout_1
+T_0_0_glb_netwk_1
+T_33_4_wire_io_cluster/io_0/outclk
 
 End 
 
@@ -1699,336 +3282,477 @@ T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
 T_16_1_glb2local_0
 T_16_1_lc_trk_g0_4
-T_16_1_wire_logic_cluster/lc_5/in_3
+T_16_1_wire_logic_cluster/lc_2/in_0
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_11_3_wire_logic_cluster/lc_3/clk
+T_17_14_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_11_3_wire_logic_cluster/lc_3/clk
+T_17_14_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_11_3_wire_logic_cluster/lc_3/clk
+T_17_14_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_11_3_wire_logic_cluster/lc_3/clk
+T_18_13_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_11_4_wire_logic_cluster/lc_3/clk
+T_20_11_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_10_4_wire_logic_cluster/lc_3/clk
+T_17_15_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_10_4_wire_logic_cluster/lc_3/clk
+T_17_15_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_11_5_wire_logic_cluster/lc_3/clk
+T_17_15_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_11_5_wire_logic_cluster/lc_3/clk
+T_16_14_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_11_5_wire_logic_cluster/lc_3/clk
+T_18_14_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_11_5_wire_logic_cluster/lc_3/clk
+T_18_14_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_9_4_wire_logic_cluster/lc_3/clk
+T_19_13_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_9_4_wire_logic_cluster/lc_3/clk
+T_20_12_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_9_4_wire_logic_cluster/lc_3/clk
+T_20_12_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_9_4_wire_logic_cluster/lc_3/clk
+T_17_16_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_9_4_wire_logic_cluster/lc_3/clk
+T_17_16_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_9_4_wire_logic_cluster/lc_3/clk
+T_17_16_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_9_4_wire_logic_cluster/lc_3/clk
+T_17_16_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_9_5_wire_logic_cluster/lc_3/clk
+T_17_16_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_9_5_wire_logic_cluster/lc_3/clk
+T_17_16_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_9_5_wire_logic_cluster/lc_3/clk
+T_17_16_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_9_5_wire_logic_cluster/lc_3/clk
+T_16_15_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_9_5_wire_logic_cluster/lc_3/clk
+T_16_15_wire_logic_cluster/lc_3/clk
 
 T_17_0_wire_io_cluster/io_0/gbout
 T_16_0_wire_pll/outglobalb
 T_0_0_glb_netwk_3
-T_9_5_wire_logic_cluster/lc_3/clk
+T_16_15_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_16_15_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_16_15_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_18_15_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_20_13_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_21_12_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_21_12_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_21_12_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_21_12_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_21_12_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_22_11_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_22_11_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_17_17_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_17_17_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_17_17_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_17_17_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_17_17_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_17_17_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_15_15_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_16_16_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_18_16_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_21_13_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_21_13_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_17_18_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_16_17_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_16_17_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_20_15_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_20_15_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_20_15_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_18_18_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_19_17_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_20_16_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_20_16_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_22_15_wire_logic_cluster/lc_3/clk
+
+T_17_0_wire_io_cluster/io_0/gbout
+T_16_0_wire_pll/outglobalb
+T_0_0_glb_netwk_3
+T_20_18_wire_logic_cluster/lc_3/clk
 
 End 
 
-Net : masterreset_c
-T_28_33_wire_io_cluster/io_1/D_IN_0
-T_28_27_sp12_v_t_23
-T_28_15_sp12_v_t_23
-T_28_3_sp12_v_t_23
-T_28_3_sp4_v_t_45
-T_25_3_sp4_h_l_8
-T_21_3_sp4_h_l_8
-T_20_0_span4_vert_25
-T_20_0_lc_trk_g0_1
-T_16_0_wire_pll/RESET
-
-T_28_33_wire_io_cluster/io_1/D_IN_0
-T_28_27_sp12_v_t_23
-T_28_15_sp12_v_t_23
-T_28_3_sp12_v_t_23
-T_28_3_sp4_v_t_45
-T_25_3_sp4_h_l_8
-T_21_3_sp4_h_l_8
-T_17_3_sp4_h_l_8
-T_13_3_sp4_h_l_11
-T_12_3_sp4_v_t_40
-T_11_5_lc_trk_g0_5
-T_11_5_wire_logic_cluster/lc_1/in_0
-
-T_28_33_wire_io_cluster/io_1/D_IN_0
-T_28_23_sp12_v_t_23
-T_28_11_sp12_v_t_23
-T_17_11_sp12_h_l_0
-T_5_11_sp12_h_l_0
-T_8_11_sp4_h_l_5
-T_7_7_sp4_v_t_47
-T_6_9_lc_trk_g2_2
-T_6_9_wire_logic_cluster/lc_0/in_0
-
-T_28_33_wire_io_cluster/io_1/D_IN_0
-T_28_23_sp12_v_t_23
-T_28_11_sp12_v_t_23
-T_17_11_sp12_h_l_0
-T_5_11_sp12_h_l_0
-T_8_11_sp4_h_l_5
-T_7_7_sp4_v_t_47
-T_6_9_lc_trk_g0_1
-T_6_9_wire_logic_cluster/lc_1/in_0
-
-T_28_33_wire_io_cluster/io_1/D_IN_0
-T_28_23_sp12_v_t_23
-T_28_11_sp12_v_t_23
-T_17_11_sp12_h_l_0
-T_5_11_sp12_h_l_0
-T_8_11_sp4_h_l_5
-T_7_7_sp4_v_t_47
-T_6_9_lc_trk_g2_2
-T_6_9_wire_logic_cluster/lc_2/in_0
-
-T_28_33_wire_io_cluster/io_1/D_IN_0
-T_28_23_sp12_v_t_23
-T_28_11_sp12_v_t_23
-T_17_11_sp12_h_l_0
-T_5_11_sp12_h_l_0
-T_8_11_sp4_h_l_5
-T_7_7_sp4_v_t_47
-T_6_9_lc_trk_g0_1
-T_6_9_wire_logic_cluster/lc_3/in_0
-
-T_28_33_wire_io_cluster/io_1/D_IN_0
-T_28_23_sp12_v_t_23
-T_28_11_sp12_v_t_23
-T_17_11_sp12_h_l_0
-T_5_11_sp12_h_l_0
-T_8_11_sp4_h_l_5
-T_7_7_sp4_v_t_47
-T_6_9_lc_trk_g0_1
-T_6_9_wire_logic_cluster/lc_4/in_1
-
-T_28_33_wire_io_cluster/io_1/D_IN_0
-T_28_27_sp12_v_t_23
-T_28_15_sp12_v_t_23
-T_28_3_sp12_v_t_23
-T_28_3_sp4_v_t_45
-T_25_3_sp4_h_l_8
-T_21_3_sp4_h_l_8
-T_17_3_sp4_h_l_8
-T_13_3_sp4_h_l_4
-T_12_3_sp4_v_t_41
-T_11_4_lc_trk_g3_1
-T_11_4_wire_logic_cluster/lc_6/in_0
-
-T_28_33_wire_io_cluster/io_1/D_IN_0
-T_28_31_sp12_v_t_23
-T_28_19_sp12_v_t_23
-T_28_7_sp12_v_t_23
-T_17_7_sp12_h_l_0
-T_5_7_sp12_h_l_0
-T_10_7_sp4_h_l_7
-T_9_3_sp4_v_t_37
-T_9_6_lc_trk_g1_5
-T_9_6_wire_logic_cluster/lc_2/in_0
-
-T_28_33_wire_io_cluster/io_1/D_IN_0
-T_28_23_sp12_v_t_23
-T_28_11_sp12_v_t_23
-T_17_11_sp12_h_l_0
-T_5_11_sp12_h_l_0
-T_8_11_sp4_h_l_5
-T_7_7_sp4_v_t_47
-T_7_3_sp4_v_t_43
-T_6_6_lc_trk_g3_3
-T_6_6_wire_logic_cluster/lc_2/cen
-
-End 
-
-Net : masterreset_c_i
-T_9_6_wire_logic_cluster/lc_2/out
-T_10_6_sp4_h_l_4
-T_9_2_sp4_v_t_44
-T_9_5_lc_trk_g0_4
-T_9_5_wire_logic_cluster/lc_5/s_r
-
-T_9_6_wire_logic_cluster/lc_2/out
-T_10_6_sp4_h_l_4
-T_9_2_sp4_v_t_44
-T_9_5_lc_trk_g0_4
-T_9_5_wire_logic_cluster/lc_5/s_r
-
-T_9_6_wire_logic_cluster/lc_2/out
-T_10_6_sp4_h_l_4
-T_9_2_sp4_v_t_44
-T_9_5_lc_trk_g0_4
-T_9_5_wire_logic_cluster/lc_5/s_r
-
-T_9_6_wire_logic_cluster/lc_2/out
-T_10_6_sp4_h_l_4
-T_9_2_sp4_v_t_44
-T_9_5_lc_trk_g0_4
-T_9_5_wire_logic_cluster/lc_5/s_r
-
-T_9_6_wire_logic_cluster/lc_2/out
-T_10_6_sp4_h_l_4
-T_9_2_sp4_v_t_44
-T_9_5_lc_trk_g0_4
-T_9_5_wire_logic_cluster/lc_5/s_r
-
-T_9_6_wire_logic_cluster/lc_2/out
-T_10_6_sp4_h_l_4
-T_9_2_sp4_v_t_44
-T_9_5_lc_trk_g0_4
-T_9_5_wire_logic_cluster/lc_5/s_r
-
-T_9_6_wire_logic_cluster/lc_2/out
-T_10_3_sp4_v_t_45
-T_9_4_lc_trk_g3_5
-T_9_4_wire_logic_cluster/lc_5/s_r
-
-T_9_6_wire_logic_cluster/lc_2/out
-T_10_3_sp4_v_t_45
-T_9_4_lc_trk_g3_5
-T_9_4_wire_logic_cluster/lc_5/s_r
-
-T_9_6_wire_logic_cluster/lc_2/out
-T_10_3_sp4_v_t_45
-T_9_4_lc_trk_g3_5
-T_9_4_wire_logic_cluster/lc_5/s_r
-
-T_9_6_wire_logic_cluster/lc_2/out
-T_10_3_sp4_v_t_45
-T_9_4_lc_trk_g3_5
-T_9_4_wire_logic_cluster/lc_5/s_r
-
-T_9_6_wire_logic_cluster/lc_2/out
-T_10_3_sp4_v_t_45
-T_9_4_lc_trk_g3_5
-T_9_4_wire_logic_cluster/lc_5/s_r
-
-T_9_6_wire_logic_cluster/lc_2/out
-T_10_3_sp4_v_t_45
-T_9_4_lc_trk_g3_5
-T_9_4_wire_logic_cluster/lc_5/s_r
-
-T_9_6_wire_logic_cluster/lc_2/out
-T_10_3_sp4_v_t_45
-T_9_4_lc_trk_g3_5
-T_9_4_wire_logic_cluster/lc_5/s_r
-
-T_9_6_wire_logic_cluster/lc_2/out
-T_10_3_sp4_v_t_45
-T_10_4_lc_trk_g3_5
-T_10_4_wire_logic_cluster/lc_5/s_r
-
-T_9_6_wire_logic_cluster/lc_2/out
-T_10_3_sp4_v_t_45
-T_10_4_lc_trk_g3_5
-T_10_4_wire_logic_cluster/lc_5/s_r
-
-End 
-
-Net : top_pll_nrtthrth.PLLOUTCORE_0
+Net : top_pll_nrtthrth.PLLOUTCORE
 T_16_0_wire_io_cluster/io_1/D_IN_0
-T_16_0_span12_vert_4
-T_5_3_sp12_h_l_0
-T_4_3_sp12_v_t_23
-T_4_9_sp4_v_t_39
-T_0_13_span4_horz_7
-T_0_13_span4_vert_t_13
-T_0_16_lc_trk_g0_5
-T_0_16_wire_gbuf/in
+T_16_0_span12_vert_12
+T_16_7_sp12_v_t_23
+T_16_19_sp12_v_t_23
+T_17_31_sp12_h_l_0
+T_18_31_sp4_h_l_3
+T_17_31_sp4_v_t_38
+T_17_33_lc_trk_g0_3
+T_17_33_wire_gbuf/in
+
+End 
+
+Net : debouncedconsolereset_i
+T_29_8_wire_logic_cluster/lc_4/out
+T_27_8_sp4_h_l_5
+T_28_8_lc_trk_g3_5
+T_28_8_wire_logic_cluster/lc_5/s_r
+
+T_29_8_wire_logic_cluster/lc_4/out
+T_29_7_lc_trk_g0_4
+T_29_7_wire_logic_cluster/lc_5/s_r
+
+T_29_8_wire_logic_cluster/lc_4/out
+T_22_8_sp12_h_l_0
+T_27_8_lc_trk_g0_4
+T_27_8_wire_logic_cluster/lc_5/s_r
+
+T_29_8_wire_logic_cluster/lc_4/out
+T_22_8_sp12_h_l_0
+T_27_8_lc_trk_g0_4
+T_27_8_wire_logic_cluster/lc_5/s_r
+
+T_29_8_wire_logic_cluster/lc_4/out
+T_22_8_sp12_h_l_0
+T_27_8_lc_trk_g0_4
+T_27_8_wire_logic_cluster/lc_5/s_r
+
+T_29_8_wire_logic_cluster/lc_4/out
+T_22_8_sp12_h_l_0
+T_27_8_lc_trk_g0_4
+T_27_8_wire_logic_cluster/lc_5/s_r
+
+T_29_8_wire_logic_cluster/lc_4/out
+T_22_8_sp12_h_l_0
+T_27_8_lc_trk_g0_4
+T_27_8_wire_logic_cluster/lc_5/s_r
+
+T_29_8_wire_logic_cluster/lc_4/out
+T_22_8_sp12_h_l_0
+T_27_8_lc_trk_g0_4
+T_27_8_wire_logic_cluster/lc_5/s_r
+
+T_29_8_wire_logic_cluster/lc_4/out
+T_22_8_sp12_h_l_0
+T_27_8_lc_trk_g0_4
+T_27_8_wire_logic_cluster/lc_5/s_r
+
+T_29_8_wire_logic_cluster/lc_4/out
+T_22_8_sp12_h_l_0
+T_27_8_lc_trk_g0_4
+T_27_8_wire_logic_cluster/lc_5/s_r
+
+T_29_8_wire_logic_cluster/lc_4/out
+T_29_0_span12_vert_23
+T_29_6_lc_trk_g2_4
+T_29_6_wire_logic_cluster/lc_5/s_r
+
+End 
+
+Net : arse.un1_io_0_1_g
+T_16_33_wire_gbuf/out
+T_0_0_fabout_4
+T_0_0_glb_netwk_4
+T_32_4_wire_logic_cluster/lc_3/clk
+
+End 
+
+Net : CONSTANT_ONE_NET
+T_23_27_wire_logic_cluster/lc_3/out
+T_23_27_sp4_h_l_11
+T_22_27_sp4_v_t_40
+T_22_31_sp4_v_t_45
+T_22_33_lc_trk_g1_0
+T_22_33_wire_io_cluster/io_1/D_OUT_0
+
+T_23_27_wire_logic_cluster/lc_3/out
+T_23_27_sp4_h_l_11
+T_22_27_sp4_v_t_40
+T_22_31_sp4_v_t_36
+T_18_33_span4_horz_r_0
+T_14_33_span4_horz_r_0
+T_17_33_lc_trk_g0_4
+T_17_33_wire_io_cluster/io_0/D_OUT_0
+
+T_23_27_wire_logic_cluster/lc_3/out
+T_23_26_sp12_v_t_22
+T_23_14_sp12_v_t_22
+T_24_14_sp12_h_l_1
+T_26_14_sp4_h_l_2
+T_29_10_sp4_v_t_39
+T_30_10_sp4_h_l_2
+T_33_10_lc_trk_g1_7
+T_33_10_wire_io_cluster/io_1/OUT_ENB
+
+T_23_27_wire_logic_cluster/lc_3/out
+T_23_18_sp12_v_t_22
+T_23_6_sp12_v_t_22
+T_24_6_sp12_h_l_1
+T_30_6_sp4_h_l_6
+T_33_2_span4_vert_t_15
+T_33_5_lc_trk_g0_7
+T_33_5_wire_io_cluster/io_0/OUT_ENB
+
+End 
+
+Net : arse.divseven.io_0_D_IN_0
+T_33_10_wire_io_cluster/io_1/D_IN_0
+T_31_10_sp12_h_l_0
+T_19_10_sp12_h_l_0
+T_18_10_sp12_v_t_23
+T_18_22_sp12_v_t_23
+T_18_26_sp4_v_t_41
+T_18_30_sp4_v_t_37
+T_14_33_span4_horz_r_2
+T_16_33_lc_trk_g1_2
+T_16_33_wire_gbuf/in
+
+End 
+
+Net : arse.apusynclatchedZ0
+T_32_4_wire_logic_cluster/lc_7/out
+T_32_4_lc_trk_g2_7
+T_32_4_wire_logic_cluster/lc_7/in_0
+
+T_32_4_wire_logic_cluster/lc_7/out
+T_31_4_sp4_h_l_6
+T_30_4_sp4_v_t_37
+T_29_6_lc_trk_g0_0
+T_29_6_wire_logic_cluster/lc_6/in_0
+
+T_32_4_wire_logic_cluster/lc_7/out
+T_31_4_sp4_h_l_6
+T_30_4_sp4_v_t_43
+T_29_7_lc_trk_g3_3
+T_29_7_wire_logic_cluster/lc_6/in_0
+
+T_32_4_wire_logic_cluster/lc_7/out
+T_31_4_sp4_h_l_6
+T_30_4_sp4_v_t_43
+T_27_8_sp4_h_l_6
+T_28_8_lc_trk_g3_6
+T_28_8_wire_logic_cluster/lc_4/in_3
+
+T_32_4_wire_logic_cluster/lc_7/out
+T_31_4_sp4_h_l_6
+T_30_4_sp4_v_t_43
+T_27_8_sp4_h_l_11
+T_27_8_lc_trk_g0_6
+T_27_8_input_2_0
+T_27_8_wire_logic_cluster/lc_0/in_2
+
+T_32_4_wire_logic_cluster/lc_7/out
+T_31_4_sp4_h_l_6
+T_30_4_sp4_v_t_43
+T_27_8_sp4_h_l_6
+T_27_8_lc_trk_g0_3
+T_27_8_wire_logic_cluster/lc_0/in_3
+
+End 
+
+Net : apusync_c
+T_33_2_wire_io_cluster/io_0/D_IN_0
+T_33_2_span12_horz_0
+T_32_2_sp12_v_t_23
+T_32_4_lc_trk_g2_4
+T_32_4_wire_logic_cluster/lc_7/in_1
 
 End 
 

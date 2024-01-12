@@ -1,29 +1,15 @@
-@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":356:48:356:48|Input EXTFEEDBACK on instance top_pll_nrtthrth_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":357:49:357:49|Input DYNAMICDELAY on instance top_pll_nrtthrth_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":360:52:360:52|Input LATCHINPUTVALUE on instance top_pll_nrtthrth_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":362:40:362:40|Input SDI on instance top_pll_nrtthrth_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":364:41:364:41|Input SCLK on instance top_pll_nrtthrth_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":357:48:357:48|Input EXTFEEDBACK on instance top_pll_nrtthrth_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":358:49:358:49|Input DYNAMICDELAY on instance top_pll_nrtthrth_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":361:52:361:52|Input LATCHINPUTVALUE on instance top_pll_nrtthrth_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":363:40:363:40|Input SDI on instance top_pll_nrtthrth_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":365:41:365:41|Input SCLK on instance top_pll_nrtthrth_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
 @W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":62:13:62:13|Input INPUT_CLK on instance io_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":291:11:291:15|Removing wire essw1, as there is no assignment to it.
-@W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":292:11:292:15|Removing wire essw2, as there is no assignment to it.
-@W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":420:11:420:14|Removing wire led3, as there is no assignment to it.
-@W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":421:11:421:14|Removing wire led4, as there is no assignment to it.
-@W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":422:11:422:14|Removing wire led5, as there is no assignment to it.
-@W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":423:11:423:14|Removing wire led6, as there is no assignment to it.
-@W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":424:11:424:14|Removing wire led7, as there is no assignment to it.
-@W: CG360 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":425:11:425:14|Removing wire led8, as there is no assignment to it.
-@W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":420:11:420:14|*Output led3 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":421:11:421:14|*Output led4 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":422:11:422:14|*Output led5 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":423:11:423:14|*Output led6 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":424:11:424:14|*Output led7 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":425:11:425:14|*Output led8 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL279 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":323:4:323:9|Pruning register bits 7 to 5 of seqcounter[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":291:11:291:15|*Output essw1 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":292:11:292:15|*Output essw2 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: FX105 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":278:23:278:35|Found combinational loop at Q
-@W: CL279 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Pruning register bits 27 to 5 of counter[27:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":209:13:209:13|Input INPUT_CLK on instance io_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":213:11:213:11|Input D_OUT_1 on instance io_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":226:13:226:13|Input INPUT_CLK on instance io_1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":230:11:230:11|Input D_OUT_1 on instance io_1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CL260 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":417:4:417:9|Pruning register bit 0 of leds[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
 @W: CL249 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":73:4:73:9|Initial value is not supported on state machine counter
-@W: CL260 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":389:4:389:9|Pruning register bit 7 of counter[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":390:4:390:9|Pruning register bits 7 to 5 of counter[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @W: CL279 :"C:\code\TAS\TAS\TAStable\FPGA\top.v":25:4:25:9|Pruning register bits 27 to 15 of counter[27:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 

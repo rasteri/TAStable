@@ -1,20 +1,22 @@
+INPUT  masterreset 	 location (28, 33, 1) 	 C11 	 
+OUTPUT led4 	 location (11, 33, 0) 	 D6 	 
+OUTPUT lcol3 	 location (16, 33, 1) 	 A6 	 
 OUTPUT led5 	 location (17, 33, 0) 	 A7 	 
 OUTPUT lcol2 	 location (27, 33, 0) 	 D10 	 
 OUTPUT led6 	 location (14, 33, 1) 	 C7 	 
 OUTPUT led2 	 location (25, 33, 0) 	 A10 	 
 OUTPUT lcol1 	 location (30, 33, 1) 	 A12 	 
+INPUT  deldn 	 location (10, 33, 1) 	 A5 	 
 OUTPUT cpuclk 	 location (33, 5, 0) 	 K14 	 SB_LVCMOS
 OUTPUT apureset 	 location (33, 5, 1) 	 J12 	 SB_LVCMOS
 OUTPUT led7 	 location (5, 33, 0) 	 A4 	 
 OUTPUT led3 	 location (13, 33, 1) 	 D7 	 
 OUTPUT lcol4 	 location (8, 33, 1) 	 C5 	 
+INPUT  delup 	 location (26, 33, 0) 	 A11 	 
 OUTPUT cpureset 	 location (33, 4, 0) 	 K12 	 SB_LVCMOS
 INPUT  apusync 	 location (33, 2, 0) 	 L12 	 
 INPUT  PACKAGEPIN 	 location (17, 0, 0) 	 P8 	 
-INPUT  masterreset 	 location (28, 33, 1) 	 C11 	 
 OUTPUT led8 	 location (4, 33, 0) 	 C4 	 
-OUTPUT led4 	 location (11, 33, 0) 	 D6 	 
-OUTPUT lcol3 	 location (16, 33, 1) 	 A6 	 
 OUTPUT led1 	 location (22, 33, 1) 	 C10 	 
 INPUT  consolereset 	 location (11, 33, 1) 	 C6 	 
 OUTPUT apuclk 	 location (33, 10, 1) 	 H11 	 SB_LVCMOS

@@ -1,7 +1,7 @@
 # Synopsys Constraint Checker(syntax only), version maplat, Build 1612R, built Dec  5 2016
 # Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
-# Written on Mon Jan 08 23:34:47 2024
+# Written on Thu Jan 11 23:51:35 2024
 
 
 ##### DESIGN INFO #######################################################
@@ -21,11 +21,11 @@ No issues found in constraint syntax.
 Clock Summary
 *************
 
-Start                                           Requested     Requested     Clock                                                        Clock                     Clock
-Clock                                           Frequency     Period        Type                                                         Group                     Load 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Clock_divider_20000|clock_out_derived_clock     1.0 MHz       1000.000      derived (from top|PACKAGEPIN)                                Autoconstr_clkgroup_0     8    
-Clock_divider|clock_out_derived_clock           8.0 MHz       125.000       derived (from top_pll_nrtthrth|PLLOUTCORE_derived_clock)     Autoconstr_clkgroup_0     1    
-top_pll_nrtthrth|PLLOUTCORE_derived_clock       8.0 MHz       125.000       derived (from top|PACKAGEPIN)                                Autoconstr_clkgroup_0     35   
-top|PACKAGEPIN                                  1.0 MHz       1000.000      inferred                                                     Autoconstr_clkgroup_0     16   
-========================================================================================================================================================================
+Start                                           Requested     Requested     Clock                             Clock                     Clock
+Clock                                           Frequency     Period        Type                              Group                     Load 
+---------------------------------------------------------------------------------------------------------------------------------------------
+Clock_divider_20000|clock_out_derived_clock     1.0 MHz       1000.000      derived (from top|PACKAGEPIN)     Autoconstr_clkgroup_0     30   
+System                                          1.0 MHz       1000.000      system                            system_clkgroup           1    
+top_pll_nrtthrth|PLLOUTCORE_derived_clock       8.0 MHz       125.000       derived (from top|PACKAGEPIN)     Autoconstr_clkgroup_0     37   
+top|PACKAGEPIN                                  1.0 MHz       1000.000      inferred                          Autoconstr_clkgroup_0     26   
+=============================================================================================================================================
