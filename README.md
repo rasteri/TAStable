@@ -84,7 +84,7 @@ When the APU starts up, it performs a number of read operations on its memory bu
 
 ![Board](https://github.com/rasteri/TAStable/blob/main/images/timing.png?raw=true)
 
-(Note, when it says “starts some (exact) time later”, this can be an arbitrary amount of time, but it should be carefully controlled to ensure it is reproducible. In addition, there appear to be certain values of time that do NOT result in deterministic behavior, presumably because it is too close to a clock transition or because it requires the clock to be high (or low) when the devices are brought out of reset.)
+(Note, when it says “some (exact) time later”, this can be an arbitrary amount of time, but it should be carefully controlled to ensure it is reproducible. In addition, there appear to be certain values of time that do NOT result in deterministic behavior, presumably because it is too close to a clock transition or because it requires the clock to be high (or low) when the devices are brought out of reset.)
 
 This requires separating the RESOUT1 signal into two sections, one for the CPU and one for the APU, and resetting them separately (APU first, then CPU after the APU stabilizes) :
 
