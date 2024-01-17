@@ -5,14 +5,14 @@
 
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
-2 non-gated/non-generated clock tree(s) driving 59 clock pin(s) of sequential element(s)
+2 non-gated/non-generated clock tree(s) driving 52 clock pin(s) of sequential element(s)
 1 gated/generated clock tree(s) driving 27 clock pin(s) of sequential element(s)
-30 instances converted, 27 sequential instances remain driven by gated/generated clocks
+20 instances converted, 27 sequential instances remain driven by gated/generated clocks
 
 ================================= Non-Gated/Non-Generated Clocks ==================================
 Clock Tree ID     Driving Element           Drive Element Type     Fanout     Sample Instance      
 ---------------------------------------------------------------------------------------------------
-@K:CKID0002       PACKAGEPIN_ibuf_gb_io     SB_GB_IO               58         delayConstant_fast[2]
+@K:CKID0002       PACKAGEPIN_ibuf_gb_io     SB_GB_IO               51         delayConstant_fast[0]
 @K:CKID0003       arse.divseven.io_0        SB_IO                  1          arse.apusynclatched  
 ===================================================================================================
 ============================================================================================================ Gated/Generated Clocks =============================================================================================================

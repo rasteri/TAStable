@@ -1,4 +1,4 @@
 @W: MF515 :"c:\code\tas\tas\tastable\fpga\top.v":58:3:58:6|Found illegal pad connections on pad arse.divseven.io_0 
-@W: MF514 :"c:\code\tas\tas\tastable\fpga\top.v":578:11:578:16|Found illegal pad-to-port connection for port apuclk  
+@W: MF514 :"c:\code\tas\tas\tastable\fpga\top.v":579:11:579:16|Found illegal pad-to-port connection for port apuclk  
 @W: MT531 :"c:\code\tas\tas\tastable\fpga\top.v":238:4:238:9|Found signal identified as System clock which controls 1 sequential elements including arse.apusynclatched.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
 @W: MT529 :"c:\code\tas\tas\tastable\fpga\top.v":25:4:25:9|Found inferred clock top|PACKAGEPIN which controls 26 sequential elements including arses.counter[14:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

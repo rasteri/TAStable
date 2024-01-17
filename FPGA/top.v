@@ -572,6 +572,7 @@ module top(
     inout PACKAGEPIN,
     input masterreset,
     input consolereset,
+    input altreset,
     input apusync,
     input delup,
     input deldn,
@@ -609,7 +610,7 @@ module top(
 
     Clock_divider # (.DIVISOR(28'd20000)) arses (PACKAGEPIN, masterreset, slowclk);
 
-    debounce debounceconsolereset(consolereset, slowclk, debouncedconsolereset);
+    debounce debounceconsolereset(consolereset & altreset, slowclk, debouncedconsolereset);
     debounce debounceup(delup, slowclk, debouncedup);
     debounce debouncedn(deldn, slowclk, debounceddn);
 

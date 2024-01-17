@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L+ice40
 #--  Project file C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\run_options.txt
-#--  Written on Thu Jan 11 23:51:34 2024
+#--  Written on Fri Jan 12 12:31:36 2024
 
 
 #project files

@@ -6,7 +6,7 @@
 
 * Build Date:         Dec  9 2020 17:31:51
 
-* File Generated:     Jan 11 2024 23:51:53
+* File Generated:     Jan 12 2024 12:31:57
 
 * Purpose:            Detailed IO and package pin info
 
@@ -137,7 +137,7 @@ M12, PIO, not used, , , , , , rightBank
 M14, TRST_B, not used, , , , , , rightBank
 N1, PIO, not used, , , , , , leftBank
 N14, PIO, not used, , , , , , rightBank
-P1, PIO, not used, , , , , , leftBank
+P1, PIO, altreset, Input, , SB_LVCMOS, No Pull Up, Simple Input, leftBank
 P2, PIO, not used, , , , , , bottomBank
 P3, PIO, not used, , , , , , bottomBank
 P4, PIO, not used, , , , , , bottomBank
@@ -151,4 +151,4 @@ P11, SPI_SI, not used, , , , , , bottomBank
 P12, SPI_SCK, not used, , , , , , bottomBank
 P13, SPI_SS_B, not used, , , , , , bottomBank
 P14, PIO, not used, , , , , , rightBank
-Total Number of Used Pins, 22
+Total Number of Used Pins, 23
