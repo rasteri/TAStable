@@ -37,7 +37,7 @@ Clock domain two is derived from a ceramic resonator and runs at 24.576MHz (29×
 
 The ratio of the CPU clock to the APU clock is exactly 39375/45056, but that’s a little tricky to achieve in a low-cost FPGA. However a ratio of 7/8 is easier to implement and is close enough, in fact well within the tolerance of the ceramic resonator, so this ratio was decided upon.
 
-Some simple FPGA code was written to generate a master 171.8184MHz clock. This is then divided by 7 to get a 24.55MHz APU clock, and divided by 8 to get a 21.4773MHz APU clock.
+Some simple FPGA code was written to generate a master 171.8184MHz clock. This is then divided by 7 to get a 24.55MHz APU clock, and divided by 8 to get a 21.4773MHz CPU clock.
 
 Just deriving the clocks from a common source was good enough to make at least one game (Donkey Kong Country 2) “deterministic enough” to complete reliably - although it still required other workarounds (latch trains) to compensate for the remaining nondeterminism. Other games (Super Metroid) were still proving impossible to sync, so the decision was taken to track down every other source of nondeterminism come hell or high water.
 
