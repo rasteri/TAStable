@@ -82,9 +82,9 @@ The final piece of nondeterminism comes from the APU. As mentioned before, the D
 
 When the APU starts up, it performs a number of read operations on its memory bus, followed by a memory write. After that point it appears to stabilize, i.e. it behaves deterministically. So if we can delay starting the CPU until after the first APU memory write, this will synchronize the two:
 
-![Board](https://github.com/rasteri/TAStable/blob/main/images/image6.png?raw=true)
+![Board](https://github.com/rasteri/TAStable/blob/main/images/timing.png?raw=true)
 
-(Note, when it says “CPU clock starts some (exact) time later”, this can be an arbitrary amount of time, but it should be carefully controlled to ensure it is reproducible. In addition, there appear to be certain values of time that do NOT result in deterministic behavior, presumably because it is too close to a clock transition or because it requires the clock to be high (or low) when the devices are brought out of reset.)
+(Note, when it says “starts some (exact) time later”, this can be an arbitrary amount of time, but it should be carefully controlled to ensure it is reproducible. In addition, there appear to be certain values of time that do NOT result in deterministic behavior, presumably because it is too close to a clock transition or because it requires the clock to be high (or low) when the devices are brought out of reset.)
 
 This requires separating the RESOUT1 signal into two sections, one for the CPU and one for the APU, and resetting them separately (APU first, then CPU after the APU stabilizes) :
 
