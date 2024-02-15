@@ -1,3 +1,3 @@
-CKID0001:@|S:top_pll_nrtthrth.top_pll_nrtthrth_inst@|E:arse.doingseven@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
-CKID0002:@|S:PACKAGEPIN_ibuf_gb_io@|E:delayConstant_fast[0]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0001:@|S:top_pll_nrtthrth.top_pll_nrtthrth_inst@|E:arse.apuresetoutreg@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:PACKAGEPIN_ibuf_gb_io@|E:lcolreg[0]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
 CKID0003:@|S:arse.divseven.io_0@|E:arse.apusynclatched@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 

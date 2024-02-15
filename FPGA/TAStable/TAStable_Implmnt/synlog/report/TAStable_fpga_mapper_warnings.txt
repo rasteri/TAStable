@@ -1,20 +1,7 @@
-@W: BN132 :"c:\code\tas\tas\tastable\fpga\top.v":390:4:390:9|Removing sequential instance debouncedn.counter[4:0] because it is equivalent to instance debounceup.counter[4:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\code\tas\tas\tastable\fpga\top.v":397:27:397:38|Removing user instance debouncedn.un3_counter[4:0] because it is equivalent to instance debounceup.un3_counter[4:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\code\tas\tas\tastable\fpga\top.v":393:16:393:29|Removing user instance debouncedn.un1_counter because it is equivalent to instance debounceup.un1_counter. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\code\tas\tas\tastable\fpga\top.v":392:12:392:23|Removing user instance debouncedn.counter18 because it is equivalent to instance debounceup.counter18. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\code\tas\tas\tastable\fpga\top.v":392:8:392:9|Removing user instance debouncedn.un1_counter18 because it is equivalent to instance debounceup.un1_counter18. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\code\tas\tas\tastable\fpga\top.v":393:16:393:29|Removing user instance debouncedn.counter11 because it is equivalent to instance debounceup.counter11. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\code\tas\tas\tastable\fpga\top.v":390:4:390:9|Removing sequential instance debounceup.counter[4:0] because it is equivalent to instance debounceconsolereset.counter[4:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\code\tas\tas\tastable\fpga\top.v":393:16:393:29|Removing user instance debounceup.un1_counter because it is equivalent to instance debounceconsolereset.un1_counter. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\code\tas\tas\tastable\fpga\top.v":392:12:392:23|Removing user instance debounceup.counter18 because it is equivalent to instance debounceconsolereset.counter18. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\code\tas\tas\tastable\fpga\top.v":392:8:392:9|Removing user instance debounceup.un1_counter18 because it is equivalent to instance debounceconsolereset.un1_counter18. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":25:4:25:9|User-specified initial value defined for instance arses.counter[14:0] is being ignored. 
-@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":73:4:73:9|User-specified initial value defined for instance arse.divseven.seven is being ignored. 
-@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":246:4:246:9|User-specified initial value defined for instance arse.cpuresetoutreg is being ignored. 
 @W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":246:4:246:9|User-specified initial value defined for instance arse.cpuresetcount[7:0] is being ignored. 
-@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":246:4:246:9|User-specified initial value defined for instance arse.doingseven is being ignored. 
+@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":246:4:246:9|User-specified initial value defined for instance arse.cpuresetoutreg is being ignored. 
 @W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":246:4:246:9|User-specified initial value defined for instance arse.cpuclkreset is being ignored. 
 @W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":246:4:246:9|User-specified initial value defined for instance arse.apuresetoutreg is being ignored. 
-@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":690:4:690:9|User-specified initial value defined for instance delayConstant[7:0] is being ignored. 
-@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":390:4:390:9|User-specified initial value defined for instance debounceconsolereset.counter[4:0] is being ignored. 
-@W: MT420 |Found inferred clock top|PACKAGEPIN with period 12.48ns. Please declare a user-defined clock on object "p:PACKAGEPIN"
+@W: FX1039 :"c:\code\tas\tas\tastable\fpga\top.v":693:4:693:9|User-specified initial value defined for instance delayConstant[7:0] is being ignored. 
+@W: MT420 |Found inferred clock top|PACKAGEPIN with period 10.95ns. Please declare a user-defined clock on object "p:PACKAGEPIN"

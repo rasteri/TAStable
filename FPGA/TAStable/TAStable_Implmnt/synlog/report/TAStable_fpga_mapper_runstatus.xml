@@ -13,13 +13,13 @@ The file contains the job information from mapper to be displayed as part of the
 </job_status>
 <job_info>
 <info name="Notes">
-<data>21</data>
+<data>17</data>
 <report_link name="more">
 <data>C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\synlog\report\TAStable_fpga_mapper_notes.txt</data>
 </report_link>
 </info>
 <info name="Warnings">
-<data>20</data>
+<data>7</data>
 <report_link name="more">
 <data>C:\code\TAS\TAS\TAStable\FPGA\TAStable\TAStable_Implmnt\synlog\report\TAStable_fpga_mapper_warnings.txt</data>
 </report_link>
@@ -37,10 +37,10 @@ The file contains the job information from mapper to be displayed as part of the
 <data>0h:00m:01s</data>
 </info>
 <info name="Peak Memory">
-<data>137MB</data>
+<data>138MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1705062700</data>
+<data type="timestamp">1705881380</data>
 </info>
 </job_info>
 </job_run_status>

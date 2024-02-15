@@ -9,7 +9,7 @@ OUTPUT lcol1 	 location (30, 33, 1) 	 A12
 INPUT  deldn 	 location (10, 33, 1) 	 A5 	 
 OUTPUT cpuclk 	 location (33, 5, 0) 	 K14 	 SB_LVCMOS
 OUTPUT apureset 	 location (33, 5, 1) 	 J12 	 SB_LVCMOS
-INPUT  altreset 	 location (0, 4, 0) 	 P1 	 
+INPUT  altreset 	 location (33, 1, 1) 	 P14 	 
 OUTPUT led7 	 location (5, 33, 0) 	 A4 	 
 OUTPUT led3 	 location (13, 33, 1) 	 D7 	 
 OUTPUT lcol4 	 location (8, 33, 1) 	 C5 	 

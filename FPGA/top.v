@@ -62,8 +62,8 @@ module divide7or8(
 		.INPUT_CLK (),
 		.OUTPUT_CLK (clkin),
 		.OUTPUT_ENABLE (1'b1),
-		.D_OUT_0 (dout[0]),
-		.D_OUT_1 (dout[1])
+		.D_OUT_0 (~dout[0]),
+		.D_OUT_1 (~dout[1])
 	);
 
     reg [3:0] counter = 4'b0000;
@@ -191,10 +191,10 @@ module dostuff(
     reg cpuresetreg = 1'b0;
 
     reg [3:0] apuphase = 4'd0;
-    reg [3:0] cpuphase = 4'd1;
+    reg [3:0] cpuphase = 4'd0;
 
-    divide7or8 divseven (clkin, apuphase, 1'b1, doingseven, apuclk);
-    divide7or8 diveight (clkin, cpuphase, cpuclkreset, 1'b0, cpuclk);
+    divide7or8 divseven (clkin, apuphase, 1'b1, 1'b0, apuclk);
+    divide7or8 diveight (clkin, delayConstant[3:0], cpuclkreset, 1'b0, cpuclk);
 
     reg apuresetoutreg = 1'b0;
 
@@ -254,7 +254,7 @@ module dostuff(
             else if (cpuresetcount == 8'd7) begin
                 cpuclkreset <= 1'b1;
             end
-            else if (cpuresetcount == delayConstant) begin
+            else if (cpuresetcount == 8'd32) begin
                 cpuresetoutreg <= 1'b1;
             end
             
@@ -266,6 +266,7 @@ module dostuff(
             doingseven <= 1'b0;
             cpuresetoutreg <= 1'b0;
             cpuresetcount <= 8'b0;
+            apuresetoutreg <= 1;
         end
         apuresetoutreg <= reset;
     end
@@ -303,7 +304,7 @@ module oldstyle(
 
     reg seqreset = 1;
 
-    divide7or8 divseven (clkin, 4'b0, seqreset, 1'b1, clk24mhz);
+    divide7or8 divseven (clkin, 4'b0, seqreset, 1'b0, clk24mhz);
     divide7or8 diveight (clkin, 4'b0, seqreset, 1'b0, cpuclk);
     Clock_divider arse (clkin, seqreset, syncclk);
 
@@ -384,7 +385,7 @@ endmodule
 // debouncing module 
 module debounce(input in, input clk, output reg out);
 
-    reg [7:0] counter = 8'd0;
+    reg [7:0] counter;
 
 
     always @(posedge clk) begin
@@ -610,6 +611,7 @@ module top(
 
     Clock_divider # (.DIVISOR(28'd20000)) arses (PACKAGEPIN, masterreset, slowclk);
 
+
     debounce debounceconsolereset(consolereset & altreset, slowclk, debouncedconsolereset);
     debounce debounceup(delup, slowclk, debouncedup);
     debounce debouncedn(deldn, slowclk, debounceddn);
@@ -639,7 +641,8 @@ module top(
         .cpureset(cpureset)
     );
 
-    /*oldstyle arse (
+    /*
+    oldstyle arse (
         .clkin(PLLOUTCORE),
         .apusync(apusync),
         .masterreset(masterreset),
@@ -689,7 +692,7 @@ module top(
 
     always @(posedge PACKAGEPIN) begin
         if (!masterreset) begin
-            delayConstant <= 8'd32;
+            delayConstant <= 8'd0;
         end
         else if (!debouncedup && oldup) begin
             delayConstant <= delayConstant + 1;

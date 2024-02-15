@@ -1,14 +1,14 @@
-@P:  Worst Slack : -3.166
-@P:  top_pll_nrtthrth|PLLOUTCORE_derived_clock - Estimated Frequency : 53.2 MHz
-@P:  top_pll_nrtthrth|PLLOUTCORE_derived_clock - Requested Frequency : 80.1 MHz
-@P:  top_pll_nrtthrth|PLLOUTCORE_derived_clock - Estimated Period : 18.814
-@P:  top_pll_nrtthrth|PLLOUTCORE_derived_clock - Requested Period : 12.482
-@P:  top_pll_nrtthrth|PLLOUTCORE_derived_clock - Slack : 0.291
-@P:  top|PACKAGEPIN - Estimated Frequency : 53.2 MHz
-@P:  top|PACKAGEPIN - Requested Frequency : 80.1 MHz
-@P:  top|PACKAGEPIN - Estimated Period : 18.814
-@P:  top|PACKAGEPIN - Requested Period : 12.482
-@P:  top|PACKAGEPIN - Slack : -3.166
+@P:  Worst Slack : -1.933
+@P:  top_pll_nrtthrth|PLLOUTCORE_derived_clock - Estimated Frequency : 119.0 MHz
+@P:  top_pll_nrtthrth|PLLOUTCORE_derived_clock - Requested Frequency : 91.3 MHz
+@P:  top_pll_nrtthrth|PLLOUTCORE_derived_clock - Estimated Period : 8.400
+@P:  top_pll_nrtthrth|PLLOUTCORE_derived_clock - Requested Period : 10.953
+@P:  top_pll_nrtthrth|PLLOUTCORE_derived_clock - Slack : 1.276
+@P:  top|PACKAGEPIN - Estimated Frequency : 77.6 MHz
+@P:  top|PACKAGEPIN - Requested Frequency : 91.3 MHz
+@P:  top|PACKAGEPIN - Estimated Period : 12.885
+@P:  top|PACKAGEPIN - Requested Period : 10.953
+@P:  top|PACKAGEPIN - Slack : -1.933
 @P:  System - Estimated Frequency : 240.9 MHz
 @P:  System - Requested Frequency : 283.4 MHz
 @P:  System - Estimated Period : 4.151
@@ -17,6 +17,6 @@
 @P: top Part : ice40hx8kcb132
 @P: top I/O primitives : 23
 @P: top I/O Register bits : 0
-@P: top Register bits (Non I/O) : 75 (0%)
-@P: top Total Luts : 131 (1%)
+@P: top Register bits (Non I/O) : 78 (1%)
+@P: top Total Luts : 138 (1%)
 @P:  CPU Time : 0h:00m:00s

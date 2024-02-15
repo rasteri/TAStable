@@ -4,7 +4,7 @@
 
 # Version:            2020.12.27943
 
-# File Generated:     Jan 11 2024 22:09:06
+# File Generated:     Jan 19 2024 15:49:25
 
 # Family & Device:    iCE40HX8K
 
@@ -12,7 +12,7 @@
 
 # ##############################################################################
 
-###IOSet List 22
+###IOSet List 23
 set_io apuclk H11 -io_std SB_LVCMOS -pullup no
 set_io consolereset C6
 set_io led1 C10
@@ -24,6 +24,7 @@ set_io delup A11
 set_io lcol4 C5
 set_io led3 D7
 set_io led7 A4
+set_io altreset P14
 set_io apureset J12 -io_std SB_LVCMOS -pullup no
 set_io cpuclk K14 -io_std SB_LVCMOS -pullup no
 set_io deldn A5

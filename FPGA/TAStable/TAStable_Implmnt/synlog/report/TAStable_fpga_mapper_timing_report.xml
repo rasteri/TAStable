@@ -16,15 +16,15 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 </row>
 <row>
 <data>top_pll_nrtthrth|PLLOUTCORE_derived_clock</data>
-<data>80.1 MHz</data>
-<data>53.2 MHz</data>
-<data>0.291</data>
+<data>91.3 MHz</data>
+<data>119.0 MHz</data>
+<data>1.276</data>
 </row>
 <row>
 <data>top|PACKAGEPIN</data>
-<data>80.1 MHz</data>
-<data>53.2 MHz</data>
-<data>-3.166</data>
+<data>91.3 MHz</data>
+<data>77.6 MHz</data>
+<data>-1.933</data>
 </row>
 <row>
 <data>System</data>
