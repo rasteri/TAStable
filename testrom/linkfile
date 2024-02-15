@@ -1,0 +1,11 @@
+[objects]
+musicGreaterThan32k.obj
+res/soundbank.obj
+andy.obj
+data.obj
+hdr.obj
+musicGreaterThan32k.obj
+c:\pvsneslib\pvsneslib\lib/crt0_snes.obj
+c:\pvsneslib\pvsneslib\lib/libc.obj
+c:\pvsneslib\pvsneslib\lib/libm.obj
+c:\pvsneslib\pvsneslib\lib/libtcc.obj

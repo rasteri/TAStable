@@ -1,0 +1,420 @@
+.include "hdr.asm"
+.accu 16
+.index 16
+.16bit
+.define __myconsoleVblank_locals 0
+.define __main_locals 16
+
+.SECTION ".myconsoleVblanktext_0x0" SUPERFREE
+
+myconsoleVblank:
+.ifgr __myconsoleVblank_locals 0
+tsa
+sec
+sbc #__myconsoleVblank_locals
+tas
+.endif
+jsr.l consoleVblank
+lda.w #0
+sep #$20
+lda.l lock + 0
+rep #$20
+sta.b tcc__r0
+lda.b tcc__r0 ; DON'T OPTIMIZE
+bne +
+brl __local_0
++
+bra __local_1
+__local_0:
+lda.l timeytime + 0
+sta.b tcc__r0
+sta.b tcc__r1
+lda.b tcc__r0h
+sta.b tcc__r1h
+inc.b tcc__r0
+lda.b tcc__r0
+sta.l timeytime + 0
+__local_1:
+.ifgr __myconsoleVblank_locals 0
+tsa
+clc
+adc #__myconsoleVblank_locals
+tas
+.endif
+rtl
+.ENDS
+
+.SECTION ".maintext_0x1" SUPERFREE
+
+main:
+.ifgr __main_locals 0
+tsa
+sec
+sbc #__main_locals
+tas
+.endif
+stz.b tcc__r0
+lda.b tcc__r0
+sta -2 + __main_locals + 1,s
+sep #$20
+lda.b #3
+sta -3 + __main_locals + 1,s
+lda.b #3
+sta -4 + __main_locals + 1,s
+rep #$20
+lda.w #0
+sep #$20
+sta -5 + __main_locals + 1,s
+rep #$20
+jsr.l spcBoot
+jsr.l consoleInit
+pea.w 26624
+jsr.l consoleSetTextVramBGAdr
+pla
+pea.w 12288
+jsr.l consoleSetTextVramAdr
+pla
+pea.w 256
+jsr.l consoleSetTextOffset
+pla
+pea.w :snespal
+pea.w snespal + 0
+pea.w :snesfont
+pea.w snesfont + 0
+pea.w (32 * 256 + 0)
+sep #$20
+rep #$20
+jsr.l consoleInitText
+tsa
+clc
+adc #10
+tas
+pea.w :SOUNDBANK__1
+pea.w SOUNDBANK__1 + 0
+jsr.l spcSetBank
+tsa
+clc
+adc #4
+tas
+pea.w :SOUNDBANK__0
+pea.w SOUNDBANK__0 + 0
+jsr.l spcSetBank
+tsa
+clc
+adc #4
+tas
+pea.w 0
+jsr.l spcLoad
+pla
+pea.w 8192
+sep #$20
+lda #0
+pha
+rep #$20
+jsr.l bgSetGfxPtr
+tsa
+clc
+adc #3
+tas
+sep #$20
+lda #0
+pha
+rep #$20
+pea.w 26624
+sep #$20
+lda #0
+pha
+rep #$20
+jsr.l bgSetMapPtr
+tsa
+clc
+adc #4
+tas
+pea.w (0 * 256 + 1)
+sep #$20
+rep #$20
+jsr.l setMode
+pla
+sep #$20
+lda #1
+pha
+rep #$20
+jsr.l bgSetDisable
+tsa
+clc
+adc #1
+tas
+sep #$20
+lda #2
+pha
+rep #$20
+jsr.l bgSetDisable
+tsa
+clc
+adc #1
+tas
+pea.w :tccs_L.BqUZtcKmMt8
+pea.w tccs_L.BqUZtcKmMt8 + 0
+pea.w 10
+pea.w 5
+jsr.l consoleDrawText
+tsa
+clc
+adc #8
+tas
+jsr.l setScreenOn
+sep #$20
+lda #0
+pha
+rep #$20
+jsr.l spcPlay
+tsa
+clc
+adc #1
+tas
+stz.b tcc__r0
+sep #$20
+lda.b tcc__r0
+sta.l 8481
+rep #$20
+stz.b tcc__r0
+sep #$20
+lda.b tcc__r0
+sta.l 8482
+rep #$20
+stz.b tcc__r0
+sep #$20
+lda.b tcc__r0
+sta.l 8482
+rep #$20
+__local_10:
+lda.w #0
+sep #$20
+lda -5 + __main_locals + 1,s
+rep #$20
+sta.b tcc__r0
+lda.b tcc__r0 ; DON'T OPTIMIZE
+bne +
+brl __local_2
++
+bra __local_3
+__local_2:
+lda -2 + __main_locals + 1,s
+sta.b tcc__r0
+ldx #1
+sec
+sbc.w #5
+tay
+beq +
+bcs ++
++ dex
+++
+stx.b tcc__r5
+txa
+bne +
+__local_3:
+brl __local_4
++
+jsr.l andySpcUploadTest
+lda.b tcc__r0
+and.w #15
+sta.l timeytime + 0
+lda.w #0
+sep #$20
+lda -3 + __main_locals + 1,s
+rep #$20
+sta.b tcc__r0
+lda.w #0
+sep #$20
+lda -4 + __main_locals + 1,s
+rep #$20
+sta.b tcc__r1
+lda.l timeytime + 0
+sta.b tcc__r2
+ldx #1
+sec
+sbc.w #9
+tay
+beq +
+bcs ++
++ dex
+++
+stx.b tcc__r5
+lda.b tcc__r0
+sta -12 + __main_locals + 1,s
+lda.b tcc__r0h
+sta -10 + __main_locals + 1,s
+lda.b tcc__r1
+sta -16 + __main_locals + 1,s
+lda.b tcc__r1h
+sta -14 + __main_locals + 1,s
+lda.b tcc__r5 ; DON'T OPTIMIZE
+bne +
+brl __local_5
++
+lda.l timeytime + 0
+clc
+adc.w #55
+sta.b tcc__r0
+bra __local_6
+__local_5:
+lda.l timeytime + 0
+clc
+adc.w #48
+sta.b tcc__r0
+__local_6:
+__local_7:
+pei (tcc__r0)
+pea.w :tccs_L.BqUZtcKmMt9
+pea.w tccs_L.BqUZtcKmMt9 + 0
+lda -10 + __main_locals + 1,s
+pha
+lda -4 + __main_locals + 1,s
+pha
+jsr.l consoleDrawText
+tsa
+clc
+adc #10
+tas
+lda.w #0
+sep #$20
+lda -3 + __main_locals + 1,s
+rep #$20
+sta.b tcc__r0
+sta.b tcc__r1
+lda.b tcc__r0h
+sta.b tcc__r1h
+inc.b tcc__r0
+sep #$20
+lda.b tcc__r0
+sta -3 + __main_locals + 1,s
+rep #$20
+lda.w #0
+sep #$20
+lda -3 + __main_locals + 1,s
+rep #$20
+sta.b tcc__r0
+ldx #1
+sec
+sbc.w #28
+tay
+beq ++
+bvc +
+eor #$8000
++
+bpl +++
+++
+dex
++++
+stx.b tcc__r5
+txa
+bne +
+brl __local_8
++
+sep #$20
+lda.b #3
+sta -3 + __main_locals + 1,s
+rep #$20
+lda.w #0
+sep #$20
+lda -4 + __main_locals + 1,s
+rep #$20
+sta.b tcc__r0
+sta.b tcc__r1
+lda.b tcc__r0h
+sta.b tcc__r1h
+inc.b tcc__r0
+sep #$20
+lda.b tcc__r0
+sta -4 + __main_locals + 1,s
+rep #$20
+__local_8:
+lda.w #0
+sep #$20
+lda -4 + __main_locals + 1,s
+rep #$20
+sta.b tcc__r0
+ldx #1
+sec
+sbc.w #24
+tay
+beq ++
+bvc +
+eor #$8000
++
+bpl +++
+++
+dex
++++
+stx.b tcc__r5
+txa
+bne +
+brl __local_9
++
+lda.w #1
+sep #$20
+sta -5 + __main_locals + 1,s
+rep #$20
+jsr.l spcStop
+__local_9:
+stz.b tcc__r0
+lda.b tcc__r0
+sta -2 + __main_locals + 1,s
+__local_4:
+lda -2 + __main_locals + 1,s
+inc a
+sta -2 + __main_locals + 1,s
+jsr.l spcProcess
+jsr.l WaitForVBlank
+stz.b tcc__r0
+sep #$20
+lda.b tcc__r0
+sta.l 8481
+rep #$20
+lda.l bgcolor + 0
+and.w #255
+sep #$20
+sta.l 8482
+rep #$20
+lda.l bgcolor + 0
+xba
+and #$00ff
+sta.b tcc__r0
+sep #$20
+sta.l 8482
+rep #$20
+jmp.w __local_10
+lda.w #0
+sta.b tcc__r0
+__local_11:
+.ifgr __main_locals 0
+tsa
+clc
+adc #__main_locals
+tas
+.endif
+rtl
+.ENDS
+.RAMSECTION "ramBqUZtcKmMt.data" APPENDTO "globram.data"
+
+bgcolor dsb 2
+timeytime dsb 2
+lock dsb 1
+
+.ENDS
+
+.SECTION "BqUZtcKmMt.data" APPENDTO "glob.data"
+
+.db $0,$0
+.db $0,$0
+.db $0
+.ENDS
+
+.SECTION ".rodata" SUPERFREE
+
+tccs_L.BqUZtcKmMt8: .db $4a,$75,$6e,$67,$6c,$69,$73,$74,$20,$4d,$6f,$76,$65,$6d,$65,$6e,$74,$0
+tccs_L.BqUZtcKmMt9: .db $25,$63,$0
+.ENDS
+
+.RAMSECTION ".bss" BANK $7e SLOT 2
+.ENDS
