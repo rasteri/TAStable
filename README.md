@@ -90,6 +90,8 @@ This requires separating the RESOUT1 signal into two sections, one for the CPU a
 
 ![Board](https://github.com/rasteri/TAStable/blob/main/images/image5.png?raw=true)
 
-This approach, finally, appears to make the SNES deterministic (pending further tests). The final proof will be in the syncing of full tool-assisted-speedruns, so watch this space.
+This approach still doesn't appear to make the snes fully deterministic, but that may be enough to sync runs that previously wouldn't.
+
+More research will be done when I've finished moving house and I have access to my logic analyzer again
 
 
