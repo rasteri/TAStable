@@ -37,7 +37,7 @@ Clock domain two is derived from a ceramic resonator and runs at 24.576MHz (29×
 
 The ratio of the CPU clock to the APU clock is exactly 39375/45056, but that’s a little tricky to achieve in a low-cost FPGA. However a ratio of 7/8 is easier to implement and is close enough, in fact well within the tolerance of the ceramic resonator, so this ratio was decided upon.
 
-Some simple FPGA code was written to generate a master 171.8184MHz clock. This is then divided by 7 to get a 24.55MHz APU clock, and divided by 8 to get a 21.4773MHz APU clock.
+Some simple FPGA code was written to generate a master 171.8184MHz clock. This is then divided by 7 to get a 24.55MHz APU clock, and divided by 8 to get a 21.4773MHz CPU clock.
 
 Just deriving the clocks from a common source was good enough to make at least one game (Donkey Kong Country 2) “deterministic enough” to complete reliably - although it still required other workarounds (latch trains) to compensate for the remaining nondeterminism. Other games (Super Metroid) were still proving impossible to sync, so the decision was taken to track down every other source of nondeterminism come hell or high water.
 
@@ -46,7 +46,7 @@ Just deriving the clocks from a common source was good enough to make at least o
 
 The reset arrangement in the SNES looks like this : 
 
-
+![Board](https://github.com/rasteri/TAStable/blob/main/images/image2.png?raw=true)
 
 Net names are from the “snes_schematic_color.pdf” that’s floating around.
 
@@ -58,7 +58,7 @@ There are a number of ways the SNES can be reset.
 
 None of these approaches allow the reset signal to trigger all ICs simultaneously. Luckily the solution is simple : 
 
-
+![Board](https://github.com/rasteri/TAStable/blob/main/images/image4.png?raw=true)
 
 If RESOUT1 and RESET are connected together, all ICs are reset simultaneously (or at least, in a repeatable fashion).
 
@@ -82,12 +82,16 @@ The final piece of nondeterminism comes from the APU. As mentioned before, the D
 
 When the APU starts up, it performs a number of read operations on its memory bus, followed by a memory write. After that point it appears to stabilize, i.e. it behaves deterministically. So if we can delay starting the CPU until after the first APU memory write, this will synchronize the two:
 
+![Board](https://github.com/rasteri/TAStable/blob/main/images/timing.png?raw=true)
 
+(Note, when it says “some (exact) time later”, this can be an arbitrary amount of time, but it should be carefully controlled to ensure it is reproducible. In addition, there appear to be certain values of time that do NOT result in deterministic behavior, presumably because it is too close to a clock transition or because it requires the clock to be high (or low) when the devices are brought out of reset.)
 
 This requires separating the RESOUT1 signal into two sections, one for the CPU and one for the APU, and resetting them separately (APU first, then CPU after the APU stabilizes) :
 
+![Board](https://github.com/rasteri/TAStable/blob/main/images/image5.png?raw=true)
+
+This approach still doesn't appear to make the snes fully deterministic, but that may be enough to sync runs that previously wouldn't.
+
+More research will be done when I've finished moving house and I have access to my logic analyzer again
 
 
-This approach, finally, appears to make the SNES deterministic (pending further tests). The final proof will be in the syncing of full tool-assisted-speedruns, so watch this space.
-
-Note, when it says “CPU clock starts some (exact) time later”, this can be an arbitrary amount of time, but it should be carefully controlled to ensure it is reproducible. In addition, there appear to be certain values of time that do NOT result in deterministic behavior, presumably because it is too close to a clock transition or because it requires the clock to be high (or low) when the devices are brought out of reset.
